@@ -3,6 +3,10 @@
   "signals": [
     {"id": "JETTA_ODO", "path": "Trips", "fmt": { "len": 32, "max": 4000000000, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
   ]},
+{ "hdr": "7E0", "dbg": true, "cmd": {"22": "1160"}, "freq": 30,
+  "signals": [
+    {"id": "JETTA_ODO_2", "path": "Trips", "fmt": { "len": 32, "max": 4000000000, "unit": "kilometers" }, "name": "Odometer (alt)", "suggestedMetric": "odometer"}
+  ]},
 { "hdr": "7E0", "cmd": {"22": "11BA"}, "freq": 15,
   "signals": [
     {"id": "JETTA_OIL_LEVEL", "path": "Engine", "fmt": { "len": 16, "max": 26.2, "div": 2500, "unit": "centimeters" }, "name": "Oil level"}
