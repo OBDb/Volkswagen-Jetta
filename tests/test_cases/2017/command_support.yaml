@@ -53,4 +53,8 @@ supported_commands_by_ecu:
   - 0149:APP_D
 unsupported_commands_by_ecu:
   7E0:
+  - 7E0.2210E0
+  - 7E0.221160
+  - 7E0.2211C4
+  - 7E0.2211C5
   - 7E0.7E8.221160
