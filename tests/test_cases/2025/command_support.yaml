@@ -66,3 +66,8 @@ supported_commands_by_ecu:
   - 0142:VPWR
   - 0146:AAT
   - 0149:APP_D
+unsupported_commands_by_ecu:
+  7E0:
+  - 7E0.2211BB
+  - 7E0.2211C4
+  - 7E0.2211C5
