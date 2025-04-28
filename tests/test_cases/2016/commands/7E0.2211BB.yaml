@@ -1,0 +1,12 @@
+command_id: 7E0.2211BB
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: |-
+    7E8037F2278
+    7E8056211BB0000
+  expected_values:
+    JETTA_OIL_CRIT: 0
+- response: 7E8056211BB0000
+  expected_values:
+    JETTA_OIL_CRIT: 0

@@ -1,0 +1,106 @@
+command_id: 7E0.2210E0
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: |-
+    7E8037F2278
+    7E8076210E000034D38
+  expected_values:
+    JETTA_ODO: 216376
+- response: |-
+    7E8037F2278
+    7E8076210E0000350D8
+  expected_values:
+    JETTA_ODO: 217304
+- response: |-
+    7E8037F2278
+    7E8076210E0000350F0
+  expected_values:
+    JETTA_ODO: 217328
+- response: |-
+    7E8037F2278
+    7E8076210E0000350F1
+  expected_values:
+    JETTA_ODO: 217329
+- response: |-
+    7E8037F2278
+    7E8076210E00003510C
+  expected_values:
+    JETTA_ODO: 217356
+- response: |-
+    7E8037F2278
+    7E8076210E000035113
+  expected_values:
+    JETTA_ODO: 217363
+- response: |-
+    7E8037F2278
+    7E8076210E000035155
+  expected_values:
+    JETTA_ODO: 217429
+- response: |-
+    7E8037F2278
+    7E8076210E000035156
+  expected_values:
+    JETTA_ODO: 217430
+- response: |-
+    7E8037F2278
+    7E8076210E000035159
+  expected_values:
+    JETTA_ODO: 217433
+- response: 7E8076210E000034D38
+  expected_values:
+    JETTA_ODO: 216376
+- response: 7E8076210E0000350D8
+  expected_values:
+    JETTA_ODO: 217304
+- response: 7E8076210E0000350F0
+  expected_values:
+    JETTA_ODO: 217328
+- response: 7E8076210E0000350F1
+  expected_values:
+    JETTA_ODO: 217329
+- response: 7E8076210E0000350F2
+  expected_values:
+    JETTA_ODO: 217330
+- response: 7E8076210E00003510C
+  expected_values:
+    JETTA_ODO: 217356
+- response: 7E8076210E00003510D
+  expected_values:
+    JETTA_ODO: 217357
+- response: 7E8076210E00003510E
+  expected_values:
+    JETTA_ODO: 217358
+- response: 7E8076210E00003510F
+  expected_values:
+    JETTA_ODO: 217359
+- response: 7E8076210E000035110
+  expected_values:
+    JETTA_ODO: 217360
+- response: 7E8076210E000035111
+  expected_values:
+    JETTA_ODO: 217361
+- response: 7E8076210E000035112
+  expected_values:
+    JETTA_ODO: 217362
+- response: 7E8076210E000035114
+  expected_values:
+    JETTA_ODO: 217364
+- response: 7E8076210E000035121
+  expected_values:
+    JETTA_ODO: 217377
+- response: 7E8076210E000035155
+  expected_values:
+    JETTA_ODO: 217429
+- response: 7E8076210E000035156
+  expected_values:
+    JETTA_ODO: 217430
+- response: 7E8076210E000035157
+  expected_values:
+    JETTA_ODO: 217431
+- response: 7E8076210E000035158
+  expected_values:
+    JETTA_ODO: 217432
+- response: 7E8076210E000035159
+  expected_values:
+    JETTA_ODO: 217433
