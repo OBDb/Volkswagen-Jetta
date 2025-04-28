@@ -1,0 +1,9 @@
+command_id: 7E0.2210E0
+can_id_format: ELEVEN_BIT
+extended_addressing_enabled: false
+test_cases:
+- response: |-
+    7E8037F2278
+    7E8076210E000001159
+  expected_values:
+    JETTA_ODO: 4441
