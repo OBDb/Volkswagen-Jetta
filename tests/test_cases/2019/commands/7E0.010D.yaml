@@ -5,6 +5,5 @@ test_cases:
 - response: |-
     7E803410D00
     7E903410D00
-    STOPPED
   expected_values:
     VSS: 0
