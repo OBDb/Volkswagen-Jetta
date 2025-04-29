@@ -3277,6 +3277,46 @@ test_cases:
     7E80762116003B48A0E
   expected_values:
     JETTA_ODO_2: 62163470
+- response: |-
+    7E8037F2278
+    7E80762116003B4B451
+  expected_values:
+    JETTA_ODO_2: 62174289
+- response: |-
+    7E8037F2278
+    7E80762116003B4B6AF
+  expected_values:
+    JETTA_ODO_2: 62174895
+- response: |-
+    7E8037F2278
+    7E80762116003B4ECF8
+  expected_values:
+    JETTA_ODO_2: 62188792
+- response: |-
+    7E8037F2278
+    7E80762116003B500C5
+  expected_values:
+    JETTA_ODO_2: 62193861
+- response: |-
+    7E8037F2278
+    7E80762116003B501BE
+  expected_values:
+    JETTA_ODO_2: 62194110
+- response: |-
+    7E8037F2278
+    7E80762116003B502E0
+  expected_values:
+    JETTA_ODO_2: 62194400
+- response: |-
+    7E8037F2278
+    7E80762116003B50C4B
+  expected_values:
+    JETTA_ODO_2: 62196811
+- response: |-
+    7E8037F2278
+    7E80762116003B50C4C
+  expected_values:
+    JETTA_ODO_2: 62196812
 - response: 7E807621160038E43EE
   expected_values:
     JETTA_ODO_2: 59655150
@@ -9934,3 +9974,57 @@ test_cases:
 - response: 7E80762116003B48C31
   expected_values:
     JETTA_ODO_2: 62164017
+- response: 7E80762116003B4B451
+  expected_values:
+    JETTA_ODO_2: 62174289
+- response: 7E80762116003B4B47B
+  expected_values:
+    JETTA_ODO_2: 62174331
+- response: 7E80762116003B4B4A4
+  expected_values:
+    JETTA_ODO_2: 62174372
+- response: 7E80762116003B4B4AE
+  expected_values:
+    JETTA_ODO_2: 62174382
+- response: 7E80762116003B4B5C7
+  expected_values:
+    JETTA_ODO_2: 62174663
+- response: 7E80762116003B4E999
+  expected_values:
+    JETTA_ODO_2: 62187929
+- response: 7E80762116003B4E9F2
+  expected_values:
+    JETTA_ODO_2: 62188018
+- response: 7E80762116003B4EA61
+  expected_values:
+    JETTA_ODO_2: 62188129
+- response: 7E80762116003B4EAF3
+  expected_values:
+    JETTA_ODO_2: 62188275
+- response: 7E80762116003B4EC5D
+  expected_values:
+    JETTA_ODO_2: 62188637
+- response: 7E80762116003B4EC8E
+  expected_values:
+    JETTA_ODO_2: 62188686
+- response: 7E80762116003B4EDED
+  expected_values:
+    JETTA_ODO_2: 62189037
+- response: 7E80762116003B4F028
+  expected_values:
+    JETTA_ODO_2: 62189608
+- response: 7E80762116003B5000E
+  expected_values:
+    JETTA_ODO_2: 62193678
+- response: 7E80762116003B502EF
+  expected_values:
+    JETTA_ODO_2: 62194415
+- response: 7E80762116003B50467
+  expected_values:
+    JETTA_ODO_2: 62194791
+- response: 7E80762116003B50747
+  expected_values:
+    JETTA_ODO_2: 62195527
+- response: 7E80762116003B50A27
+  expected_values:
+    JETTA_ODO_2: 62196263
