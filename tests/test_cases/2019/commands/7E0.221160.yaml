@@ -4901,6 +4901,9 @@ test_cases:
 - response: 7E8076211600B58B7BC
   expected_values:
     JETTA_ODO_2: 190363580
+- response: 7E8076211600B5909B4
+  expected_values:
+    JETTA_ODO_2: 190384564
 - response: 7E807621160104E6FEF
   expected_values:
     JETTA_ODO_2: 273575919

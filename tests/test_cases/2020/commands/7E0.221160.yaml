@@ -10009,6 +10009,36 @@ test_cases:
     JETTA_ODO_2: 51579398
 - response: |-
     7E8037F2278
+    7E80762116003130E97
+  expected_values:
+    JETTA_ODO_2: 51580567
+- response: |-
+    7E8037F2278
+    7E80762116003130FC0
+  expected_values:
+    JETTA_ODO_2: 51580864
+- response: |-
+    7E8037F2278
+    7E807621160031310EE
+  expected_values:
+    JETTA_ODO_2: 51581166
+- response: |-
+    7E8037F2278
+    7E807621160031312EA
+  expected_values:
+    JETTA_ODO_2: 51581674
+- response: |-
+    7E8037F2278
+    7E80762116003131389
+  expected_values:
+    JETTA_ODO_2: 51581833
+- response: |-
+    7E8037F2278
+    7E807621160031313D7
+  expected_values:
+    JETTA_ODO_2: 51581911
+- response: |-
+    7E8037F2278
     7E80762116004F982CB
   expected_values:
     JETTA_ODO_2: 83460811
@@ -33095,6 +33125,57 @@ test_cases:
 - response: '7E80762116003130917'
   expected_values:
     JETTA_ODO_2: 51579159
+- response: 7E80762116003130A06
+  expected_values:
+    JETTA_ODO_2: 51579398
+- response: 7E80762116003130A09
+  expected_values:
+    JETTA_ODO_2: 51579401
+- response: 7E80762116003130ABE
+  expected_values:
+    JETTA_ODO_2: 51579582
+- response: 7E80762116003130B2F
+  expected_values:
+    JETTA_ODO_2: 51579695
+- response: 7E80762116003130B7D
+  expected_values:
+    JETTA_ODO_2: 51579773
+- response: 7E80762116003130CF1
+  expected_values:
+    JETTA_ODO_2: 51580145
+- response: 7E807621160031311C6
+  expected_values:
+    JETTA_ODO_2: 51581382
+- response: 7E807621160031312AF
+  expected_values:
+    JETTA_ODO_2: 51581615
+- response: '7E80762116003131315'
+  expected_values:
+    JETTA_ODO_2: 51581717
+- response: 7E807621160031314FB
+  expected_values:
+    JETTA_ODO_2: 51582203
+- response: 7E8076211600313154A
+  expected_values:
+    JETTA_ODO_2: 51582282
+- response: 7E8076211600313161F
+  expected_values:
+    JETTA_ODO_2: 51582495
+- response: '7E80762116003131798'
+  expected_values:
+    JETTA_ODO_2: 51582872
+- response: '7E80762116003131910'
+  expected_values:
+    JETTA_ODO_2: 51583248
+- response: 7E80762116003131A5D
+  expected_values:
+    JETTA_ODO_2: 51583581
+- response: 7E80762116003131A7D
+  expected_values:
+    JETTA_ODO_2: 51583613
+- response: 7E80762116003131AF9
+  expected_values:
+    JETTA_ODO_2: 51583737
 - response: 7E80762116004F97FF8
   expected_values:
     JETTA_ODO_2: 83460088
