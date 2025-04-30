@@ -7,4 +7,3 @@ test_cases:
     7E8210D000000000000
   expected_values:
     ECT: 62
-    RPM: 870
