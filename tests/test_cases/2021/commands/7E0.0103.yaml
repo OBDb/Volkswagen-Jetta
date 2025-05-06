@@ -1,7 +1,8 @@
-command_id: 7E0.0144
+command_id: 7E0.0103
 can_id_format: ELEVEN_BIT
 extended_addressing_enabled: false
 test_cases:
-- response: 7E8044144FFFF
+- response: '7E80441030400'
   expected_values:
-    EQ_RAT: 1.99
+    FUELSYS1: OL-Drive
+    FUELSYS2: 'OFF'
