@@ -2,8 +2,6 @@ command_id: 7E0.221160
 can_id_format: ELEVEN_BIT
 extended_addressing_enabled: false
 test_cases:
-- response: |-
-    7E8037F2278
-    7E807621160004399B6
+- response: 7E807621160004399B6
   expected_values:
     JETTA_ODO_2: 4430262
