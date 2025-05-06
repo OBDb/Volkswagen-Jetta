@@ -68,6 +68,21 @@ test_cases:
   expected_values:
     JETTA_ODO_2: 273657477
 - response: |-
+    7E8037F2278
+    7E80762116010558658
+  expected_values:
+    JETTA_ODO_2: 274040408
+- response: |-
+    7E8037F2278
+    7E8076211601055865D
+  expected_values:
+    JETTA_ODO_2: 274040413
+- response: |-
+    7E8037F2278
+    7E80762116010558662
+  expected_values:
+    JETTA_ODO_2: 274040418
+- response: |-
     7E8037F227855555555
     7E807621160099D9037
   expected_values:
@@ -5976,3 +5991,6 @@ test_cases:
 - response: 7E807621160104FAE7B
   expected_values:
     JETTA_ODO_2: 273657467
+- response: '7E80762116010558658'
+  expected_values:
+    JETTA_ODO_2: 274040408

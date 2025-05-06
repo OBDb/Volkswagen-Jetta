@@ -69,6 +69,11 @@ test_cases:
     JETTA_OIL_CRIT: 4.1376
 - response: |-
     7E8037F2278
+    7E8056211BB28AD
+  expected_values:
+    JETTA_OIL_CRIT: 4.1652
+- response: |-
+    7E8037F2278
     7E8056211BB28E0
   expected_values:
     JETTA_OIL_CRIT: 4.1856
@@ -244,6 +249,11 @@ test_cases:
     JETTA_OIL_CRIT: 4.3188
 - response: |-
     7E8037F2278
+    7E8056211BB2A32
+  expected_values:
+    JETTA_OIL_CRIT: 4.3208
+- response: |-
+    7E8037F2278
     7E8056211BB2A35
   expected_values:
     JETTA_OIL_CRIT: 4.322
@@ -322,6 +332,11 @@ test_cases:
     7E8056211BB2AAD
   expected_values:
     JETTA_OIL_CRIT: 4.37
+- response: |-
+    7E8037F2278
+    7E8056211BB2AB5
+  expected_values:
+    JETTA_OIL_CRIT: 4.3732
 - response: |-
     7E8037F2278
     7E8056211BB2ABB
@@ -479,6 +494,11 @@ test_cases:
     JETTA_OIL_CRIT: 4.4172
 - response: |-
     7E8037F2278
+    7E8056211BB2B26
+  expected_values:
+    JETTA_OIL_CRIT: 4.4184
+- response: |-
+    7E8037F2278
     7E8056211BB2B29
   expected_values:
     JETTA_OIL_CRIT: 4.4196
@@ -497,6 +517,11 @@ test_cases:
     7E8056211BB2B2E
   expected_values:
     JETTA_OIL_CRIT: 4.4216
+- response: |-
+    7E8037F2278
+    7E8056211BB2B31
+  expected_values:
+    JETTA_OIL_CRIT: 4.4228
 - response: |-
     7E8037F2278
     7E8056211BB2B32
@@ -529,9 +554,19 @@ test_cases:
     JETTA_OIL_CRIT: 4.4268
 - response: |-
     7E8037F2278
+    7E8056211BB2B3C
+  expected_values:
+    JETTA_OIL_CRIT: 4.4272
+- response: |-
+    7E8037F2278
     7E8056211BB2B43
   expected_values:
     JETTA_OIL_CRIT: 4.43
+- response: |-
+    7E8037F2278
+    7E8056211BB2B45
+  expected_values:
+    JETTA_OIL_CRIT: 4.4308
 - response: |-
     7E8037F2278
     7E8056211BB2B47
@@ -577,6 +612,11 @@ test_cases:
     7E8056211BB2B5F
   expected_values:
     JETTA_OIL_CRIT: 4.4412
+- response: |-
+    7E8037F2278
+    7E8056211BB2B61
+  expected_values:
+    JETTA_OIL_CRIT: 4.442
 - response: |-
     7E8037F2278
     7E8056211BB2B62
@@ -644,6 +684,11 @@ test_cases:
     JETTA_OIL_CRIT: 4.4492
 - response: |-
     7E8037F2278
+    7E8056211BB2B75
+  expected_values:
+    JETTA_OIL_CRIT: 4.45
+- response: |-
+    7E8037F2278
     7E8056211BB2B79
   expected_values:
     JETTA_OIL_CRIT: 4.4516
@@ -679,6 +724,16 @@ test_cases:
     JETTA_OIL_CRIT: 4.4548
 - response: |-
     7E8037F2278
+    7E8056211BB2B84
+  expected_values:
+    JETTA_OIL_CRIT: 4.456
+- response: |-
+    7E8037F2278
+    7E8056211BB2B85
+  expected_values:
+    JETTA_OIL_CRIT: 4.4564
+- response: |-
+    7E8037F2278
     7E8056211BB2B86
   expected_values:
     JETTA_OIL_CRIT: 4.4568
@@ -697,6 +752,11 @@ test_cases:
     7E8056211BB2B8C
   expected_values:
     JETTA_OIL_CRIT: 4.4592
+- response: |-
+    7E8037F2278
+    7E8056211BB2B8D
+  expected_values:
+    JETTA_OIL_CRIT: 4.4596
 - response: |-
     7E8037F2278
     7E8056211BB2B92
@@ -734,9 +794,19 @@ test_cases:
     JETTA_OIL_CRIT: 4.4668
 - response: |-
     7E8037F2278
+    7E8056211BB2BA1
+  expected_values:
+    JETTA_OIL_CRIT: 4.4676
+- response: |-
+    7E8037F2278
     7E8056211BB2BA4
   expected_values:
     JETTA_OIL_CRIT: 4.4688
+- response: |-
+    7E8037F2278
+    7E8056211BB2BA6
+  expected_values:
+    JETTA_OIL_CRIT: 4.4696
 - response: |-
     7E8037F2278
     7E8056211BB2BA7
@@ -759,6 +829,16 @@ test_cases:
     JETTA_OIL_CRIT: 4.472
 - response: |-
     7E8037F2278
+    7E8056211BB2BAD
+  expected_values:
+    JETTA_OIL_CRIT: 4.4724
+- response: |-
+    7E8037F2278
+    7E8056211BB2BAF
+  expected_values:
+    JETTA_OIL_CRIT: 4.4732
+- response: |-
+    7E8037F2278
     7E8056211BB2BB0
   expected_values:
     JETTA_OIL_CRIT: 4.4736
@@ -772,6 +852,11 @@ test_cases:
     7E8056211BB2BB4
   expected_values:
     JETTA_OIL_CRIT: 4.4752
+- response: |-
+    7E8037F2278
+    7E8056211BB2BB7
+  expected_values:
+    JETTA_OIL_CRIT: 4.4764
 - response: |-
     7E8037F2278
     7E8056211BB2BB9
@@ -834,6 +919,11 @@ test_cases:
     JETTA_OIL_CRIT: 4.4836
 - response: |-
     7E8037F2278
+    7E8056211BB2BCA
+  expected_values:
+    JETTA_OIL_CRIT: 4.484
+- response: |-
+    7E8037F2278
     7E8056211BB2BCC
   expected_values:
     JETTA_OIL_CRIT: 4.4848
@@ -847,6 +937,11 @@ test_cases:
     7E8056211BB2BD0
   expected_values:
     JETTA_OIL_CRIT: 4.4864
+- response: |-
+    7E8037F2278
+    7E8056211BB2BD1
+  expected_values:
+    JETTA_OIL_CRIT: 4.4868
 - response: |-
     7E8037F2278
     7E8056211BB2BD3
@@ -894,6 +989,11 @@ test_cases:
     JETTA_OIL_CRIT: 4.492
 - response: |-
     7E8037F2278
+    7E8056211BB2BDF
+  expected_values:
+    JETTA_OIL_CRIT: 4.4924
+- response: |-
+    7E8037F2278
     7E8056211BB2BE0
   expected_values:
     JETTA_OIL_CRIT: 4.4928
@@ -902,6 +1002,11 @@ test_cases:
     7E8056211BB2BE1
   expected_values:
     JETTA_OIL_CRIT: 4.4932
+- response: |-
+    7E8037F2278
+    7E8056211BB2BE2
+  expected_values:
+    JETTA_OIL_CRIT: 4.4936
 - response: |-
     7E8037F2278
     7E8056211BB2BE3
@@ -984,6 +1089,11 @@ test_cases:
     JETTA_OIL_CRIT: 4.5
 - response: |-
     7E8037F2278
+    7E8056211BB2BF3
+  expected_values:
+    JETTA_OIL_CRIT: 4.5004
+- response: |-
+    7E8037F2278
     7E8056211BB2BF4
   expected_values:
     JETTA_OIL_CRIT: 4.5008
@@ -1002,6 +1112,11 @@ test_cases:
     7E8056211BB2BF9
   expected_values:
     JETTA_OIL_CRIT: 4.5028
+- response: |-
+    7E8037F2278
+    7E8056211BB2BFA
+  expected_values:
+    JETTA_OIL_CRIT: 4.5032
 - response: |-
     7E8037F2278
     7E8056211BB2BFB
@@ -1039,9 +1154,19 @@ test_cases:
     JETTA_OIL_CRIT: 4.506
 - response: |-
     7E8037F2278
+    7E8056211BB2C02
+  expected_values:
+    JETTA_OIL_CRIT: 4.5064
+- response: |-
+    7E8037F2278
     7E8056211BB2C03
   expected_values:
     JETTA_OIL_CRIT: 4.5068
+- response: |-
+    7E8037F2278
+    7E8056211BB2C04
+  expected_values:
+    JETTA_OIL_CRIT: 4.5072
 - response: |-
     7E8037F2278
     7E8056211BB2C05
@@ -1054,6 +1179,11 @@ test_cases:
     JETTA_OIL_CRIT: 4.508
 - response: |-
     7E8037F2278
+    7E8056211BB2C07
+  expected_values:
+    JETTA_OIL_CRIT: 4.5084
+- response: |-
+    7E8037F2278
     7E8056211BB2C08
   expected_values:
     JETTA_OIL_CRIT: 4.5088
@@ -1064,6 +1194,11 @@ test_cases:
     JETTA_OIL_CRIT: 4.5092
 - response: |-
     7E8037F2278
+    7E8056211BB2C0A
+  expected_values:
+    JETTA_OIL_CRIT: 4.5096
+- response: |-
+    7E8037F2278
     7E8056211BB2C0B
   expected_values:
     JETTA_OIL_CRIT: 4.51
@@ -1072,6 +1207,11 @@ test_cases:
     7E8056211BB2C0F
   expected_values:
     JETTA_OIL_CRIT: 4.5116
+- response: |-
+    7E8037F2278
+    7E8056211BB2C10
+  expected_values:
+    JETTA_OIL_CRIT: 4.512
 - response: |-
     7E8037F2278
     7E8056211BB2C11
@@ -1104,6 +1244,11 @@ test_cases:
     JETTA_OIL_CRIT: 4.5156
 - response: |-
     7E8037F2278
+    7E8056211BB2C1C
+  expected_values:
+    JETTA_OIL_CRIT: 4.5168
+- response: |-
+    7E8037F2278
     7E8056211BB2C1E
   expected_values:
     JETTA_OIL_CRIT: 4.5176
@@ -1127,6 +1272,11 @@ test_cases:
     7E8056211BB2C24
   expected_values:
     JETTA_OIL_CRIT: 4.52
+- response: |-
+    7E8037F2278
+    7E8056211BB2C26
+  expected_values:
+    JETTA_OIL_CRIT: 4.5208
 - response: |-
     7E8037F2278
     7E8056211BB2C27
@@ -1209,6 +1359,11 @@ test_cases:
     JETTA_OIL_CRIT: 4.5296
 - response: |-
     7E8037F2278
+    7E8056211BB2C3D
+  expected_values:
+    JETTA_OIL_CRIT: 4.53
+- response: |-
+    7E8037F2278
     7E8056211BB2C3E
   expected_values:
     JETTA_OIL_CRIT: 4.5304
@@ -1217,6 +1372,11 @@ test_cases:
     7E8056211BB2C3F
   expected_values:
     JETTA_OIL_CRIT: 4.5308
+- response: |-
+    7E8037F2278
+    7E8056211BB2C40
+  expected_values:
+    JETTA_OIL_CRIT: 4.5312
 - response: |-
     7E8037F2278
     7E8056211BB2C41
@@ -1299,6 +1459,11 @@ test_cases:
     JETTA_OIL_CRIT: 4.5392
 - response: |-
     7E8037F2278
+    7E8056211BB2C55
+  expected_values:
+    JETTA_OIL_CRIT: 4.5396
+- response: |-
+    7E8037F2278
     7E8056211BB2C56
   expected_values:
     JETTA_OIL_CRIT: 4.54
@@ -1369,6 +1534,11 @@ test_cases:
     JETTA_OIL_CRIT: 4.548
 - response: |-
     7E8037F2278
+    7E8056211BB2C6B
+  expected_values:
+    JETTA_OIL_CRIT: 4.5484
+- response: |-
+    7E8037F2278
     7E8056211BB2C6C
   expected_values:
     JETTA_OIL_CRIT: 4.5488
@@ -1384,6 +1554,11 @@ test_cases:
     JETTA_OIL_CRIT: 4.55
 - response: |-
     7E8037F2278
+    7E8056211BB2C71
+  expected_values:
+    JETTA_OIL_CRIT: 4.5508
+- response: |-
+    7E8037F2278
     7E8056211BB2C72
   expected_values:
     JETTA_OIL_CRIT: 4.5512
@@ -1392,6 +1567,11 @@ test_cases:
     7E8056211BB2C74
   expected_values:
     JETTA_OIL_CRIT: 4.552
+- response: |-
+    7E8037F2278
+    7E8056211BB2C76
+  expected_values:
+    JETTA_OIL_CRIT: 4.5528
 - response: |-
     7E8037F2278
     7E8056211BB2C78
@@ -1412,6 +1592,11 @@ test_cases:
     7E8056211BB2C7B
   expected_values:
     JETTA_OIL_CRIT: 4.5548
+- response: |-
+    7E8037F2278
+    7E8056211BB2C7C
+  expected_values:
+    JETTA_OIL_CRIT: 4.5552
 - response: |-
     7E8037F2278
     7E8056211BB2C7D
@@ -1507,6 +1692,11 @@ test_cases:
     7E8056211BB2C96
   expected_values:
     JETTA_OIL_CRIT: 4.5656
+- response: |-
+    7E8037F2278
+    7E8056211BB2C97
+  expected_values:
+    JETTA_OIL_CRIT: 4.566
 - response: |-
     7E8037F2278
     7E8056211BB2C9A
@@ -1714,6 +1904,16 @@ test_cases:
     JETTA_OIL_CRIT: 4.5868
 - response: |-
     7E8037F2278
+    7E8056211BB2CCC
+  expected_values:
+    JETTA_OIL_CRIT: 4.5872
+- response: |-
+    7E8037F2278
+    7E8056211BB2CCE
+  expected_values:
+    JETTA_OIL_CRIT: 4.588
+- response: |-
+    7E8037F2278
     7E8056211BB2CCF
   expected_values:
     JETTA_OIL_CRIT: 4.5884
@@ -1742,6 +1942,11 @@ test_cases:
     7E8056211BB2CD5
   expected_values:
     JETTA_OIL_CRIT: 4.5908
+- response: |-
+    7E8037F2278
+    7E8056211BB2CD6
+  expected_values:
+    JETTA_OIL_CRIT: 4.5912
 - response: |-
     7E8037F2278
     7E8056211BB2CD8
@@ -1989,6 +2194,11 @@ test_cases:
     JETTA_OIL_CRIT: 4.62
 - response: |-
     7E8037F2278
+    7E8056211BB2D1F
+  expected_values:
+    JETTA_OIL_CRIT: 4.6204
+- response: |-
+    7E8037F2278
     7E8056211BB2D20
   expected_values:
     JETTA_OIL_CRIT: 4.6208
@@ -2097,6 +2307,11 @@ test_cases:
     7E8056211BB2D3F
   expected_values:
     JETTA_OIL_CRIT: 4.6332
+- response: |-
+    7E8037F2278
+    7E8056211BB2D40
+  expected_values:
+    JETTA_OIL_CRIT: 4.6336
 - response: |-
     7E8037F2278
     7E8056211BB2D41
@@ -2249,6 +2464,11 @@ test_cases:
     JETTA_OIL_CRIT: 4.6484
 - response: |-
     7E8037F2278
+    7E8056211BB2D67
+  expected_values:
+    JETTA_OIL_CRIT: 4.6492
+- response: |-
+    7E8037F2278
     7E8056211BB2D68
   expected_values:
     JETTA_OIL_CRIT: 4.6496
@@ -2302,6 +2522,11 @@ test_cases:
     7E8056211BB2D76
   expected_values:
     JETTA_OIL_CRIT: 4.6552
+- response: |-
+    7E8037F2278
+    7E8056211BB2D77
+  expected_values:
+    JETTA_OIL_CRIT: 4.6556
 - response: |-
     7E8037F2278
     7E8056211BB2D79
@@ -2459,6 +2684,11 @@ test_cases:
     JETTA_OIL_CRIT: 4.67
 - response: |-
     7E8037F2278
+    7E8056211BB2D9C
+  expected_values:
+    JETTA_OIL_CRIT: 4.6704
+- response: |-
+    7E8037F2278
     7E8056211BB2D9F
   expected_values:
     JETTA_OIL_CRIT: 4.6716
@@ -2567,6 +2797,11 @@ test_cases:
     7E8056211BB2DBA
   expected_values:
     JETTA_OIL_CRIT: 4.6824
+- response: |-
+    7E8037F2278
+    7E8056211BB2DBB
+  expected_values:
+    JETTA_OIL_CRIT: 4.6828
 - response: |-
     7E8037F2278
     7E8056211BB2DBC
@@ -2684,6 +2919,11 @@ test_cases:
     JETTA_OIL_CRIT: 4.6936
 - response: |-
     7E8037F2278
+    7E8056211BB2DD7
+  expected_values:
+    JETTA_OIL_CRIT: 4.694
+- response: |-
+    7E8037F2278
     7E8056211BB2DD8
   expected_values:
     JETTA_OIL_CRIT: 4.6944
@@ -2759,6 +2999,11 @@ test_cases:
     JETTA_OIL_CRIT: 4.7008
 - response: |-
     7E8037F2278
+    7E8056211BB2DE9
+  expected_values:
+    JETTA_OIL_CRIT: 4.7012
+- response: |-
+    7E8037F2278
     7E8056211BB2DEA
   expected_values:
     JETTA_OIL_CRIT: 4.7016
@@ -2832,6 +3077,11 @@ test_cases:
     7E8056211BB2DFA
   expected_values:
     JETTA_OIL_CRIT: 4.708
+- response: |-
+    7E8037F2278
+    7E8056211BB2DFC
+  expected_values:
+    JETTA_OIL_CRIT: 4.7088
 - response: |-
     7E8037F2278
     7E8056211BB2DFD
@@ -3567,6 +3817,11 @@ test_cases:
     7E8056211BB2EA5
   expected_values:
     JETTA_OIL_CRIT: 4.7764
+- response: |-
+    7E8037F2278
+    7E8056211BB2EA6
+  expected_values:
+    JETTA_OIL_CRIT: 4.7768
 - response: |-
     7E8037F2278
     7E8056211BB2EA7
@@ -4639,6 +4894,11 @@ test_cases:
     JETTA_OIL_CRIT: 4.8648
 - response: |-
     7E8037F2278
+    7E8056211BB2F83
+  expected_values:
+    JETTA_OIL_CRIT: 4.8652
+- response: |-
+    7E8037F2278
     7E8056211BB2F84
   expected_values:
     JETTA_OIL_CRIT: 4.8656
@@ -4804,6 +5064,11 @@ test_cases:
     JETTA_OIL_CRIT: 4.8792
 - response: |-
     7E8037F2278
+    7E8056211BB2FA7
+  expected_values:
+    JETTA_OIL_CRIT: 4.8796
+- response: |-
+    7E8037F2278
     7E8056211BB2FA8
   expected_values:
     JETTA_OIL_CRIT: 4.88
@@ -4847,6 +5112,11 @@ test_cases:
     7E8056211BB2FB2
   expected_values:
     JETTA_OIL_CRIT: 4.884
+- response: |-
+    7E8037F2278
+    7E8056211BB2FB4
+  expected_values:
+    JETTA_OIL_CRIT: 4.8848
 - response: |-
     7E8037F2278
     7E8056211BB2FB5
@@ -5044,9 +5314,19 @@ test_cases:
     JETTA_OIL_CRIT: 4.9032
 - response: |-
     7E8037F2278
+    7E8056211BB2FE3
+  expected_values:
+    JETTA_OIL_CRIT: 4.9036
+- response: |-
+    7E8037F2278
     7E8056211BB2FE4
   expected_values:
     JETTA_OIL_CRIT: 4.904
+- response: |-
+    7E8037F2278
+    7E8056211BB2FE5
+  expected_values:
+    JETTA_OIL_CRIT: 4.9044
 - response: |-
     7E8037F2278
     7E8056211BB2FE6
@@ -5129,6 +5409,11 @@ test_cases:
     JETTA_OIL_CRIT: 4.934
 - response: |-
     7E8037F2278
+    7E8056211BB3047
+  expected_values:
+    JETTA_OIL_CRIT: 4.9436
+- response: |-
+    7E8037F2278
     7E8056211BB3053
   expected_values:
     JETTA_OIL_CRIT: 4.9484
@@ -5182,6 +5467,11 @@ test_cases:
     7E8056211BB30EF
   expected_values:
     JETTA_OIL_CRIT: 5.0108
+- response: |-
+    7E8037F2278
+    7E8056211BB30FC
+  expected_values:
+    JETTA_OIL_CRIT: 5.016
 - response: |-
     7E8037F2278
     7E8056211BB3108
@@ -5528,6 +5818,9 @@ test_cases:
 - response: 7E8056211BB28D0
   expected_values:
     JETTA_OIL_CRIT: 4.1792
+- response: 7E8056211BB28D5
+  expected_values:
+    JETTA_OIL_CRIT: 4.1812
 - response: 7E8056211BB28DE
   expected_values:
     JETTA_OIL_CRIT: 4.1848
@@ -5657,12 +5950,18 @@ test_cases:
 - response: 7E8056211BB2994
   expected_values:
     JETTA_OIL_CRIT: 4.2576
+- response: 7E8056211BB2995
+  expected_values:
+    JETTA_OIL_CRIT: 4.258
 - response: 7E8056211BB2999
   expected_values:
     JETTA_OIL_CRIT: 4.2596
 - response: 7E8056211BB29A0
   expected_values:
     JETTA_OIL_CRIT: 4.2624
+- response: 7E8056211BB29A3
+  expected_values:
+    JETTA_OIL_CRIT: 4.2636
 - response: 7E8056211BB29A6
   expected_values:
     JETTA_OIL_CRIT: 4.2648
@@ -5720,6 +6019,9 @@ test_cases:
 - response: 7E8056211BB29E6
   expected_values:
     JETTA_OIL_CRIT: 4.2904
+- response: 7E8056211BB29E7
+  expected_values:
+    JETTA_OIL_CRIT: 4.2908
 - response: 7E8056211BB29E8
   expected_values:
     JETTA_OIL_CRIT: 4.2912
@@ -5981,6 +6283,9 @@ test_cases:
 - response: 7E8056211BB2AC2
   expected_values:
     JETTA_OIL_CRIT: 4.3784
+- response: 7E8056211BB2AC3
+  expected_values:
+    JETTA_OIL_CRIT: 4.3788
 - response: 7E8056211BB2AC4
   expected_values:
     JETTA_OIL_CRIT: 4.3792
@@ -6050,6 +6355,9 @@ test_cases:
 - response: 7E8056211BB2AEE
   expected_values:
     JETTA_OIL_CRIT: 4.396
+- response: 7E8056211BB2AEF
+  expected_values:
+    JETTA_OIL_CRIT: 4.3964
 - response: 7E8056211BB2AF0
   expected_values:
     JETTA_OIL_CRIT: 4.3968
@@ -6152,6 +6460,9 @@ test_cases:
 - response: 7E8056211BB2B21
   expected_values:
     JETTA_OIL_CRIT: 4.4164
+- response: 7E8056211BB2B22
+  expected_values:
+    JETTA_OIL_CRIT: 4.4168
 - response: 7E8056211BB2B24
   expected_values:
     JETTA_OIL_CRIT: 4.4176
@@ -6197,6 +6508,9 @@ test_cases:
 - response: 7E8056211BB2B39
   expected_values:
     JETTA_OIL_CRIT: 4.426
+- response: 7E8056211BB2B3A
+  expected_values:
+    JETTA_OIL_CRIT: 4.4264
 - response: 7E8056211BB2B3B
   expected_values:
     JETTA_OIL_CRIT: 4.4268
@@ -6245,6 +6559,9 @@ test_cases:
 - response: 7E8056211BB2B4B
   expected_values:
     JETTA_OIL_CRIT: 4.4332
+- response: 7E8056211BB2B4D
+  expected_values:
+    JETTA_OIL_CRIT: 4.434
 - response: 7E8056211BB2B4E
   expected_values:
     JETTA_OIL_CRIT: 4.4344
@@ -6515,6 +6832,9 @@ test_cases:
 - response: 7E8056211BB2BAB
   expected_values:
     JETTA_OIL_CRIT: 4.4716
+- response: 7E8056211BB2BAC
+  expected_values:
+    JETTA_OIL_CRIT: 4.472
 - response: 7E8056211BB2BAD
   expected_values:
     JETTA_OIL_CRIT: 4.4724
@@ -6584,6 +6904,9 @@ test_cases:
 - response: 7E8056211BB2BC3
   expected_values:
     JETTA_OIL_CRIT: 4.4812
+- response: 7E8056211BB2BC4
+  expected_values:
+    JETTA_OIL_CRIT: 4.4816
 - response: 7E8056211BB2BC5
   expected_values:
     JETTA_OIL_CRIT: 4.482
@@ -7016,6 +7339,9 @@ test_cases:
 - response: 7E8056211BB2C54
   expected_values:
     JETTA_OIL_CRIT: 4.5392
+- response: 7E8056211BB2C55
+  expected_values:
+    JETTA_OIL_CRIT: 4.5396
 - response: 7E8056211BB2C56
   expected_values:
     JETTA_OIL_CRIT: 4.54
@@ -7301,6 +7627,9 @@ test_cases:
 - response: 7E8056211BB2CB4
   expected_values:
     JETTA_OIL_CRIT: 4.5776
+- response: 7E8056211BB2CB5
+  expected_values:
+    JETTA_OIL_CRIT: 4.578
 - response: 7E8056211BB2CB6
   expected_values:
     JETTA_OIL_CRIT: 4.5784
@@ -9776,6 +10105,9 @@ test_cases:
 - response: 7E8056211BB2FF1
   expected_values:
     JETTA_OIL_CRIT: 4.9092
+- response: 7E8056211BB2FF2
+  expected_values:
+    JETTA_OIL_CRIT: 4.9096
 - response: 7E8056211BB2FF4
   expected_values:
     JETTA_OIL_CRIT: 4.9104
@@ -9791,6 +10123,9 @@ test_cases:
 - response: 7E8056211BB2FFB
   expected_values:
     JETTA_OIL_CRIT: 4.9132
+- response: 7E8056211BB2FFC
+  expected_values:
+    JETTA_OIL_CRIT: 4.9136
 - response: 7E8056211BB2FFD
   expected_values:
     JETTA_OIL_CRIT: 4.914
@@ -10151,6 +10486,9 @@ test_cases:
 - response: 7E8056211BB3194
   expected_values:
     JETTA_OIL_CRIT: 5.0768
+- response: 7E8056211BB3197
+  expected_values:
+    JETTA_OIL_CRIT: 5.078
 - response: 7E8056211BB319C
   expected_values:
     JETTA_OIL_CRIT: 5.08
@@ -10454,6 +10792,9 @@ test_cases:
 - response: 7E8056211BB337E
   expected_values:
     JETTA_OIL_CRIT: 5.2728
+- response: 7E8056211BB337F
+  expected_values:
+    JETTA_OIL_CRIT: 5.2732
 - response: 7E8056211BB3387
   expected_values:
     JETTA_OIL_CRIT: 5.2764
@@ -10739,6 +11080,9 @@ test_cases:
 - response: 7E8056211BB3868
   expected_values:
     JETTA_OIL_CRIT: 5.776
+- response: 7E8056211BB3883
+  expected_values:
+    JETTA_OIL_CRIT: 5.7868
 - response: 7E8056211BB38D2
   expected_values:
     JETTA_OIL_CRIT: 5.8184

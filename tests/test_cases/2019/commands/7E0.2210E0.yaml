@@ -73,6 +73,11 @@ test_cases:
   expected_values:
     JETTA_ODO: 273963
 - response: |-
+    7E8037F2278
+    7E8076210E000042FAB
+  expected_values:
+    JETTA_ODO: 274347
+- response: |-
     7E8037F227855555555
     7E8076210E000027633
   expected_values:
@@ -3226,3 +3231,6 @@ test_cases:
 - response: 7E8076210E000042E2B
   expected_values:
     JETTA_ODO: 273963
+- response: 7E8076210E000042FAB
+  expected_values:
+    JETTA_ODO: 274347
