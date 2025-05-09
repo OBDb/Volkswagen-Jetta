@@ -14,9 +14,9 @@ test_cases:
 - response: 7E8076210E00002DB00
   expected_values:
     JETTA_ODO: 187136
-- response: 7E8076210E00002E982
+- response: 7E8076210E00002EA1F
   expected_values:
-    JETTA_ODO: 190850
+    JETTA_ODO: 191007
 - response: 7E8076210E000042DDA
   expected_values:
     JETTA_ODO: 273882
