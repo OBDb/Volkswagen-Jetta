@@ -23,6 +23,6 @@ test_cases:
 - response: 7E8056211BB2F4E5555
   expected_values:
     JETTA_OIL_CRIT: 4.844
-- response: 7E8056211BB3A72
+- response: 7E8056211BB3A54
   expected_values:
-    JETTA_OIL_CRIT: 5.9848
+    JETTA_OIL_CRIT: 5.9728
