@@ -1,19 +1,8 @@
 command_id: 7E0.221160
-can_id_format: ELEVEN_BIT
-extended_addressing_enabled: false
 test_cases:
 - response: 7E8076211600CF2C0A3
   expected_values:
     JETTA_ODO_2: 217235619
-- response: 7E8076211600CF2C5C5
-  expected_values:
-    JETTA_ODO_2: 217236933
-- response: 7E8076211600CF32B42
-  expected_values:
-    JETTA_ODO_2: 217262914
-- response: 7E8076211600CF34B03
-  expected_values:
-    JETTA_ODO_2: 217271043
 - response: 7E8076211600CF44B8E
   expected_values:
     JETTA_ODO_2: 217336718
@@ -23,3 +12,15 @@ test_cases:
 - response: 7E8076211600D194D61
   expected_values:
     JETTA_ODO_2: 219762017
+- response: 7E8076211600D1D8142
+  expected_values:
+    JETTA_ODO_2: 220037442
+- response: 7E8076211600D35FA0E
+  expected_values:
+    JETTA_ODO_2: 221641230
+- response: 7E8076211600D3C066B
+  expected_values:
+    JETTA_ODO_2: 222037611
+- response: 7E8076211600D3C0E01
+  expected_values:
+    JETTA_ODO_2: 222039553
