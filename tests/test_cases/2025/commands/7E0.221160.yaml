@@ -4,4 +4,5 @@ extended_addressing_enabled: false
 test_cases:
 - response: 7E807621160004399B6
   expected_values:
-    JETTA_ODO_2: 4430262
+    JETTA_ODO_2_V4: 4430262.0
+    JETTA_ODO_HD: 4430262.0

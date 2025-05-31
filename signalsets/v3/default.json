@@ -1,17 +1,19 @@
 { "commands": [
-{ "hdr": "7E0", "dbg": true, "cmd": {"22": "10E0"}, "freq": 30,
+{ "hdr": "7E0", "cmd": {"22": "10E0"}, "freq": 30, "dbgfilter": { "from": 2026, "to": 2015, "years": [2017, 2018, 2022, 2023, 2024] },
   "signals": [
-    {"id": "JETTA_ODO", "path": "Trips", "fmt": { "len": 32, "max": 4000000000, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
+    {"id": "JETTA_ODO_V3",   "path": "Trips", "fmt": { "len": 32, "max": 4000000000, "unit": "kilometers" }, "name": "Odometer",               "suggestedMetric": "odometer"},
+    {"id": "JETTA_ODO_2_V3", "path": "Trips", "fmt": { "len": 32, "max": 4294967295, "unit": "kilometers" }, "name": "Odometer (alternative)", "suggestedMetric": "odometer"}
   ]},
-{ "hdr": "7E0", "dbg": true, "cmd": {"22": "1160"}, "freq": 30,
+{ "hdr": "7E0", "cmd": {"22": "1160"}, "freq": 30, "dbgfilter": { "from": 2026, "to": 2015, "years": [2017, 2018, 2022, 2023, 2024] },
   "signals": [
-    {"id": "JETTA_ODO_2", "path": "Trips", "fmt": { "len": 32, "max": 4000000000, "unit": "kilometers" }, "name": "Odometer (alt)", "suggestedMetric": "odometer"}
+    {"id": "JETTA_ODO_2_V4", "path": "Trips", "fmt": { "len": 32, "max": 4000000000, "unit": "kilometers" }, "name": "Odometer (alt)",             "suggestedMetric": "odometer"},
+    {"id": "JETTA_ODO_HD",   "path": "Trips", "fmt": { "len": 32, "max": 4294967295, "unit": "meters"     }, "name": "Odometer (high resolution)", "suggestedMetric": "odometer"}
   ]},
-{ "hdr": "7E0", "cmd": {"22": "11BA"}, "freq": 15,
+{ "hdr": "7E0", "cmd": {"22": "11BA"}, "freq": 15, "dbgfilter": { "from": 2022, "to": 2018 },
   "signals": [
-    {"id": "JETTA_OIL_LEVEL", "path": "Engine", "fmt": { "len": 16, "max": 26.2, "div": 2500, "unit": "centimeters" }, "name": "Oil level"}
+    {"id": "JETTA_OIL_LEVEL", "path": "Engine", "fmt": { "len": 16, "max": 262, "div": 250, "unit": "unknown" }, "name": "Oil level"}
   ]},
-{ "hdr": "7E0", "dbg": true, "cmd": {"22": "11BB"}, "freq": 30,
+{ "hdr": "7E0", "cmd": {"22": "11BB"}, "freq": 30, "dbgfilter": { "from": 2022, "to": 2015, "years": [2017, 2018] },
   "signals": [
     {"id": "JETTA_OIL_CRIT", "path": "Fluids", "fmt": { "len": 16, "max": 26.2, "div": 2500, "unit": "centimeters" }, "name": "Oil level (critical)"}
   ]},

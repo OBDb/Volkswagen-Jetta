@@ -4,16 +4,16 @@ extended_addressing_enabled: false
 test_cases:
 - response: 7E8056211BA1194
   expected_values:
-    JETTA_OIL_LEVEL: 1.8
+    JETTA_OIL_LEVEL: 18.0
 - response: 7E8056211BA390E
   expected_values:
-    JETTA_OIL_LEVEL: 5.8424
+    JETTA_OIL_LEVEL: 58.424
 - response: 7E8056211BA43FE
   expected_values:
-    JETTA_OIL_LEVEL: 6.9624
+    JETTA_OIL_LEVEL: 69.624
 - response: 7E8056211BA4402
   expected_values:
-    JETTA_OIL_LEVEL: 6.964
+    JETTA_OIL_LEVEL: 69.64
 - response: 7E8056211BA4A4F
   expected_values:
-    JETTA_OIL_LEVEL: 7.6092
+    JETTA_OIL_LEVEL: 76.092
