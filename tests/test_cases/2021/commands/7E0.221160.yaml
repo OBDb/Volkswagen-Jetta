@@ -4,19 +4,25 @@ extended_addressing_enabled: false
 test_cases:
 - response: 7E807621160038E462A
   expected_values:
-    JETTA_ODO_2: 59655722
+    JETTA_ODO_2_V4: 59655722.0
+    JETTA_ODO_HD: 59655722.0
 - response: 7E807621160038E7500
   expected_values:
-    JETTA_ODO_2: 59667712
+    JETTA_ODO_2_V4: 59667712.0
+    JETTA_ODO_HD: 59667712.0
 - response: 7E8076211600391BAFF
   expected_values:
-    JETTA_ODO_2: 59882239
+    JETTA_ODO_2_V4: 59882239.0
+    JETTA_ODO_HD: 59882239.0
 - response: 7E8076211600391FF74
   expected_values:
-    JETTA_ODO_2: 59899764
+    JETTA_ODO_2_V4: 59899764.0
+    JETTA_ODO_HD: 59899764.0
 - response: 7E8076211600393002E
   expected_values:
-    JETTA_ODO_2: 59965486
+    JETTA_ODO_2_V4: 59965486.0
+    JETTA_ODO_HD: 59965486.0
 - response: 7E80762116003B71041
   expected_values:
-    JETTA_ODO_2: 62328897
+    JETTA_ODO_2_V4: 62328897.0
+    JETTA_ODO_HD: 62328897.0
