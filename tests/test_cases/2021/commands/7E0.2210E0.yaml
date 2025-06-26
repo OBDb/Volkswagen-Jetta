@@ -1,16 +1,14 @@
 command_id: 7E0.2210E0
-can_id_format: ELEVEN_BIT
-extended_addressing_enabled: false
 test_cases:
-- response: 7E8076210E00000E91F
-  expected_values:
-    JETTA_ODO: 59679
-- response: 7E8076210E00000E9FF
-  expected_values:
-    JETTA_ODO: 59903
-- response: 7E8076210E00000EB00
-  expected_values:
+- expected_values:
+    JETTA_ODO: 47338
+  response: 7E8076210E00000B8EA
+- expected_values:
+    JETTA_ODO: 48895
+  response: 7E8076210E00000BEFF
+- expected_values:
     JETTA_ODO: 60160
-- response: 7E8076210E00000F304
-  expected_values:
+  response: 7E8076210E00000EB00
+- expected_values:
     JETTA_ODO: 62212
+  response: 7E8076210E00000F304
