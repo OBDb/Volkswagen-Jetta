@@ -1,28 +1,29 @@
 command_id: 7E0.2211BB
-can_id_format: ELEVEN_BIT
-extended_addressing_enabled: false
 test_cases:
-- response: 7E8056211BB2710
-  expected_values:
+- expected_values:
+    JETTA_OIL_CRIT: 3.9864
+  response: 7E8056211BB26EE
+- expected_values:
     JETTA_OIL_CRIT: 4
-- response: 7E8056211BB29FF
-  expected_values:
+  response: 7E8056211BB2710
+- expected_values:
     JETTA_OIL_CRIT: 4.3004
-- response: 7E8056211BB2B00
-  expected_values:
+  response: 7E8056211BB29FF
+- expected_values:
     JETTA_OIL_CRIT: 4.4032
-- response: 7E8056211BB2DDD5555
-  expected_values:
+  response: 7E8056211BB2B00
+- expected_values:
     JETTA_OIL_CRIT: 4.6964
-- response: 7E8056211BB2DE05555
-  expected_values:
+  response: 7E8056211BB2DDD5555
+- expected_values:
     JETTA_OIL_CRIT: 4.6976
-- response: 7E8056211BB2E085555
-  expected_values:
+  response: 7E8056211BB2DE05555
+- expected_values:
     JETTA_OIL_CRIT: 4.7136
-- response: 7E8056211BB2F4E5555
-  expected_values:
+  response: 7E8056211BB2E085555
+- expected_values:
     JETTA_OIL_CRIT: 4.844
-- response: 7E8056211BB3A54
-  expected_values:
+  response: 7E8056211BB2F4E5555
+- expected_values:
     JETTA_OIL_CRIT: 5.9728
+  response: 7E8056211BB3A54

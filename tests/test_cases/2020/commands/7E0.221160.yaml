@@ -1,28 +1,26 @@
 command_id: 7E0.221160
-can_id_format: ELEVEN_BIT
-extended_addressing_enabled: false
 test_cases:
-- response: 7E80762116002D451BA
-  expected_values:
+- expected_values:
     JETTA_ODO_2: 47468986
-- response: 7E80762116002D56200
-  expected_values:
+  response: 7E80762116002D451BA
+- expected_values:
     JETTA_ODO_2: 47538688
-- response: 7E80762116002D8FF4F
-  expected_values:
+  response: 7E80762116002D56200
+- expected_values:
     JETTA_ODO_2: 47775567
-- response: 7E80762116002E6003E
-  expected_values:
+  response: 7E80762116002D8FF4F
+- expected_values:
     JETTA_ODO_2: 48627774
-- response: 7E80762116002F36CFF
-  expected_values:
+  response: 7E80762116002E6003E
+- expected_values:
     JETTA_ODO_2: 49507583
-- response: 7E80762116002FF01D4
-  expected_values:
+  response: 7E80762116002F36CFF
+- expected_values:
     JETTA_ODO_2: 50266580
-- response: '7E80762116003000851'
-  expected_values:
+  response: 7E80762116002FF01D4
+- expected_values:
     JETTA_ODO_2: 50333777
-- response: 7E8076211600503A246
-  expected_values:
+  response: '7E80762116003000851'
+- expected_values:
     JETTA_ODO_2: 84124230
+  response: 7E8076211600503A246
