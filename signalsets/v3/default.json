@@ -1,17 +1,247 @@
 { "commands": [
-{ "hdr": "7E0", "dbg": true, "cmd": {"22": "10E0"}, "freq": 30,
+{ "hdr": "70B", "fcm1": true, "dbg": true, "cmd": {"22": "18A0"}, "freq": 30,
+  "signals": [
+    {"id": "JETTA_TID_1", "path": "Tires", "fmt": {           "len": 32, "max": 100,                                         "unit": "scalar"  }, "name": "Tire 1 sensor id"},
+    {"id": "JETTA_TP_FR", "path": "Tires", "fmt": {"bix": 40, "len": 8,  "max": 6.375, "div": 40,                            "unit": "bars"    }, "name": "Front right tire pressure", "suggestedMetric": "frontRightTirePressure"},
+    {"id": "JETTA_TP_1",  "path": "Tires", "fmt": {"bix": 48, "len": 8,  "max": 25.5,  "div": 10,             "nullmax": 25, "unit": "bars"    }, "name": "Tire 1 current pressure",   "suggestedMetric": "frontLeftTirePressure"},
+    {"id": "JETTA_TT_1",  "path": "Tires", "fmt": {"bix": 56, "len": 8,  "max": 100,              "add": -40,                "unit": "celsius" }, "name": "Tire 1 temperature"},
+    {"id": "JETTA_TPS_1", "path": "Tires", "fmt": {"bix": 64, "len": 8,  "max": 25.5,  "div": 10,                            "unit": "bars"    }, "name": "Tire 1 specified pressure"},
+    {"id": "JETTA_TPW_1", "path": "Tires", "fmt": {"bix": 72, "len": 8,  "max": 25.5,  "div": 10,                            "unit": "bars"    }, "name": "Tire 1 warning pressure"},
+    {"id": "JETTA_TPOS_1", "path": "Tires", "name": "Tire 1 position", "fmt": {"bix": 32, "len": 8, "map": {
+          "0": { "description": "Front left",  "value": "FL" },
+          "1": { "description": "Front right", "value": "FR" },
+          "2": { "description": "Rear left",   "value": "RL" },
+          "3": { "description": "Rear right",  "value": "RR" }
+        }}
+    }
+  ]},
+{ "hdr": "70B", "fcm1": true, "dbg": true, "cmd": {"22": "18A1"}, "freq": 30,
+  "signals": [
+    {"id": "JETTA_TID_2", "path": "Tires", "fmt": {           "len": 32, "max": 100,                                         "unit": "scalar"  }, "name": "Tire 2 sensor id"},
+    {"id": "JETTA_TP_FL", "path": "Tires", "fmt": {"bix": 40, "len": 8,  "max": 6.375, "div": 40,                            "unit": "bars"    }, "name": "Front left tire pressure",  "suggestedMetric": "frontLeftTirePressure"},
+    {"id": "JETTA_TP_2",  "path": "Tires", "fmt": {"bix": 48, "len": 8,  "max": 25.5,  "div": 10,             "nullmax": 25, "unit": "bars"    }, "name": "Tire 2 current pressure",   "suggestedMetric": "frontRightTirePressure"},
+    {"id": "JETTA_TT_2",  "path": "Tires", "fmt": {"bix": 56, "len": 8,  "max": 100,              "add": -40,                "unit": "celsius" }, "name": "Tire 2 temperature"},
+    {"id": "JETTA_TPS_2", "path": "Tires", "fmt": {"bix": 64, "len": 8,  "max": 25.5,  "div": 10,                            "unit": "bars"    }, "name": "Tire 2 specified pressure"},
+    {"id": "JETTA_TPW_2", "path": "Tires", "fmt": {"bix": 72, "len": 8,  "max": 25.5,  "div": 10,                            "unit": "bars"    }, "name": "Tire 2 warning pressure"},
+    {"id": "JETTA_TPOS_2", "path": "Tires", "name": "Tire 1 position", "fmt": {"bix": 32, "len": 8, "map": {
+          "0": { "description": "Front left",  "value": "FL" },
+          "1": { "description": "Front right", "value": "FR" },
+          "2": { "description": "Rear left",   "value": "RL" },
+          "3": { "description": "Rear right",  "value": "RR" }
+        }}
+    }
+  ]},
+{ "hdr": "70B", "fcm1": true, "dbg": true, "cmd": {"22": "18A2"}, "freq": 30,
+  "signals": [
+    {"id": "JETTA_TID_3", "path": "Tires", "fmt": {           "len": 32, "max": 100,                                         "unit": "scalar"  }, "name": "Tire 3 sensor id"},
+    {"id": "JETTA_TP_RL", "path": "Tires", "fmt": {"bix": 40, "len": 8,  "max": 6.375, "div": 40,                            "unit": "bars"    }, "name": "Rear left tire pressure",   "suggestedMetric": "rearLeftTirePressure"},
+    {"id": "JETTA_TP_3",  "path": "Tires", "fmt": {"bix": 48, "len": 8,  "max": 25.5,  "div": 10,             "nullmax": 25, "unit": "bars"    }, "name": "Tire 3 current pressure",   "suggestedMetric": "rearLeftTirePressure"},
+    {"id": "JETTA_TT_3",  "path": "Tires", "fmt": {"bix": 56, "len": 8,  "max": 100,              "add": -40,                "unit": "celsius" }, "name": "Tire 3 temperature"},
+    {"id": "JETTA_TPS_3", "path": "Tires", "fmt": {"bix": 64, "len": 8,  "max": 25.5,  "div": 10,                            "unit": "bars"    }, "name": "Tire 3 specified pressure"},
+    {"id": "JETTA_TPW_3", "path": "Tires", "fmt": {"bix": 72, "len": 8,  "max": 25.5,  "div": 10,                            "unit": "bars"    }, "name": "Tire 3 warning pressure"},
+    {"id": "JETTA_TPOS_3", "path": "Tires", "name": "Tire 1 position", "fmt": {"bix": 32, "len": 8, "map": {
+          "0": { "description": "Front left",  "value": "FL" },
+          "1": { "description": "Front right", "value": "FR" },
+          "2": { "description": "Rear left",   "value": "RL" },
+          "3": { "description": "Rear right",  "value": "RR" }
+        }}
+    }
+  ]},
+{ "hdr": "70B", "fcm1": true, "dbg": true, "cmd": {"22": "18A3"}, "freq": 30,
+  "signals": [
+    {"id": "JETTA_TID_4", "path": "Tires", "fmt": {           "len": 32, "max": 100,                                         "unit": "scalar"  }, "name": "Tire 4 sensor id"},
+    {"id": "JETTA_TP_RR", "path": "Tires", "fmt": {"bix": 40, "len": 8,  "max": 6.375, "div": 40,                            "unit": "bars"    }, "name": "Rear right tire pressure",  "suggestedMetric": "rearRightTirePressure"},
+    {"id": "JETTA_TP_4",  "path": "Tires", "fmt": {"bix": 48, "len": 8,  "max": 25.5,  "div": 10,             "nullmax": 25, "unit": "bars"    }, "name": "Tire 4 current pressure",   "suggestedMetric": "rearRightTirePressure"},
+    {"id": "JETTA_TT_4",  "path": "Tires", "fmt": {"bix": 56, "len": 8,  "max": 100,              "add": -40,                "unit": "celsius" }, "name": "Tire 4 temperature"},
+    {"id": "JETTA_TPS_4", "path": "Tires", "fmt": {"bix": 64, "len": 8,  "max": 25.5,  "div": 10,                            "unit": "bars"    }, "name": "Tire 4 specified pressure"},
+    {"id": "JETTA_TPW_4", "path": "Tires", "fmt": {"bix": 72, "len": 8,  "max": 25.5,  "div": 10,                            "unit": "bars"    }, "name": "Tire 4 warning pressure"},
+    {"id": "JETTA_TPOS_4", "path": "Tires", "name": "Tire 1 position", "fmt": {"bix": 32, "len": 8, "map": {
+          "0": { "description": "Front left",  "value": "FL" },
+          "1": { "description": "Front right", "value": "FR" },
+          "2": { "description": "Rear left",   "value": "RL" },
+          "3": { "description": "Rear right",  "value": "RR" }
+        }}
+    }
+  ]},
+{ "hdr": "710", "dbg": true, "cmd": {"22": "2A0A"}, "freq": 30,
+  "signals": [
+    {"id": "JETTA_ODO_2_V3",     "path": "Trips",   "fmt": { "len": 32, "max": 255,                         "unit": "kilometers" }, "name": "Odometer (alternative)",                "suggestedMetric": "odometer"},
+    {"id": "JETTA_SSB_SENSOR_T", "path": "Battery", "fmt": { "len": 8,  "max": 215, "min": -40, "add": -40, "unit": "celsius"    }, "name": "Start/stop battery sensor temperature"}
+  ]},
+{ "hdr": "710", "fcm1": true, "dbg": true, "cmd": {"22": "2AB6"}, "freq": 5,
+  "signals": [
+    {"id": "JETTA_RANGE_V2", "path": "Trips", "fmt": { "len": 16, "max": 65535, "unit": "miles" }, "name": "Range remaining", "suggestedMetric": "electricRange"}
+  ]},
+{ "hdr": "710", "fcm1": true, "dbg": true, "cmd": {"22": "2AB7"}, "freq": 5,
+  "signals": [
+    {"id": "JETTA_AVG_CSMP_CAT0", "path": "Trips", "fmt": {           "len": 16, "max": 6553, "div": 10, "unit": "kilowattHours" }, "name": "Average consumption (category 0)"},
+    {"id": "JETTA_AVG_CSMP_CAT1", "path": "Trips", "fmt": {"bix": 16, "len": 16, "max": 6553, "div": 10, "unit": "kilowattHours" }, "name": "Average consumption (category 1)"},
+    {"id": "JETTA_AVG_CSMP_CAT2", "path": "Trips", "fmt": {"bix": 32, "len": 16, "max": 6553, "div": 10, "unit": "kilowattHours" }, "name": "Average consumption (category 2)"},
+    {"id": "JETTA_AVG_CSMP_CAT3", "path": "Trips", "fmt": {"bix": 48, "len": 16, "max": 6553, "div": 10, "unit": "kilowattHours" }, "name": "Average consumption (category 3)"},
+    {"id": "JETTA_AVG_CSMP_CAT4", "path": "Trips", "fmt": {"bix": 64, "len": 16, "max": 6553, "div": 10, "unit": "kilowattHours" }, "name": "Average consumption (category 4)"},
+    {"id": "JETTA_AVG_CSMP_CAT5", "path": "Trips", "fmt": {"bix": 80, "len": 16, "max": 6553, "div": 10, "unit": "kilowattHours" }, "name": "Average consumption (category 5)"},
+    {"id": "JETTA_AVG_CSMP_CAT6", "path": "Trips", "fmt": {"bix": 96, "len": 16, "max": 6553, "div": 10, "unit": "kilowattHours" }, "name": "Average consumption (category 6)"}
+  ]},
+{ "hdr": "710", "rax": "77A", "cmd": {"22": "2A07"}, "freq": 1, "dbgfilter": { "to": 2019, "from": 2021 },
+  "signals": [
+    {"id": "JETTA_SSB_V", "path": "Battery", "fmt": { "len": 16, "max": 69.54, "min": 4, "div": 100, "add": 4, "unit": "volts" }, "name": "Start/stop battery voltage"}
+  ]},
+{ "hdr": "710", "rax": "77A", "cmd": {"22": "2A0B"}, "freq": 1, "dbgfilter": { "to": 2019, "from": 2021 },
+  "signals": [
+    {"id": "JETTA_SSB_T", "path": "Battery", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Start/stop battery sensor temperature"}
+  ]},
+{ "hdr": "710", "rax": "77A", "cmd": {"22": "2A0E"}, "freq": 5, "dbgfilter": { "to": 2019, "from": 2021 },
+  "signals": [
+    {"id": "JETTA_SSB_R", "path": "Battery", "fmt": { "len": 8, "max": 100, "mul": 2, "div": 10, "unit": "milliohms" }, "name": "Start/stop battery resistance"}
+  ]},
+{ "hdr": "710", "rax": "77A", "cmd": {"22": "2A0F"}, "freq": 5, "dbgfilter": { "to": 2019, "from": 2021 },
+  "signals": [
+    {"id": "JETTA_SSB_AH", "path": "Battery", "fmt": { "len": 8, "max": 255, "unit": "ampereHours" }, "name": "Start/stop battery charge"}
+  ]},
+{ "hdr": "710", "rax": "77A", "cmd": {"22": "2A10"}, "freq": 1, "dbgfilter": { "to": 2019, "from": 2021 },
+  "signals": [
+    {"id": "JETTA_SSB_V_REST", "path": "Battery", "fmt": { "len": 8, "max": 63, "min": 9, "mul": 54, "div": 255, "add": 9, "unit": "volts" }, "name": "Start/stop battery voltage (at rest)"}
+  ]},
+{ "hdr": "713", "dbg": true, "cmd": {"22": "1800"}, "freq": 0.25,
+  "signals": [
+    {"id": "JETTA_FL_VSS", "path": "Movement", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "kilometers" }, "name": "Front left wheel speed"}
+  ]},
+{ "hdr": "713", "dbg": true, "cmd": {"22": "1801"}, "freq": 0.25,
+  "signals": [
+    {"id": "JETTA_FR_VSS", "path": "Movement", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "kilometers" }, "name": "Front right wheel speed"}
+  ]},
+{ "hdr": "713", "dbg": true, "cmd": {"22": "1802"}, "freq": 0.25,
+  "signals": [
+    {"id": "JETTA_RL_VSS", "path": "Movement", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "kilometers" }, "name": "Rear left wheel speed"}
+  ]},
+{ "hdr": "713", "dbg": true, "cmd": {"22": "1803"}, "freq": 0.25,
+  "signals": [
+    {"id": "JETTA_RR_VSS", "path": "Movement", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "kilometers" }, "name": "Rear right wheel speed"}
+  ]},
+{ "hdr": "713", "dbg": true, "cmd": {"22": "2B1B"}, "freq": 0.1,
+  "signals": [
+    {"id": "JETTA_TIRE_FL_SPD_V3", "path": "Movement", "fmt": { "len": 16, "max": 1000, "mul": 9, "div": 160, "unit": "kilometersPerHour" }, "name": "Front left wheel speed"}
+  ]},
+{ "hdr": "713", "dbg": true, "cmd": {"22": "2B1C"}, "freq": 0.1,
+  "signals": [
+    {"id": "JETTA_TIRE_FR_SPD_V3", "path": "Movement", "fmt": { "len": 16, "max": 1000, "mul": 9, "div": 160, "unit": "kilometersPerHour" }, "name": "Front right wheel speed"}
+  ]},
+{ "hdr": "713", "dbg": true, "cmd": {"22": "2B1D"}, "freq": 0.1,
+  "signals": [
+    {"id": "JETTA_TIRE_RL_SPD_V3", "path": "Movement", "fmt": { "len": 16, "max": 1000, "mul": 9, "div": 160, "unit": "kilometersPerHour" }, "name": "Rear left wheel speed"}
+  ]},
+{ "hdr": "713", "dbg": true, "cmd": {"22": "2B1E"}, "freq": 0.1,
+  "signals": [
+    {"id": "JETTA_TIRE_RR_SPD_V3", "path": "Movement", "fmt": { "len": 16, "max": 1000, "mul": 9, "div": 160, "unit": "kilometersPerHour" }, "name": "Rear right wheel speed"}
+  ]},
+{ "hdr": "713", "dbg": true, "cmd": {"22": "2B29"}, "freq": 0.1,
+  "signals": [
+    {"id": "JETTA_STEER_ANGLE", "path": "Control", "fmt": { "len": 16, "max": 32.767, "min": -32.768, "div": 1000, "sign": true, "unit": "radians" }, "name": "Steering wheel angle", "description": "Positive is rotated to the left, negative is rotated to the right."}
+  ]},
+{ "hdr": "714", "fcm1": true, "dbg": true, "cmd": {"22": "0530"}, "freq": 0.5,
+  "signals": [
+    {"id": "JETTA_TRIP_USE_SHORT", "path": "Trips", "fmt": {"bix": 238, "len": 18, "max": 131, "min": -131, "div": 1000, "sign": true, "unit": "kilowattHours" }, "name": "Trip consumption (short)"}
+  ]},
+{ "hdr": "714", "tmo": "96", "fcm1": true, "dbg": true, "cmd": {"22": "1014"}, "freq": 1,
+  "signals": [
+    {"id": "JETTA_AAT", "path": "Climate", "fmt": { "len": 8, "max": 215, "min": -50, "add": -50, "unit": "celsius" }, "name": "Ambient air temperature"}
+  ]},
+{ "hdr": "714", "dbg": true, "cmd": {"22": "202F"}, "freq": 30,
+  "signals": [
+    {"id": "JETTA_EOT", "path": "Engine", "fmt": { "len": 8, "max": 255, "add": -58, "unit": "scalar" }, "name": "Engine oil temperature"}
+  ]},
+{ "hdr": "714", "dbg": true, "cmd": {"22": "2203"}, "freq": 30,
+  "signals": [
+    {"id": "JETTA_ODO_DASH", "path": "Trips", "fmt": { "len": 24, "max": 255,      "unit": "kilometers" }, "name": "Odometer (dash)", "suggestedMetric": "odometer"},
+    {"id": "JETTA_ODO_V3",   "path": "Trips", "fmt": { "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Odometer",        "suggestedMetric": "odometer"}
+  ]},
+{ "hdr": "714", "dbg": true, "cmd": {"22": "2294"}, "freq": 30,
+  "signals": [
+    {"id": "JETTA_RANGE", "path": "Trips", "fmt": { "len": 16, "max": 255, "unit": "kilometers" }, "name": "Range remaining", "suggestedMetric": "fuelRange"}
+  ]},
+{ "hdr": "714", "dbg": true, "cmd": {"22": "229A"}, "freq": 30,
+  "signals": [
+    {"id": "JETTA_FLV", "path": "Fuel", "fmt": { "len": 16, "max": 255, "div": 8, "unit": "liters" }, "name": "Fuel remaining", "suggestedMetric": "fuelTankLevel"}
+  ]},
+{ "hdr": "714", "dbg": true, "cmd": {"22": "22B0"}, "freq": 30,
+  "signals": [
+    {"id": "JETTA_FLI_VOL", "path": "Fuel", "fmt": {"bix": 336, "len": 16, "max": 6553.5, "div": 10, "unit": "liters" }, "name": "Fuel level (volume)"}
+  ]},
+{ "hdr": "714", "dbg": true, "cmd": {"22": "22E0"}, "freq": 1,
+  "signals": [
+    {"id": "JETTA_RANGE_DSP", "path": "Trips", "fmt": { "len": 16, "max": 65535, "unit": "kilometers" }, "name": "Range remaining (displayed)", "suggestedMetric": "electricRange"}
+  ]},
+{ "hdr": "714", "dbg": true, "cmd": {"22": "2613"}, "freq": 30,
+  "signals": [
+    {"id": "JETTA_IAT", "path": "Climate", "fmt": { "len": 16, "max": 255, "div": 10, "unit": "celsius" }, "name": "Interior air temperature"}
+  ]},
+{ "hdr": "715", "dbg": true, "cmd": {"22": "2353"}, "freq": 3600,
+  "signals": [
+    {"id": "JETTA_CRSH_FRONT",      "path": "Trips", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Crashes, front"},
+    {"id": "JETTA_CRASH_CNT_FRONT", "path": "Stats", "fmt": { "len": 8, "max": 100, "unit": "scalar" }, "name": "Crashes, front"}
+  ]},
+{ "hdr": "715", "dbg": true, "cmd": {"22": "2354"}, "freq": 3600,
+  "signals": [
+    {"id": "JETTA_CRASH_CNT_DRVR", "path": "Stats", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Crashes, driver side"}
+  ]},
+{ "hdr": "715", "dbg": true, "cmd": {"22": "2355"}, "freq": 3600,
+  "signals": [
+    {"id": "JETTA_CRASH_CNT_PSNGR", "path": "Stats", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Crashes, passenger side"}
+  ]},
+{ "hdr": "715", "dbg": true, "cmd": {"22": "2356"}, "freq": 3600,
+  "signals": [
+    {"id": "JETTA_CRASH_CNT_REAR", "path": "Stats", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Crashes, rear"}
+  ]},
+{ "hdr": "715", "dbg": true, "cmd": {"22": "2357"}, "freq": 3600,
+  "signals": [
+    {"id": "JETTA_CRASH_CNT_ROLL",     "path": "Stats", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Crashes, rollover"},
+    {"id": "JETTA_CRASH_CNT_ROLLOVER", "path": "Stats", "fmt": { "len": 8, "max": 100, "unit": "scalar" }, "name": "Crashes, rollover"}
+  ]},
+{ "hdr": "746", "fcm1": true, "dbg": true, "cmd": {"22": "27C4"}, "freq": 30,
+  "signals": [
+    {"id": "JETTA_WNDSHLD_TEMP", "path": "Climate", "fmt": { "len": 8, "max": 108.08, "min": -38.8, "mul": 0.576, "add": -38.8, "unit": "celsius" }, "name": "Windshield temperature"}
+  ]},
+{ "hdr": "7E0", "dbg": true, "cmd": {"22": "028D"}, "freq": 1,
+  "signals": [
+    {"id": "JETTA_ECU_TEMP", "path": "Engine", "fmt": { "len": 16, "max": 500, "min": -500, "div": 10, "sign": true, "unit": "celsius" }, "name": "Ecu temperature"}
+  ]},
+{ "hdr": "7E0", "cmd": {"22": "10E0"}, "freq": 30, "dbgfilter": { "to": 2015, "years": [2017, 2018, 2022, 2023, 2024], "from": 2026 },
   "signals": [
     {"id": "JETTA_ODO", "path": "Trips", "fmt": { "len": 32, "max": 4000000000, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
   ]},
-{ "hdr": "7E0", "dbg": true, "cmd": {"22": "1160"}, "freq": 30,
+{ "hdr": "7E0", "dbg": true, "cmd": {"22": "1153"}, "freq": 10.25,
+  "signals": [
+    {"id": "JETTA_EM_TORQ_1", "path": "Engine", "fmt": { "len": 16, "max": 1000, "min": -1000, "div": 32, "sign": true, "unit": "newtonMeters" }, "name": "Elector motor 1 torque"}
+  ]},
+{ "hdr": "7E0", "dbg": true, "cmd": {"22": "1154"}, "freq": 1,
+  "signals": [
+    {"id": "JETTA_EM_TORQ_2", "path": "Engine", "fmt": { "len": 16, "max": 1000, "min": -1000, "div": 32, "sign": true, "unit": "newtonMeters" }, "name": "Elector motor 2 torque"}
+  ]},
+{ "hdr": "7E0", "dbg": true, "cmd": {"22": "1155"}, "freq": 1,
+  "signals": [
+    {"id": "JETTA_EM_TORQ_3", "path": "Engine", "fmt": { "len": 16, "max": 1000, "min": -1000, "div": 32, "sign": true, "unit": "newtonMeters" }, "name": "Elector motor 3 torque"}
+  ]},
+{ "hdr": "7E0", "dbg": true, "cmd": {"22": "1158"}, "freq": 1,
+  "signals": [
+    {"id": "JETTA_MAX_DCHA_CUR_2", "path": "Battery", "fmt": { "len": 16, "max": 3200, "min": -3200, "div": 10, "sign": true, "unit": "amps" }, "name": "Maximum discharge current"}
+  ]},
+{ "hdr": "7E0", "dbg": true, "cmd": {"22": "1159"}, "freq": 1,
+  "signals": [
+    {"id": "JETTA_MAX_CHA_CUR_2", "path": "Battery", "fmt": { "len": 16, "max": 3200, "min": -3200, "div": 10, "sign": true, "unit": "amps" }, "name": "Maximum charge current"}
+  ]},
+{ "hdr": "7E0", "dbg": true, "cmd": {"22": "115B"}, "freq": 1,
+  "signals": [
+    {"id": "JETTA_VSS_DIR", "path": "Movement", "fmt": { "len": 16, "max": 511, "min": -512, "div": 64, "sign": true, "unit": "kilometersPerHour" }, "name": "Vehicle speed (directional)"}
+  ]},
+{ "hdr": "7E0", "cmd": {"22": "1160"}, "freq": 30, "dbgfilter": { "to": 2015, "years": [2017, 2018, 2022, 2023, 2024], "from": 2026 },
   "signals": [
     {"id": "JETTA_ODO_2", "path": "Trips", "fmt": { "len": 32, "max": 4000000000, "unit": "kilometers" }, "name": "Odometer (alt)", "suggestedMetric": "odometer"}
   ]},
-{ "hdr": "7E0", "cmd": {"22": "11BA"}, "freq": 15,
+{ "hdr": "7E0", "cmd": {"22": "11BA"}, "freq": 15, "dbgfilter": { "to": 2015, "years": [2017, 2018], "from": 2022 },
   "signals": [
     {"id": "JETTA_OIL_LEVEL", "path": "Engine", "fmt": { "len": 16, "max": 26.2, "div": 2500, "unit": "centimeters" }, "name": "Oil level"}
   ]},
-{ "hdr": "7E0", "dbg": true, "cmd": {"22": "11BB"}, "freq": 30,
+{ "hdr": "7E0", "cmd": {"22": "11BB"}, "freq": 30, "dbgfilter": { "to": 2015, "years": [2017, 2018], "from": 2022 },
   "signals": [
     {"id": "JETTA_OIL_CRIT", "path": "Fluids", "fmt": { "len": 16, "max": 26.2, "div": 2500, "unit": "centimeters" }, "name": "Oil level (critical)"}
   ]},
@@ -22,6 +252,157 @@
 { "hdr": "7E0", "dbg": true, "cmd": {"22": "11C5"}, "freq": 30,
   "signals": [
     {"id": "JETTA_OIL_MIN", "path": "Fluids", "fmt": { "len": 16, "max": 26.2, "div": 2500, "unit": "centimeters" }, "name": "Oil level (min)"}
+  ]},
+{ "hdr": "7E0", "dbg": true, "cmd": {"22": "2005"}, "freq": 0.25,
+  "signals": [
+    {"id": "JETTA_BRAKE_BST_P", "path": "Control", "fmt": { "len": 16, "max": 65.535, "div": 1000, "unit": "bars" }, "name": "Brake booster pressure"}
+  ]},
+{ "hdr": "7E0", "dbg": true, "cmd": {"22": "2061"}, "freq": 0.25,
+  "signals": [
+    {"id": "JETTA_APP_POS1", "path": "Control.Pedals", "fmt": { "len": 16, "max": 65, "div": 1000, "unit": "volts" }, "name": "Accelerator pedal position sensor 1"}
+  ]},
+{ "hdr": "7E0", "dbg": true, "cmd": {"22": "2062"}, "freq": 0.25,
+  "signals": [
+    {"id": "JETTA_APP_POS2", "path": "Control.Pedals", "fmt": { "len": 16, "max": 65, "div": 1000, "unit": "volts" }, "name": "Accelerator pedal position sensor 2"}
+  ]},
+{ "hdr": "7E0", "dbg": true, "cmd": {"22": "295A"}, "freq": 30,
+  "signals": [
+    {"id": "JETTA_ODO_V2",   "path": "Trips", "fmt": { "len": 24, "max": 16777215,   "unit": "kilometers" }, "name": "Odometer",               "suggestedMetric": "odometer"},
+    {"id": "JETTA_ODO_2_V2", "path": "Trips", "fmt": { "len": 32, "max": 4294967295, "unit": "kilometers" }, "name": "Odometer (alternative)", "suggestedMetric": "odometer"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1004"}, "freq": 5, "dbgfilter": { "to": 2019, "from": 2021 },
+  "signals": [
+    {"id": "JETTA_AAT_V2", "path": "Climate", "fmt": { "len": 16, "max": 255, "min": -255, "div": 128, "sign": true, "unit": "celsius" }, "name": "Ambient temperature"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1151"}, "freq": 0.25, "dbgfilter": { "to": 2019, "from": 2021 },
+  "signals": [
+    {"id": "JETTA_EM_RPM_1", "path": "Engine", "fmt": { "len": 16, "max": 100, "min": -100, "div": 2, "sign": true, "unit": "rpm" }, "name": "Electric motor 1 rpm"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1152"}, "freq": 0.25, "dbgfilter": { "to": 2019, "from": 2021 },
+  "signals": [
+    {"id": "JETTA_EM_RPM_2", "path": "Engine", "fmt": { "len": 16, "max": 100, "min": -100, "div": 2, "sign": true, "unit": "rpm" }, "name": "Electric motor 2 rpm"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11BD"}, "freq": 15, "dbgfilter": { "to": 2019, "from": 2021 },
+  "signals": [
+    {"id": "JETTA_OIL_LEVEL_WARN", "path": "Fluids", "fmt": { "len": 16, "max": 26.2, "div": 2500, "unit": "centimeters" }, "name": "Oil level warning threshold"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11BE"}, "freq": 1, "dbgfilter": { "to": 2019, "from": 2021 },
+  "signals": [
+    {"id": "JETTA_EOT_V2", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Engine oil temperature", "description": "Scaling is unknown, needs further validation."}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F40D"}, "freq": 0.25, "dbgfilter": { "to": 2019, "from": 2021 },
+  "signals": [
+    {"id": "JETTA_VSS", "path": "Movement", "fmt": { "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Vehicle speed", "suggestedMetric": "speed", "description": "Current vehicle speed."}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F41F"}, "freq": 1, "dbgfilter": { "to": 2019, "from": 2021 },
+  "signals": [
+    {"id": "JETTA_RUNTM", "path": "Clocks", "fmt": { "len": 16, "max": 65535, "unit": "seconds" }, "name": "Time since engine start", "description": "How long it's been since the engine started."}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F421"}, "freq": 5, "dbgfilter": { "to": 2019, "from": 2021 },
+  "signals": [
+    {"id": "JETTA_MIL_DIST", "path": "DTCs", "fmt": { "len": 16, "max": 65535, "unit": "kilometers" }, "name": "Distance traveled while mil was activated"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F430"}, "freq": 3600, "dbgfilter": { "to": 2019, "from": 2021 },
+  "signals": [
+    {"id": "JETTA_WARM_UPS", "path": "DTCs", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Number of warm-ups since dtcs cleared"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F431"}, "freq": 5, "dbgfilter": { "to": 2019, "from": 2021 },
+  "signals": [
+    {"id": "JETTA_CLR_DIST", "path": "DTCs", "fmt": { "len": 16, "max": 65535, "unit": "kilometers" }, "name": "Distance traveled since dtcs cleared"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F442"}, "freq": 0.25, "dbgfilter": { "to": 2019, "from": 2021 },
+  "signals": [
+    {"id": "JETTA_VPWR", "path": "Battery", "fmt": { "len": 16, "max": 65, "div": 1000, "unit": "volts" }, "name": "Control module voltage"}
+  ]},
+{ "hdr": "7E1", "dbg": true, "cmd": {"22": "0302"}, "freq": 900,
+  "signals": [
+    {"id": "JETTA_DRIVE_TIME", "path": "Stats", "fmt": { "len": 16, "max": 16383, "div": 4, "unit": "hours" }, "name": "Total drive time"}
+  ]},
+{ "hdr": "7E1", "dbg": true, "cmd": {"22": "0303"}, "freq": 900,
+  "signals": [
+    {"id": "JETTA_DRIVE_TIME_ECO", "path": "Stats", "fmt": { "len": 8, "max": 100, "div": 2.5, "unit": "percent" }, "name": "Driving time (eco)", "description": "Value may be wrong, needs more validation. Proportion of time spent driving in eco mode"}
+  ]},
+{ "hdr": "7E1", "dbg": true, "cmd": {"22": "0304"}, "freq": 900,
+  "signals": [
+    {"id": "JETTA_DRIVE_TIME_SPORT", "path": "Stats", "fmt": { "len": 8, "max": 100, "div": 2.5, "unit": "percent" }, "name": "Driving time (sport)", "description": "Value may be wrong, needs more validation. Proportion of time spent driving in sport mode"}
+  ]},
+{ "hdr": "7E1", "dbg": true, "cmd": {"22": "0305"}, "freq": 900,
+  "signals": [
+    {"id": "JETTA_DRIVE_TIME_MANUAL", "path": "Stats", "fmt": { "len": 8, "max": 100, "div": 2.5, "unit": "percent" }, "name": "Driving time (manual)", "description": "Value may be wrong, needs more validation. Proportion of time spent driving in manual mode"}
+  ]},
+{ "hdr": "7E1", "dbg": true, "cmd": {"22": "0805"}, "freq": 0.25,
+  "signals": [
+    {"id": "JETTA_BRAKE_LIGHT_ON_VALID", "path": "Control", "fmt": {"bix": 4, "len": 1, "max": 1, "unit": "noyes" }, "name": "Brake light reading valid?"},
+    {"id": "JETTA_BRAKE_PRESSED_VALID",  "path": "Control", "fmt": {"bix": 5, "len": 1, "max": 1, "unit": "noyes" }, "name": "Brake pressure reading valid?"},
+    {"id": "JETTA_BRAKE_PRESSED",        "path": "Control", "fmt": {"bix": 6, "len": 1, "max": 1, "unit": "offon" }, "name": "Brake"},
+    {"id": "JETTA_BRAKE_LIGHT_ON",       "path": "Control", "fmt": {"bix": 7, "len": 1, "max": 1, "unit": "offon" }, "name": "Brake light"}
+  ]},
+{ "hdr": "7E1", "dbg": true, "cmd": {"22": "1002"}, "freq": 0.25,
+  "signals": [
+    {"id": "JETTA_TIRE_FL_SPD_V2", "path": "Movement", "fmt": { "len": 16, "max": 255, "div": 10, "unit": "kilometersPerHour" }, "name": "Front left wheel speed"}
+  ]},
+{ "hdr": "7E1", "dbg": true, "cmd": {"22": "1003"}, "freq": 0.25,
+  "signals": [
+    {"id": "JETTA_TIRE_RR_SPD_V2", "path": "Movement", "fmt": { "len": 16, "max": 255, "div": 10, "unit": "kilometersPerHour" }, "name": "Rear right wheel speed"}
+  ]},
+{ "hdr": "7E1", "dbg": true, "cmd": {"22": "1004"}, "freq": 0.25,
+  "signals": [
+    {"id": "JETTA_TIRE_RL_SPD_V2", "path": "Movement", "fmt": { "len": 16, "max": 255, "div": 10, "unit": "kilometersPerHour" }, "name": "Rear left wheel speed"}
+  ]},
+{ "hdr": "7E1", "dbg": true, "cmd": {"22": "101A"}, "freq": 1,
+  "signals": [
+    {"id": "JETTA_ODO_TCM_2", "path": "Trips", "fmt": { "len": 24, "blsb": true, "max": 16777215, "unit": "kilometers" }, "name": "Odometer (tcm #2)", "suggestedMetric": "odometer"}
+  ]},
+{ "hdr": "7E1", "dbg": true, "cmd": {"22": "2B1B"}, "freq": 30,
+  "signals": [
+    {"id": "JETTA_TIRE_FL_SPD", "path": "Movement", "fmt": { "len": 16, "max": 1000, "div": 10, "unit": "kilometersPerHour" }, "name": "Front left wheel speed"}
+  ]},
+{ "hdr": "7E1", "dbg": true, "cmd": {"22": "2B1C"}, "freq": 30,
+  "signals": [
+    {"id": "JETTA_TIRE_FR_SPD", "path": "Movement", "fmt": { "len": 16, "max": 1000, "div": 10, "unit": "kilometersPerHour" }, "name": "Front right wheel speed"}
+  ]},
+{ "hdr": "7E1", "dbg": true, "cmd": {"22": "2B1D"}, "freq": 30,
+  "signals": [
+    {"id": "JETTA_TIRE_RL_SPD", "path": "Movement", "fmt": { "len": 16, "max": 1000, "div": 10, "unit": "kilometersPerHour" }, "name": "Rear left wheel speed"}
+  ]},
+{ "hdr": "7E1", "dbg": true, "cmd": {"22": "2B1E"}, "freq": 30,
+  "signals": [
+    {"id": "JETTA_TIRE_RR_SPD", "path": "Movement", "fmt": { "len": 16, "max": 1000, "div": 10, "unit": "kilometersPerHour" }, "name": "Rear right wheel speed"}
+  ]},
+{ "hdr": "7E1", "cmd": {"22": "3841"}, "freq": 5, "dbgfilter": { "to": 2019, "from": 2021 },
+  "signals": [
+    {"id": "JETTA_ODO_TCM_1", "path": "Trips", "fmt": { "len": 32, "blsb": true, "max": 4294967295, "unit": "kilometers" }, "name": "Odometer (tcm #1)", "suggestedMetric": "odometer"}
+  ]},
+{ "hdr": "7E1", "cmd": {"22": "3887"}, "freq": 1, "dbgfilter": { "to": 2019, "from": 2021 },
+  "signals": [
+    {"id": "JETTA_ODO_TCM_2_HD", "path": "Trips", "fmt": { "len": 32, "blsb": true, "max": 429496729.5, "div": 10, "unit": "kilometers" }, "name": "Odometer (tcm #2 high res)", "suggestedMetric": "odometer"}
+  ]},
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1001"}, "freq": 0.25, "dbgfilter": { "to": 2019, "from": 2021 },
+  "signals": [
+    {"id": "JETTA_TIRE_FR_SPD_V2", "path": "Movement", "fmt": { "len": 16, "max": 255, "div": 10, "unit": "kilometersPerHour" }, "name": "Front right wheel speed"}
+  ]},
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "210F"}, "freq": 1, "dbgfilter": { "to": 2019, "from": 2021 },
+  "signals": [
+    {"id": "JETTA_GEAR_SHFT", "path": "Transmission", "name": "Shift gear", "fmt": {"len": 8, "map": {
+          "1": { "description": "Reverse", "value": "REVERSE" },
+          "2": { "description": "Park",    "value": "PARK" },
+          "3": { "description": "Drive",   "value": "DRIVE" }
+        }}
+    },
+    {"id": "JETTA_GEAR", "path": "Transmission", "name": "Current gear", "description": "The automatic transmission gear.", "fmt": {"len": 8, "map": {
+          "1": { "description": "First gear",   "value": "1" },
+          "2": { "description": "Second gear",  "value": "2" },
+          "3": { "description": "Third gear",   "value": "3" },
+          "4": { "description": "Fourth gear",  "value": "4" },
+          "5": { "description": "Fifth gear",   "value": "5" },
+          "6": { "description": "Sixth gear",   "value": "6" },
+          "7": { "description": "Seventh gear", "value": "7" }
+        }}
+    }
+  ]},
+{ "hdr": "7E5", "dbg": true, "cmd": {"22": "5200"}, "freq": 3600,
+  "signals": [
+    {"id": "JETTA_LAUNCH", "path": "Stats", "fmt": { "len": 32, "max": 1000000, "unit": "scalar" }, "name": "Launch control count", "description": "How many times you've initiated launch control on the car."}
   ]}
 ]
 }
