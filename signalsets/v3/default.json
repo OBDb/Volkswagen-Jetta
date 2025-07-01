@@ -65,7 +65,6 @@
   ]},
 { "hdr": "710", "dbg": true, "cmd": {"22": "2A0A"}, "freq": 30,
   "signals": [
-    {"id": "JETTA_ODO_2_V3",     "path": "Trips",   "fmt": { "len": 32, "max": 255,                         "unit": "kilometers" }, "name": "Odometer (alternative)",                "suggestedMetric": "odometer"},
     {"id": "JETTA_SSB_SENSOR_T", "path": "Battery", "fmt": { "len": 8,  "max": 215, "min": -40, "add": -40, "unit": "celsius"    }, "name": "Start/stop battery sensor temperature"}
   ]},
 { "hdr": "710", "fcm1": true, "dbg": true, "cmd": {"22": "2AB6"}, "freq": 5,
@@ -92,7 +91,7 @@
   ]},
 { "hdr": "710", "rax": "77A", "cmd": {"22": "2A0E"}, "freq": 5, "dbgfilter": { "to": 2019, "from": 2021 },
   "signals": [
-    {"id": "JETTA_SSB_R", "path": "Battery", "fmt": { "len": 8, "max": 100, "mul": 2, "div": 10, "unit": "milliohms" }, "name": "Start/stop battery resistance"}
+    {"id": "JETTA_SSB_R", "path": "Battery", "fmt": { "len": 8, "max": 51, "mul": 2, "div": 10, "unit": "milliohms" }, "name": "Start/stop battery resistance"}
   ]},
 { "hdr": "710", "rax": "77A", "cmd": {"22": "2A0F"}, "freq": 5, "dbgfilter": { "to": 2019, "from": 2021 },
   "signals": [
@@ -144,15 +143,10 @@
   ]},
 { "hdr": "714", "tmo": "96", "fcm1": true, "dbg": true, "cmd": {"22": "1014"}, "freq": 1,
   "signals": [
-    {"id": "JETTA_AAT", "path": "Climate", "fmt": { "len": 8, "max": 215, "min": -50, "add": -50, "unit": "celsius" }, "name": "Ambient air temperature"}
-  ]},
-{ "hdr": "714", "dbg": true, "cmd": {"22": "202F"}, "freq": 30,
-  "signals": [
-    {"id": "JETTA_EOT", "path": "Engine", "fmt": { "len": 8, "max": 255, "add": -58, "unit": "scalar" }, "name": "Engine oil temperature"}
+    {"id": "JETTA_AAT", "path": "Climate", "fmt": { "len": 8, "max": 205, "min": -50, "add": -50, "unit": "celsius" }, "name": "Ambient air temperature"}
   ]},
 { "hdr": "714", "dbg": true, "cmd": {"22": "2203"}, "freq": 30,
   "signals": [
-    {"id": "JETTA_ODO_DASH", "path": "Trips", "fmt": { "len": 24, "max": 255,      "unit": "kilometers" }, "name": "Odometer (dash)", "suggestedMetric": "odometer"},
     {"id": "JETTA_ODO_V3",   "path": "Trips", "fmt": { "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Odometer",        "suggestedMetric": "odometer"}
   ]},
 { "hdr": "714", "dbg": true, "cmd": {"22": "2294"}, "freq": 30,
@@ -177,7 +171,6 @@
   ]},
 { "hdr": "715", "dbg": true, "cmd": {"22": "2353"}, "freq": 3600,
   "signals": [
-    {"id": "JETTA_CRSH_FRONT",      "path": "Trips", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Crashes, front"},
     {"id": "JETTA_CRASH_CNT_FRONT", "path": "Stats", "fmt": { "len": 8, "max": 100, "unit": "scalar" }, "name": "Crashes, front"}
   ]},
 { "hdr": "715", "dbg": true, "cmd": {"22": "2354"}, "freq": 3600,
@@ -194,7 +187,6 @@
   ]},
 { "hdr": "715", "dbg": true, "cmd": {"22": "2357"}, "freq": 3600,
   "signals": [
-    {"id": "JETTA_CRASH_CNT_ROLL",     "path": "Stats", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Crashes, rollover"},
     {"id": "JETTA_CRASH_CNT_ROLLOVER", "path": "Stats", "fmt": { "len": 8, "max": 100, "unit": "scalar" }, "name": "Crashes, rollover"}
   ]},
 { "hdr": "746", "fcm1": true, "dbg": true, "cmd": {"22": "27C4"}, "freq": 30,
@@ -203,7 +195,7 @@
   ]},
 { "hdr": "7E0", "dbg": true, "cmd": {"22": "028D"}, "freq": 1,
   "signals": [
-    {"id": "JETTA_ECU_TEMP", "path": "Engine", "fmt": { "len": 16, "max": 500, "min": -500, "div": 10, "sign": true, "unit": "celsius" }, "name": "Ecu temperature"}
+    {"id": "JETTA_ECU_TEMP", "path": "Engine", "fmt": { "len": 16, "max": 500, "min": -500, "div": 10, "sign": true, "unit": "celsius" }, "name": "ECU temperature"}
   ]},
 { "hdr": "7E0", "cmd": {"22": "10E0"}, "freq": 30, "dbgfilter": { "to": 2015, "years": [2017, 2018, 2022, 2023, 2024], "from": 2026 },
   "signals": [
@@ -268,7 +260,6 @@
 { "hdr": "7E0", "dbg": true, "cmd": {"22": "295A"}, "freq": 30,
   "signals": [
     {"id": "JETTA_ODO_V2",   "path": "Trips", "fmt": { "len": 24, "max": 16777215,   "unit": "kilometers" }, "name": "Odometer",               "suggestedMetric": "odometer"},
-    {"id": "JETTA_ODO_2_V2", "path": "Trips", "fmt": { "len": 32, "max": 4294967295, "unit": "kilometers" }, "name": "Odometer (alternative)", "suggestedMetric": "odometer"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1004"}, "freq": 5, "dbgfilter": { "to": 2019, "from": 2021 },
   "signals": [
@@ -383,12 +374,6 @@
   ]},
 { "hdr": "7E1", "rax": "7E9", "cmd": {"22": "210F"}, "freq": 1, "dbgfilter": { "to": 2019, "from": 2021 },
   "signals": [
-    {"id": "JETTA_GEAR_SHFT", "path": "Transmission", "name": "Shift gear", "fmt": {"len": 8, "map": {
-          "1": { "description": "Reverse", "value": "REVERSE" },
-          "2": { "description": "Park",    "value": "PARK" },
-          "3": { "description": "Drive",   "value": "DRIVE" }
-        }}
-    },
     {"id": "JETTA_GEAR", "path": "Transmission", "name": "Current gear", "description": "The automatic transmission gear.", "fmt": {"len": 8, "map": {
           "1": { "description": "First gear",   "value": "1" },
           "2": { "description": "Second gear",  "value": "2" },
@@ -396,7 +381,8 @@
           "4": { "description": "Fourth gear",  "value": "4" },
           "5": { "description": "Fifth gear",   "value": "5" },
           "6": { "description": "Sixth gear",   "value": "6" },
-          "7": { "description": "Seventh gear", "value": "7" }
+          "7": { "description": "Seventh gear", "value": "7" },
+          "8": { "description": "Eighth gear", "value": "8" }
         }}
     }
   ]},
