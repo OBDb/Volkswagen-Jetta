@@ -1,11 +1,8 @@
 command_id: 7E0.7E8.22F41F
 test_cases:
 - expected_values:
-    JETTA_RUNTM: 30
-  response: 7E80562F41F001E
-- expected_values:
-    JETTA_RUNTM: 256
-  response: 7E80562F41F0100
+    JETTA_RUNTM: 0
+  response: 7E80562F41F0000
 - expected_values:
     JETTA_RUNTM: 511
   response: 7E80562F41F01FF

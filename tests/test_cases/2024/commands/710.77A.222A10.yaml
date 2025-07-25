@@ -4,6 +4,9 @@ test_cases:
     JETTA_SSB_V_REST: 9
   response: 77A04622A1000
 - expected_values:
+    JETTA_SSB_V_REST: 15.98824
+  response: 77A04622A1021
+- expected_values:
     JETTA_SSB_V_REST: 16.2
   response: 77A04622A1022
 - expected_values:

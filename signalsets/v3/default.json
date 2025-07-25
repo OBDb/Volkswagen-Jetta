@@ -7,7 +7,7 @@
   "signals": [
     {"id": "JETTA_SSB_V", "path": "Battery", "fmt": { "len": 16, "max": 69.535, "min": 4, "div": 1000, "add": 4, "unit": "volts" }, "name": "Start/stop battery voltage"}
   ]},
-{ "hdr": "710", "rax": "77A", "dbg": true, "cmd": {"22": "2A09"}, "freq": 1,
+{ "hdr": "710", "rax": "77A", "cmd": {"22": "2A09"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "JETTA_SSB_C", "path": "Battery", "fmt": { "len": 32, "max": 100, "div": 1000, "sign": true, "unit": "amps" }, "name": "Start/stop battery current"}
   ]},
@@ -27,36 +27,48 @@
   "signals": [
     {"id": "JETTA_SSB_V_REST", "path": "Battery", "fmt": { "len": 8, "max": 63, "min": 9, "mul": 54, "div": 255, "add": 9, "unit": "volts" }, "name": "Start/stop battery voltage (at rest)"}
   ]},
-{ "hdr": "710", "rax": "77A", "fcm1": true, "dbg": true, "cmd": {"22": "2A61"}, "freq": 1,
+{ "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2A61"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "JETTA_SSB_TOTAL_CHARGE",    "path": "Battery", "fmt": {           "len": 32, "max": 100, "div": 10, "unit": "ampereHours" }, "name": "Start/stop battery total charge"},
     {"id": "JETTA_SSB_TOTAL_DISCHARGE", "path": "Battery", "fmt": {"bix": 32, "len": 32, "max": 100, "div": 10, "unit": "ampereHours" }, "name": "Start/stop battery total discharge"}
+  ]},
+{ "hdr": "713", "rax": "77D", "fcm1": true, "dbg": true, "cmd": {"22": "1800"}, "freq": 0.25,
+  "signals": [
+    {"id": "JETTA_FL_VSS", "path": "Movement", "fmt": { "len": 16, "max": 100, "div": 100, "unit": "kilometersPerHour" }, "name": "Front left wheel speed"}
+  ]},
+{ "hdr": "713", "rax": "77D", "fcm1": true, "dbg": true, "cmd": {"22": "1801"}, "freq": 0.25,
+  "signals": [
+    {"id": "JETTA_FR_VSS", "path": "Movement", "fmt": { "len": 16, "max": 100, "div": 100, "unit": "kilometersPerHour" }, "name": "Front right wheel speed"}
+  ]},
+{ "hdr": "713", "rax": "77D", "fcm1": true, "dbg": true, "cmd": {"22": "1802"}, "freq": 0.25,
+  "signals": [
+    {"id": "JETTA_RL_VSS", "path": "Movement", "fmt": { "len": 16, "max": 100, "div": 100, "unit": "kilometersPerHour" }, "name": "Rear left wheel speed"}
+  ]},
+{ "hdr": "713", "rax": "77D", "fcm1": true, "dbg": true, "cmd": {"22": "1803"}, "freq": 0.25,
+  "signals": [
+    {"id": "JETTA_RR_VSS", "path": "Movement", "fmt": { "len": 16, "max": 100, "div": 100, "unit": "kilometersPerHour" }, "name": "Rear right wheel speed"}
   ]},
 { "hdr": "714", "rax": "77E", "fcm1": true, "dbg": true, "cmd": {"22": "1014"}, "freq": 1,
   "signals": [
     {"id": "JETTA_AAT", "path": "Climate", "fmt": { "len": 8, "max": 77.5, "min": -50, "mul": 0.5, "add": -50, "unit": "celsius" }, "name": "Ambient air temperature"}
   ]},
-{ "hdr": "714", "rax": "77E", "fcm1": true, "dbg": true, "cmd": {"22": "2294"}, "freq": 1,
-  "signals": [
-    {"id": "JETTA_DTE", "path": "Trips", "fmt": { "len": 16, "max": 65535, "unit": "kilometers" }, "name": "Distance to empty", "suggestedMetric": "fuelRange"}
-  ]},
-{ "hdr": "715", "rax": "77F", "fcm1": true, "dbg": true, "cmd": {"22": "2353"}, "freq": 1,
+{ "hdr": "715", "rax": "77F", "fcm1": true, "cmd": {"22": "2353"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "JETTA_CRASH_FRONT", "path": "Stats", "fmt": { "len": 8, "max": 100, "unit": "scalar" }, "name": "Crashes, front"}
   ]},
-{ "hdr": "715", "rax": "77F", "fcm1": true, "dbg": true, "cmd": {"22": "2354"}, "freq": 1,
+{ "hdr": "715", "rax": "77F", "fcm1": true, "cmd": {"22": "2354"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "JETTA_CRASH_DRVR", "path": "Stats", "fmt": { "len": 8, "max": 100, "unit": "scalar" }, "name": "Crashes, driver side"}
   ]},
-{ "hdr": "715", "rax": "77F", "fcm1": true, "dbg": true, "cmd": {"22": "2355"}, "freq": 1,
+{ "hdr": "715", "rax": "77F", "fcm1": true, "cmd": {"22": "2355"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "JETTA_CRASH_PASS", "path": "Stats", "fmt": { "len": 8, "max": 100, "unit": "scalar" }, "name": "Crashes, passenger side"}
   ]},
-{ "hdr": "715", "rax": "77F", "fcm1": true, "dbg": true, "cmd": {"22": "2356"}, "freq": 1,
+{ "hdr": "715", "rax": "77F", "fcm1": true, "cmd": {"22": "2356"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "JETTA_CRASH_REAR", "path": "Stats", "fmt": { "len": 8, "max": 100, "unit": "scalar" }, "name": "Crashes, rear"}
   ]},
-{ "hdr": "715", "rax": "77F", "fcm1": true, "dbg": true, "cmd": {"22": "2357"}, "freq": 1,
+{ "hdr": "715", "rax": "77F", "fcm1": true, "cmd": {"22": "2357"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "JETTA_ROLLOVER", "path": "Stats", "fmt": { "len": 8, "max": 100, "unit": "scalar" }, "name": "Rollovers"}
   ]},
