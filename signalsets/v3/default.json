@@ -11,6 +11,10 @@
   "signals": [
     {"id": "JETTA_SSB_T", "path": "Battery", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Start/stop battery sensor temperature"}
   ]},
+{ "hdr": "710", "rax": "77A", "cmd": {"22": "2A0C"}, "freq": 1, "dbgfilter": { "to": 2019, "from": 2021 },
+  "signals": [
+    {"id": "JETTA_SSB_SOC", "path": "Battery", "fmt": { "len": 8, "max": 100, "unit": "percent" }, "name": "Start/stop battery state of charge"}
+  ]},
 { "hdr": "710", "rax": "77A", "cmd": {"22": "2A0F"}, "freq": 5, "dbgfilter": { "to": 2019, "years": [2021, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "JETTA_SSB_AH", "path": "Battery", "fmt": { "len": 8, "max": 255, "unit": "ampereHours" }, "name": "Start/stop battery charge"}
