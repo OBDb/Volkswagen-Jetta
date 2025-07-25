@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.2210E0
+test_cases:
+- expected_values:
+    JETTA_ODO: 4441
+  response: 7E8076210E000001159

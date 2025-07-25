@@ -49,6 +49,22 @@ test_cases:
     7E8100D416D02000003
     7E821DF280000000028
 - expected_values:
+    FRP_A: 9920
+    FRP_A_CMD: 0
+    FRP_A_CMD_SUP: 0
+    FRP_A_SUP: 1
+    FRP_B: 0
+    FRP_B_CMD: 0
+    FRP_B_CMD_SUP: 0
+    FRP_B_SUP: 0
+    FRT_A: 0
+    FRT_A_SUP: 0
+    FRT_B: 0
+    FRT_B_SUP: 0
+  response: |-
+    7E8100D416D02000003
+    7E821E0280000000028
+- expected_values:
     FRP_A: 19240
     FRP_A_CMD: 0
     FRP_A_CMD_SUP: 0

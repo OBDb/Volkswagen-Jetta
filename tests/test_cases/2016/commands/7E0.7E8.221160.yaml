@@ -1,0 +1,26 @@
+command_id: 7E0.7E8.221160
+test_cases:
+- expected_values:
+    JETTA_ODO_HD: 217235.619
+  response: 7E8076211600CF2C0A3
+- expected_values:
+    JETTA_ODO_HD: 217336.718
+  response: 7E8076211600CF44B8E
+- expected_values:
+    JETTA_ODO_HD: 219762.017
+  response: 7E8076211600D194D61
+- expected_values:
+    JETTA_ODO_HD: 223087.872
+  response: 7E8076211600D4C0D00
+- expected_values:
+    JETTA_ODO_HD: 223700.991
+  response: 7E8076211600D5567FF
+- expected_values:
+    JETTA_ODO_HD: 224984.678
+  response: 7E8076211600D68FE66
+- expected_values:
+    JETTA_ODO_HD: 224985.588
+  response: 7E8076211600D6901F4
+- expected_values:
+    JETTA_ODO_HD: 294096.18
+  response: 7E80762116011878D34

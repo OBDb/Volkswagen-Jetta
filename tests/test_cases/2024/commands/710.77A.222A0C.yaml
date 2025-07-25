@@ -1,0 +1,11 @@
+command_id: 710.77A.222A0C
+test_cases:
+- expected_values:
+    JETTA_SSB_SOC: 69
+  response: 77A04622A0C45
+- expected_values:
+    JETTA_SSB_SOC: 70
+  response: 77A04622A0C46
+- expected_values:
+    JETTA_SSB_SOC: 71
+  response: 77A04622A0C47
