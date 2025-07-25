@@ -24,29 +24,25 @@
     {"id": "JETTA_SSB_TOTAL_CHARGE",    "path": "Battery", "fmt": {           "len": 32, "max": 100, "div": 10, "unit": "ampereHours" }, "name": "Start/stop battery total charge"},
     {"id": "JETTA_SSB_TOTAL_DISCHARGE", "path": "Battery", "fmt": {"bix": 32, "len": 32, "max": 100, "div": 10, "unit": "ampereHours" }, "name": "Start/stop battery total discharge"}
   ]},
-{ "hdr": "715", "fcm1": true, "dbg": true, "cmd": {"22": "2353"}, "freq": 1,
+{ "hdr": "715", "rax": "77F", "fcm1": true, "dbg": true, "cmd": {"22": "2353"}, "freq": 1,
   "signals": [
     {"id": "JETTA_CRASH_FRONT", "path": "Stats", "fmt": { "len": 8, "max": 100, "unit": "scalar" }, "name": "Crashes, front"}
   ]},
-{ "hdr": "715", "fcm1": true, "dbg": true, "cmd": {"22": "2354"}, "freq": 1,
+{ "hdr": "715", "rax": "77F", "fcm1": true, "dbg": true, "cmd": {"22": "2354"}, "freq": 1,
   "signals": [
     {"id": "JETTA_CRASH_DRVR", "path": "Stats", "fmt": { "len": 8, "max": 100, "unit": "scalar" }, "name": "Crashes, driver side"}
   ]},
-{ "hdr": "715", "fcm1": true, "dbg": true, "cmd": {"22": "2355"}, "freq": 1,
+{ "hdr": "715", "rax": "77F", "fcm1": true, "dbg": true, "cmd": {"22": "2355"}, "freq": 1,
   "signals": [
     {"id": "JETTA_CRASH_PASS", "path": "Stats", "fmt": { "len": 8, "max": 100, "unit": "scalar" }, "name": "Crashes, passenger side"}
   ]},
-{ "hdr": "715", "fcm1": true, "dbg": true, "cmd": {"22": "2356"}, "freq": 1,
+{ "hdr": "715", "rax": "77F", "fcm1": true, "dbg": true, "cmd": {"22": "2356"}, "freq": 1,
   "signals": [
     {"id": "JETTA_CRASH_REAR", "path": "Stats", "fmt": { "len": 8, "max": 100, "unit": "scalar" }, "name": "Crashes, rear"}
   ]},
-{ "hdr": "715", "fcm1": true, "dbg": true, "cmd": {"22": "2357"}, "freq": 1,
+{ "hdr": "715", "rax": "77F", "fcm1": true, "dbg": true, "cmd": {"22": "2357"}, "freq": 1,
   "signals": [
     {"id": "JETTA_ROLLOVER", "path": "Stats", "fmt": { "len": 8, "max": 100, "unit": "scalar" }, "name": "Rollovers"}
-  ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1004"}, "freq": 5, "dbgfilter": { "to": 2019, "years": [2021, 2022, 2023], "from": 2025 },
-  "signals": [
-    {"id": "JETTA_AAT_V2", "path": "Climate", "fmt": { "len": 16, "max": 255, "min": -255, "mul": 10000, "div": 128, "sign": true, "unit": "celsius" }, "name": "Ambient temperature"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "10E0"}, "freq": 5, "dbgfilter": { "to": 2015, "years": [2017, 2018, 2022, 2023], "from": 2026 },
   "signals": [
