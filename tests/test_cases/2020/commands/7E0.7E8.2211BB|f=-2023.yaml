@@ -1,4 +1,4 @@
-command_id: 7E0.2211BB
+command_id: 7E0.7E8.2211BB|f=-2023
 test_cases:
 - expected_values:
     JETTA_OIL_CRIT: 3.992
@@ -10,5 +10,5 @@ test_cases:
     JETTA_OIL_CRIT: 4.5056
   response: 7E8056211BB2C00
 - expected_values:
-    JETTA_OIL_CRIT: 5.9924
-  response: 7E8056211BB3A85
+    JETTA_OIL_CRIT: 5.9524
+  response: 7E8056211BB3A21
