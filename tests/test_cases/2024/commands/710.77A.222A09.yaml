@@ -1,11 +1,14 @@
 command_id: 710.77A.222A09
 test_cases:
 - expected_values:
-    JETTA_SSB_C: 4.36
-  response: 77A07622A0900001108
+    JETTA_SSB_C: 1.915
+  response: 77A07622A090000077B
 - expected_values:
-    JETTA_SSB_C: 28.621
-  response: 77A07622A0900006FCD
+    JETTA_SSB_C: 2.044
+  response: 77A07622A09000007FC
+- expected_values:
+    JETTA_SSB_C: 2.048
+  response: 77A07622A0900000800
 - expected_values:
     JETTA_SSB_C: 0
   response: 77A07622A09FFFFE074
