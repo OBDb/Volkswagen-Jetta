@@ -15,9 +15,13 @@
   "signals": [
     {"id": "JETTA_SSB_V_REST", "path": "Battery", "fmt": { "len": 8, "max": 63, "min": 9, "mul": 54, "div": 255, "add": 9, "unit": "volts" }, "name": "Start/stop battery voltage (at rest)"}
   ]},
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "028D"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
+  "signals": [
+    {"id": "JETTA_ECU_TEMP", "path": "Engine", "fmt": { "len": 16, "max": 3276, "min": -3276, "div": 10, "sign": true, "unit": "celsius" }, "name": "ECU temperature"}
+  ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1004"}, "freq": 5, "dbgfilter": { "to": 2019, "years": [2021, 2022, 2023], "from": 2025 },
   "signals": [
-    {"id": "JETTA_AAT_V2", "path": "Climate", "fmt": { "len": 16, "max": 255, "min": -255, "div": 128, "mul": 10000, "sign": true, "unit": "celsius" }, "name": "Ambient temperature"}
+    {"id": "JETTA_AAT_V2", "path": "Climate", "fmt": { "len": 16, "max": 255, "min": -255, "mul": 10000, "div": 128, "sign": true, "unit": "celsius" }, "name": "Ambient temperature"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "10E0"}, "freq": 5, "dbgfilter": { "to": 2015, "years": [2017, 2018, 2022, 2023], "from": 2026 },
   "signals": [
@@ -38,6 +42,22 @@
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11BD"}, "freq": 3600, "dbgfilter": { "to": 2019, "years": [2021, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "JETTA_OIL_LEVEL_WARN", "path": "Fluids", "fmt": { "len": 16, "max": 26.2, "div": 2500, "unit": "centimeters" }, "name": "Oil level warning threshold"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F41F"}, "freq": 1, "dbgfilter": { "to": 2019, "years": [2021, 2022, 2023], "from": 2025 },
+  "signals": [
+    {"id": "JETTA_RUNTM", "path": "Clocks", "fmt": { "len": 16, "max": 65535, "unit": "seconds" }, "name": "Time since engine start", "description": "How long it's been since the engine started."}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F421"}, "freq": 5, "dbgfilter": { "to": 2019, "years": [2021, 2022, 2023], "from": 2025 },
+  "signals": [
+    {"id": "JETTA_MIL_DIST", "path": "DTCs", "fmt": { "len": 16, "max": 65535, "unit": "kilometers" }, "name": "Distance traveled while mil was activated"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F430"}, "freq": 3600, "dbgfilter": { "to": 2019, "years": [2021, 2022, 2023], "from": 2025 },
+  "signals": [
+    {"id": "JETTA_WARM_UPS", "path": "DTCs", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Number of warm-ups since diagnostic trouble codes cleared"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F431"}, "freq": 5, "dbgfilter": { "to": 2019, "years": [2021, 2022, 2023], "from": 2025 },
+  "signals": [
+    {"id": "JETTA_CLR_DIST", "path": "DTCs", "fmt": { "len": 16, "max": 65535, "unit": "kilometers" }, "name": "Distance traveled since diagnostic trouble codes cleared", "suggestedMetric": "distanceSinceDTCsCleared"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F442"}, "freq": 0.25, "dbgfilter": { "to": 2019, "years": [2021, 2022, 2023], "from": 2025 },
   "signals": [
