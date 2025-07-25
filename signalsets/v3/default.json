@@ -26,23 +26,23 @@
   ]},
 { "hdr": "715", "dbg": true, "cmd": {"22": "2353"}, "freq": 1,
   "signals": [
-    {"id": "JETTA_CRASH_FRONT", "path": "ECU", "fmt": { "len": 8, "max": 100, "unit": "scalar" }, "name": "Crashes, front"}
+    {"id": "JETTA_CRASH_FRONT", "path": "Stats", "fmt": { "len": 8, "max": 100, "unit": "scalar" }, "name": "Crashes, front"}
   ]},
 { "hdr": "715", "dbg": true, "cmd": {"22": "2354"}, "freq": 1,
   "signals": [
-    {"id": "JETTA_CRASH_DRVR", "path": "ECU", "fmt": { "len": 8, "max": 100, "unit": "scalar" }, "name": "Crashes, driver side"}
+    {"id": "JETTA_CRASH_DRVR", "path": "Stats", "fmt": { "len": 8, "max": 100, "unit": "scalar" }, "name": "Crashes, driver side"}
   ]},
 { "hdr": "715", "dbg": true, "cmd": {"22": "2355"}, "freq": 1,
   "signals": [
-    {"id": "JETTA_CRASH_PASS", "path": "ECU", "fmt": { "len": 8, "max": 100, "unit": "scalar" }, "name": "Crashes, passenger side"}
+    {"id": "JETTA_CRASH_PASS", "path": "Stats", "fmt": { "len": 8, "max": 100, "unit": "scalar" }, "name": "Crashes, passenger side"}
   ]},
 { "hdr": "715", "dbg": true, "cmd": {"22": "2356"}, "freq": 1,
   "signals": [
-    {"id": "JETTA_CRASH_REAR", "path": "ECU", "fmt": { "len": 8, "max": 100, "unit": "scalar" }, "name": "Crashes, rear"}
+    {"id": "JETTA_CRASH_REAR", "path": "Stats", "fmt": { "len": 8, "max": 100, "unit": "scalar" }, "name": "Crashes, rear"}
   ]},
 { "hdr": "715", "dbg": true, "cmd": {"22": "2357"}, "freq": 1,
   "signals": [
-    {"id": "JETTA_ROLLOVER", "path": "ECU", "fmt": { "len": 8, "max": 100, "unit": "scalar" }, "name": "Rollovers"}
+    {"id": "JETTA_ROLLOVER", "path": "Stats", "fmt": { "len": 8, "max": 100, "unit": "scalar" }, "name": "Rollovers"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1004"}, "freq": 5, "dbgfilter": { "to": 2019, "years": [2021, 2022, 2023], "from": 2025 },
   "signals": [
