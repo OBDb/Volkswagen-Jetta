@@ -1,5 +1,4 @@
-{ "diagnosticLevel": "03",
-  "commands": [
+{ "commands": [
 { "hdr": "710", "rax": "77A", "fcm1": true, "dbg": true, "cmd": {"22": "2A00"}, "freq": 1,
   "signals": [
     {"id": "JETTA_SSB_VT", "path": "Battery", "fmt": { "len": 8, "max": 36.1, "div": 10, "add": 10.6, "unit": "volts" }, "name": "Start/stop battery target voltage"}
@@ -32,22 +31,6 @@
   "signals": [
     {"id": "JETTA_SSB_TOTAL_CHARGE",    "path": "Battery", "fmt": {           "len": 32, "max": 100, "div": 10, "unit": "ampereHours" }, "name": "Start/stop battery total charge"},
     {"id": "JETTA_SSB_TOTAL_DISCHARGE", "path": "Battery", "fmt": {"bix": 32, "len": 32, "max": 100, "div": 10, "unit": "ampereHours" }, "name": "Start/stop battery total discharge"}
-  ]},
-{ "hdr": "713", "rax": "77D", "fcm1": true, "dbg": true, "cmd": {"22": "1800"}, "freq": 0.25,
-  "signals": [
-    {"id": "JETTA_FL_VSS", "path": "Movement", "fmt": { "len": 16, "max": 100, "div": 100, "unit": "kilometersPerHour" }, "name": "Front left wheel speed"}
-  ]},
-{ "hdr": "713", "rax": "77D", "fcm1": true, "dbg": true, "cmd": {"22": "1801"}, "freq": 0.25,
-  "signals": [
-    {"id": "JETTA_FR_VSS", "path": "Movement", "fmt": { "len": 16, "max": 100, "div": 100, "unit": "kilometersPerHour" }, "name": "Front right wheel speed"}
-  ]},
-{ "hdr": "713", "rax": "77D", "fcm1": true, "dbg": true, "cmd": {"22": "1802"}, "freq": 0.25,
-  "signals": [
-    {"id": "JETTA_RL_VSS", "path": "Movement", "fmt": { "len": 16, "max": 100, "div": 100, "unit": "kilometersPerHour" }, "name": "Rear left wheel speed"}
-  ]},
-{ "hdr": "713", "rax": "77D", "fcm1": true, "dbg": true, "cmd": {"22": "1803"}, "freq": 0.25,
-  "signals": [
-    {"id": "JETTA_RR_VSS", "path": "Movement", "fmt": { "len": 16, "max": 100, "div": 100, "unit": "kilometersPerHour" }, "name": "Rear right wheel speed"}
   ]},
 { "hdr": "714", "rax": "77E", "fcm1": true, "dbg": true, "cmd": {"22": "1014"}, "freq": 1,
   "signals": [
@@ -101,6 +84,14 @@
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11BD"}, "freq": 3600, "dbgfilter": { "to": 2019, "years": [2021, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "JETTA_OIL_LEVEL_WARN", "path": "Fluids", "fmt": { "len": 16, "max": 26.2, "div": 2500, "unit": "centimeters" }, "name": "Oil level warning threshold"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "14B4"}, "freq": 1,
+  "signals": [
+    {"id": "JETTA_FLV", "path": "Fuel", "fmt": { "len": 16, "max": 1000, "min": -1000, "mul": 327.67, "div": 10000, "sign": true, "unit": "liters" }, "name": "Fuel level"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "24FC"}, "freq": 1,
+  "signals": [
+    {"id": "JETTA_FLV_MAX", "path": "Fuel", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "liters" }, "name": "Fuel level, maximum"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F40D"}, "freq": 0.25, "dbgfilter": { "to": 2019, "years": [2021, 2022, 2023], "from": 2025 },
   "signals": [
