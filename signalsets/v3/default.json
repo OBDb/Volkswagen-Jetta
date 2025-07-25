@@ -15,10 +15,6 @@
   "signals": [
     {"id": "JETTA_SSB_V_REST", "path": "Battery", "fmt": { "len": 8, "max": 63, "min": 9, "mul": 54, "div": 255, "add": 9, "unit": "volts" }, "name": "Start/stop battery voltage (at rest)"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "028D"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
-  "signals": [
-    {"id": "JETTA_ECU_TEMP", "path": "Engine", "fmt": { "len": 16, "max": 3276, "min": -3276, "div": 10, "sign": true, "unit": "celsius" }, "name": "ECU temperature"}
-  ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1004"}, "freq": 5, "dbgfilter": { "to": 2019, "years": [2021, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "JETTA_AAT_V2", "path": "Climate", "fmt": { "len": 16, "max": 255, "min": -255, "mul": 10000, "div": 128, "sign": true, "unit": "celsius" }, "name": "Ambient temperature"}
@@ -42,6 +38,10 @@
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11BD"}, "freq": 3600, "dbgfilter": { "to": 2019, "years": [2021, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "JETTA_OIL_LEVEL_WARN", "path": "Fluids", "fmt": { "len": 16, "max": 26.2, "div": 2500, "unit": "centimeters" }, "name": "Oil level warning threshold"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11BE"}, "freq": 1, "dbgfilter": { "to": 2019, "years": [2021, 2022, 2023], "from": 2025 },
+  "signals": [
+    {"id": "JETTA_EOT", "path": "Engine", "fmt": { "len": 16, "max": 6280.4, "min": 273.1, "div": 10, "add": -273.1, "unit": "celsius" }, "name": "Engine oil temperature"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F41F"}, "freq": 1, "dbgfilter": { "to": 2019, "years": [2021, 2022, 2023], "from": 2025 },
   "signals": [
