@@ -24,23 +24,23 @@
     {"id": "JETTA_SSB_TOTAL_CHARGE",    "path": "Battery", "fmt": {           "len": 32, "max": 100, "div": 10, "unit": "ampereHours" }, "name": "Start/stop battery total charge"},
     {"id": "JETTA_SSB_TOTAL_DISCHARGE", "path": "Battery", "fmt": {"bix": 32, "len": 32, "max": 100, "div": 10, "unit": "ampereHours" }, "name": "Start/stop battery total discharge"}
   ]},
-{ "hdr": "715", "dbg": true, "cmd": {"22": "2353"}, "freq": 1,
+{ "hdr": "715", "fcm1": true, "dbg": true, "cmd": {"22": "2353"}, "freq": 1,
   "signals": [
     {"id": "JETTA_CRASH_FRONT", "path": "Stats", "fmt": { "len": 8, "max": 100, "unit": "scalar" }, "name": "Crashes, front"}
   ]},
-{ "hdr": "715", "dbg": true, "cmd": {"22": "2354"}, "freq": 1,
+{ "hdr": "715", "fcm1": true, "dbg": true, "cmd": {"22": "2354"}, "freq": 1,
   "signals": [
     {"id": "JETTA_CRASH_DRVR", "path": "Stats", "fmt": { "len": 8, "max": 100, "unit": "scalar" }, "name": "Crashes, driver side"}
   ]},
-{ "hdr": "715", "dbg": true, "cmd": {"22": "2355"}, "freq": 1,
+{ "hdr": "715", "fcm1": true, "dbg": true, "cmd": {"22": "2355"}, "freq": 1,
   "signals": [
     {"id": "JETTA_CRASH_PASS", "path": "Stats", "fmt": { "len": 8, "max": 100, "unit": "scalar" }, "name": "Crashes, passenger side"}
   ]},
-{ "hdr": "715", "dbg": true, "cmd": {"22": "2356"}, "freq": 1,
+{ "hdr": "715", "fcm1": true, "dbg": true, "cmd": {"22": "2356"}, "freq": 1,
   "signals": [
     {"id": "JETTA_CRASH_REAR", "path": "Stats", "fmt": { "len": 8, "max": 100, "unit": "scalar" }, "name": "Crashes, rear"}
   ]},
-{ "hdr": "715", "dbg": true, "cmd": {"22": "2357"}, "freq": 1,
+{ "hdr": "715", "fcm1": true, "dbg": true, "cmd": {"22": "2357"}, "freq": 1,
   "signals": [
     {"id": "JETTA_ROLLOVER", "path": "Stats", "fmt": { "len": 8, "max": 100, "unit": "scalar" }, "name": "Rollovers"}
   ]},
