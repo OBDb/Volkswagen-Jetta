@@ -1,4 +1,5 @@
-{ "commands": [
+{ "diagnosticLevel": "03",
+  "commands": [
 { "hdr": "710", "rax": "77A", "fcm1": true, "dbg": true, "cmd": {"22": "2A00"}, "freq": 1,
   "signals": [
     {"id": "JETTA_SSB_VT", "path": "Battery", "fmt": { "len": 8, "max": 36.1, "div": 10, "add": 10.6, "unit": "volts" }, "name": "Start/stop battery target voltage"}
