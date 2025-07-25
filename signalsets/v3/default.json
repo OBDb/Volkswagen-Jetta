@@ -1,7 +1,11 @@
 { "commands": [
 { "hdr": "710", "rax": "77A", "cmd": {"22": "2A07"}, "freq": 1, "dbgfilter": { "to": 2019, "years": [2021, 2022, 2023], "from": 2025 },
   "signals": [
-    {"id": "JETTA_SSB_V", "path": "Battery", "fmt": { "len": 16, "max": 69.54, "min": 4, "div": 100, "add": 4, "unit": "volts" }, "name": "Start/stop battery voltage"}
+    {"id": "JETTA_SSB_V", "path": "Battery", "fmt": { "len": 16, "max": 69.535, "min": 4, "div": 1000, "add": 4, "unit": "volts" }, "name": "Start/stop battery voltage"}
+  ]},
+{ "hdr": "710", "rax": "77A", "dbg": true, "cmd": {"22": "2A09"}, "freq": 1,
+  "signals": [
+    {"id": "JETTA_SSB_C", "path": "Battery", "fmt": { "len": 32, "max": 100, "div": 1000, "sign": true, "unit": "amps" }, "name": "Start/stop battery current"}
   ]},
 { "hdr": "710", "rax": "77A", "cmd": {"22": "2A0B"}, "freq": 1, "dbgfilter": { "to": 2019, "years": [2021, 2022, 2023], "from": 2025 },
   "signals": [
@@ -14,6 +18,31 @@
 { "hdr": "710", "rax": "77A", "cmd": {"22": "2A10"}, "freq": 1, "dbgfilter": { "to": 2019, "years": [2021, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "JETTA_SSB_V_REST", "path": "Battery", "fmt": { "len": 8, "max": 63, "min": 9, "mul": 54, "div": 255, "add": 9, "unit": "volts" }, "name": "Start/stop battery voltage (at rest)"}
+  ]},
+{ "hdr": "710", "rax": "77A", "fcm1": true, "dbg": true, "cmd": {"22": "2A61"}, "freq": 1,
+  "signals": [
+    {"id": "JETTA_SSB_TOTAL_CHARGE",    "path": "Battery", "fmt": {           "len": 32, "max": 100, "div": 10, "unit": "ampereHours" }, "name": "Start/stop battery total charge"},
+    {"id": "JETTA_SSB_TOTAL_DISCHARGE", "path": "Battery", "fmt": {"bix": 32, "len": 32, "max": 100, "div": 10, "unit": "ampereHours" }, "name": "Start/stop battery total discharge"}
+  ]},
+{ "hdr": "715", "dbg": true, "cmd": {"22": "2353"}, "freq": 1,
+  "signals": [
+    {"id": "JETTA_CRASH_FRONT", "path": "ECU", "fmt": { "len": 8, "max": 100, "unit": "scalar" }, "name": "Crashes, front"}
+  ]},
+{ "hdr": "715", "dbg": true, "cmd": {"22": "2354"}, "freq": 1,
+  "signals": [
+    {"id": "JETTA_CRASH_DRVR", "path": "ECU", "fmt": { "len": 8, "max": 100, "unit": "scalar" }, "name": "Crashes, driver side"}
+  ]},
+{ "hdr": "715", "dbg": true, "cmd": {"22": "2355"}, "freq": 1,
+  "signals": [
+    {"id": "JETTA_CRASH_PASS", "path": "ECU", "fmt": { "len": 8, "max": 100, "unit": "scalar" }, "name": "Crashes, passenger side"}
+  ]},
+{ "hdr": "715", "dbg": true, "cmd": {"22": "2356"}, "freq": 1,
+  "signals": [
+    {"id": "JETTA_CRASH_REAR", "path": "ECU", "fmt": { "len": 8, "max": 100, "unit": "scalar" }, "name": "Crashes, rear"}
+  ]},
+{ "hdr": "715", "dbg": true, "cmd": {"22": "2357"}, "freq": 1,
+  "signals": [
+    {"id": "JETTA_ROLLOVER", "path": "ECU", "fmt": { "len": 8, "max": 100, "unit": "scalar" }, "name": "Rollovers"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1004"}, "freq": 5, "dbgfilter": { "to": 2019, "years": [2021, 2022, 2023], "from": 2025 },
   "signals": [
@@ -77,7 +106,7 @@
         }}
     }
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "F442"}, "freq": 1, "dbg": true,
+{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "F442"}, "freq": 1,
   "signals": [
     {"id": "JETTA_ATF_T", "path": "Fluids", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Automatic transmission fluid temperature"}
   ]}
