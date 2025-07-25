@@ -76,6 +76,10 @@
           "8": { "description": "Eighth gear",  "value": "8" }
         }}
     }
+  ]},
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "F442"}, "freq": 1, "dbg": true,
+  "signals": [
+    {"id": "JETTA_ATF_T", "path": "Fluids", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Automatic transmission fluid temperature"}
   ]}
 ]
 }
