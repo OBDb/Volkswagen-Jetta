@@ -88,6 +88,10 @@
   "signals": [
     {"id": "JETTA_VPWR", "path": "Battery", "fmt": { "len": 16, "max": 65, "div": 1000, "unit": "volts" }, "name": "Control module voltage", "suggestedMetric": "starterBatteryVoltage"}
   ]},
+{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "2104"}, "freq": 1,
+  "signals": [
+    {"id": "JETTA_ATF_T", "path": "Fluids", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Automatic transmission fluid temperature"}
+  ]},
 { "hdr": "7E1", "rax": "7E9", "cmd": {"22": "210F"}, "freq": 1, "dbgfilter": { "to": 2019, "years": [2021, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "JETTA_GEAR", "path": "Transmission", "name": "Current gear", "description": "The automatic transmission gear.", "fmt": {"len": 8, "map": {
@@ -101,10 +105,6 @@
           "8": { "description": "Eighth gear",  "value": "8" }
         }}
     }
-  ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "F442"}, "freq": 1,
-  "signals": [
-    {"id": "JETTA_ATF_T", "path": "Fluids", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Automatic transmission fluid temperature"}
   ]}
 ]
 }
