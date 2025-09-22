@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.2211BD
+test_cases:
+- expected_values:
+    JETTA_OIL_LEVEL_WARN: 1.1872
+  response: 7E8056211BD0B98
+- expected_values:
+    JETTA_OIL_LEVEL_WARN: 1.2476
+  response: 7E8056211BD0C2F
+- expected_values:
+    JETTA_OIL_LEVEL_WARN: 1.4312
+  response: 7E8056211BD0DFA
+- expected_values:
+    JETTA_OIL_LEVEL_WARN: 1.4344
+  response: 7E8056211BD0E02
+- expected_values:
+    JETTA_OIL_LEVEL_WARN: 1.4416
+  response: 7E8056211BD0E14

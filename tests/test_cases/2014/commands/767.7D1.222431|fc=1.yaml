@@ -1,0 +1,26 @@
+command_id: 767.7D1.222431|fc=1
+test_cases:
+- expected_values:
+    JETTA_GPS_SATS_TRACKED: 5
+    JETTA_GPS_SATS_VISIBLE: 4
+  response: 7D106622431040505
+- expected_values:
+    JETTA_GPS_SATS_TRACKED: 6
+    JETTA_GPS_SATS_VISIBLE: 4
+  response: 7D106622431040606
+- expected_values:
+    JETTA_GPS_SATS_TRACKED: 10
+    JETTA_GPS_SATS_VISIBLE: 4
+  response: |-
+    7D106622431040909
+    7D106622431040A0A
+- expected_values:
+    JETTA_GPS_SATS_TRACKED: 9
+    JETTA_GPS_SATS_VISIBLE: 4
+  response: |-
+    7D106622431040A0A
+    7D106622431040909
+- expected_values:
+    JETTA_GPS_SATS_TRACKED: 12
+    JETTA_GPS_SATS_VISIBLE: 4
+  response: 7D106622431040C0C
