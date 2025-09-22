@@ -1,0 +1,8 @@
+command_id: 7E1.7E9.222104
+test_cases:
+- expected_values:
+    JETTA_ATF_T: 19
+  response: 7E9046221043B
+- expected_values:
+    JETTA_ATF_T: 94
+  response: '7E90462210486'

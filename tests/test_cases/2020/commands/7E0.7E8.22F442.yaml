@@ -1,6 +1,9 @@
 command_id: 7E0.7E8.22F442
 test_cases:
 - expected_values:
+    JETTA_VPWR: 13.34
+  response: 7E80562F442341C
+- expected_values:
     JETTA_VPWR: 13.76
   response: 7E80562F44235C0
 - expected_values:
