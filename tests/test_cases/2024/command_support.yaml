@@ -179,6 +179,7 @@ unsupported_commands_by_ecu:
   - 7E0.221158
   - 7E0.221159
   - 7E0.22115B
+  - 7E0.2211BB
   - 7E0.2211C4
   - 7E0.2211C5
   - 7E0.222005
@@ -187,7 +188,6 @@ unsupported_commands_by_ecu:
   - 7E0.22295A
   - 7E0.7E8.221151
   - 7E0.7E8.221152
-  - 7E0.7E8.2211BB|f=-2023:JETTA_OIL_CRIT
   "7E1":
   - 7E1.220302
   - 7E1.220303
