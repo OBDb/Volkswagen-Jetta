@@ -4,5 +4,5 @@ test_cases:
     JETTA_WARM_UPS: 0
   response: 7E80462F43000
 - expected_values:
-    JETTA_WARM_UPS: 30
-  response: 7E80462F4301E
+    JETTA_WARM_UPS: 255
+  response: 7E80462F430FF

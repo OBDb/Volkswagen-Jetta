@@ -29,6 +29,20 @@ test_cases:
     7E8100C4170030D260C
     7E821C3000000000000
 - expected_values:
+    BP_A_ACT: 127.09375
+    BP_A_ACT_SUP: 1
+    BP_A_CMD: 126.59375
+    BP_A_CMD_SUP: 1
+    BP_A_SUP: 0
+    BP_B_ACT: 0
+    BP_B_ACT_SUP: 0
+    BP_B_CMD: 0
+    BP_B_CMD_SUP: 0
+    BP_B_SUP: 0
+  response: |-
+    7E8100C4170030FD30F
+    7E821E3000000000000
+- expected_values:
     BP_A_ACT: 124.375
     BP_A_ACT_SUP: 1
     BP_A_CMD: 131.09375
