@@ -10,5 +10,5 @@ test_cases:
     JETTA_VPWR: 13.04
   response: 7E80562F44232F0
 - expected_values:
-    JETTA_VPWR: 14.78
-  response: 7E80562F44239BC
+    JETTA_VPWR: 14.88
+  response: 7E80562F4423A20

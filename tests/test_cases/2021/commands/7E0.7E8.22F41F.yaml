@@ -7,5 +7,5 @@ test_cases:
     JETTA_RUNTM: 255
   response: 7E80562F41F00FF
 - expected_values:
-    JETTA_RUNTM: 1179
-  response: 7E80562F41F049B
+    JETTA_RUNTM: 1031
+  response: 7E80562F41F0407
