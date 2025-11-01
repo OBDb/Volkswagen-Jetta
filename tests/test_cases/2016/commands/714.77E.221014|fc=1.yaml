@@ -3,3 +3,9 @@ test_cases:
 - expected_values:
     JETTA_AAT: 3
   response: 77E046210146A
+- expected_values:
+    JETTA_AAT: 3.5
+  response: 77E046210146B
+- expected_values:
+    JETTA_AAT: 4
+  response: 77E046210146C
