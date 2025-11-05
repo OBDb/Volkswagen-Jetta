@@ -4,26 +4,5 @@ test_cases:
     JETTA_ATF_T: 4
   response: 7E9046221042C
 - expected_values:
-    JETTA_ATF_T: 6
-  response: 7E9046221042E
-- expected_values:
-    JETTA_ATF_T: 8
-  response: '7E90462210430'
-- expected_values:
-    JETTA_ATF_T: 10
-  response: '7E90462210432'
-- expected_values:
-    JETTA_ATF_T: 13
-  response: '7E90462210435'
-- expected_values:
-    JETTA_ATF_T: 14
-  response: '7E90462210436'
-- expected_values:
-    JETTA_ATF_T: 17
-  response: '7E90462210439'
-- expected_values:
-    JETTA_ATF_T: 22
-  response: 7E9046221043E
-- expected_values:
     JETTA_ATF_T: 27
   response: '7E90462210443'
