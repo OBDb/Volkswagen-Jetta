@@ -4,11 +4,11 @@ test_cases:
     JETTA_OIL_LEVEL: 1.8
   response: 7E8056211BA1194
 - expected_values:
-    JETTA_OIL_LEVEL: 6.0412
-  response: 7E8056211BA3AFF
+    JETTA_OIL_LEVEL: 5.12
+  response: 7E8056211BA3200
 - expected_values:
-    JETTA_OIL_LEVEL: 6.248
-  response: 7E8056211BA3D04
+    JETTA_OIL_LEVEL: 5.5292
+  response: 7E8056211BA35FF
 - expected_values:
     JETTA_OIL_LEVEL: 7.0052
   response: 7E8056211BA4469
