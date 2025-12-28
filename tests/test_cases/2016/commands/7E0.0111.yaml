@@ -1,5 +1,32 @@
 command_id: 7E0.0111
 test_cases:
 - expected_values:
+    TP: 12.94118
+  response: '7E803411121'
+- expected_values:
+    TP: 14.90196
+  response: '7E803411126'
+- expected_values:
+    TP: 21.96078
+  response: '7E803411138'
+- expected_values:
+    TP: 22.35294
+  response: '7E803411139'
+- expected_values:
     TP: 27.05882
   response: '7E803411145'
+- expected_values:
+    TP: 29.41176
+  response: 7E80341114B
+- expected_values:
+    TP: 30.98039
+  response: 7E80341114F
+- expected_values:
+    TP: 35.68627
+  response: 7E80341115B
+- expected_values:
+    TP: 36.47059
+  response: 7E80341115D
+- expected_values:
+    TP: 86.66667
+  response: 7E8034111DD
