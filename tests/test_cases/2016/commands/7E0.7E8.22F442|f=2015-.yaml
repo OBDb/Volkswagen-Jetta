@@ -1,0 +1,29 @@
+command_id: 7E0.7E8.22F442|f=2015-
+test_cases:
+- expected_values:
+    JETTA_VPWR: 13.216
+  response: 7E80562F44233A0
+- expected_values:
+    JETTA_VPWR: 14.371
+  response: 7E80562F4423823
+- expected_values:
+    JETTA_VPWR: 14.442
+  response: 7E80562F442386A
+- expected_values:
+    JETTA_VPWR: 14.465
+  response: 7E80562F4423881
+- expected_values:
+    JETTA_VPWR: 14.489
+  response: 7E80562F4423899
+- expected_values:
+    JETTA_VPWR: 14.512
+  response: 7E80562F44238B0
+- expected_values:
+    JETTA_VPWR: 14.536
+  response: 7E80562F44238C8
+- expected_values:
+    JETTA_VPWR: 14.559
+  response: 7E80562F44238DF
+- expected_values:
+    JETTA_VPWR: 14.583
+  response: 7E80562F44238F7

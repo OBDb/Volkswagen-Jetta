@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.22F431|f=2015-
+test_cases:
+- expected_values:
+    JETTA_CLR_DIST: 10082
+  response: 7E80562F4312762
+- expected_values:
+    JETTA_CLR_DIST: 10232
+  response: 7E80562F43127F8
+- expected_values:
+    JETTA_CLR_DIST: 10524
+  response: 7E80562F431291C
+- expected_values:
+    JETTA_CLR_DIST: 13970
+  response: 7E80562F4313692
