@@ -1,0 +1,32 @@
+command_id: 710.77A.222A0F|f=2017-
+test_cases:
+- expected_values:
+    JETTA_SSB_AH: 31
+  response: 77A04622A0F1F
+- expected_values:
+    JETTA_SSB_AH: 33
+  response: 77A04622A0F21
+- expected_values:
+    JETTA_SSB_AH: 37
+  response: 77A04622A0F25
+- expected_values:
+    JETTA_SSB_AH: 38
+  response: 77A04622A0F26
+- expected_values:
+    JETTA_SSB_AH: 39
+  response: 77A04622A0F27
+- expected_values:
+    JETTA_SSB_AH: 40
+  response: 77A04622A0F28
+- expected_values:
+    JETTA_SSB_AH: 41
+  response: 77A04622A0F29
+- expected_values:
+    JETTA_SSB_AH: 42
+  response: 77A04622A0F2A
+- expected_values:
+    JETTA_SSB_AH: 43
+  response: 77A04622A0F2B
+- expected_values:
+    JETTA_SSB_AH: 49
+  response: 77A04622A0F31

@@ -1,0 +1,5 @@
+command_id: 710.77A.222A0E
+test_cases:
+- expected_values:
+    JETTA_SSB_RES_INT: 7
+  response: 77A04622A0E23

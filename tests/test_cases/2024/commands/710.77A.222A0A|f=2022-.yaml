@@ -1,0 +1,5 @@
+command_id: 710.77A.222A0A|f=2022-
+test_cases:
+- expected_values:
+    JETTA_BAT_T: 46
+  response: 77A04622A0A56
