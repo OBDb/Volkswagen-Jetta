@@ -1,0 +1,8 @@
+command_id: 7E1.7E9.22704F
+test_cases:
+- expected_values:
+    JETTA_ATF_MAX: 107
+  response: '7E9 04 62 70 4F 9D '
+- expected_values:
+    JETTA_ATF_MAX: 107
+  response: 7E90462704F9D

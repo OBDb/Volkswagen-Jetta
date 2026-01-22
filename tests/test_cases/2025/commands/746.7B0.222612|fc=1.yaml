@@ -1,0 +1,11 @@
+command_id: 746.7B0.222612|fc=1
+test_cases:
+- expected_values:
+    JETTA_T_AFTER_EVAPORATOR: 0.66667
+  response: 7B005622612029E
+- expected_values:
+    JETTA_T_AFTER_EVAPORATOR: 0.66667
+  response: 7B00562261202F8
+- expected_values:
+    JETTA_T_AFTER_EVAPORATOR: 1
+  response: 7B0056226120302

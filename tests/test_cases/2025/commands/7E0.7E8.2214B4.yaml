@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.2214B4
+test_cases:
+- expected_values:
+    JETTA_FUEL_LEVEL_INPUT_V1: 8
+  response: 7E8056214B40320
+- expected_values:
+    JETTA_FUEL_LEVEL_INPUT_V1: 9
+  response: 7E8056214B40384
