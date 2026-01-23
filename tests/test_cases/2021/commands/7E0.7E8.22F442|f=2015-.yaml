@@ -1,14 +1,14 @@
 command_id: 7E0.7E8.22F442|f=2015-
 test_cases:
 - expected_values:
-    JETTA_VPWR: 12.18
-  response: 7E80562F4422F94
+    JETTA_VPWR: 12
+  response: 7E80562F4422EE0
+- expected_values:
+    JETTA_VPWR: 12.28
+  response: 7E80562F4422FF8
 - expected_values:
     JETTA_VPWR: 12.8
   response: 7E80562F4423200
-- expected_values:
-    JETTA_VPWR: 13.04
-  response: 7E80562F44232F0
 - expected_values:
     JETTA_VPWR: 14.88
   response: 7E80562F4423A20
