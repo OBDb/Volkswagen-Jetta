@@ -1,5 +1,5 @@
 { "commands": [
-{ "hdr": "70E", "rax": "778", "fcm1": true, "cmd": {"22": "1945"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
+{ "hdr": "70E", "rax": "778", "fcm1": true, "cmd": {"22": "1945"}, "freq": 1, "dbgfilter": { "to": 2020, "years": [2022, 2023, 2024], "from": 2026 },
   "signals": [
     {"id": "JETTA_NOZZLES_HEATER_ACTIVE", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Nozzle heater active"}
   ]},
@@ -28,7 +28,7 @@
   "signals": [
     {"id": "JETTA_SSB_SOC", "path": "Battery", "fmt": { "len": 8, "max": 100, "unit": "percent" }, "name": "Start/stop battery state of charge", "suggestedMetric": "stateOfCharge"}
   ]},
-{ "hdr": "710", "rax": "77A", "cmd": {"22": "2A0E"}, "freq": 1, "dbgfilter": { "to": 2019, "years": [2021, 2022, 2023], "from": 2026 },
+{ "hdr": "710", "rax": "77A", "cmd": {"22": "2A0E"}, "freq": 1, "dbgfilter": { "to": 2019, "years": [2022, 2023], "from": 2026 },
   "signals": [
     {"id": "JETTA_SSB_RES_INT", "path": "Battery", "fmt": { "len": 8, "max": 25.4, "min": -25.6, "div": 5, "sign": true, "unit": "scalar" }, "name": "Battery internal resistance"}
   ]},
@@ -45,7 +45,7 @@
     {"id": "JETTA_SSB_TOTAL_CHARGE",    "path": "Battery", "fmt": {           "len": 32, "max": 100, "div": 10, "unit": "ampereHours" }, "name": "Start/stop battery total charge"},
     {"id": "JETTA_SSB_TOTAL_DISCHARGE", "path": "Battery", "fmt": {"bix": 32, "len": 32, "max": 100, "div": 10, "unit": "ampereHours" }, "name": "Start/stop battery total discharge"}
   ]},
-{ "hdr": "712", "rax": "77C", "fcm1": true, "cmd": {"22": "1812"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
+{ "hdr": "712", "rax": "77C", "fcm1": true, "cmd": {"22": "1812"}, "freq": 1, "dbgfilter": { "to": 2020, "years": [2022, 2023, 2024], "from": 2026 },
   "signals": [
     {"id": "JETTA_STEER_WHEEL_ANGLE", "path": "Tires", "fmt": { "len": 16, "max": 4095.875, "min": -4096, "div": 8, "sign": true, "unit": "degrees" }, "name": "Steering wheel angle"}
   ]},
