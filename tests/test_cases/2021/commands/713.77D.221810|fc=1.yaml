@@ -13,6 +13,11 @@ test_cases:
 - expected_values:
     JETTA_HYDR_BRAKEBOOST: 0
   response: |-
+    77D100C621810010028
+    77D21FDEC00000000AA
+- expected_values:
+    JETTA_HYDR_BRAKEBOOST: 0
+  response: |-
     77D100C621810010032
     77D21FCFF000001B0AA
 - expected_values:
@@ -24,12 +29,12 @@ test_cases:
     JETTA_HYDR_BRAKEBOOST: 0
   response: |-
     77D100C621810010032
-    77D21FDCB00000144AA
+    77D21FD2B0000007EAA
 - expected_values:
     JETTA_HYDR_BRAKEBOOST: 0
   response: |-
-    77D100C6218100103F2
-    77D21FD280000022EAA
+    77D100C62181001028A
+    77D21FD0400000306AA
 - expected_values:
     JETTA_HYDR_BRAKEBOOST: 0
   response: |-
@@ -38,5 +43,10 @@ test_cases:
 - expected_values:
     JETTA_HYDR_BRAKEBOOST: 0
   response: |-
-    77D100C6218100105A0
-    77D21FD2800000000AA
+    77D100C6218100104F6
+    77D21FD0C000002D0AA
+- expected_values:
+    JETTA_HYDR_BRAKEBOOST: 0
+  response: |-
+    77D100C62181001073A
+    77D21FD22000002ACAA
