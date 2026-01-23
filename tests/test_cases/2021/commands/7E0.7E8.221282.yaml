@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.221282
+test_cases:
+- expected_values:
+    JETTA_EXHAUST_GAS_T_BEFORE_CATALYST: 291.71
+  response: 7E8056212825EDA
+- expected_values:
+    JETTA_EXHAUST_GAS_T_BEFORE_CATALYST: 306.89
+  response: 7E80562128261D1
+- expected_values:
+    JETTA_EXHAUST_GAS_T_BEFORE_CATALYST: 384.45
+  response: 7E80562128270F7
+- expected_values:
+    JETTA_EXHAUST_GAS_T_BEFORE_CATALYST: 512.63
+  response: 7E8056212828A00
+- expected_values:
+    JETTA_EXHAUST_GAS_T_BEFORE_CATALYST: 564.17
+  response: '7E8056212829411'
