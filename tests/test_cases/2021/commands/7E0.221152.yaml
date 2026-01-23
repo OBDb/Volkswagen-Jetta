@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     JETTA_MISFIRES__CYL__2: 3160
   response: 7E8056211520C58
+- expected_values:
+    JETTA_MISFIRES__CYL__2: 3161
+  response: 7E8056211520C59

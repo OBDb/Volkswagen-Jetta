@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     JETTA_NOZZLES_HEATER_ACTIVE: 0
   response: '7780462194500'
+- expected_values:
+    JETTA_NOZZLES_HEATER_ACTIVE: 1
+  response: '7780462194501'
