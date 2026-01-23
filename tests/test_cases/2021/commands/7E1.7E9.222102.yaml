@@ -7,5 +7,5 @@ test_cases:
     JETTA_AT_INPUT_SPEED: 319.25
   response: 7E90562210204FD
 - expected_values:
-    JETTA_AT_INPUT_SPEED: 521.75
-  response: '7E9056221020827'
+    JETTA_AT_INPUT_SPEED: 516
+  response: '7E9056221020810'
