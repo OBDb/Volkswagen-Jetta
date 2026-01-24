@@ -194,6 +194,7 @@ unsupported_commands_by_ecu:
   - 744.7AE.224965
   "746":
   - 746.2227C4
+  - 746.7B0.222613|fc=1:JETTA_IAT_CABIN
   "7E0":
   - 7E0.2211C4
   - 7E0.2211C5
