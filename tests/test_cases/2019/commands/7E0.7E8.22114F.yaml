@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.22114F
+test_cases:
+- expected_values:
+    JETTA_MISFIRES_C1: 43443
+  response: 7E80562114FA9B3
+- expected_values:
+    JETTA_MISFIRES_C1: 43444
+  response: 7E80562114FA9B4

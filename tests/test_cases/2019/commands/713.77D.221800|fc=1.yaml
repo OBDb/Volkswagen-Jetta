@@ -1,0 +1,32 @@
+command_id: 713.77D.221800|fc=1
+test_cases:
+- expected_values:
+    JETTA_FL_VSS: 0
+  response: |-
+    77D100E621800000080
+    77D21FFFFFFFEFFFEFF
+    77D22FEAAAAAAAAAAAA
+- expected_values:
+    JETTA_FL_VSS: 0.6
+  response: |-
+    77D100E621800000680
+    77D21FFFFFFFEFFFEFF
+    77D22FEAAAAAAAAAAAA
+- expected_values:
+    JETTA_FL_VSS: 10
+  response: |-
+    77D100E621800006480
+    77D21FFFFFFFFFFFFFF
+    77D22FFAAAAAAAAAAAA
+- expected_values:
+    JETTA_FL_VSS: 10.3
+  response: |-
+    77D100E621800006780
+    77D21FFFFFFFFFFFFFF
+    77D22FFAAAAAAAAAAAA
+- expected_values:
+    JETTA_FL_VSS: 31.9
+  response: |-
+    77D100E621800013F80
+    77D21FFFFFFFFFFFFFF
+    77D22FFAAAAAAAAAAAA
