@@ -1,0 +1,9 @@
+command_id: 713.77D.2218B6|fc=1
+test_cases:
+- expected_values:
+    JETTA_CSTEER: 0
+    JETTA_CSTEER_ODO_LAST_ACTIVATED: 1
+    JETTA_CSTEER_STEERING_TORQUE: 0
+  response: |-
+    77D10096218B60101F6
+    77D216B0000AAAAAAAA
