@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     JETTA_OIL_THERMAL_WEAR: 64
   response: 77E0562224B0040
+- expected_values:
+    JETTA_OIL_THERMAL_WEAR: 67
+  response: 77E0562224B0043
