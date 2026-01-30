@@ -7,8 +7,5 @@ test_cases:
     JETTA_MISFIRES__CYL__2: 40449
   response: 7E8056211529E01
 - expected_values:
-    JETTA_MISFIRES__CYL__2: 40451
-  response: 7E8056211529E03
-- expected_values:
-    JETTA_MISFIRES__CYL__2: 40452
-  response: 7E8056211529E04
+    JETTA_MISFIRES__CYL__2: 40469
+  response: 7E8056211529E15
