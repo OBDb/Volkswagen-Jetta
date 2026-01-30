@@ -18,3 +18,6 @@ test_cases:
 - expected_values:
     JETTA_IAT_CABIN: 21.2
   response: 7B00562261300D4
+- expected_values:
+    JETTA_IAT_CABIN: 21.5
+  response: 7B00562261300D7

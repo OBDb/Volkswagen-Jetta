@@ -4,5 +4,5 @@ test_cases:
     JETTA_MISFIRES__CYL__4: 43054
   response: 7E805621151A82E
 - expected_values:
-    JETTA_MISFIRES__CYL__4: 43055
-  response: 7E805621151A82F
+    JETTA_MISFIRES__CYL__4: 43076
+  response: 7E805621151A844
