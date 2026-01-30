@@ -3,3 +3,18 @@ test_cases:
 - expected_values:
     JETTA_MISFIRES_1000REV_C4: 0
   response: '7E8056211490000'
+- expected_values:
+    JETTA_MISFIRES_1000REV_C4: 1
+  response: '7E8056211490001'
+- expected_values:
+    JETTA_MISFIRES_1000REV_C4: 2
+  response: '7E8056211490002'
+- expected_values:
+    JETTA_MISFIRES_1000REV_C4: 3
+  response: '7E8056211490003'
+- expected_values:
+    JETTA_MISFIRES_1000REV_C4: 4
+  response: '7E8056211490004'
+- expected_values:
+    JETTA_MISFIRES_1000REV_C4: 5
+  response: '7E8056211490005'
