@@ -7,5 +7,5 @@ test_cases:
     JETTA_MISFIRES_C3: 41134
   response: 7E805621150A0AE
 - expected_values:
-    JETTA_MISFIRES_C3: 41150
-  response: 7E805621150A0BE
+    JETTA_MISFIRES_C3: 41182
+  response: 7E805621150A0DE

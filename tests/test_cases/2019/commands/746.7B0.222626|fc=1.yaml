@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     JETTA_FRONT_RIGHT_T_FLAP_ACTUAL_VALUE: 0
   response: 7B006622626001700
+- expected_values:
+    JETTA_FRONT_RIGHT_T_FLAP_ACTUAL_VALUE: 100
+  response: 7B00662262600EAC8

@@ -4,20 +4,5 @@ test_cases:
     JETTA_FRONT_RIGHT_DEFLECTOR_T: 14.33333
   response: 7B00462260D2B
 - expected_values:
-    JETTA_FRONT_RIGHT_DEFLECTOR_T: 14.66667
-  response: 7B00462260D2C
-- expected_values:
-    JETTA_FRONT_RIGHT_DEFLECTOR_T: 15
-  response: 7B00462260D2D
-- expected_values:
-    JETTA_FRONT_RIGHT_DEFLECTOR_T: 15.33333
-  response: 7B00462260D2E
-- expected_values:
-    JETTA_FRONT_RIGHT_DEFLECTOR_T: 15.66667
-  response: 7B00462260D2F
-- expected_values:
-    JETTA_FRONT_RIGHT_DEFLECTOR_T: 16
-  response: 7B00462260D30
-- expected_values:
-    JETTA_FRONT_RIGHT_DEFLECTOR_T: 16.33333
-  response: 7B00462260D31
+    JETTA_FRONT_RIGHT_DEFLECTOR_T: 23
+  response: 7B00462260D45

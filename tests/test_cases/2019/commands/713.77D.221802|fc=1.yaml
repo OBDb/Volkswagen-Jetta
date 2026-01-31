@@ -25,6 +25,12 @@ test_cases:
     77D210007FFFFFFFFFF
     77D22FFAAAAAAAAAAAA
 - expected_values:
+    JETTA_RL_VSS: 7.2
+  response: |-
+    77D100E621802004830
+    77D21000706C9089207
+    77D22A5AAAAAAAAAAAA
+- expected_values:
     JETTA_RL_VSS: 25.4
   response: |-
     77D100E62180200FE30
