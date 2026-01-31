@@ -1,8 +1,11 @@
 command_id: 746.7B0.222622|fc=1
 test_cases:
 - expected_values:
-    JETTA_FRONT_LEFT_T_FLAP_ACTUAL_VALUE: 77.5
-  response: 7B00662262200BA9B
+    JETTA_FRONT_LEFT_T_FLAP_ACTUAL_VALUE: 77
+  response: 7B00662262200B99A
+- expected_values:
+    JETTA_FRONT_LEFT_T_FLAP_ACTUAL_VALUE: 100
+  response: 7B00662262200E7C8
 - expected_values:
     JETTA_FRONT_LEFT_T_FLAP_ACTUAL_VALUE: 100
   response: 7B00662262200E8C8

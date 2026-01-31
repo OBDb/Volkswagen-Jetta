@@ -4,6 +4,12 @@ test_cases:
     JETTA_GEAR_V2: 1
   response: 7E8046214CB01
 - expected_values:
+    JETTA_GEAR_V2: 3
+  response: 7E8046214CB03
+- expected_values:
+    JETTA_GEAR_V2: 4
+  response: 7E8046214CB04
+- expected_values:
     JETTA_GEAR_V2: 5
   response: 7E8046214CB05
 - expected_values:

@@ -4,26 +4,5 @@ test_cases:
     JETTA_T_AFTER_EVAPORATOR: 0
   response: 7B00462261200
 - expected_values:
-    JETTA_T_AFTER_EVAPORATOR: 4
-  response: 7B0046226120C
-- expected_values:
-    JETTA_T_AFTER_EVAPORATOR: 4.33333
-  response: 7B0046226120D
-- expected_values:
-    JETTA_T_AFTER_EVAPORATOR: -6.33333
-  response: 7B004622612ED
-- expected_values:
-    JETTA_T_AFTER_EVAPORATOR: -6
-  response: 7B004622612EE
-- expected_values:
-    JETTA_T_AFTER_EVAPORATOR: -5.66667
-  response: 7B004622612EF
-- expected_values:
-    JETTA_T_AFTER_EVAPORATOR: -5
-  response: 7B004622612F1
-- expected_values:
-    JETTA_T_AFTER_EVAPORATOR: -4.66667
-  response: 7B004622612F2
-- expected_values:
-    JETTA_T_AFTER_EVAPORATOR: -3.66667
-  response: 7B004622612F5
+    JETTA_T_AFTER_EVAPORATOR: -2.33333
+  response: 7B004622612F9

@@ -4,8 +4,8 @@ test_cases:
     JETTA_AT_OUTPUT_SPEED: 0
   response: '7E9056221030000'
 - expected_values:
-    JETTA_AT_OUTPUT_SPEED: 2686
-  response: 7E90562210329F8
+    JETTA_AT_OUTPUT_SPEED: 1919
+  response: 7E9056221031DFC
 - expected_values:
     JETTA_AT_OUTPUT_SPEED: 3076
   response: '7E9056221033010'
