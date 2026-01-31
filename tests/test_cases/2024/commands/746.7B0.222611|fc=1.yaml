@@ -1,8 +1,8 @@
 command_id: 746.7B0.222611|fc=1
 test_cases:
 - expected_values:
-    JETTA_LEG_DEFLECTOR_T: 56
-  response: 7B004622611A8
+    JETTA_LEG_DEFLECTOR_T: 27.33333
+  response: 7B00462261152
 - expected_values:
-    JETTA_LEG_DEFLECTOR_T: 70
-  response: 7B004622611D2
+    JETTA_LEG_DEFLECTOR_T: 71.66667
+  response: 7B004622611D7
