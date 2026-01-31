@@ -1,0 +1,14 @@
+command_id: 746.7B0.222609|fc=1
+test_cases:
+- expected_values:
+    JETTA_AAT_FROMCABIN: -9.5
+  response: 7B004622609ED
+- expected_values:
+    JETTA_AAT_FROMCABIN: -9
+  response: 7B004622609EE
+- expected_values:
+    JETTA_AAT_FROMCABIN: -8.5
+  response: 7B004622609EF
+- expected_values:
+    JETTA_AAT_FROMCABIN: -8
+  response: 7B004622609F0
