@@ -193,6 +193,7 @@ unsupported_commands_by_ecu:
   - 714.2222B0
   - '714.222613'
   - 714.77E.220530
+  - 714.77E.22224B|din=03:JETTA_OIL_THERMAL_WEAR
   - 714.77E.222294|din=03:JETTA_DTE
   - 714.77E.2222E0
   "744":
