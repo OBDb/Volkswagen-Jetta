@@ -233,6 +233,7 @@ unsupported_commands_by_ecu:
   - 7E0.7E8.222005
   - 7E0.7E8.222061
   - 7E0.7E8.222062
+  - 7E0.7E8.222206:JETTA_FUEL_LEVEL_INPUT_V2
   "7E1":
   - 7E1.220302
   - 7E1.220303
