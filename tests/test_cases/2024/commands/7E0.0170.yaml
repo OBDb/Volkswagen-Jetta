@@ -1,7 +1,7 @@
 command_id: 7E0.0170
 test_cases:
 - expected_values:
-    BP_A_ACT: 98.59375
+    BP_A_ACT: 98.15625
     BP_A_ACT_SUP: 1
     BP_A_CMD: 0
     BP_A_CMD_SUP: 0
@@ -13,7 +13,7 @@ test_cases:
     BP_B_SUP: 0
   response: |-
     7E8100C41700200000C
-    7E821530000000000AA
+    7E821450000000000AA
 - expected_values:
     BP_A_ACT: 99
     BP_A_ACT_SUP: 1
