@@ -4,5 +4,5 @@ test_cases:
     TQ_ACT: 0
   response: 7E80341627D
 - expected_values:
-    TQ_ACT: 75
-  response: 7E8034162C8
+    TQ_ACT: 80
+  response: 7E8034162CD
