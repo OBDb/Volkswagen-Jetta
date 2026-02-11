@@ -1,0 +1,11 @@
+command_id: 714.77E.22229A|f=-2018,din=03
+test_cases:
+- expected_values:
+    JETTA_FLI: 23
+  response: 77E0562229A00B8
+- expected_values:
+    JETTA_FLI: 23.125
+  response: 77E0562229A00B9
+- expected_values:
+    JETTA_FLI: 23.25
+  response: 77E0562229A00BA
