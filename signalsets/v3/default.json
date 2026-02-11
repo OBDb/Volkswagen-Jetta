@@ -126,7 +126,7 @@
   "signals": [
     {"id": "JETTA_AAT", "path": "Climate", "fmt": { "len": 8, "max": 77.5, "min": -50, "div": 2, "add": -50, "unit": "celsius" }, "name": "Ambient air temperature"}
   ]},
-{ "hdr": "714", "rax": "77E", "din": "03", "dbg": true, "cmd": {"22": "202F"}, "freq": 1, "filter": { "to": 2018 },
+{ "hdr": "714", "rax": "77E", "din": "03", "cmd": {"22": "202F"}, "freq": 1, "filter": { "to": 2018 }, "dbgfilter": { "to": 2012, "from": 2014 },
   "signals": [
     {"id": "JETTA_EOT", "path": "Engine", "fmt": { "len": 8, "max": 197, "min": -58, "add": -58, "unit": "celsius" }, "name": "Engine oil temperature"}
   ]},
@@ -134,19 +134,19 @@
   "signals": [
     {"id": "JETTA_ODO_DASH", "path": "Trips", "fmt": { "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Odometer, dashboard"}
   ]},
-{ "hdr": "714", "rax": "77E", "din": "03", "cmd": {"22": "224B"}, "freq": 1, "dbgfilter": { "to": 2018, "years": [2020, 2022, 2023], "from": 2026 },
+{ "hdr": "714", "rax": "77E", "din": "03", "cmd": {"22": "224B"}, "freq": 1, "dbgfilter": { "to": 2012, "years": [2014, 2015, 2016, 2017, 2018, 2020, 2022, 2023], "from": 2026 },
   "signals": [
     {"id": "JETTA_OIL_THERMAL_WEAR", "path": "ECU", "fmt": { "len": 16, "max": 65535, "unit": "kilometers" }, "name": "Oil thermal wear"}
   ]},
-{ "hdr": "714", "rax": "77E", "din": "03", "dbg": true, "cmd": {"22": "2294"}, "freq": 1,
+{ "hdr": "714", "rax": "77E", "din": "03", "cmd": {"22": "2294"}, "freq": 1, "dbgfilter": { "to": 2012, "from": 2014 },
   "signals": [
     {"id": "JETTA_DTE", "path": "Trips", "fmt": { "len": 16, "max": 65535, "unit": "kilometers" }, "name": "Distance to empty", "suggestedMetric": "fuelRange"}
   ]},
-{ "hdr": "714", "rax": "77E", "din": "03", "dbg": true, "cmd": {"22": "2299"}, "freq": 1,
+{ "hdr": "714", "rax": "77E", "din": "03", "cmd": {"22": "2299"}, "freq": 1, "dbgfilter": { "to": 2012, "from": 2014 },
   "signals": [
     {"id": "JETTA_FUEL_USE_AVG", "path": "Fuel", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "liters" }, "name": "Average fuel consumption"}
   ]},
-{ "hdr": "714", "rax": "77E", "din": "03", "dbg": true, "cmd": {"22": "229A"}, "freq": 1, "filter": { "to": 2018 },
+{ "hdr": "714", "rax": "77E", "din": "03", "cmd": {"22": "229A"}, "freq": 1, "filter": { "to": 2018 }, "dbgfilter": { "to": 2012, "from": 2014 },
   "signals": [
     {"id": "JETTA_FLI", "path": "Fuel", "fmt": { "len": 16, "max": 8191.875, "div": 8, "unit": "liters" }, "name": "Fuel level input", "suggestedMetric": "fuelTankLevel"}
   ]},
