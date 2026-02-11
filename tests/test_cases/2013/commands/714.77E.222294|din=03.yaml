@@ -1,0 +1,11 @@
+command_id: 714.77E.222294|din=03
+test_cases:
+- expected_values:
+    JETTA_DTE: 269
+  response: 77E05622294010D
+- expected_values:
+    JETTA_DTE: 270
+  response: 77E05622294010E
+- expected_values:
+    JETTA_DTE: 271
+  response: 77E05622294010F
