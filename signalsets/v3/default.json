@@ -226,10 +226,6 @@
   "signals": [
     {"id": "JETTA_FRONT_RIGHT_T_FLAP_ACTUAL_VALUE", "path": "Climate", "fmt": {"bix": 16, "len": 8, "max": 100, "div": 2, "unit": "percent" }, "name": "Front right temperature flap actual value"}
   ]},
-{ "hdr": "746", "rax": "7B0", "fcm1": true, "dbg": true, "cmd": {"22": "263D"}, "freq": 1,
-  "signals": [
-    {"id": "JETTA_REAR_DEFLECTOR_T", "path": "Climate", "fmt": { "len": 8, "max": 84.915, "div": 3, "unit": "celsius" }, "name": "Rear deflector temperature"}
-  ]},
 { "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "26ED"}, "freq": 1, "filter": { "from": 2017 }, "dbgfilter": { "to": 2018, "years": [2022, 2023], "from": 2026 },
   "signals": [
     {"id": "JETTA_AIR_POLUTION", "path": "Climate", "fmt": { "len": 8, "max": 12.7, "min": -12.7, "div": 10, "sign": true, "unit": "scalar" }, "name": "Air pollution level", "description": "0 means clean air."}
@@ -337,18 +333,6 @@
   "signals": [
     {"id": "JETTA_AAT_V1", "path": "Engine", "fmt": { "len": 16, "max": 11336.3, "min": -460, "mul": 0.18, "add": -460, "unit": "fahrenheit" }, "name": "Ambient air temperature, v1"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1515"}, "freq": 1,
-  "signals": [
-    {"id": "JETTA_CAT_T_CALC", "path": "Engine", "fmt": { "len": 16, "max": 327625, "min": -50, "mul": 5, "add": -50, "unit": "celsius" }, "name": "Catalyst temperature, calculated"}
-  ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "201A"}, "freq": 1,
-  "signals": [
-    {"id": "JETTA_EOT_CALC", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "celsius" }, "name": "Engine oil temperature, calculated", "suggestedMetric": "engineOilTemperature"}
-  ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "2206"}, "freq": 1,
-  "signals": [
-    {"id": "JETTA_FUEL_LEVEL_INPUT_V2", "path": "Fuel", "fmt": { "len": 8, "max": 255, "unit": "liters" }, "name": "Fuel level input, v2", "suggestedMetric": "fuelTankLevel"}
-  ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F40D"}, "freq": 0.25, "filter": { "from": 2015 }, "dbgfilter": { "to": 2015, "years": [2017, 2018, 2022, 2023], "from": 2026 },
   "signals": [
     {"id": "JETTA_VSS", "path": "Movement", "fmt": { "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Vehicle speed", "suggestedMetric": "speed", "description": "Current vehicle speed."}
@@ -372,10 +356,6 @@
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F442"}, "freq": 0.25, "filter": { "from": 2015 }, "dbgfilter": { "to": 2015, "years": [2017, 2018, 2022, 2023], "from": 2026 },
   "signals": [
     {"id": "JETTA_VPWR", "path": "Battery", "fmt": { "len": 16, "max": 65, "div": 1000, "unit": "volts" }, "name": "Control module voltage", "suggestedMetric": "starterBatteryVoltage"}
-  ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "2002"}, "freq": 1,
-  "signals": [
-    {"id": "JETTA_ENGINE_TORQUE__AT", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "newtonMeters" }, "name": "Engine torque"}
   ]},
 { "hdr": "7E1", "rax": "7E9", "cmd": {"22": "2102"}, "freq": 1, "dbgfilter": { "to": 2020, "years": [2022, 2023], "from": 2026 },
   "signals": [
@@ -402,10 +382,6 @@
           "8": { "description": "Eighth gear",  "value": "8" }
         }}
     }
-  ]},
-{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "2110"}, "freq": 1,
-  "signals": [
-    {"id": "JETTA_SPEC_TORQUE_TRANSINT", "path": "Transmission", "fmt": { "len": 16, "max": 65535, "unit": "newtonMeters" }, "name": "Engine torque during transmission"}
   ]},
 { "hdr": "7E1", "rax": "7E9", "cmd": {"22": "2131"}, "freq": 1, "dbgfilter": { "to": 2020, "years": [2022, 2023], "from": 2026 },
   "signals": [
