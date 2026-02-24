@@ -4,8 +4,8 @@ test_cases:
     JETTA_TORQUE_CONVERTER_SLIP: 0
   response: '7E9056221310000'
 - expected_values:
-    JETTA_TORQUE_CONVERTER_SLIP: -33
-  response: 7E905622131FFDF
+    JETTA_TORQUE_CONVERTER_SLIP: -140
+  response: 7E905622131FF74
 - expected_values:
     JETTA_TORQUE_CONVERTER_SLIP: -1
   response: 7E905622131FFFF

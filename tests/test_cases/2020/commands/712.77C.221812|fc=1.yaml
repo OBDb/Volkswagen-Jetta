@@ -1,11 +1,11 @@
 command_id: 712.77C.221812|fc=1
 test_cases:
 - expected_values:
-    JETTA_STEER_WHEEL_ANGLE: 0.25
-  response: 77C06621812000201
+    JETTA_STEER_WHEEL_ANGLE: 0
+  response: 77C06621812000001
 - expected_values:
-    JETTA_STEER_WHEEL_ANGLE: -24.25
-  response: 77C06621812FF3E01
+    JETTA_STEER_WHEEL_ANGLE: 351.75
+  response: 77C066218120AFE01
 - expected_values:
-    JETTA_STEER_WHEEL_ANGLE: -0.375
-  response: 77C06621812FFFD01
+    JETTA_STEER_WHEEL_ANGLE: -26.625
+  response: 77C06621812FF2B01
