@@ -7,5 +7,5 @@ test_cases:
     JETTA_MISFIRES_C1: 9884
   response: 7E80562114F269C
 - expected_values:
-    JETTA_MISFIRES_C1: 9898
-  response: 7E80562114F26AA
+    JETTA_MISFIRES_C1: 9907
+  response: 7E80562114F26B3
