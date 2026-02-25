@@ -13,5 +13,8 @@ test_cases:
     JETTA_MISFIRES_TOTAL: 3
   response: '7E8056211460003'
 - expected_values:
+    JETTA_MISFIRES_TOTAL: 4
+  response: '7E8056211460004'
+- expected_values:
     JETTA_MISFIRES_TOTAL: 5
   response: '7E8056211460005'
