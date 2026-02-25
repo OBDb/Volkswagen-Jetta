@@ -1,8 +1,8 @@
 command_id: 746.7B0.222613|fc=1
 test_cases:
 - expected_values:
-    JETTA_IAT_CABIN: 18.5
-  response: 7B00562261300B9
+    JETTA_IAT_CABIN: 0
+  response: 7B0056226130000
 - expected_values:
     JETTA_IAT_CABIN: 25.5
   response: 7B00562261300FF
