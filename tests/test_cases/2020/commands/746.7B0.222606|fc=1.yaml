@@ -16,8 +16,14 @@ test_cases:
     JETTA_RADIATOR_FAN_ACTUAL_DUTY: 28
   response: 7B00462260646
 - expected_values:
+    JETTA_RADIATOR_FAN_ACTUAL_DUTY: 28.8
+  response: 7B00462260648
+- expected_values:
     JETTA_RADIATOR_FAN_ACTUAL_DUTY: 30
   response: 7B0046226064B
+- expected_values:
+    JETTA_RADIATOR_FAN_ACTUAL_DUTY: 30.8
+  response: 7B0046226064D
 - expected_values:
     JETTA_RADIATOR_FAN_ACTUAL_DUTY: 34
   response: 7B00462260655
