@@ -4,8 +4,8 @@ test_cases:
     JETTA_STEER_WHEEL_ANGLE: 0
   response: 77C06621812000001
 - expected_values:
-    JETTA_STEER_WHEEL_ANGLE: -26.625
-  response: 77C06621812FF2B01
+    JETTA_STEER_WHEEL_ANGLE: -28.375
+  response: 77C06621812FF1D01
 - expected_values:
     JETTA_STEER_WHEEL_ANGLE: -0.125
   response: 77C06621812FFFF01
