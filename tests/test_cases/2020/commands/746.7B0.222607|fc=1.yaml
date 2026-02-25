@@ -12,3 +12,6 @@ test_cases:
 - expected_values:
     JETTA_RADIATOR_FAN_COMMANDED_DUTY: 26
   response: 7B00462260741
+- expected_values:
+    JETTA_RADIATOR_FAN_COMMANDED_DUTY: 32.4
+  response: 7B00462260751
