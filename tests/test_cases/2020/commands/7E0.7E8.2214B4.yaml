@@ -4,11 +4,11 @@ test_cases:
     JETTA_FUEL_LEVEL_INPUT_V1: 5
   response: 7E8056214B401F4
 - expected_values:
-    JETTA_FUEL_LEVEL_INPUT_V1: 18
-  response: 7E8056214B40708
-- expected_values:
     JETTA_FUEL_LEVEL_INPUT_V1: 23
   response: 7E8056214B408FC
+- expected_values:
+    JETTA_FUEL_LEVEL_INPUT_V1: 41
+  response: 7E8056214B41004
 - expected_values:
     JETTA_FUEL_LEVEL_INPUT_V1: 47
   response: 7E8056214B4125C
