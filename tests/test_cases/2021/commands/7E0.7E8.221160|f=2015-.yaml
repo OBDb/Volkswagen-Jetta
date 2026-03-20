@@ -19,8 +19,8 @@ test_cases:
     JETTA_ODO_HD: 50432.379
   response: 7E8076211600301897B
 - expected_values:
-    JETTA_ODO_HD: 50766.976
-  response: 7E8076211600306A480
-- expected_values:
     JETTA_ODO_HD: 59882.239
   response: 7E8076211600391BAFF
+- expected_values:
+    JETTA_ODO_HD: 78788.734
+  response: 7E80762116004B2387E
