@@ -9,3 +9,21 @@ test_cases:
 - expected_values:
     JETTA_DTE: 271
   response: 77E05622294010F
+- expected_values:
+    JETTA_DTE: 628
+  response: '77E056222940274'
+- expected_values:
+    JETTA_DTE: 631
+  response: '77E056222940277'
+- expected_values:
+    JETTA_DTE: 633
+  response: '77E056222940279'
+- expected_values:
+    JETTA_DTE: 635
+  response: 77E05622294027B
+- expected_values:
+    JETTA_DTE: 636
+  response: 77E05622294027C
+- expected_values:
+    JETTA_DTE: 638
+  response: 77E05622294027E
