@@ -4,5 +4,5 @@ test_cases:
     JETTA_ATF_T: 18
   response: 7E9046221043A
 - expected_values:
-    JETTA_ATF_T: 95
-  response: '7E90462210487'
+    JETTA_ATF_T: 96
+  response: '7E90462210488'
