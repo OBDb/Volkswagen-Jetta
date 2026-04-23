@@ -1,6 +1,9 @@
 command_id: 7E0.7E8.22F431|f=2015-
 test_cases:
 - expected_values:
+    JETTA_CLR_DIST: 37
+  response: 7E80562F4310025
+- expected_values:
     JETTA_CLR_DIST: 38686
   response: 7E80562F431971E
 - expected_values:

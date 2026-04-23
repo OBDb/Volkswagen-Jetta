@@ -4,8 +4,8 @@ test_cases:
     JETTA_ODO: 4441
   response: 7E8076210E000001159
 - expected_values:
-    JETTA_ODO: 39608
-  response: 7E8076210E000009AB8
+    JETTA_ODO: 44506
+  response: 7E8076210E00000ADDA
 - expected_values:
-    JETTA_ODO: 39609
-  response: 7E8076210E000009AB9
+    JETTA_ODO: 44508
+  response: 7E8076210E00000ADDC
