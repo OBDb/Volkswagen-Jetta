@@ -10,5 +10,8 @@ test_cases:
     JETTA_REFRIGERANT_PRESSURE: 5.8
   response: 7B0046226051D
 - expected_values:
+    JETTA_REFRIGERANT_PRESSURE: 6
+  response: 7B0046226051E
+- expected_values:
     JETTA_REFRIGERANT_PRESSURE: 6.6
   response: 7B00462260521
