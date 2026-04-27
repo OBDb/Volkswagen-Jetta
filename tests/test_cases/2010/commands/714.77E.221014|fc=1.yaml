@@ -8,3 +8,6 @@ test_cases:
 - expected_values:
     JETTA_AAT: 19
   response: 77E046210148A
+- expected_values:
+    JETTA_AAT: 19.5
+  response: 77E046210148B
