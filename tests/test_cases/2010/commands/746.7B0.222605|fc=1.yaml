@@ -1,5 +1,14 @@
 command_id: 746.7B0.222605|fc=1
 test_cases:
 - expected_values:
+    JETTA_REFRIGERANT_PRESSURE: 6.2
+  response: '7B0 04 62 26 05 1F '
+- expected_values:
+    JETTA_REFRIGERANT_PRESSURE: 6.4
+  response: '7B0 04 62 26 05 20 '
+- expected_values:
     JETTA_REFRIGERANT_PRESSURE: 5.8
   response: 7B0046226051D
+- expected_values:
+    JETTA_REFRIGERANT_PRESSURE: 6.6
+  response: 7B00462260521

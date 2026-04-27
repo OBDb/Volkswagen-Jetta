@@ -2,4 +2,9 @@ command_id: 746.7B0.222604|fc=1
 test_cases:
 - expected_values:
     JETTA_AC_COMPRESSOR_LOAD: 0
+  response: |-
+    222604
+    7B00462260400
+- expected_values:
+    JETTA_AC_COMPRESSOR_LOAD: 0
   response: 7B00462260400
