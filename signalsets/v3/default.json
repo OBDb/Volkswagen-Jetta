@@ -122,11 +122,11 @@
     {"id": "JETTA_CSTEER_ODO_LAST_ACTIVATED", "path": "Control", "fmt": {"bix": 8,  "len": 24, "max": 1,              "unit": "kilometers"   }, "name": "Counter steer support, odometer"},
     {"id": "JETTA_CSTEER_STEERING_TORQUE",    "path": "Control", "fmt": {"bix": 32, "len": 16, "max": 1, "div": 1000, "unit": "newtonMeters" }, "name": "Counter steer support, steering torque"}
   ]},
-{ "hdr": "714", "rax": "77E", "fcm1": true, "cmd": {"22": "1014"}, "freq": 1, "dbgfilter": { "to": 2012, "years": [2015, 2018, 2022, 2023], "from": 2026 },
+{ "hdr": "714", "rax": "77E", "fcm1": true, "cmd": {"22": "1014"}, "freq": 1, "dbgfilter": { "to": 2009, "years": [2011, 2012, 2015, 2018, 2022, 2023], "from": 2026 },
   "signals": [
     {"id": "JETTA_AAT", "path": "Climate", "fmt": { "len": 8, "max": 77.5, "min": -50, "div": 2, "add": -50, "unit": "celsius" }, "name": "Ambient air temperature"}
   ]},
-{ "hdr": "714", "rax": "77E", "din": "03", "cmd": {"22": "202F"}, "freq": 1, "filter": { "to": 2018 }, "dbgfilter": { "to": 2012, "from": 2014 },
+{ "hdr": "714", "rax": "77E", "din": "03", "cmd": {"22": "202F"}, "freq": 1, "filter": { "to": 2018 }, "dbgfilter": { "to": 2009, "years": [2011, 2012], "from": 2014 },
   "signals": [
     {"id": "JETTA_EOT", "path": "Engine", "fmt": { "len": 8, "max": 197, "min": -58, "add": -58, "unit": "celsius" }, "name": "Engine oil temperature"}
   ]},
@@ -134,7 +134,7 @@
   "signals": [
     {"id": "JETTA_ODO_DASH", "path": "Trips", "fmt": { "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Odometer, dashboard"}
   ]},
-{ "hdr": "714", "rax": "77E", "din": "03", "cmd": {"22": "224B"}, "freq": 1, "dbgfilter": { "to": 2012, "years": [2014, 2015, 2016, 2017, 2018, 2022, 2023], "from": 2026 },
+{ "hdr": "714", "rax": "77E", "din": "03", "cmd": {"22": "224B"}, "freq": 1, "dbgfilter": { "to": 2009, "years": [2011, 2012, 2014, 2015, 2016, 2017, 2018, 2022, 2023], "from": 2026 },
   "signals": [
     {"id": "JETTA_OIL_THERMAL_WEAR", "path": "ECU", "fmt": { "len": 16, "max": 65535, "unit": "kilometers" }, "name": "Oil thermal wear"}
   ]},
@@ -142,11 +142,11 @@
   "signals": [
     {"id": "JETTA_DTE", "path": "Trips", "fmt": { "len": 16, "max": 65535, "unit": "kilometers" }, "name": "Distance to empty", "suggestedMetric": "fuelRange"}
   ]},
-{ "hdr": "714", "rax": "77E", "din": "03", "cmd": {"22": "2299"}, "freq": 1, "dbgfilter": { "to": 2012, "from": 2014 },
+{ "hdr": "714", "rax": "77E", "din": "03", "cmd": {"22": "2299"}, "freq": 1, "dbgfilter": { "to": 2009, "years": [2011, 2012], "from": 2014 },
   "signals": [
     {"id": "JETTA_FUEL_USE_AVG", "path": "Fuel", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "liters" }, "name": "Average fuel consumption"}
   ]},
-{ "hdr": "714", "rax": "77E", "din": "03", "cmd": {"22": "229A"}, "freq": 1, "filter": { "to": 2018 }, "dbgfilter": { "to": 2012, "from": 2014 },
+{ "hdr": "714", "rax": "77E", "din": "03", "cmd": {"22": "229A"}, "freq": 1, "filter": { "to": 2018 }, "dbgfilter": { "to": 2009, "years": [2011, 2012], "from": 2014 },
   "signals": [
     {"id": "JETTA_FLI", "path": "Fuel", "fmt": { "len": 16, "max": 8191.875, "div": 8, "unit": "liters" }, "name": "Fuel level input", "suggestedMetric": "fuelTankLevel"}
   ]},
@@ -174,27 +174,27 @@
   "signals": [
     {"id": "JETTA_ROLLOVER", "path": "Stats", "fmt": { "len": 8, "max": 100, "unit": "scalar" }, "name": "Rollovers"}
   ]},
-{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "2603"}, "freq": 1, "dbgfilter": { "to": 2018, "years": [2022, 2023], "from": 2026 },
+{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "2603"}, "freq": 1, "dbgfilter": { "to": 2009, "years": [2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2022, 2023], "from": 2026 },
   "signals": [
     {"id": "JETTA_AC_COMPRESSOR_SPEED", "path": "Climate", "fmt": { "len": 8, "max": 25500, "mul": 100, "unit": "rpm" }, "name": "A/C compressor speed"}
   ]},
-{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "2604"}, "freq": 1, "dbgfilter": { "to": 2018, "years": [2022, 2023], "from": 2026 },
+{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "2604"}, "freq": 1, "dbgfilter": { "to": 2009, "years": [2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2022, 2023], "from": 2026 },
   "signals": [
     {"id": "JETTA_AC_COMPRESSOR_LOAD", "path": "Climate", "fmt": { "len": 8, "max": 25.5, "div": 10, "unit": "newtonMeters" }, "name": "A/C compressor load"}
   ]},
-{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "2605"}, "freq": 1, "dbgfilter": { "to": 2018, "years": [2022, 2023], "from": 2026 },
+{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "2605"}, "freq": 1, "dbgfilter": { "to": 2009, "years": [2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2022, 2023], "from": 2026 },
   "signals": [
     {"id": "JETTA_REFRIGERANT_PRESSURE", "path": "Climate", "fmt": { "len": 8, "max": 51, "div": 5, "unit": "bars" }, "name": "Refrigerant pressure"}
   ]},
-{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "2606"}, "freq": 1, "dbgfilter": { "to": 2018, "years": [2022, 2023], "from": 2026 },
+{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "2606"}, "freq": 1, "dbgfilter": { "to": 2009, "years": [2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2022, 2023], "from": 2026 },
   "signals": [
     {"id": "JETTA_RADIATOR_FAN_ACTUAL_DUTY", "path": "Climate", "fmt": { "len": 8, "max": 100, "mul": 0.4, "unit": "percent" }, "name": "Radiator fan actual duty"}
   ]},
-{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "2607"}, "freq": 1, "dbgfilter": { "to": 2018, "years": [2022, 2023], "from": 2026 },
+{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "2607"}, "freq": 1, "dbgfilter": { "to": 2009, "years": [2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2022, 2023], "from": 2026 },
   "signals": [
     {"id": "JETTA_RADIATOR_FAN_COMMANDED_DUTY", "path": "Climate", "fmt": { "len": 8, "max": 100, "mul": 0.4, "unit": "percent" }, "name": "Radiator fan commanded duty"}
   ]},
-{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "2609"}, "freq": 1, "dbgfilter": { "to": 2018, "years": [2022, 2023], "from": 2026 },
+{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "2609"}, "freq": 1, "dbgfilter": { "to": 2009, "years": [2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2022, 2023], "from": 2026 },
   "signals": [
     {"id": "JETTA_AAT_FROMCABIN", "path": "Climate", "fmt": { "len": 8, "max": 63.5, "min": -64, "div": 2, "sign": true, "unit": "celsius" }, "name": "Outside temperature, from cabin"}
   ]},
@@ -206,15 +206,15 @@
   "signals": [
     {"id": "JETTA_FRONT_RIGHT_DEFLECTOR_T", "path": "Climate", "fmt": { "len": 8, "max": 84.915, "div": 3, "unit": "celsius" }, "name": "Front right deflector temperature"}
   ]},
-{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "2611"}, "freq": 1, "dbgfilter": { "to": 2018, "years": [2022, 2023], "from": 2026 },
+{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "2611"}, "freq": 1, "dbgfilter": { "to": 2009, "years": [2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2022, 2023], "from": 2026 },
   "signals": [
     {"id": "JETTA_LEG_DEFLECTOR_T", "path": "Climate", "fmt": { "len": 8, "max": 84.915, "div": 3, "unit": "celsius" }, "name": "Leg deflector temperature"}
   ]},
-{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "2612"}, "freq": 1, "dbgfilter": { "to": 2018, "years": [2022, 2023], "from": 2026 },
+{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "2612"}, "freq": 1, "dbgfilter": { "to": 2009, "years": [2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2022, 2023], "from": 2026 },
   "signals": [
     {"id": "JETTA_T_AFTER_EVAPORATOR", "path": "Climate", "fmt": { "len": 8, "max": 42.291, "min": -42.624, "div": 3, "sign": true, "unit": "celsius" }, "name": "Temperature after evaporator"}
   ]},
-{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "2613"}, "freq": 1, "dbgfilter": { "to": 2018, "years": [2022, 2023], "from": 2026 },
+{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "2613"}, "freq": 1, "dbgfilter": { "to": 2009, "years": [2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2022, 2023], "from": 2026 },
   "signals": [
     {"id": "JETTA_IAT_CABIN", "path": "Climate", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "div": 10, "sign": true, "unit": "celsius" }, "name": "Cabin temperature"}
   ]},
