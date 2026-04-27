@@ -2,4 +2,9 @@ command_id: 714.77E.222299|din=03
 test_cases:
 - expected_values:
     JETTA_FUEL_USE_AVG: 0
+  response: |-
+    222299
+    77E056222990000
+- expected_values:
+    JETTA_FUEL_USE_AVG: 0
   response: '77E056222990000'

@@ -2,4 +2,7 @@ command_id: 746.7B0.222607|fc=1
 test_cases:
 - expected_values:
     JETTA_RADIATOR_FAN_COMMANDED_DUTY: 0
+  response: '7B0 04 62 26 07 00 '
+- expected_values:
+    JETTA_RADIATOR_FAN_COMMANDED_DUTY: 0
   response: 7B00462260700

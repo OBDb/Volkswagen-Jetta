@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     JETTA_LEG_DEFLECTOR_T: 30
   response: 7B0046226115A
+- expected_values:
+    JETTA_LEG_DEFLECTOR_T: 32.33333
+  response: 7B00462261161
