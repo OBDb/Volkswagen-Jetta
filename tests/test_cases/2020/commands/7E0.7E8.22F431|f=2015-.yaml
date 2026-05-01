@@ -22,5 +22,8 @@ test_cases:
     JETTA_CLR_DIST: 23481
   response: 7E80562F4315BB9
 - expected_values:
+    JETTA_CLR_DIST: 24448
+  response: 7E80562F4315F80
+- expected_values:
     JETTA_CLR_DIST: 65202
   response: 7E80562F431FEB2
