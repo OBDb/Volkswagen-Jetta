@@ -4,5 +4,5 @@ test_cases:
     JETTA_VSS: 0
   response: 7E80462F40D00
 - expected_values:
-    JETTA_VSS: 159
-  response: 7E80462F40D9F
+    JETTA_VSS: 167
+  response: 7E80462F40DA7
