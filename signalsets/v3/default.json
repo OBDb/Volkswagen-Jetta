@@ -253,11 +253,11 @@
     {"id": "JETTA_GPS_SATS_VISIBLE", "path": "GPS", "fmt": {          "len": 8, "max": 255, "unit": "scalar" }, "name": "Satellites, visible"},
     {"id": "JETTA_GPS_SATS_TRACKED", "path": "GPS", "fmt": {"bix": 8, "len": 8, "max": 255, "unit": "scalar" }, "name": "Satellites, tracked"}
   ]},
-{ "hdr": "7E0", "cmd": {"22": "1151"}, "freq": 1, "dbgfilter": { "to": 2018, "from": 2022 },
+{ "hdr": "7E0", "cmd": {"22": "1151"}, "freq": 1, "dbgfilter": { "to": 2015, "years": [2017, 2018], "from": 2022 },
   "signals": [
     {"id": "JETTA_MISFIRES__CYL__4", "path": "ECU", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfires, cylinder 4"}
   ]},
-{ "hdr": "7E0", "cmd": {"22": "1152"}, "freq": 1, "dbgfilter": { "to": 2018, "from": 2022 },
+{ "hdr": "7E0", "cmd": {"22": "1152"}, "freq": 1, "dbgfilter": { "to": 2015, "years": [2017, 2018], "from": 2022 },
   "signals": [
     {"id": "JETTA_MISFIRES__CYL__2", "path": "ECU", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfires, cylinder 2"}
   ]},
@@ -273,31 +273,31 @@
   "signals": [
     {"id": "JETTA_COOLANT_T", "path": "Engine", "fmt": { "len": 16, "max": 6280.4, "min": -273.1, "div": 10, "add": -273.1, "unit": "celsius" }, "name": "Coolant temperature at radiator outlet"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1146"}, "freq": 1, "dbgfilter": { "to": 2018, "from": 2022 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1146"}, "freq": 1, "dbgfilter": { "to": 2015, "years": [2017, 2018], "from": 2022 },
   "signals": [
     {"id": "JETTA_MISFIRES_TOTAL", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfires total"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1147"}, "freq": 1, "dbgfilter": { "to": 2018, "from": 2022 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1147"}, "freq": 1, "dbgfilter": { "to": 2015, "years": [2017, 2018], "from": 2022 },
   "signals": [
     {"id": "JETTA_MISFIRES_1000REV_C1", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfires / 1000 revolutions, cylinder 1"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1148"}, "freq": 1, "dbgfilter": { "to": 2018, "from": 2022 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1148"}, "freq": 1, "dbgfilter": { "to": 2015, "years": [2017, 2018], "from": 2022 },
   "signals": [
     {"id": "JETTA_MISFIRES_1000REV_C3", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfires / 1000 revolutions, cylinder 3"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1149"}, "freq": 1, "dbgfilter": { "to": 2018, "from": 2022 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1149"}, "freq": 1, "dbgfilter": { "to": 2015, "years": [2017, 2018], "from": 2022 },
   "signals": [
     {"id": "JETTA_MISFIRES_1000REV_C4", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfires / 1000 revolutions, cylinder 4"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "114A"}, "freq": 1, "dbgfilter": { "to": 2018, "from": 2022 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "114A"}, "freq": 1, "dbgfilter": { "to": 2015, "years": [2017, 2018], "from": 2022 },
   "signals": [
     {"id": "JETTA_MISFIRES_1000REV_C2", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfires / 1000 revolutions, cylinder 2"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "114F"}, "freq": 1, "dbgfilter": { "to": 2018, "from": 2022 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "114F"}, "freq": 1, "dbgfilter": { "to": 2015, "years": [2017, 2018], "from": 2022 },
   "signals": [
     {"id": "JETTA_MISFIRES_C1", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfires, cylinder 1"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1150"}, "freq": 1, "dbgfilter": { "to": 2018, "from": 2022 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1150"}, "freq": 1, "dbgfilter": { "to": 2015, "years": [2017, 2018], "from": 2022 },
   "signals": [
     {"id": "JETTA_MISFIRES_C3", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfires, cylinder 3"}
   ]},
@@ -317,11 +317,11 @@
   "signals": [
     {"id": "JETTA_OIL_LEVEL_WARN", "path": "Fluids", "fmt": { "len": 16, "max": 26.2, "div": 2500, "unit": "centimeters" }, "name": "Oil level warning threshold"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1282"}, "freq": 1, "dbgfilter": { "to": 2018, "from": 2022 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1282"}, "freq": 1, "dbgfilter": { "to": 2015, "years": [2017, 2018], "from": 2022 },
   "signals": [
     {"id": "JETTA_EXHAUST_GAS_T_BEFORE_CATALYST", "path": "Engine", "fmt": { "len": 16, "max": 1116.77, "min": -193.93, "div": 50, "add": -193.93, "unit": "celsius" }, "name": "Exhaust gas temperature before catalyst"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "14B4"}, "freq": 1, "dbgfilter": { "to": 2018, "years": [2022, 2023], "from": 2026 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "14B4"}, "freq": 1, "dbgfilter": { "to": 2015, "years": [2017, 2018, 2022, 2023], "from": 2026 },
   "signals": [
     {"id": "JETTA_FUEL_LEVEL_INPUT_V1", "path": "Fuel", "fmt": { "len": 16, "max": 655.35, "div": 100, "unit": "liters" }, "name": "Fuel level input, v1", "suggestedMetric": "fuelTankLevel"}
   ]},
@@ -329,7 +329,7 @@
   "signals": [
     {"id": "JETTA_GEAR_V2", "path": "Transmission", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Gear"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "14F8"}, "freq": 1, "dbgfilter": { "to": 2018, "years": [2022, 2023, 2024], "from": 2026 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "14F8"}, "freq": 1, "dbgfilter": { "to": 2015, "years": [2017, 2018, 2022, 2023, 2024], "from": 2026 },
   "signals": [
     {"id": "JETTA_AAT_V1", "path": "Engine", "fmt": { "len": 16, "max": 11336.3, "min": -460, "mul": 0.18, "add": -460, "unit": "fahrenheit" }, "name": "Ambient air temperature, v1"}
   ]},
