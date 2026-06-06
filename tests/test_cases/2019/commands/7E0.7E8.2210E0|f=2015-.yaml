@@ -1,17 +1,14 @@
 command_id: 7E0.7E8.2210E0|f=2015-
 test_cases:
 - expected_values:
-    JETTA_ODO: 82485
-  response: 7E8076210E000014235
+    JETTA_ODO: 90049
+  response: 7E8076210E000015FC1
 - expected_values:
-    JETTA_ODO: 187087
-  response: 7E8076210E00002DACF
+    JETTA_ODO: 90111
+  response: 7E8076210E000015FFF
 - expected_values:
-    JETTA_ODO: 187135
-  response: 7E8076210E00002DAFF
-- expected_values:
-    JETTA_ODO: 187136
-  response: 7E8076210E00002DB00
+    JETTA_ODO: 90112
+  response: 7E8076210E000016000
 - expected_values:
     JETTA_ODO: 196355
   response: 7E8076210E00002FF03
