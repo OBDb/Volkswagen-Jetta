@@ -1,0 +1,17 @@
+command_id: 746.7B0.22260C|fc=1
+test_cases:
+- expected_values:
+    JETTA_FRONT_LEFT_DEFLECTOR_T: 46
+  response: 7B00462260C8A
+- expected_values:
+    JETTA_FRONT_LEFT_DEFLECTOR_T: 46.66667
+  response: 7B00462260C8C
+- expected_values:
+    JETTA_FRONT_LEFT_DEFLECTOR_T: 47.33333
+  response: 7B00462260C8E
+- expected_values:
+    JETTA_FRONT_LEFT_DEFLECTOR_T: 48
+  response: 7B00462260C90
+- expected_values:
+    JETTA_FRONT_LEFT_DEFLECTOR_T: 48.66667
+  response: 7B00462260C92

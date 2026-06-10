@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.22F41F|f=2015-
+test_cases:
+- expected_values:
+    JETTA_RUNTM: 1305
+  response: 7E80562F41F0519
+- expected_values:
+    JETTA_RUNTM: 2557
+  response: 7E80562F41F09FD
+- expected_values:
+    JETTA_RUNTM: 2829
+  response: 7E80562F41F0B0D

@@ -1,0 +1,14 @@
+command_id: 714.77E.221014|fc=1
+test_cases:
+- expected_values:
+    JETTA_AAT: 3
+  response: 77E046210146A
+- expected_values:
+    JETTA_AAT: 3.5
+  response: 77E046210146B
+- expected_values:
+    JETTA_AAT: 4
+  response: 77E046210146C
+- expected_values:
+    JETTA_AAT: 6
+  response: '77E0462101470'
