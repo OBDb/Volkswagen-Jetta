@@ -1,0 +1,11 @@
+command_id: 7E1.7E9.222102
+test_cases:
+- expected_values:
+    JETTA_AT_INPUT_SPEED: 0
+  response: '7E9056221020000'
+- expected_values:
+    JETTA_AT_INPUT_SPEED: 255.75
+  response: 7E90562210203FF
+- expected_values:
+    JETTA_AT_INPUT_SPEED: 473
+  response: '7E9056221020764'

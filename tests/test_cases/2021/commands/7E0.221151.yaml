@@ -1,0 +1,8 @@
+command_id: 7E0.221151
+test_cases:
+- expected_values:
+    JETTA_MISFIRES__CYL__4: 3185
+  response: 7E8056211510C71
+- expected_values:
+    JETTA_MISFIRES__CYL__4: 3186
+  response: 7E8056211510C72
