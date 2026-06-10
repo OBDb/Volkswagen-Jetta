@@ -1,0 +1,23 @@
+command_id: 746.7B0.222611|fc=1
+test_cases:
+- expected_values:
+    JETTA_LEG_DEFLECTOR_T: 46.66667
+  response: 7B0046226118C
+- expected_values:
+    JETTA_LEG_DEFLECTOR_T: 48
+  response: 7B00462261190
+- expected_values:
+    JETTA_LEG_DEFLECTOR_T: 48.66667
+  response: 7B00462261192
+- expected_values:
+    JETTA_LEG_DEFLECTOR_T: 49.33333
+  response: 7B00462261194
+- expected_values:
+    JETTA_LEG_DEFLECTOR_T: 50
+  response: 7B00462261196
+- expected_values:
+    JETTA_LEG_DEFLECTOR_T: 50.66667
+  response: 7B00462261198
+- expected_values:
+    JETTA_LEG_DEFLECTOR_T: 51.33333
+  response: 7B0046226119A

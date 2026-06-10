@@ -1,0 +1,14 @@
+command_id: 710.77A.222A07|f=2017-
+test_cases:
+- expected_values:
+    JETTA_SSB_V: 12.278
+  response: 77A05622A072056
+- expected_values:
+    JETTA_SSB_V: 13.214
+  response: 77A05622A0723FE
+- expected_values:
+    JETTA_SSB_V: 13.216
+  response: 77A05622A072400
+- expected_values:
+    JETTA_SSB_V: 14.867
+  response: 77A05622A072A73

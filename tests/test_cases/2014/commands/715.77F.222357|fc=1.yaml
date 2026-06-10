@@ -1,0 +1,25 @@
+command_id: 715.77F.222357|fc=1
+test_cases:
+- expected_values:
+    JETTA_ROLLOVER: 0
+  response: |-
+    77F0462235500
+    77F0462235700
+    77F0462235600
+    77F0462235400
+- expected_values:
+    JETTA_ROLLOVER: 0
+  response: |-
+    77F0462235600
+    77F0462235700
+- expected_values:
+    JETTA_ROLLOVER: 0
+  response: 77F0462235700
+- expected_values:
+    JETTA_ROLLOVER: 0
+  response: |-
+    77F0462235700
+    77F0462235500
+    77F0462235600
+    77F0462235300
+    77F0462235400
