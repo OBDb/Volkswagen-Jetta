@@ -1,5 +1,8 @@
 command_id: 714.77E.22202F|f=-2018,din=03
 test_cases:
 - expected_values:
-    JETTA_EOT: 92
-  response: 77E0462202F96
+    JETTA_EOT: 67
+  response: 77E0462202F7D
+- expected_values:
+    JETTA_EOT: 96
+  response: 77E0462202F9A

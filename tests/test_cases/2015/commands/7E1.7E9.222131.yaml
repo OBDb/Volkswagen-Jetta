@@ -1,0 +1,11 @@
+command_id: 7E1.7E9.222131
+test_cases:
+- expected_values:
+    JETTA_TORQUE_CONVERTER_SLIP: 1
+  response: '7E9056221310001'
+- expected_values:
+    JETTA_TORQUE_CONVERTER_SLIP: -7
+  response: 7E905622131FFF9
+- expected_values:
+    JETTA_TORQUE_CONVERTER_SLIP: -1
+  response: 7E905622131FFFF

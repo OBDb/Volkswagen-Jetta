@@ -1,5 +1,23 @@
 command_id: 714.77E.222299|din=03
 test_cases:
 - expected_values:
+    JETTA_FUEL_USE_AVG: 17.2
+  response: 77E0562229900AC
+- expected_values:
+    JETTA_FUEL_USE_AVG: 17.5
+  response: 77E0562229900AF
+- expected_values:
+    JETTA_FUEL_USE_AVG: 17.6
+  response: 77E0562229900B0
+- expected_values:
+    JETTA_FUEL_USE_AVG: 17.7
+  response: 77E0562229900B1
+- expected_values:
+    JETTA_FUEL_USE_AVG: 17.8
+  response: 77E0562229900B2
+- expected_values:
+    JETTA_FUEL_USE_AVG: 17.9
+  response: 77E0562229900B3
+- expected_values:
     JETTA_FUEL_USE_AVG: 49.9
   response: 77E0562229901F3

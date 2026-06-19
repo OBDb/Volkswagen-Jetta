@@ -1,0 +1,26 @@
+command_id: 7E0.7E8.22F431|f=2015-
+test_cases:
+- expected_values:
+    JETTA_CLR_DIST: 7341
+  response: 7E80562F4311CAD
+- expected_values:
+    JETTA_CLR_DIST: 7342
+  response: 7E80562F4311CAE
+- expected_values:
+    JETTA_CLR_DIST: 7343
+  response: 7E80562F4311CAF
+- expected_values:
+    JETTA_CLR_DIST: 7344
+  response: 7E80562F4311CB0
+- expected_values:
+    JETTA_CLR_DIST: 7372
+  response: 7E80562F4311CCC
+- expected_values:
+    JETTA_CLR_DIST: 7373
+  response: 7E80562F4311CCD
+- expected_values:
+    JETTA_CLR_DIST: 7374
+  response: 7E80562F4311CCE
+- expected_values:
+    JETTA_CLR_DIST: 7375
+  response: 7E80562F4311CCF
