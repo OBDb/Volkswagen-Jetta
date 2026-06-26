@@ -146,7 +146,7 @@
   "signals": [
     {"id": "JETTA_FUEL_USE_AVG", "path": "Fuel", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "liters" }, "name": "Average fuel consumption"}
   ]},
-{ "hdr": "714", "rax": "77E", "din": "03", "cmd": {"22": "229A"}, "freq": 1, "filter": { "to": 2018 }, "dbgfilter": { "to": 2009, "years": [2011, 2012, 2014], "from": 2017 },
+{ "hdr": "714", "rax": "77E", "din": "03", "cmd": {"22": "229A"}, "freq": 1, "filter": { "to": 2018 }, "dbgfilter": { "to": 2009, "years": [2011, 2012], "from": 2017 },
   "signals": [
     {"id": "JETTA_FLI", "path": "Fuel", "fmt": { "len": 16, "max": 8191.875, "div": 8, "unit": "liters" }, "name": "Fuel level input", "suggestedMetric": "fuelTankLevel"}
   ]},
