@@ -111,6 +111,7 @@ unsupported_commands_by_ecu:
   - 710.77A.222A61
   "746":
   - 746.7B0.2226ED
+  - 746.7B0.22482B|fc=1:JETTA_AC_CLUTCH
   "7E0":
   - 7E0.7E8.221002
   - 7E0.7E8.2210E0
