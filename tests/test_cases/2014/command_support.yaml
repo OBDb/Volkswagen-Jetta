@@ -99,6 +99,8 @@ supported_commands_by_ecu:
   - 7E1.7E9.0142
   - 7E1.7E9.222103:JETTA_AT_OUTPUT_SPEED
 unsupported_commands_by_ecu:
+  "70E":
+  - 70E.778.221945|fc=1:JETTA_NOZZLES_HEATER_ACTIVE
   "710":
   - 710.77A.222A00
   - 710.77A.222A07
