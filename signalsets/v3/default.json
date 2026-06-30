@@ -126,7 +126,7 @@
   "signals": [
     {"id": "JETTA_AAT", "path": "Climate", "fmt": { "len": 8, "max": 77.5, "min": -50, "div": 2, "add": -50, "unit": "celsius" }, "name": "Ambient air temperature"}
   ]},
-{ "hdr": "714", "rax": "77E", "din": "03", "cmd": {"22": "202F"}, "freq": 1, "filter": { "to": 2018 }, "dbgfilter": { "to": 2009, "years": [2011, 2012, 2014], "from": 2017 },
+{ "hdr": "714", "rax": "77E", "din": "03", "cmd": {"22": "202F"}, "freq": 1, "filter": { "to": 2018 }, "dbgfilter": { "to": 2009, "years": [2011, 2012], "from": 2017 },
   "signals": [
     {"id": "JETTA_EOT", "path": "Engine", "fmt": { "len": 8, "max": 197, "min": -58, "add": -58, "unit": "celsius" }, "name": "Engine oil temperature"}
   ]},

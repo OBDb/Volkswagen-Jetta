@@ -2,6 +2,15 @@ command_id: 7E0.010D
 test_cases:
 - expected_values:
     VSS: 0
+  response: '7E8 03 41 0D 00 AA AA AA AA '
+- expected_values:
+    VSS: 49
+  response: '7E8 03 41 0D 31 AA AA AA AA '
+- expected_values:
+    VSS: 54
+  response: '7E8 03 41 0D 36 AA AA AA AA '
+- expected_values:
+    VSS: 0
   response: 7E803410D00
 - expected_values:
     VSS: 124
