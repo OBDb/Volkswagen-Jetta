@@ -325,7 +325,7 @@
   "signals": [
     {"id": "JETTA_FUEL_LEVEL_INPUT_V1", "path": "Fuel", "fmt": { "len": 16, "max": 655.35, "div": 100, "unit": "liters" }, "name": "Fuel level input, v1", "suggestedMetric": "fuelTankLevel"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "14CB"}, "freq": 1, "dbgfilter": { "to": 2014, "years": [2017, 2018, 2022, 2023], "from": 2026 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "14CB"}, "freq": 1, "dbgfilter": { "to": 2013, "years": [2017, 2018, 2022, 2023], "from": 2026 },
   "signals": [
     {"id": "JETTA_GEAR_V2", "path": "Transmission", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Gear"}
   ]},
