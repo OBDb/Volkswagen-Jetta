@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.2214CB
+test_cases:
+- expected_values:
+    JETTA_GEAR_V2: 0
+  response: '7E8 04 62 14 CB 00 AA AA AA '
