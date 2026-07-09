@@ -387,7 +387,7 @@
   "signals": [
     {"id": "JETTA_TORQUE_CONVERTER_SLIP", "path": "ECU", "fmt": { "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "rpm" }, "name": "Torque converter slip"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "3841"}, "freq": 1, "dbgfilter": { "to": 2014, "years": [2017, 2018, 2022, 2023], "from": 2026 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "3841"}, "freq": 1, "dbgfilter": { "to": 2013, "years": [2017, 2018, 2022, 2023], "from": 2026 },
   "signals": [
     {"id": "JETTA_ODO_V1", "path": "Trips", "fmt": { "len": 32, "max": 429496729.5, "div": 10, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
   ]},
