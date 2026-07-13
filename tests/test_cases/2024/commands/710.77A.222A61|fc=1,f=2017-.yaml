@@ -1,6 +1,12 @@
 command_id: 710.77A.222A61|fc=1,f=2017-
 test_cases:
 - expected_values:
+    JETTA_SSB_TOTAL_CHARGE: 0
+    JETTA_SSB_TOTAL_DISCHARGE: 0
+  response: |-
+    77A100B622A61000000
+    77A210000000000AAAA
+- expected_values:
     JETTA_SSB_TOTAL_CHARGE: 100
     JETTA_SSB_TOTAL_DISCHARGE: 100
   response: |-
