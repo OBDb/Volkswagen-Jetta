@@ -1,0 +1,20 @@
+command_id: 7E0.0144
+test_cases:
+- expected_values:
+    EQ_RAT: 0.8
+  response: '7E8 04 41 44 66 66 AA AA AA '
+- expected_values:
+    EQ_RAT: 0.88069
+  response: '7E8 04 41 44 70 BA AA AA AA '
+- expected_values:
+    EQ_RAT: 0.99312
+  response: '7E8 04 41 44 7F 1E AA AA AA '
+- expected_values:
+    EQ_RAT: 1.0005
+  response: '7E8 04 41 44 80 10 AA AA AA '
+- expected_values:
+    EQ_RAT: 1.00722
+  response: '7E8 04 41 44 80 EC AA AA AA '
+- expected_values:
+    EQ_RAT: 1.70004
+  response: '7E8 04 41 44 D9 9A AA AA AA '
