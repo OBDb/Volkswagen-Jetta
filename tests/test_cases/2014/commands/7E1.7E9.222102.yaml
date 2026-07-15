@@ -1,0 +1,20 @@
+command_id: 7E1.7E9.222102
+test_cases:
+- expected_values:
+    JETTA_AT_INPUT_SPEED: 0
+  response: '7E9 05 62 21 02 00 00 AA AA '
+- expected_values:
+    JETTA_AT_INPUT_SPEED: 103.5
+  response: '7E9 05 62 21 02 01 9E AA AA '
+- expected_values:
+    JETTA_AT_INPUT_SPEED: 341.5
+  response: '7E9 05 62 21 02 05 56 AA AA '
+- expected_values:
+    JETTA_AT_INPUT_SPEED: 352.75
+  response: '7E9 05 62 21 02 05 83 AA AA '
+- expected_values:
+    JETTA_AT_INPUT_SPEED: 360.75
+  response: '7E9 05 62 21 02 05 A3 AA AA '
+- expected_values:
+    JETTA_AT_INPUT_SPEED: 384.75
+  response: '7E9 05 62 21 02 06 03 AA AA '
