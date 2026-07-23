@@ -3,3 +3,15 @@ test_cases:
 - expected_values:
     JETTA_ODO_V1: 163701
   response: 7E9076238410018FA92
+- expected_values:
+    JETTA_ODO_V1: 168783
+  response: 7E9076238410019C116
+- expected_values:
+    JETTA_ODO_V1: 168784
+  response: 7E9076238410019C120
+- expected_values:
+    JETTA_ODO_V1: 168785
+  response: 7E9076238410019C12A
+- expected_values:
+    JETTA_ODO_V1: 168786
+  response: 7E9076238410019C134

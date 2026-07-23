@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     JETTA_COOLANT_T: 5730
   response: 7E805621135EA7F
+- expected_values:
+    JETTA_COOLANT_T: 5738.9
+  response: 7E805621135EAD8
