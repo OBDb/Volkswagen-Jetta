@@ -12,3 +12,15 @@ test_cases:
 - expected_values:
     JETTA_FLI: 13.375
   response: 77E0562229A006B
+- expected_values:
+    JETTA_FLI: 32
+  response: 77E0562229A0100
+- expected_values:
+    JETTA_FLI: 32.125
+  response: 77E0562229A0101
+- expected_values:
+    JETTA_FLI: 32.25
+  response: 77E0562229A0102
+- expected_values:
+    JETTA_FLI: 32.375
+  response: 77E0562229A0103

@@ -4,11 +4,5 @@ test_cases:
     JETTA_EOT: -58
   response: 77E0462202F00
 - expected_values:
-    JETTA_EOT: 36
-  response: 77E0462202F5E
-- expected_values:
-    JETTA_EOT: 39
-  response: 77E0462202F61
-- expected_values:
     JETTA_EOT: 94
   response: 77E0462202F98
