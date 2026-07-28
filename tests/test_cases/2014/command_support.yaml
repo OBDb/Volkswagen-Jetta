@@ -3,6 +3,7 @@ supported_commands_by_ecu:
   "714":
   - 714.77E.221014|fc=1:JETTA_AAT
   - 714.77E.22202F|f=-2018,din=03:JETTA_EOT
+  - 714.77E.222294|din=03:JETTA_DTE
   - 714.77E.222299|din=03:JETTA_FUEL_USE_AVG
   - 714.77E.22229A|f=-2018,din=03:JETTA_FLI
   "715":

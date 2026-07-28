@@ -138,7 +138,7 @@
   "signals": [
     {"id": "JETTA_OIL_THERMAL_WEAR", "path": "ECU", "fmt": { "len": 16, "max": 65535, "unit": "kilometers" }, "name": "Oil thermal wear"}
   ]},
-{ "hdr": "714", "rax": "77E", "din": "03", "cmd": {"22": "2294"}, "freq": 1, "dbgfilter": { "to": 2012, "years": [2014], "from": 2017 },
+{ "hdr": "714", "rax": "77E", "din": "03", "cmd": {"22": "2294"}, "freq": 1, "dbgfilter": { "to": 2012, "from": 2017 },
   "signals": [
     {"id": "JETTA_DTE", "path": "Trips", "fmt": { "len": 16, "max": 65535, "unit": "kilometers" }, "name": "Distance to empty", "suggestedMetric": "fuelRange"}
   ]},
