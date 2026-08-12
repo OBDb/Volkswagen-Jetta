@@ -1,6 +1,18 @@
 command_id: 7E0.7E8.2214B4
 test_cases:
 - expected_values:
+    JETTA_FUEL_LEVEL_INPUT_V1: 14
+  response: 7E8056214B40578
+- expected_values:
+    JETTA_FUEL_LEVEL_INPUT_V1: 15
+  response: 7E8056214B405DC
+- expected_values:
+    JETTA_FUEL_LEVEL_INPUT_V1: 16
+  response: 7E8056214B40640
+- expected_values:
+    JETTA_FUEL_LEVEL_INPUT_V1: 20
+  response: 7E8056214B407D0
+- expected_values:
     JETTA_FUEL_LEVEL_INPUT_V1: 33
   response: 7E8056214B40CE4
 - expected_values:
