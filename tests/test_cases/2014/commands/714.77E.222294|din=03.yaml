@@ -1,26 +1,11 @@
 command_id: 714.77E.222294|din=03
 test_cases:
 - expected_values:
-    JETTA_DTE: 119
-  response: '77E 05 62 22 94 00 77 AA AA '
+    JETTA_DTE: 106
+  response: '77E 05 62 22 94 00 6A AA AA '
 - expected_values:
-    JETTA_DTE: 120
-  response: '77E 05 62 22 94 00 78 AA AA '
+    JETTA_DTE: 111
+  response: '77E 05 62 22 94 00 6F AA AA '
 - expected_values:
-    JETTA_DTE: 121
-  response: '77E 05 62 22 94 00 79 AA AA '
-- expected_values:
-    JETTA_DTE: 122
-  response: '77E 05 62 22 94 00 7A AA AA '
-- expected_values:
-    JETTA_DTE: 123
-  response: '77E 05 62 22 94 00 7B AA AA '
-- expected_values:
-    JETTA_DTE: 124
-  response: '77E 05 62 22 94 00 7C AA AA '
-- expected_values:
-    JETTA_DTE: 125
-  response: '77E 05 62 22 94 00 7D AA AA '
-- expected_values:
-    JETTA_DTE: 126
-  response: '77E 05 62 22 94 00 7E AA AA '
+    JETTA_DTE: 113
+  response: '77E 05 62 22 94 00 71 AA AA '
