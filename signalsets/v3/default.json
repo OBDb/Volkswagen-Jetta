@@ -134,7 +134,7 @@
   "signals": [
     {"id": "JETTA_ODO_DASH", "path": "Trips", "fmt": { "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Odometer, dashboard"}
   ]},
-{ "hdr": "714", "rax": "77E", "din": "03", "cmd": {"22": "224B"}, "freq": 1, "dbgfilter": { "to": 2009, "years": [2011, 2012, 2014, 2017, 2018, 2022, 2023], "from": 2026 },
+{ "hdr": "714", "rax": "77E", "din": "03", "cmd": {"22": "224B"}, "freq": 1, "dbgfilter": { "to": 2009, "years": [2011, 2012, 2017, 2018, 2022, 2023], "from": 2026 },
   "signals": [
     {"id": "JETTA_OIL_THERMAL_WEAR", "path": "ECU", "fmt": { "len": 16, "max": 65535, "unit": "kilometers" }, "name": "Oil thermal wear"}
   ]},
