@@ -1,0 +1,4 @@
+model_year: 2008
+unsupported_commands_by_ecu:
+  "714":
+  - 714.77E.222203|f=-2018,din=03:JETTA_ODO_DASH
