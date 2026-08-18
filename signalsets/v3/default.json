@@ -391,7 +391,7 @@
   "signals": [
     {"id": "JETTA_ODO_V1", "path": "Trips", "fmt": { "len": 32, "max": 429496729.5, "div": 10, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "704F"}, "freq": 1, "dbgfilter": { "to": 2014, "years": [2017, 2018, 2022, 2023], "from": 2026 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "704F"}, "freq": 1, "dbgfilter": { "to": 2013, "years": [2017, 2018, 2022, 2023], "from": 2026 },
   "signals": [
     {"id": "JETTA_ATF_MAX", "path": "Engine", "fmt": { "len": 8, "max": 205, "min": -50, "add": -50, "unit": "celsius" }, "name": "Automatic transmission fluid temperature, lifetime max"}
   ]}
