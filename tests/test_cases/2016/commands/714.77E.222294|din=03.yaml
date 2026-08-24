@@ -4,8 +4,8 @@ test_cases:
     JETTA_DTE: 122
   response: 77E05622294007A
 - expected_values:
-    JETTA_DTE: 187
-  response: 77E0562229400BB
+    JETTA_DTE: 248
+  response: 77E0562229400F8
 - expected_values:
     JETTA_DTE: 307
   response: '77E056222940133'
