@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     JETTA_ATF_MAX: 103
   response: 7E90462704F99
+- expected_values:
+    JETTA_ATF_MAX: 109
+  response: 7E90462704F9F
