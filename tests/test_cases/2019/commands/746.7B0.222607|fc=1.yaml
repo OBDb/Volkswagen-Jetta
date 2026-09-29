@@ -3,3 +3,9 @@ test_cases:
 - expected_values:
     JETTA_RADIATOR_FAN_COMMANDED_DUTY: 0
   response: 7B00462260700
+- expected_values:
+    JETTA_RADIATOR_FAN_COMMANDED_DUTY: 56.8
+  response: 7B0046226078E
+- expected_values:
+    JETTA_RADIATOR_FAN_COMMANDED_DUTY: 59.2
+  response: 7B00462260794
