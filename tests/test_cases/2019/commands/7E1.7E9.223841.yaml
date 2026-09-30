@@ -4,11 +4,11 @@ test_cases:
     JETTA_ODO_V1: 0
   response: '7E90762384100000000'
 - expected_values:
+    JETTA_ODO_V1: 135091
+  response: 7E90762384100149CFE
+- expected_values:
     JETTA_ODO_V1: 208098
   response: 7E907623841001FC0D4
-- expected_values:
-    JETTA_ODO_V1: 208102
-  response: 7E907623841001FC0FC
 - expected_values:
     JETTA_ODO_V1: 208103
   response: 7E907623841001FC106
