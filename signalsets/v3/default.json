@@ -42,7 +42,7 @@
   ]},
 { "hdr": "710", "rax": "77A", "cmd": {"22": "2A10"}, "freq": 1, "filter": { "from": 2017 }, "dbgfilter": { "to": 2018, "years": [2022, 2023], "from": 2025 },
   "signals": [
-    {"id": "JETTA_SSB_V_REST", "path": "Battery", "fmt": { "len": 8, "max": 63, "min": 9, "mul": 54, "div": 255, "add": 9, "unit": "volts" }, "name": "Start/stop battery voltage"}
+    {"id": "JETTA_SSB_V_REST", "path": "Battery", "fmt": { "len": 8, "max": 34.5, "min": 9, "div": 10, "add": 9, "unit": "volts" }, "name": "Start/stop battery voltage"}
   ]},
 { "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2A61"}, "freq": 1, "filter": { "from": 2017 }, "dbgfilter": { "to": 2018, "years": [2022, 2023], "from": 2025 },
   "signals": [
