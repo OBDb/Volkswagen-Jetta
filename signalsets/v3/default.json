@@ -30,7 +30,7 @@
   ]},
 { "hdr": "710", "rax": "77A", "cmd": {"22": "2A0C"}, "freq": 1, "filter": { "from": 2017 }, "dbgfilter": { "to": 2018, "years": [2022, 2023], "from": 2025 },
   "signals": [
-    {"id": "JETTA_SSB_SOC", "path": "Battery", "fmt": { "len": 8, "max": 100, "unit": "percent" }, "name": "Start/stop battery state of charge", "suggestedMetric": "stateOfCharge"}
+    {"id": "JETTA_SSB_SOC", "path": "Battery", "fmt": { "len": 8, "max": 100, "unit": "percent" }, "name": "Start/stop battery state of charge"}
   ]},
 { "hdr": "710", "rax": "77A", "cmd": {"22": "2A0E"}, "freq": 1, "dbgfilter": { "to": 2018, "years": [2022, 2023], "from": 2026 },
   "signals": [
