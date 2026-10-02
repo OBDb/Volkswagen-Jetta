@@ -4,5 +4,11 @@ test_cases:
     JETTA_AC_COMPRESSOR_LOAD: 0
   response: 7B00462260400
 - expected_values:
+    JETTA_AC_COMPRESSOR_LOAD: 8.4
+  response: 7B00462260454
+- expected_values:
+    JETTA_AC_COMPRESSOR_LOAD: 8.6
+  response: 7B00462260456
+- expected_values:
     JETTA_AC_COMPRESSOR_LOAD: 15.2
   response: 7B00462260498
