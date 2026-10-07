@@ -7,14 +7,11 @@ test_cases:
     JETTA_ODO_V1: 140523
   response: '7E9 07 62 38 41 00 15 71 2E '
 - expected_values:
-    JETTA_ODO_V1: 140524
-  response: '7E9 07 62 38 41 00 15 71 38 '
+    JETTA_ODO_V1: 141085
+  response: '7E9 07 62 38 41 00 15 87 22 '
 - expected_values:
-    JETTA_ODO_V1: 140525
-  response: '7E9 07 62 38 41 00 15 71 42 '
+    JETTA_ODO_V1: 141088
+  response: '7E9 07 62 38 41 00 15 87 40 '
 - expected_values:
-    JETTA_ODO_V1: 140526
-  response: '7E9 07 62 38 41 00 15 71 4C '
-- expected_values:
-    JETTA_ODO_V1: 140527
-  response: '7E9 07 62 38 41 00 15 71 56 '
+    JETTA_ODO_V1: 141093
+  response: '7E9 07 62 38 41 00 15 87 72 '
