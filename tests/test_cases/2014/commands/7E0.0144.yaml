@@ -1,20 +1,20 @@
 command_id: 7E0.0144
 test_cases:
 - expected_values:
-    EQ_RAT: 0.8
+    EQ_RAT: 0.79999
   response: '7E8 04 41 44 66 66 AA AA AA '
 - expected_values:
-    EQ_RAT: 0.84358
+    EQ_RAT: 0.84357
   response: '7E8 04 41 44 6B FA AA AA AA '
 - expected_values:
-    EQ_RAT: 0.88069
+    EQ_RAT: 0.88068
   response: '7E8 04 41 44 70 BA AA AA AA '
 - expected_values:
-    EQ_RAT: 0.99312
+    EQ_RAT: 0.9931
   response: '7E8 04 41 44 7F 1E AA AA AA '
 - expected_values:
-    EQ_RAT: 1.0002
+    EQ_RAT: 1.00018
   response: '7E8 04 41 44 80 06 AA AA AA '
 - expected_values:
-    EQ_RAT: 1.69601
+    EQ_RAT: 1.69598
   response: '7E8 04 41 44 D9 16 AA AA AA '
