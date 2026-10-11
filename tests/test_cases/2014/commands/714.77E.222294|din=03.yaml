@@ -15,3 +15,6 @@ test_cases:
 - expected_values:
     JETTA_DTE: 466
   response: '77E 05 62 22 94 01 D2 AA AA '
+- expected_values:
+    JETTA_DTE: 787
+  response: '77E056222940313'
