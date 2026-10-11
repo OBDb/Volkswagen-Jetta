@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.2216EC
+test_cases:
+- expected_values:
+    JETTA_CHG_P_REGULATOR_LO: 950
+  response: 7E8056216EC128E

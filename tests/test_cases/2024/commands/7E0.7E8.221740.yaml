@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.221740
+test_cases:
+- expected_values:
+    JETTA_INT_CAM_ADPT_SENS: -0.35157
+  response: 7E805621740FFF0

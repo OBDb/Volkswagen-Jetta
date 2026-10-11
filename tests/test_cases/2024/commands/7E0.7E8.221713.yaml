@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.221713
+test_cases:
+- expected_values:
+    JETTA_TOT_MASS_GASOLINE: 1.62131
+  response: 7E805621713004C
+- expected_values:
+    JETTA_TOT_MASS_GASOLINE: 1.68531
+  response: 7E805621713004F
+- expected_values:
+    JETTA_TOT_MASS_GASOLINE: 1.98397
+  response: 7E805621713005D

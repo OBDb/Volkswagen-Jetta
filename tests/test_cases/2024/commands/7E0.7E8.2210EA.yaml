@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.2210EA
+test_cases:
+- expected_values:
+    JETTA_OPEN_CAM_SHFT_ANG: -21
+  response: 7E8056210EAFF2E
+- expected_values:
+    JETTA_OPEN_CAM_SHFT_ANG: -15.6
+  response: 7E8056210EAFF64
+- expected_values:
+    JETTA_OPEN_CAM_SHFT_ANG: -4
+  response: 7E8056210EAFFD8

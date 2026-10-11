@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.221018
+test_cases:
+- expected_values:
+    JETTA_CLT_FAN_REQ_AC: 0
+  response: '7E8056210180000'
+- expected_values:
+    JETTA_CLT_FAN_REQ_AC: 34.39933
+  response: 7E8056210180B02

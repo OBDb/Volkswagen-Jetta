@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.2210BE
+test_cases:
+- expected_values:
+    JETTA_REQ_TQ_AMOUNT: 3
+  response: 7E8056210BE001E
+- expected_values:
+    JETTA_REQ_TQ_AMOUNT: 7.2
+  response: 7E8056210BE0048
+- expected_values:
+    JETTA_REQ_TQ_AMOUNT: 7.7
+  response: 7E8056210BE004D
+- expected_values:
+    JETTA_REQ_TQ_AMOUNT: 15
+  response: 7E8056210BE0096

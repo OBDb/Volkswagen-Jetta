@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.2258D1
+test_cases:
+- expected_values:
+    JETTA_ENG_OIL_LEVEL: 6.44
+  response: |-
+    7E810116258D10000EA
+    7E821620000EA520284
+    7E82200020007AAAAAA

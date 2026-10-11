@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.2215C1
+test_cases:
+- expected_values:
+    JETTA_IAT_BEFORE_THROTTLE: -39.75
+  response: 7E8056215C10B87
+- expected_values:
+    JETTA_IAT_BEFORE_THROTTLE: -39.75
+  response: 7E8056215C10BD8
+- expected_values:
+    JETTA_IAT_BEFORE_THROTTLE: -39.75
+  response: 7E8056215C10BE3
+- expected_values:
+    JETTA_IAT_BEFORE_THROTTLE: -39.75
+  response: 7E8056215C10BEE

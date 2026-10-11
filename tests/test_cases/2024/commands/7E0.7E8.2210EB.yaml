@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.2210EB
+test_cases:
+- expected_values:
+    JETTA_CRANK_ROT_ANG: 20.3
+  response: 7E8056210EB00CB
+- expected_values:
+    JETTA_CRANK_ROT_ANG: 34.9
+  response: 7E8056210EB015D
+- expected_values:
+    JETTA_CRANK_ROT_ANG: 49.6
+  response: 7E8056210EB01F0
+- expected_values:
+    JETTA_CRANK_ROT_ANG: 64.1
+  response: 7E8056210EB0281

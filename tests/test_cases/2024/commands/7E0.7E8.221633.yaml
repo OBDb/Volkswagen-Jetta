@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.221633
+test_cases:
+- expected_values:
+    JETTA_LONGITUDINAL_ACCEL: 0.098
+  response: '7E8056216330062'
+- expected_values:
+    JETTA_LONGITUDINAL_ACCEL: 0.408
+  response: '7E8056216330198'
+- expected_values:
+    JETTA_LONGITUDINAL_ACCEL: -0.481
+  response: 7E805621633FE1F
+- expected_values:
+    JETTA_LONGITUDINAL_ACCEL: -0.356
+  response: 7E805621633FE9C

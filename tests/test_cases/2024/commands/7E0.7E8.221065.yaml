@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.221065
+test_cases:
+- expected_values:
+    JETTA_CYL_HEAD_T: 89.9
+  response: 7E8056210650BEF
+- expected_values:
+    JETTA_CYL_HEAD_T: 172.16
+  response: 7E8056210650DB8
+- expected_values:
+    JETTA_CYL_HEAD_T: 205.28
+  response: 7E8056210650E70
+- expected_values:
+    JETTA_CYL_HEAD_T: 206.36
+  response: 7E8056210650E76

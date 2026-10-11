@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.2211D2
+test_cases:
+- expected_values:
+    JETTA_HIGH_P_CTRL_ADPT: -0.0425
+  response: 7E8056211D2FFAB
+- expected_values:
+    JETTA_HIGH_P_CTRL_ADPT: -0.0415
+  response: 7E8056211D2FFAD
