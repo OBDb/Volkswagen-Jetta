@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.2211A4
+test_cases:
+- expected_values:
+    JETTA_FUEL_PMP_CMD_DUTY: 37.90272
+  response: 7E8056211A46108
+- expected_values:
+    JETTA_FUEL_PMP_CMD_DUTY: 39.03492
+  response: 7E8056211A463EE
+- expected_values:
+    JETTA_FUEL_PMP_CMD_DUTY: 39.26075
+  response: 7E8056211A46482
+- expected_values:
+    JETTA_FUEL_PMP_CMD_DUTY: 39.305
+  response: 7E8056211A4649F

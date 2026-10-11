@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.2214A1
+test_cases:
+- expected_values:
+    JETTA_RATED_DRIVE_TQ: 4
+  response: 7E8076214A100000028
+- expected_values:
+    JETTA_RATED_DRIVE_TQ: 295
+  response: 7E8076214A100000B86
+- expected_values:
+    JETTA_RATED_DRIVE_TQ: 1225
+  response: 7E8076214A100002FDA
+- expected_values:
+    JETTA_RATED_DRIVE_TQ: -47
+  response: 7E8076214A1FFFFFE2A

@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.221175
+test_cases:
+- expected_values:
+    JETTA_INTEGRATED_MASS_AIR: 622.94112
+  response: 7E80562117506D8
+- expected_values:
+    JETTA_INTEGRATED_MASS_AIR: 1412.28432
+  response: 7E8056211750F84
+- expected_values:
+    JETTA_INTEGRATED_MASS_AIR: 2125.18212
+  response: '7E8056211751759'
+- expected_values:
+    JETTA_INTEGRATED_MASS_AIR: 3030.08232
+  response: 7E805621175214A

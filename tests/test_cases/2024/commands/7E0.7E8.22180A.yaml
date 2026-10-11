@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.22180A
+test_cases:
+- expected_values:
+    JETTA_FUEL_RATE_DIFF_INJ: 0
+  response: 7E80562180A0000
+- expected_values:
+    JETTA_FUEL_RATE_DIFF_INJ: 2.53122
+  response: 7E80562180A0288
+- expected_values:
+    JETTA_FUEL_RATE_DIFF_INJ: 2.62887
+  response: 7E80562180A02A1
+- expected_values:
+    JETTA_FUEL_RATE_DIFF_INJ: 2.69137
+  response: 7E80562180A02B1

@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.221059
+test_cases:
+- expected_values:
+    JETTA_ACCEL_PEDAL_TQ_LIM: 0
+  response: '7E8056210590000'
+- expected_values:
+    JETTA_ACCEL_PEDAL_TQ_LIM: 20.8
+  response: 7E80562105900D0
+- expected_values:
+    JETTA_ACCEL_PEDAL_TQ_LIM: 91.6
+  response: '7E8056210590394'

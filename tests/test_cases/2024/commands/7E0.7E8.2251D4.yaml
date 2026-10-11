@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.2251D4
+test_cases:
+- expected_values:
+    JETTA_CYL_BLOCK_T_SENS: 40.4
+  response: 7E8056251D40C3F
+- expected_values:
+    JETTA_CYL_BLOCK_T_SENS: 66.8
+  response: 7E8056251D40D47
+- expected_values:
+    JETTA_CYL_BLOCK_T_SENS: 89.2
+  response: 7E8056251D40E27
+- expected_values:
+    JETTA_CYL_BLOCK_T_SENS: 90.8
+  response: 7E8056251D40E37

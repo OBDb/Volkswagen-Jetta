@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.2215C0
+test_cases:
+- expected_values:
+    JETTA_IAT_RAW: 23.7
+  response: 7E8056215C00B98
+- expected_values:
+    JETTA_IAT_RAW: 26.6
+  response: 7E8056215C00BB5
+- expected_values:
+    JETTA_IAT_RAW: 28.8
+  response: 7E8056215C00BCB
+- expected_values:
+    JETTA_IAT_RAW: 29.1
+  response: 7E8056215C00BCE

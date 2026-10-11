@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.22177D
+test_cases:
+- expected_values:
+    JETTA_OIL_P_ACT_7E0: 236.3
+  response: 7E80562177D093B
+- expected_values:
+    JETTA_OIL_P_ACT_7E0: 238.7
+  response: 7E80562177D0953
+- expected_values:
+    JETTA_OIL_P_ACT_7E0: 242
+  response: 7E80562177D0974
+- expected_values:
+    JETTA_OIL_P_ACT_7E0: 244.1
+  response: 7E80562177D0989

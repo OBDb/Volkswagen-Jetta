@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.22127B
+test_cases:
+- expected_values:
+    JETTA_VARIABLE_VLV_TIM_INT_1: 33.40451
+  response: 7E80562127B2AC2
+- expected_values:
+    JETTA_VARIABLE_VLV_TIM_INT_1: 37.75631
+  response: 7E80562127B3054
+- expected_values:
+    JETTA_VARIABLE_VLV_TIM_INT_1: 41.79378
+  response: 7E80562127B357F
+- expected_values:
+    JETTA_VARIABLE_VLV_TIM_INT_1: 41.92501
+  response: 7E80562127B35AA

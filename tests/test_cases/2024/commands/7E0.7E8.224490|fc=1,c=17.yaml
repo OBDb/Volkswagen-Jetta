@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.224490|fc=1,c=17
+test_cases:
+- expected_values:
+    JETTA_COOLANT_T_AT_ENGINE_OUTLET_CALCULATED: 38.1
+  response: 7E8056244900C28
