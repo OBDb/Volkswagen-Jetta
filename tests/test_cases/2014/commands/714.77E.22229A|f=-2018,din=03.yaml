@@ -7,5 +7,8 @@ test_cases:
     JETTA_FLI: 21.625
   response: '77E 05 62 22 9A 00 AD AA AA '
 - expected_values:
+    JETTA_FLI: 36
+  response: 77E0562229A0120
+- expected_values:
     JETTA_FLI: 36.375
   response: 77E0562229A0123
