@@ -4,11 +4,23 @@ test_cases:
     JETTA_RATED_DRIVE_TQ: 4
   response: 7E8076214A100000028
 - expected_values:
+    JETTA_RATED_DRIVE_TQ: 8
+  response: 7E8076214A100000050
+- expected_values:
     JETTA_RATED_DRIVE_TQ: 295
   response: 7E8076214A100000B86
 - expected_values:
     JETTA_RATED_DRIVE_TQ: 1225
   response: 7E8076214A100002FDA
 - expected_values:
+    JETTA_RATED_DRIVE_TQ: -106
+  response: 7E8076214A1FFFFFBDC
+- expected_values:
+    JETTA_RATED_DRIVE_TQ: -53
+  response: 7E8076214A1FFFFFDEE
+- expected_values:
     JETTA_RATED_DRIVE_TQ: -47
   response: 7E8076214A1FFFFFE2A
+- expected_values:
+    JETTA_RATED_DRIVE_TQ: -25
+  response: 7E8076214A1FFFFFF06

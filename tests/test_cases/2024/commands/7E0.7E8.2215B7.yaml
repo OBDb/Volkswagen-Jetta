@@ -4,6 +4,9 @@ test_cases:
     JETTA_ENG_OIL_SUMP_T: 55.88
   response: 7E8056215B70B32
 - expected_values:
+    JETTA_ENG_OIL_SUMP_T: 68.84
+  response: 7E8056215B70B7A
+- expected_values:
     JETTA_ENG_OIL_SUMP_T: 72.08
   response: 7E8056215B70B8C
 - expected_values:
@@ -12,3 +15,12 @@ test_cases:
 - expected_values:
     JETTA_ENG_OIL_SUMP_T: 102.32
   response: 7E8056215B70C34
+- expected_values:
+    JETTA_ENG_OIL_SUMP_T: 108.8
+  response: 7E8056215B70C58
+- expected_values:
+    JETTA_ENG_OIL_SUMP_T: 128.42
+  response: 7E8056215B70CC5
+- expected_values:
+    JETTA_ENG_OIL_SUMP_T: 135.08
+  response: 7E8056215B70CEA

@@ -7,5 +7,14 @@ test_cases:
     JETTA_ACCEL_PEDAL_SENS_2_V: 374.6
   response: 7E80562102B0751
 - expected_values:
+    JETTA_ACCEL_PEDAL_SENS_2_V: 378.4
+  response: 7E80562102B0764
+- expected_values:
+    JETTA_ACCEL_PEDAL_SENS_2_V: 671.4
+  response: 7E80562102B0D1D
+- expected_values:
     JETTA_ACCEL_PEDAL_SENS_2_V: 713
   response: 7E80562102B0DED
+- expected_values:
+    JETTA_ACCEL_PEDAL_SENS_2_V: 770.4
+  response: 7E80562102B0F0C

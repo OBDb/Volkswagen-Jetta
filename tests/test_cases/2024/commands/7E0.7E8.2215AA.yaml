@@ -8,7 +8,19 @@ test_cases:
   response: 7E8056215AA0226
 - expected_values:
     JETTA_PQ35_SELECTED_GEAR: 2
+  response: 7E8056215AA02CF
+- expected_values:
+    JETTA_PQ35_SELECTED_GEAR: 2
   response: 7E8056215AA02DB
+- expected_values:
+    JETTA_PQ35_SELECTED_GEAR: 4
+  response: 7E8056215AA040D
+- expected_values:
+    JETTA_PQ35_SELECTED_GEAR: 5
+  response: 7E8056215AA05A6
+- expected_values:
+    JETTA_PQ35_SELECTED_GEAR: 6
+  response: 7E8056215AA0694
 - expected_values:
     JETTA_PQ35_SELECTED_GEAR: 13
   response: 7E8056215AA0DF6

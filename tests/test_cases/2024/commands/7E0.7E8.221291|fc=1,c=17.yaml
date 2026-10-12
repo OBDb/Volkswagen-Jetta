@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     JETTA_COOLANT_T_AT_ENGINE_START: 19.7
   response: 7E8056212910B70
+- expected_values:
+    JETTA_COOLANT_T_AT_ENGINE_START: 27.7
+  response: 7E8056212910BC0

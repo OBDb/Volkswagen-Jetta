@@ -7,8 +7,20 @@ test_cases:
     JETTA_INTEGRATED_MASS_AIR: 1412.28432
   response: 7E8056211750F84
 - expected_values:
+    JETTA_INTEGRATED_MASS_AIR: 1792.73352
+  response: 7E80562117513B2
+- expected_values:
     JETTA_INTEGRATED_MASS_AIR: 2125.18212
   response: '7E8056211751759'
 - expected_values:
     JETTA_INTEGRATED_MASS_AIR: 3030.08232
   response: 7E805621175214A
+- expected_values:
+    JETTA_INTEGRATED_MASS_AIR: 3881.64852
+  response: 7E8056211752AA5
+- expected_values:
+    JETTA_INTEGRATED_MASS_AIR: 4712.23668
+  response: 7E80562117533C5
+- expected_values:
+    JETTA_INTEGRATED_MASS_AIR: 5142.46428
+  response: 7E805621175387F

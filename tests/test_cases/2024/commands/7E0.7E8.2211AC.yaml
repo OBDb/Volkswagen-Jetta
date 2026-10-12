@@ -7,8 +7,20 @@ test_cases:
     JETTA_MAF_THROUGH_THROTTLE: 15
   response: 7E8056211AC0096
 - expected_values:
+    JETTA_MAF_THROUGH_THROTTLE: 17.4
+  response: 7E8056211AC00AE
+- expected_values:
+    JETTA_MAF_THROUGH_THROTTLE: 45.9
+  response: 7E8056211AC01CB
+- expected_values:
     JETTA_MAF_THROUGH_THROTTLE: 48.7
   response: 7E8056211AC01E7
 - expected_values:
+    JETTA_MAF_THROUGH_THROTTLE: 57
+  response: 7E8056211AC023A
+- expected_values:
     JETTA_MAF_THROUGH_THROTTLE: 66.3
   response: 7E8056211AC0297
+- expected_values:
+    JETTA_MAF_THROUGH_THROTTLE: 228.9
+  response: 7E8056211AC08F1

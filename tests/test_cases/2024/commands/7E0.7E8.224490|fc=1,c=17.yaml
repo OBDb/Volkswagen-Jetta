@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     JETTA_COOLANT_T_AT_ENGINE_OUTLET_CALCULATED: 38.1
   response: 7E8056244900C28
+- expected_values:
+    JETTA_COOLANT_T_AT_ENGINE_OUTLET_CALCULATED: 77.8
+  response: 7E8056244900DB5

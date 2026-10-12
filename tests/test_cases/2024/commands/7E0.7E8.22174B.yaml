@@ -1,6 +1,15 @@
 command_id: 7E0.7E8.22174B
 test_cases:
 - expected_values:
+    JETTA_INT_CAM_ADPT_BIAS: -1.07668
+  response: 7E80562174BFFCF
+- expected_values:
+    JETTA_INT_CAM_ADPT_BIAS: -1.0547
+  response: 7E80562174BFFD0
+- expected_values:
+    JETTA_INT_CAM_ADPT_BIAS: -0.94484
+  response: 7E80562174BFFD5
+- expected_values:
     JETTA_INT_CAM_ADPT_BIAS: -0.83497
   response: 7E80562174BFFDA
 - expected_values:
@@ -9,6 +18,9 @@ test_cases:
 - expected_values:
     JETTA_INT_CAM_ADPT_BIAS: -0.61524
   response: 7E80562174BFFE4
+- expected_values:
+    JETTA_INT_CAM_ADPT_BIAS: -0.52735
+  response: 7E80562174BFFE8
 - expected_values:
     JETTA_INT_CAM_ADPT_BIAS: -0.41749
   response: 7E80562174BFFED

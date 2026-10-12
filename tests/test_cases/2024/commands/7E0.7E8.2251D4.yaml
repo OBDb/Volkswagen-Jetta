@@ -4,11 +4,23 @@ test_cases:
     JETTA_CYL_BLOCK_T_SENS: 40.4
   response: 7E8056251D40C3F
 - expected_values:
+    JETTA_CYL_BLOCK_T_SENS: 48
+  response: 7E8056251D40C8B
+- expected_values:
     JETTA_CYL_BLOCK_T_SENS: 66.8
   response: 7E8056251D40D47
 - expected_values:
     JETTA_CYL_BLOCK_T_SENS: 89.2
   response: 7E8056251D40E27
 - expected_values:
+    JETTA_CYL_BLOCK_T_SENS: 90.2
+  response: 7E8056251D40E31
+- expected_values:
     JETTA_CYL_BLOCK_T_SENS: 90.8
   response: 7E8056251D40E37
+- expected_values:
+    JETTA_CYL_BLOCK_T_SENS: 96.5
+  response: 7E8056251D40E70
+- expected_values:
+    JETTA_CYL_BLOCK_T_SENS: 98.4
+  response: 7E8056251D40E83

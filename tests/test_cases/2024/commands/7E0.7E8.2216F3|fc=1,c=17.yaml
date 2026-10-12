@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     JETTA_CRANKSHAFT_VSS: 878
   response: 7E8056216F306DC
+- expected_values:
+    JETTA_CRANKSHAFT_VSS: 2082
+  response: 7E8056216F31044

@@ -1,4 +1,4 @@
-command_id: 767.7D1.220838|fc=1
+command_id: 767.7D1.220838|fc=1,f=2018-;-2010
 test_cases:
 - expected_values:
     JETTA_ECALL_BATTERY_CHARGE_LEVEL: 98

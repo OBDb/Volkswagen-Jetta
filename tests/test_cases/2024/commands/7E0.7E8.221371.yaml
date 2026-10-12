@@ -4,11 +4,20 @@ test_cases:
     JETTA_CAM_ADJ_EXH_BANK_1_SPEC: -12.8
   response: 7E805621371F9C0
 - expected_values:
+    JETTA_CAM_ADJ_EXH_BANK_1_SPEC: -11.84
+  response: 7E805621371FA38
+- expected_values:
     JETTA_CAM_ADJ_EXH_BANK_1_SPEC: -10.96
   response: 7E805621371FAA6
 - expected_values:
+    JETTA_CAM_ADJ_EXH_BANK_1_SPEC: -10.408
+  response: 7E805621371FAEB
+- expected_values:
     JETTA_CAM_ADJ_EXH_BANK_1_SPEC: -9.696
   response: 7E805621371FB44
+- expected_values:
+    JETTA_CAM_ADJ_EXH_BANK_1_SPEC: -9.216
+  response: 7E805621371FB80
 - expected_values:
     JETTA_CAM_ADJ_EXH_BANK_1_SPEC: -5.136
   response: 7E805621371FD7E

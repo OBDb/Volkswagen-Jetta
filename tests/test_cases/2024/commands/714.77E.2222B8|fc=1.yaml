@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     JETTA_ODO_MILEAGE_HR: 60686.544
   response: 77E076222B8039E00D0
+- expected_values:
+    JETTA_ODO_MILEAGE_HR: 60691.186
+  response: 77E076222B8039E12F2

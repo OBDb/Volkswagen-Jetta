@@ -246,11 +246,11 @@
   "signals": [
     {"id": "JETTA_OIL_THERMAL_WEAR", "path": "ECU", "fmt": { "len": 16, "max": 65535, "unit": "kilometers" }, "name": "Oil thermal wear"}
   ]},
-{ "hdr": "714", "rax": "77E", "din": "03", "cmd": {"22": "2294"}, "freq": 1, "dbgfilter": { "to": 2010, "years": [2012], "from": 2017 },
+{ "hdr": "714", "rax": "77E", "din": "03", "cmd": {"22": "2294"}, "freq": 1, "filter": { "to": 2018 }, "dbgfilter": { "to": 2010, "years": [2012], "from": 2017 },
   "signals": [
     {"id": "JETTA_DTE", "path": "Trips", "fmt": { "len": 16, "max": 65535, "unit": "kilometers" }, "name": "Distance to empty", "suggestedMetric": "fuelRange"}
   ]},
-{ "hdr": "714", "rax": "77E", "din": "03", "cmd": {"22": "2299"}, "freq": 1, "dbgfilter": { "to": 2009, "years": [2012], "from": 2017 },
+{ "hdr": "714", "rax": "77E", "din": "03", "cmd": {"22": "2299"}, "freq": 1, "filter": { "to": 2018 }, "dbgfilter": { "to": 2009, "years": [2012], "from": 2017 },
   "signals": [
     {"id": "JETTA_FUEL_USE_AVG", "path": "Fuel", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "liters" }, "name": "Average fuel consumption"}
   ]},
@@ -359,7 +359,7 @@
   "signals": [
     {"id": "JETTA_DIST_DETECTED", "path": "Trips", "fmt": { "len": 16, "max": 16383.75, "div": 4, "unit": "meters" }, "name": "Distance to detected pedestrian"}
   ]},
-{ "hdr": "767", "rax": "7D1", "fcm1": true, "cmd": {"22": "0838"}, "freq": 1, "dbgfilter": { "to": 2020, "years": [2022, 2023], "from": 2026 },
+{ "hdr": "767", "rax": "7D1", "fcm1": true, "cmd": {"22": "0838"}, "freq": 1, "filter": { "to": 2010, "from": 2018 }, "dbgfilter": { "to": 2020, "years": [2022, 2023], "from": 2026 },
   "signals": [
     {"id": "JETTA_ECALL_BATTERY_CHARGE_STATUS", "path": "Battery", "fmt": {          "len": 8, "max": 100, "unit": "scalar"  }, "name": "Ecall battery charge status"},
     {"id": "JETTA_ECALL_BATTERY_CHARGE_LEVEL",  "path": "Battery", "fmt": {"bix": 8, "len": 8, "max": 100, "unit": "percent" }, "name": "Ecall battery charge level"}

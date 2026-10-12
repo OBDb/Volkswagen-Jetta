@@ -4,11 +4,23 @@ test_cases:
     JETTA_LONGITUDINAL_ACCEL: 0.098
   response: '7E8056216330062'
 - expected_values:
+    JETTA_LONGITUDINAL_ACCEL: 0.257
+  response: '7E8056216330101'
+- expected_values:
     JETTA_LONGITUDINAL_ACCEL: 0.408
   response: '7E8056216330198'
+- expected_values:
+    JETTA_LONGITUDINAL_ACCEL: -0.642
+  response: 7E805621633FD7E
 - expected_values:
     JETTA_LONGITUDINAL_ACCEL: -0.481
   response: 7E805621633FE1F
 - expected_values:
     JETTA_LONGITUDINAL_ACCEL: -0.356
   response: 7E805621633FE9C
+- expected_values:
+    JETTA_LONGITUDINAL_ACCEL: -0.279
+  response: 7E805621633FEE9
+- expected_values:
+    JETTA_LONGITUDINAL_ACCEL: -0.022
+  response: 7E805621633FFEA

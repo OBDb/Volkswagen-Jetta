@@ -10,5 +10,17 @@ test_cases:
     JETTA_IAT_RAW: 28.8
   response: 7E8056215C00BCB
 - expected_values:
+    JETTA_IAT_RAW: 29
+  response: 7E8056215C00BCD
+- expected_values:
     JETTA_IAT_RAW: 29.1
   response: 7E8056215C00BCE
+- expected_values:
+    JETTA_IAT_RAW: 31.1
+  response: 7E8056215C00BE2
+- expected_values:
+    JETTA_IAT_RAW: 33.4
+  response: 7E8056215C00BF9
+- expected_values:
+    JETTA_IAT_RAW: 34.3
+  response: 7E8056215C00C02

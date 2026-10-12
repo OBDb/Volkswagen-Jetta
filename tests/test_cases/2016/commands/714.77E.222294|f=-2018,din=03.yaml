@@ -1,4 +1,4 @@
-command_id: 714.77E.222294|din=03
+command_id: 714.77E.222294|f=-2018,din=03
 test_cases:
 - expected_values:
     JETTA_DTE: 122

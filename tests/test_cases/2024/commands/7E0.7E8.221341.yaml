@@ -7,8 +7,20 @@ test_cases:
     JETTA_PQ35_CAMS_END: -223.8
   response: 7E805621341FBA1
 - expected_values:
+    JETTA_PQ35_CAMS_END: -167
+  response: 7E805621341FCBD
+- expected_values:
+    JETTA_PQ35_CAMS_END: -166
+  response: 7E805621341FCC2
+- expected_values:
+    JETTA_PQ35_CAMS_END: -157.4
+  response: 7E805621341FCED
+- expected_values:
     JETTA_PQ35_CAMS_END: -133.8
   response: 7E805621341FD63
 - expected_values:
     JETTA_PQ35_CAMS_END: -92
   response: 7E805621341FE34
+- expected_values:
+    JETTA_PQ35_CAMS_END: -42.8
+  response: 7E805621341FF2A

@@ -4,11 +4,23 @@ test_cases:
     JETTA_OIL_P_ACT_7E0: 236.3
   response: 7E80562177D093B
 - expected_values:
+    JETTA_OIL_P_ACT_7E0: 237.4
+  response: 7E80562177D0946
+- expected_values:
     JETTA_OIL_P_ACT_7E0: 238.7
   response: 7E80562177D0953
+- expected_values:
+    JETTA_OIL_P_ACT_7E0: 241.4
+  response: 7E80562177D096E
 - expected_values:
     JETTA_OIL_P_ACT_7E0: 242
   response: 7E80562177D0974
 - expected_values:
     JETTA_OIL_P_ACT_7E0: 244.1
   response: 7E80562177D0989
+- expected_values:
+    JETTA_OIL_P_ACT_7E0: 252.5
+  response: 7E80562177D09DD
+- expected_values:
+    JETTA_OIL_P_ACT_7E0: 328.9
+  response: 7E80562177D0CD9
