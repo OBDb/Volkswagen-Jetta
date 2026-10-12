@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     JETTA_PQ35_INJ_3_RAIL_P_1: 0
   response: 7E8056210D10000
+- expected_values:
+    JETTA_PQ35_INJ_3_RAIL_P_1: 0.139
+  response: 7E8056210D10ADC

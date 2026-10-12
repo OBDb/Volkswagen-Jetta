@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     JETTA_ENGINE_TORQUE: 29.3
   response: '7E8056210100125'
+- expected_values:
+    JETTA_ENGINE_TORQUE: 32.7
+  response: '7E8056210100147'

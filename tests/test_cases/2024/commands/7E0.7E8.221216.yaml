@@ -4,11 +4,23 @@ test_cases:
     JETTA_REL_LOAD: 13.26721
   response: '7E8056212160236'
 - expected_values:
+    JETTA_REL_LOAD: 15.40028
+  response: '7E8056212160291'
+- expected_values:
+    JETTA_REL_LOAD: 15.42372
+  response: '7E8056212160292'
+- expected_values:
     JETTA_REL_LOAD: 17.72087
   response: 7E80562121602F4
+- expected_values:
+    JETTA_REL_LOAD: 20.43995
+  response: '7E8056212160368'
 - expected_values:
     JETTA_REL_LOAD: 21.68228
   response: 7E805621216039D
 - expected_values:
     JETTA_REL_LOAD: 55.45977
   response: 7E805621216093E
+- expected_values:
+    JETTA_REL_LOAD: 174.11461
+  response: 7E8056212161D04

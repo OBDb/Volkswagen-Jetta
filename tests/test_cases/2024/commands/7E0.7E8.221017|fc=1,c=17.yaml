@@ -1,5 +1,8 @@
 command_id: 7E0.7E8.221017|fc=1,c=17
 test_cases:
 - expected_values:
+    JETTA_A_C_REFRIGERANT_PRES: 8598
+  response: 7E80562101710CB
+- expected_values:
     JETTA_A_C_REFRIGERANT_PRES: 11190
   response: 7E80562101715DB

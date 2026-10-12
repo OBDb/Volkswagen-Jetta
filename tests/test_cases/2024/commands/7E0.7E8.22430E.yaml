@@ -4,11 +4,23 @@ test_cases:
     JETTA_NUM_INJECTIONS: 2172
   response: 7E80562430E087C
 - expected_values:
+    JETTA_NUM_INJECTIONS: 3986
+  response: 7E80562430E0F92
+- expected_values:
     JETTA_NUM_INJECTIONS: 11068
   response: 7E80562430E2B3C
 - expected_values:
     JETTA_NUM_INJECTIONS: 13572
   response: 7E80562430E3504
 - expected_values:
+    JETTA_NUM_INJECTIONS: 13658
+  response: 7E80562430E355A
+- expected_values:
     JETTA_NUM_INJECTIONS: 15718
   response: 7E80562430E3D66
+- expected_values:
+    JETTA_NUM_INJECTIONS: 16408
+  response: 7E80562430E4018
+- expected_values:
+    JETTA_NUM_INJECTIONS: 20239
+  response: 7E80562430E4F0F

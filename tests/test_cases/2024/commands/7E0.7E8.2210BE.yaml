@@ -4,11 +4,23 @@ test_cases:
     JETTA_REQ_TQ_AMOUNT: 3
   response: 7E8056210BE001E
 - expected_values:
+    JETTA_REQ_TQ_AMOUNT: 6
+  response: 7E8056210BE003C
+- expected_values:
+    JETTA_REQ_TQ_AMOUNT: 6.3
+  response: 7E8056210BE003F
+- expected_values:
+    JETTA_REQ_TQ_AMOUNT: 6.4
+  response: 7E8056210BE0040
+- expected_values:
     JETTA_REQ_TQ_AMOUNT: 7.2
   response: 7E8056210BE0048
 - expected_values:
     JETTA_REQ_TQ_AMOUNT: 7.7
   response: 7E8056210BE004D
+- expected_values:
+    JETTA_REQ_TQ_AMOUNT: 14.6
+  response: 7E8056210BE0092
 - expected_values:
     JETTA_REQ_TQ_AMOUNT: 15
   response: 7E8056210BE0096

@@ -1,6 +1,15 @@
 command_id: 7E0.7E8.2214CF
 test_cases:
 - expected_values:
+    JETTA_PQ35_MAIN_INJ_DURATION: 10.2344
+  response: 7E8056214CF63F2
+- expected_values:
+    JETTA_PQ35_MAIN_INJ_DURATION: 10.2448
+  response: 7E8056214CF640C
+- expected_values:
+    JETTA_PQ35_MAIN_INJ_DURATION: 10.2496
+  response: 7E8056214CF6418
+- expected_values:
     JETTA_PQ35_MAIN_INJ_DURATION: 10.2712
   response: 7E8056214CF644E
 - expected_values:

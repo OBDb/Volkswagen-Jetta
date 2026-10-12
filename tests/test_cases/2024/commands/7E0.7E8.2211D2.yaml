@@ -6,3 +6,9 @@ test_cases:
 - expected_values:
     JETTA_HIGH_P_CTRL_ADPT: -0.0415
   response: 7E8056211D2FFAD
+- expected_values:
+    JETTA_HIGH_P_CTRL_ADPT: -0.039
+  response: 7E8056211D2FFB2
+- expected_values:
+    JETTA_HIGH_P_CTRL_ADPT: -0.0385
+  response: 7E8056211D2FFB3

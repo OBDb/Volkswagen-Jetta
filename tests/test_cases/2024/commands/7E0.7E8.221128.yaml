@@ -4,5 +4,8 @@ test_cases:
     JETTA_CAM_ADPT_EXH_BANK_1: 0
   response: '7E8056211280000'
 - expected_values:
+    JETTA_CAM_ADPT_EXH_BANK_1: 1.08
+  response: '7E8056211280036'
+- expected_values:
     JETTA_CAM_ADPT_EXH_BANK_1: 1.12
   response: '7E8056211280038'
