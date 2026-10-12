@@ -1,14 +1,26 @@
 command_id: 7E0.7E8.22128C
 test_cases:
 - expected_values:
+    JETTA_AVG_INJ_TIME: 0.6132
+  response: 7E80762128C000005FD
+- expected_values:
+    JETTA_AVG_INJ_TIME: 0.744
+  response: 7E80762128C00000744
+- expected_values:
     JETTA_AVG_INJ_TIME: 0.9804
   response: 7E80762128C00000993
+- expected_values:
+    JETTA_AVG_INJ_TIME: 0.9912
+  response: 7E80762128C000009AE
 - expected_values:
     JETTA_AVG_INJ_TIME: 1.0308
   response: 7E80762128C00000A11
 - expected_values:
     JETTA_AVG_INJ_TIME: 1.5308
   response: 7E80762128C00000EF3
+- expected_values:
+    JETTA_AVG_INJ_TIME: 2.2604
+  response: 7E80762128C00001613
 - expected_values:
     JETTA_AVG_INJ_TIME: 3.0128
   response: 7E80762128C00001D6C

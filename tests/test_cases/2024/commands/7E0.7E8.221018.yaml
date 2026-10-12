@@ -4,5 +4,11 @@ test_cases:
     JETTA_CLT_FAN_REQ_AC: 0
   response: '7E8056210180000'
 - expected_values:
+    JETTA_CLT_FAN_REQ_AC: 30.00481
+  response: 7E805621018099A
+- expected_values:
     JETTA_CLT_FAN_REQ_AC: 34.39933
   response: 7E8056210180B02
+- expected_values:
+    JETTA_CLT_FAN_REQ_AC: 37.59756
+  response: 7E8056210180C08

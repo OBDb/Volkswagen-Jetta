@@ -4,6 +4,9 @@ test_cases:
     JETTA_FUEL_CONS_ACT_DRIVE: 0.06
   response: '7E8056215190006'
 - expected_values:
+    JETTA_FUEL_CONS_ACT_DRIVE: 0.1
+  response: 7E805621519000A
+- expected_values:
     JETTA_FUEL_CONS_ACT_DRIVE: 0.18
   response: '7E8056215190012'
 - expected_values:
@@ -12,3 +15,9 @@ test_cases:
 - expected_values:
     JETTA_FUEL_CONS_ACT_DRIVE: 0.33
   response: '7E8056215190021'
+- expected_values:
+    JETTA_FUEL_CONS_ACT_DRIVE: 0.44
+  response: 7E805621519002C
+- expected_values:
+    JETTA_FUEL_CONS_ACT_DRIVE: 0.48
+  response: '7E8056215190030'

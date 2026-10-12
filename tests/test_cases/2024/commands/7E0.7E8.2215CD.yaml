@@ -12,3 +12,15 @@ test_cases:
 - expected_values:
     JETTA_ECT_RADIATOR_OUTLET_V_1: 22.1
   response: 7E8056215CD0B88
+- expected_values:
+    JETTA_ECT_RADIATOR_OUTLET_V_1: 26.3
+  response: 7E8056215CD0BB2
+- expected_values:
+    JETTA_ECT_RADIATOR_OUTLET_V_1: 27
+  response: 7E8056215CD0BB9
+- expected_values:
+    JETTA_ECT_RADIATOR_OUTLET_V_1: 34.2
+  response: 7E8056215CD0C01
+- expected_values:
+    JETTA_ECT_RADIATOR_OUTLET_V_1: 34.4
+  response: 7E8056215CD0C03

@@ -12,3 +12,15 @@ test_cases:
 - expected_values:
     JETTA_FUEL_RATE_DIFF_INJ: 2.69137
   response: 7E80562180A02B1
+- expected_values:
+    JETTA_FUEL_RATE_DIFF_INJ: 3.13668
+  response: 7E80562180A0323
+- expected_values:
+    JETTA_FUEL_RATE_DIFF_INJ: 3.47652
+  response: 7E80562180A037A
+- expected_values:
+    JETTA_FUEL_RATE_DIFF_INJ: 3.5273
+  response: 7E80562180A0387
+- expected_values:
+    JETTA_FUEL_RATE_DIFF_INJ: 3.56636
+  response: 7E80562180A0391

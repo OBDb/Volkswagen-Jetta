@@ -9,3 +9,12 @@ test_cases:
 - expected_values:
     JETTA_LOW_FUEL_P_CMD: 204.1
   response: 7E8056211CE07F9
+- expected_values:
+    JETTA_LOW_FUEL_P_CMD: 215.6
+  response: 7E8056211CE086C
+- expected_values:
+    JETTA_LOW_FUEL_P_CMD: 231.6
+  response: 7E8056211CE090C
+- expected_values:
+    JETTA_LOW_FUEL_P_CMD: 232.6
+  response: 7E8056211CE0916

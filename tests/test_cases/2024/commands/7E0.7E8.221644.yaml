@@ -4,8 +4,17 @@ test_cases:
     JETTA_LATERAL_ACCEL: 0.04
   response: '7E8056216440004'
 - expected_values:
+    JETTA_LATERAL_ACCEL: 0.05
+  response: '7E8056216440005'
+- expected_values:
+    JETTA_LATERAL_ACCEL: 0.16
+  response: '7E8056216440010'
+- expected_values:
     JETTA_LATERAL_ACCEL: 0.26
   response: 7E805621644001A
+- expected_values:
+    JETTA_LATERAL_ACCEL: -0.09
+  response: 7E805621644FFF7
 - expected_values:
     JETTA_LATERAL_ACCEL: -0.06
   response: 7E805621644FFFA

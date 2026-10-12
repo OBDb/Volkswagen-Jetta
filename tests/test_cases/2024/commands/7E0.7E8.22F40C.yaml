@@ -7,8 +7,20 @@ test_cases:
     JETTA_RPM: 1690.5
   response: 7E80562F40C1A6A
 - expected_values:
+    JETTA_RPM: 1742.5
+  response: 7E80562F40C1B3A
+- expected_values:
     JETTA_RPM: 1862.5
   response: 7E80562F40C1D1A
 - expected_values:
+    JETTA_RPM: 1913
+  response: 7E80562F40C1DE4
+- expected_values:
+    JETTA_RPM: 2058
+  response: 7E80562F40C2028
+- expected_values:
     JETTA_RPM: 2420.5
   response: 7E80562F40C25D2
+- expected_values:
+    JETTA_RPM: 5166
+  response: 7E80562F40C50B8

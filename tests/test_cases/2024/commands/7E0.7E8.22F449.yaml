@@ -4,11 +4,23 @@ test_cases:
     JETTA_ACCEL_PEDAL_POS_1: 14.5098
   response: 7E80462F44925
 - expected_values:
+    JETTA_ACCEL_PEDAL_POS_1: 14.90196
+  response: 7E80462F44926
+- expected_values:
     JETTA_ACCEL_PEDAL_POS_1: 15.29412
   response: 7E80462F44927
+- expected_values:
+    JETTA_ACCEL_PEDAL_POS_1: 18.82353
+  response: 7E80462F44930
 - expected_values:
     JETTA_ACCEL_PEDAL_POS_1: 34.11765
   response: 7E80462F44957
 - expected_values:
     JETTA_ACCEL_PEDAL_POS_1: 36.47059
   response: 7E80462F4495D
+- expected_values:
+    JETTA_ACCEL_PEDAL_POS_1: 38.03922
+  response: 7E80462F44961
+- expected_values:
+    JETTA_ACCEL_PEDAL_POS_1: 47.05882
+  response: 7E80462F44978
