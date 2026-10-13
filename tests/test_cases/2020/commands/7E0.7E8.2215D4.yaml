@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.2215D4
+test_cases:
+- expected_values:
+    JETTA_LAMBDA_OUTPUT: 0.84345
+  response: 7E8056215D46BF6
+- expected_values:
+    JETTA_LAMBDA_OUTPUT: 0.96768
+  response: 7E8056215D47BDD
+- expected_values:
+    JETTA_LAMBDA_OUTPUT: 0.98438
+  response: 7E8056215D47E00
+- expected_values:
+    JETTA_LAMBDA_OUTPUT: 0.99976
+  response: 7E8056215D47FF8
+- expected_values:
+    JETTA_LAMBDA_OUTPUT: 1.0734
+  response: 7E8056215D48965

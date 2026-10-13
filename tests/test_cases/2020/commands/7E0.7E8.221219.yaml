@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.221219
+test_cases:
+- expected_values:
+    JETTA_BOOST_REGULATION_CMD: 100
+  response: 7E80562121911A9
+- expected_values:
+    JETTA_BOOST_REGULATION_CMD: 100
+  response: 7E80562121914F6
+- expected_values:
+    JETTA_BOOST_REGULATION_CMD: 100
+  response: 7E8056212191E08
+- expected_values:
+    JETTA_BOOST_REGULATION_CMD: 100
+  response: 7E8056212191F15

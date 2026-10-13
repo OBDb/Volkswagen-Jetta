@@ -1,0 +1,8 @@
+command_id: 7E1.7E9.22388B
+test_cases:
+- expected_values:
+    JETTA_MQB_TCM_DRIVE_CYCLES_COUNTER: 44039
+  response: 7E90562388B07AC
+- expected_values:
+    JETTA_MQB_TCM_DRIVE_CYCLES_COUNTER: 44295
+  response: 7E90562388B07AD

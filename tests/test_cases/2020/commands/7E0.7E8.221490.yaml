@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.221490
+test_cases:
+- expected_values:
+    JETTA_BRAKE_BOOSTER_LOW_P_ACT: 563.99159
+  response: '7E8056214903866'
+- expected_values:
+    JETTA_BRAKE_BOOSTER_LOW_P_ACT: 583.99185
+  response: 7E8056214903A66
+- expected_values:
+    JETTA_BRAKE_BOOSTER_LOW_P_ACT: 599.96862
+  response: 7E8056214903BFF
+- expected_values:
+    JETTA_BRAKE_BOOSTER_LOW_P_ACT: 620.00794
+  response: 7E8056214903E00
+- expected_values:
+    JETTA_BRAKE_BOOSTER_LOW_P_ACT: 743.95484
+  response: 7E8056214904A65

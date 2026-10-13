@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.221010|fc=1,c=17
+test_cases:
+- expected_values:
+    JETTA_ENGINE_TORQUE: 0
+  response: '7E8056210100000'
+- expected_values:
+    JETTA_ENGINE_TORQUE: 76.4
+  response: 7E80562101002FC
+- expected_values:
+    JETTA_ENGINE_TORQUE: 169.6
+  response: 7E80562101006A0

@@ -1,0 +1,20 @@
+command_id: 7E0.7E8.221340
+test_cases:
+- expected_values:
+    JETTA_TQ_INCREASE_REQ_ESP: -108462
+  response: 7E807621340FFEF7334
+- expected_values:
+    JETTA_TQ_INCREASE_REQ_ESP: -55705.6
+  response: 7E807621340FFF78000
+- expected_values:
+    JETTA_TQ_INCREASE_REQ_ESP: -55377.9
+  response: 7E807621340FFF78CCD
+- expected_values:
+    JETTA_TQ_INCREASE_REQ_ESP: -38993.9
+  response: 7E807621340FFFA0CCD
+- expected_values:
+    JETTA_TQ_INCREASE_REQ_ESP: -20316.1
+  response: 7E807621340FFFCE667
+- expected_values:
+    JETTA_TQ_INCREASE_REQ_ESP: -10485.7
+  response: 7E807621340FFFE6667

@@ -1,0 +1,14 @@
+command_id: 7E1.7E9.223803
+test_cases:
+- expected_values:
+    JETTA_MQB_TCM_BRAKE_P: -184.21
+  response: 7E9056238030BB8
+- expected_values:
+    JETTA_MQB_TCM_BRAKE_P: 5.25
+  response: 7E9056238030D02
+- expected_values:
+    JETTA_MQB_TCM_BRAKE_P: -40.81
+  response: 7E9056238030FF0
+- expected_values:
+    JETTA_MQB_TCM_BRAKE_P: 246
+  response: '7E9056238031860'

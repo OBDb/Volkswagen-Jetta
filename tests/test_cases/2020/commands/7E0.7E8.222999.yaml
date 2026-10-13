@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.222999
+test_cases:
+- expected_values:
+    JETTA_AUTOMATIC_ENG_STARTS: 5416
+  response: '7E8056229991528'
+- expected_values:
+    JETTA_AUTOMATIC_ENG_STARTS: 5418
+  response: 7E805622999152A
+- expected_values:
+    JETTA_AUTOMATIC_ENG_STARTS: 5419
+  response: 7E805622999152B

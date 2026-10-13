@@ -1,5 +1,17 @@
 command_id: 710.77A.222A25|fc=1
 test_cases:
 - expected_values:
+    JETTA_BAT_INTERNAL_RES_RAW: 6.4
+  response: 77A04622A2520
+- expected_values:
+    JETTA_BAT_INTERNAL_RES_RAW: 6.6
+  response: 77A04622A2521
+- expected_values:
     JETTA_BAT_INTERNAL_RES_RAW: 6.8
   response: 77A04622A2522
+- expected_values:
+    JETTA_BAT_INTERNAL_RES_RAW: 7
+  response: 77A04622A2523
+- expected_values:
+    JETTA_BAT_INTERNAL_RES_RAW: 7.2
+  response: 77A04622A2524

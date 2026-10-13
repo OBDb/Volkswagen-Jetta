@@ -1,0 +1,11 @@
+command_id: 7E1.7E9.222106
+test_cases:
+- expected_values:
+    JETTA_VSS_HR: 0
+  response: '7E9056221060000'
+- expected_values:
+    JETTA_VSS_HR: 46
+  response: 7E90562210611F8
+- expected_values:
+    JETTA_VSS_HR: 68.7
+  response: 7E9056221061AD6

@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.22430E
+test_cases:
+- expected_values:
+    JETTA_NUM_INJECTIONS: 0
+  response: 7E80562430E0000
+- expected_values:
+    JETTA_NUM_INJECTIONS: 5080
+  response: 7E80562430E13D8
+- expected_values:
+    JETTA_NUM_INJECTIONS: 22268
+  response: 7E80562430E56FC
+- expected_values:
+    JETTA_NUM_INJECTIONS: 41633
+  response: 7E80562430EA2A1

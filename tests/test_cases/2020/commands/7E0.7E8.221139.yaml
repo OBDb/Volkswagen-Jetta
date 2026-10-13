@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.221139
+test_cases:
+- expected_values:
+    JETTA_MEAN_INJ_QUANTITY: 140.46
+  response: 7E80562113936DE
+- expected_values:
+    JETTA_MEAN_INJ_QUANTITY: 156.02
+  response: 7E8056211393CF2
+- expected_values:
+    JETTA_MEAN_INJ_QUANTITY: 163.84
+  response: '7E8056211394000'
+- expected_values:
+    JETTA_MEAN_INJ_QUANTITY: 168.93
+  response: 7E80562113941FD
+- expected_values:
+    JETTA_MEAN_INJ_QUANTITY: 196.91
+  response: 7E8056211394CEB
