@@ -89,7 +89,7 @@
   "signals": [
     {"id": "JETTA_SSB_V_REST", "path": "Battery", "fmt": { "len": 8, "max": 34.5, "min": 9, "div": 10, "add": 9, "unit": "volts" }, "name": "Start/stop battery voltage"}
   ]},
-{ "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2A15"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2A15"}, "freq": 1, "dbgfilter": { "to": 2019, "years": [2021, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "JETTA_ENERGY_BALANCE_LAST", "path": "Engine", "fmt": { "len": 16, "max": 327, "min": -327, "div": 100, "sign": true, "unit": "ampereHours" }, "name": "Energy balance of last driving cycle"}
   ]},
@@ -101,7 +101,7 @@
   "signals": [
     {"id": "JETTA_ENTIRE_ENERGY", "path": "Tires", "fmt": { "len": 24, "max": 838860, "min": -838860, "div": 10, "sign": true, "unit": "ampereHours" }, "name": "Entire energy throughput"}
   ]},
-{ "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2A1C"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2A1C"}, "freq": 1, "dbgfilter": { "to": 2019, "years": [2021, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "JETTA_GEN_CURRENT", "path": "Engine", "fmt": { "len": 16, "max": 6562.5, "div": 10, "add": 9, "unit": "amps" }, "name": "Generator current"}
   ]},
@@ -109,7 +109,7 @@
   "signals": [
     {"id": "JETTA_BAT_ACID", "path": "Battery", "fmt": { "len": 8, "max": 2559, "mul": 10, "add": 9, "unit": "percent" }, "name": "Battery acid stratification"}
   ]},
-{ "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2A25"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2A25"}, "freq": 1, "dbgfilter": { "to": 2019, "years": [2021, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "JETTA_BAT_INTERNAL_RES_RAW", "path": "Battery", "fmt": { "len": 8, "max": 51, "div": 5, "unit": "unknown" }, "name": "Battery internal resistance, raw"}
   ]},
@@ -126,11 +126,11 @@
   "signals": [
     {"id": "JETTA_STEER_WHL_T", "path": "Tires", "fmt": { "len": 8, "max": 255, "unit": "celsius" }, "name": "Steering wheel temperature"}
   ]},
-{ "hdr": "712", "rax": "77C", "fcm1": true, "cmd": {"22": "1805"}, "freq": 0.25, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "712", "rax": "77C", "fcm1": true, "cmd": {"22": "1805"}, "freq": 0.25, "dbgfilter": { "to": 2019, "years": [2021, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "JETTA_STEER_WHL_TQ_SENS_1", "path": "Tires", "fmt": { "len": 16, "max": 144.0709, "min": -143.9553, "mul": 0.004395, "add": 0.06, "sign": true, "unit": "degrees" }, "name": "Steering wheel torque sensor 1"}
   ]},
-{ "hdr": "712", "rax": "77C", "fcm1": true, "dbg": true, "cmd": {"22": "1806"}, "freq": 0.25,
+{ "hdr": "712", "rax": "77C", "fcm1": true, "cmd": {"22": "1806"}, "freq": 0.25, "dbgfilter": { "to": 2019, "from": 2021 },
   "signals": [
     {"id": "JETTA_STEER_WHL_TQ_SENS_2", "path": "Tires", "fmt": { "len": 16, "max": 144.0709, "min": -143.9553, "mul": 0.004395, "add": 0.06, "sign": true, "unit": "degrees" }, "name": "Steering wheel torque sensor 2"}
   ]},
@@ -238,7 +238,7 @@
   "signals": [
     {"id": "JETTA_ODO_DASH", "path": "Trips", "fmt": { "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Odometer, dashboard"}
   ]},
-{ "hdr": "714", "rax": "77E", "fcm1": true, "cmd": {"22": "220C"}, "freq": 5, "dbgfilter": { "to": 2013, "years": [2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023], "from": 2025 },
+{ "hdr": "714", "rax": "77E", "fcm1": true, "cmd": {"22": "220C"}, "freq": 5, "dbgfilter": { "to": 2013, "years": [2015, 2016, 2017, 2018, 2019, 2021, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "JETTA_OUTSIDE_T", "path": "Engine", "fmt": { "len": 8, "max": 77.5, "min": -50, "div": 2, "add": -50, "unit": "celsius" }, "name": "Outside temperature"}
   ]},
@@ -258,7 +258,7 @@
   "signals": [
     {"id": "JETTA_FLI", "path": "Fuel", "fmt": { "len": 16, "max": 8191.875, "div": 8, "unit": "liters" }, "name": "Fuel level input", "suggestedMetric": "fuelTankLevel"}
   ]},
-{ "hdr": "714", "rax": "77E", "fcm1": true, "cmd": {"22": "22B8"}, "freq": 30, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "714", "rax": "77E", "fcm1": true, "cmd": {"22": "22B8"}, "freq": 30, "dbgfilter": { "to": 2019, "years": [2021, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "JETTA_ODO_MILEAGE_HR", "path": "Trips", "fmt": { "len": 32, "max": 4294967, "div": 1000, "unit": "kilometers" }, "name": "Odometer, mileage, HR"}
   ]},
@@ -845,7 +845,7 @@
   "signals": [
     {"id": "JETTA_CAMSHAFT_VSS", "path": "Movement", "fmt": { "len": 16, "max": 16383.75, "mul": 2500, "div": 10000, "unit": "rpm" }, "name": "Camshaft speed"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1125"}, "freq": 1, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1125"}, "freq": 1, "dbgfilter": { "to": 2019, "years": [2021, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "JETTA_CAM_ADPT_INT_BANK_1", "path": "Engine", "fmt": { "len": 16, "max": 655.34, "min": -655.36, "div": 50, "sign": true, "unit": "degrees" }, "name": "Camshaft adaptation, intake bank 1, phase position"}
   ]},
@@ -1949,7 +1949,7 @@
   "signals": [
     {"id": "JETTA_BASIC_CORR_FACTOR_1", "path": "Engine", "fmt": { "len": 16, "max": 7.999, "mul": 7999, "div": 65535000, "unit": "scalar" }, "name": "Basic correction factor:, cylinder 1, filtered"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "171B"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "171B"}, "freq": 1, "dbgfilter": { "to": 2019, "from": 2021 },
   "signals": [
     {"id": "JETTA_BASIC_CORR_FACTOR_3", "path": "Engine", "fmt": { "len": 16, "max": 7.999, "mul": 7999, "div": 65535000, "unit": "scalar" }, "name": "Basic correction factor:, cylinder 3, filtered"}
   ]},
@@ -1973,7 +1973,7 @@
   "signals": [
     {"id": "JETTA_EARLY_IGN_CNT_CYL_4", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Early ignition counter, cylinder 4"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1725"}, "freq": 3600, "dbgfilter": { "to": 2023, "from": 2025 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1725"}, "freq": 3600, "dbgfilter": { "to": 2019, "years": [2021, 2022, 2023], "from": 2025 },
   "signals": [
     {"id": "JETTA_EARLY_IGN_CNT_CYL_2", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Early ignition counter, cylinder 2"}
   ]},
