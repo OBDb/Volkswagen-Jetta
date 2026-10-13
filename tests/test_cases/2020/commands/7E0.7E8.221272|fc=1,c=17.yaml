@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.221272|fc=1,c=17
+test_cases:
+- expected_values:
+    JETTA_REAR_CAT_CONV_T_MAIN_CAT_CONV_MODEL_VALUE: 1687
+  response: 7E8056212724C91
+- expected_values:
+    JETTA_REAR_CAT_CONV_T_MAIN_CAT_CONV_MODEL_VALUE: 1723.7
+  response: 7E8056212724E00
+- expected_values:
+    JETTA_REAR_CAT_CONV_T_MAIN_CAT_CONV_MODEL_VALUE: -3524.7
+  response: 7E80562127280FC
+- expected_values:
+    JETTA_REAR_CAT_CONV_T_MAIN_CAT_CONV_MODEL_VALUE: -3296.5
+  response: 7E80562127289E6

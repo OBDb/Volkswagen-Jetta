@@ -1,0 +1,14 @@
+command_id: 7E1.7E9.22388C
+test_cases:
+- expected_values:
+    JETTA_MQB_TCM_IGNITION_CYCLES: 33561
+  response: 7E90562388C1983
+- expected_values:
+    JETTA_MQB_TCM_IGNITION_CYCLES: 33817
+  response: 7E90562388C1984
+- expected_values:
+    JETTA_MQB_TCM_IGNITION_CYCLES: 34329
+  response: 7E90562388C1986
+- expected_values:
+    JETTA_MQB_TCM_IGNITION_CYCLES: 34585
+  response: 7E90562388C1987

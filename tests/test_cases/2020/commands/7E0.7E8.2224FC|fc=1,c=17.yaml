@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.2224FC|fc=1,c=17
+test_cases:
+- expected_values:
+    JETTA_FUEL_TANK_FILL_LEVEL: 6.3
+  response: 7E8056224FC003F
+- expected_values:
+    JETTA_FUEL_TANK_FILL_LEVEL: 42.4
+  response: 7E8056224FC01A8
+- expected_values:
+    JETTA_FUEL_TANK_FILL_LEVEL: 43.4
+  response: 7E8056224FC01B2

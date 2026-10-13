@@ -1,0 +1,11 @@
+command_id: 7E1.7E9.222105
+test_cases:
+- expected_values:
+    JETTA_TQ_TRANSMITTING: 0
+  response: '7E9056221050000'
+- expected_values:
+    JETTA_TQ_TRANSMITTING: 21.8
+  response: 7E90562210500DA
+- expected_values:
+    JETTA_TQ_TRANSMITTING: 31.2
+  response: '7E9056221050138'

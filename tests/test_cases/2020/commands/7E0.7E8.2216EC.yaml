@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.2216EC
+test_cases:
+- expected_values:
+    JETTA_CHG_P_REGULATOR_LO: 3106.6
+  response: 7E8056216EC3CAD
+- expected_values:
+    JETTA_CHG_P_REGULATOR_LO: 3125.4
+  response: 7E8056216EC3D0B
+- expected_values:
+    JETTA_CHG_P_REGULATOR_LO: 3127
+  response: 7E8056216EC3D13
+- expected_values:
+    JETTA_CHG_P_REGULATOR_LO: 3172.6
+  response: 7E8056216EC3DF7

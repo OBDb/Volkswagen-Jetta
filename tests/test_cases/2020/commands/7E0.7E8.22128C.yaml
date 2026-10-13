@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.22128C
+test_cases:
+- expected_values:
+    JETTA_AVG_INJ_TIME: 0.1528
+  response: 7E80762128C0000017E
+- expected_values:
+    JETTA_AVG_INJ_TIME: 0.2036
+  response: 7E80762128C000001FD
+- expected_values:
+    JETTA_AVG_INJ_TIME: 0.308
+  response: 7E80762128C00000302
+- expected_values:
+    JETTA_AVG_INJ_TIME: 2.0992
+  response: 7E80762128C00001480

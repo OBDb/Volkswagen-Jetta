@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.221124|fc=1,c=17
+test_cases:
+- expected_values:
+    JETTA_CAMSHAFT_VSS: 210.25
+  response: '7E8056211240349'
+- expected_values:
+    JETTA_CAMSHAFT_VSS: 384.25
+  response: '7E8056211240601'
+- expected_values:
+    JETTA_CAMSHAFT_VSS: 702.5
+  response: 7E8056211240AFA
+- expected_values:
+    JETTA_CAMSHAFT_VSS: 1093.25
+  response: '7E8056211241115'

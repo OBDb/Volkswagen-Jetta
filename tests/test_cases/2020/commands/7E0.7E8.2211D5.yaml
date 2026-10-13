@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.2211D5
+test_cases:
+- expected_values:
+    JETTA_HIGH_FUEL_P: 0
+  response: 7E8056211D50000
+- expected_values:
+    JETTA_HIGH_FUEL_P: -0.076
+  response: 7E8056211D5FF68
+- expected_values:
+    JETTA_HIGH_FUEL_P: -0.002
+  response: 7E8056211D5FFFC
