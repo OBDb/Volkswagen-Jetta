@@ -10,5 +10,5 @@ test_cases:
     JETTA_OPEN_CAM_SHFT_ANG: -25.3
   response: 7E8056210EAFF03
 - expected_values:
-    JETTA_OPEN_CAM_SHFT_ANG: -22.7
-  response: 7E8056210EAFF1D
+    JETTA_OPEN_CAM_SHFT_ANG: -24.8
+  response: 7E8056210EAFF08

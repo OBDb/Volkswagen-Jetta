@@ -7,11 +7,11 @@ test_cases:
     JETTA_RATED_DRIVE_TQ: 25.5
   response: 7E8076214A1000000FF
 - expected_values:
-    JETTA_RATED_DRIVE_TQ: 128.5
-  response: 7E8076214A100000505
+    JETTA_RATED_DRIVE_TQ: 230.5
+  response: 7E8076214A100000901
 - expected_values:
-    JETTA_RATED_DRIVE_TQ: -32
-  response: 7E8076214A1FFFFFEC0
+    JETTA_RATED_DRIVE_TQ: -71
+  response: 7E8076214A1FFFFFD3A
 - expected_values:
     JETTA_RATED_DRIVE_TQ: -24
   response: 7E8076214A1FFFFFF10

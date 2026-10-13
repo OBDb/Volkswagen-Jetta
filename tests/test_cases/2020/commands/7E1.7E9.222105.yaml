@@ -7,5 +7,5 @@ test_cases:
     JETTA_TQ_TRANSMITTING: 21.8
   response: 7E90562210500DA
 - expected_values:
-    JETTA_TQ_TRANSMITTING: 31.2
-  response: '7E9056221050138'
+    JETTA_TQ_TRANSMITTING: 28
+  response: '7E9056221050118'

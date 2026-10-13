@@ -1,17 +1,17 @@
 command_id: 7E0.7E8.22136E
 test_cases:
 - expected_values:
-    JETTA_CAM_ADJ_INT_BANK_1_ACT: 1.416
-  response: 7E80562136E00B1
+    JETTA_CAM_ADJ_INT_BANK_1_ACT: 0.224
+  response: 7E80562136E001C
 - expected_values:
-    JETTA_CAM_ADJ_INT_BANK_1_ACT: 21.648
-  response: 7E80562136E0A92
+    JETTA_CAM_ADJ_INT_BANK_1_ACT: 5.872
+  response: 7E80562136E02DE
 - expected_values:
     JETTA_CAM_ADJ_INT_BANK_1_ACT: 22.528
   response: 7E80562136E0B00
 - expected_values:
-    JETTA_CAM_ADJ_INT_BANK_1_ACT: -14.352
-  response: 7E80562136EF8FE
+    JETTA_CAM_ADJ_INT_BANK_1_ACT: -20.496
+  response: 7E80562136EF5FE
 - expected_values:
     JETTA_CAM_ADJ_INT_BANK_1_ACT: -0.92
   response: 7E80562136EFF8D

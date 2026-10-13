@@ -4,8 +4,8 @@ test_cases:
     JETTA_ENGINE_TORQUE: 0
   response: '7E8056210100000'
 - expected_values:
-    JETTA_ENGINE_TORQUE: 76.4
-  response: 7E80562101002FC
+    JETTA_ENGINE_TORQUE: 76.7
+  response: 7E80562101002FF
 - expected_values:
-    JETTA_ENGINE_TORQUE: 169.6
-  response: 7E80562101006A0
+    JETTA_ENGINE_TORQUE: 206
+  response: 7E805621010080C

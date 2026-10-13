@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.221216
 test_cases:
 - expected_values:
-    JETTA_REL_LOAD: 14.39235
-  response: '7E8056212160266'
+    JETTA_REL_LOAD: 12.58745
+  response: '7E8056212160219'
 - expected_values:
     JETTA_REL_LOAD: 23.97944
   response: 7E80562121603FF
@@ -10,5 +10,5 @@ test_cases:
     JETTA_REL_LOAD: 24.02632
   response: '7E8056212160401'
 - expected_values:
-    JETTA_REL_LOAD: 150.29926
-  response: 7E805621216190C
+    JETTA_REL_LOAD: 172.63787
+  response: 7E8056212161CC5

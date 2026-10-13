@@ -4,5 +4,5 @@ test_cases:
     JETTA_BATTERY_V: 12360
   response: 7E80562105A026A
 - expected_values:
-    JETTA_BATTERY_V: 14760
-  response: 7E80562105A02E2
+    JETTA_BATTERY_V: 14840
+  response: 7E80562105A02E6

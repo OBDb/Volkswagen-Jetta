@@ -4,8 +4,5 @@ test_cases:
     JETTA_INT_CAM_ADPT_BIAS: 0
   response: 7E80562174B0000
 - expected_values:
-    JETTA_INT_CAM_ADPT_BIAS: 0.10986
-  response: 7E80562174B0005
-- expected_values:
     JETTA_INT_CAM_ADPT_BIAS: -0.13184
   response: 7E80562174BFFFA

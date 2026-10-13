@@ -1,14 +1,17 @@
 command_id: 7E0.7E8.221509
 test_cases:
 - expected_values:
-    JETTA_AMBIENT_AIR_P: 994.305
-  response: '7E8056215096397'
+    JETTA_AMBIENT_AIR_P: 959.79
+  response: '7E8056215096022'
 - expected_values:
-    JETTA_AMBIENT_AIR_P: 998.985
-  response: 7E805621509640F
+    JETTA_AMBIENT_AIR_P: 978.237
+  response: 7E80562150961FB
 - expected_values:
-    JETTA_AMBIENT_AIR_P: 1000.896
-  response: '7E8056215096440'
+    JETTA_AMBIENT_AIR_P: 988.299
+  response: 7E80562150962FD
 - expected_values:
-    JETTA_AMBIENT_AIR_P: 1006.551
-  response: 7E80562150964D1
+    JETTA_AMBIENT_AIR_P: 998.4
+  response: '7E8056215096400'
+- expected_values:
+    JETTA_AMBIENT_AIR_P: 1009.242
+  response: '7E8056215096516'

@@ -1,8 +1,20 @@
 command_id: 7E0.7E8.22F433
 test_cases:
 - expected_values:
+    JETTA_BARO: 96
+  response: 7E80462F43360
+- expected_values:
+    JETTA_BARO: 97
+  response: 7E80462F43361
+- expected_values:
+    JETTA_BARO: 98
+  response: 7E80462F43362
+- expected_values:
     JETTA_BARO: 99
   response: 7E80462F43363
 - expected_values:
     JETTA_BARO: 100
   response: 7E80462F43364
+- expected_values:
+    JETTA_BARO: 101
+  response: 7E80462F43365

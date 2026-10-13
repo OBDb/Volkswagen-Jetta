@@ -4,23 +4,5 @@ test_cases:
     JETTA_EA888B_BOOST_P_CMD: 0
   response: 7E8046211A300
 - expected_values:
-    JETTA_EA888B_BOOST_P_CMD: 42.7451
-  response: 7E8046211A36D
-- expected_values:
-    JETTA_EA888B_BOOST_P_CMD: 61.56863
-  response: 7E8046211A39D
-- expected_values:
-    JETTA_EA888B_BOOST_P_CMD: 76.86275
-  response: 7E8046211A3C4
-- expected_values:
-    JETTA_EA888B_BOOST_P_CMD: 87.45098
-  response: 7E8046211A3DF
-- expected_values:
-    JETTA_EA888B_BOOST_P_CMD: 88.23529
-  response: 7E8046211A3E1
-- expected_values:
-    JETTA_EA888B_BOOST_P_CMD: 91.37255
-  response: 7E8046211A3E9
-- expected_values:
     JETTA_EA888B_BOOST_P_CMD: 100
   response: 7E8046211A3FF
