@@ -4,8 +4,8 @@ test_cases:
     JETTA_VSS_HR: 0
   response: '7E9056221060000'
 - expected_values:
-    JETTA_VSS_HR: 46
-  response: 7E90562210611F8
+    JETTA_VSS_HR: 74.2
+  response: 7E9056221061CFC
 - expected_values:
-    JETTA_VSS_HR: 68.7
-  response: 7E9056221061AD6
+    JETTA_VSS_HR: 117.8
+  response: 7E9056221062E04

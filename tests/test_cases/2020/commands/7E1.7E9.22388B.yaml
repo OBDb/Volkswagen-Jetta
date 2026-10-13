@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     JETTA_MQB_TCM_DRIVE_CYCLES_COUNTER: 44295
   response: 7E90562388B07AD
+- expected_values:
+    JETTA_MQB_TCM_DRIVE_CYCLES_COUNTER: 44551
+  response: 7E90562388B07AE

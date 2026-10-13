@@ -4,8 +4,8 @@ test_cases:
     JETTA_ACCEL_PEDAL_TQ_LIM: 0
   response: '7E8056210590000'
 - expected_values:
-    JETTA_ACCEL_PEDAL_TQ_LIM: 126.5
-  response: 7E80562105904F1
+    JETTA_ACCEL_PEDAL_TQ_LIM: 76.7
+  response: 7E80562105902FF
 - expected_values:
-    JETTA_ACCEL_PEDAL_TQ_LIM: 214.6
-  response: '7E8056210590862'
+    JETTA_ACCEL_PEDAL_TQ_LIM: 241.2
+  response: 7E805621059096C

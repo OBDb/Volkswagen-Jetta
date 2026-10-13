@@ -4,17 +4,5 @@ test_cases:
     JETTA_FLI_INPUT: 12.54902
   response: 7E80462F42F20
 - expected_values:
-    JETTA_FLI_INPUT: 13.33333
-  response: 7E80462F42F22
-- expected_values:
-    JETTA_FLI_INPUT: 87.45098
-  response: 7E80462F42FDF
-- expected_values:
-    JETTA_FLI_INPUT: 88.23529
-  response: 7E80462F42FE1
-- expected_values:
-    JETTA_FLI_INPUT: 89.41176
-  response: 7E80462F42FE4
-- expected_values:
     JETTA_FLI_INPUT: 90.58824
   response: 7E80462F42FE7

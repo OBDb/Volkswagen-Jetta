@@ -10,5 +10,5 @@ test_cases:
     JETTA_EXH_GAS_T: 523
   response: 7E80562F43C15FE
 - expected_values:
-    JETTA_EXH_GAS_T: 684
-  response: 7E80562F43C1C48
+    JETTA_EXH_GAS_T: 762
+  response: 7E80562F43C1F54

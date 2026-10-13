@@ -4,8 +4,11 @@ test_cases:
     JETTA_AIR_FILLING: 13.00809
   response: 7E80562121C022B
 - expected_values:
-    JETTA_AIR_FILLING: 23.9302
-  response: 7E80562121C03FD
+    JETTA_AIR_FILLING: 41.95402
+  response: 7E80562121C06FE
 - expected_values:
-    JETTA_AIR_FILLING: 96.16611
-  response: 7E80562121C1007
+    JETTA_AIR_FILLING: 96.00205
+  response: 7E80562121C1000
+- expected_values:
+    JETTA_AIR_FILLING: 100
+  response: 7E80562121C1D05

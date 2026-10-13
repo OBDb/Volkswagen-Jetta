@@ -5,10 +5,10 @@ test_cases:
   response: 7E80562121911A9
 - expected_values:
     JETTA_BOOST_REGULATION_CMD: 100
-  response: 7E80562121914F6
+  response: 7E8056212191DFC
 - expected_values:
     JETTA_BOOST_REGULATION_CMD: 100
-  response: 7E8056212191E08
+  response: 7E8056212191E00
 - expected_values:
     JETTA_BOOST_REGULATION_CMD: 100
-  response: 7E8056212191F15
+  response: 7E8056212191F0F

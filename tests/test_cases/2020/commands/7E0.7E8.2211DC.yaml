@@ -1,14 +1,14 @@
 command_id: 7E0.7E8.2211DC
 test_cases:
 - expected_values:
-    JETTA_MAP_RAW: 243.28125
-  response: 7E8056211DC0C2A
-- expected_values:
-    JETTA_MAP_RAW: 299.84375
-  response: 7E8056211DC0EFE
+    JETTA_MAP_RAW: 232.42188
+  response: 7E8056211DC0B9F
 - expected_values:
     JETTA_MAP_RAW: 440.07812
   response: 7E8056211DC1601
 - expected_values:
-    JETTA_MAP_RAW: 1845.85938
-  response: 7E8056211DC5C4B
+    JETTA_MAP_RAW: 779.92188
+  response: 7E8056211DC26FF
+- expected_values:
+    JETTA_MAP_RAW: 2052.5
+  response: 7E8056211DC66A0

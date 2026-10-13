@@ -1,11 +1,17 @@
 command_id: 7E0.7E8.221136
 test_cases:
 - expected_values:
-    JETTA_HEIGHT_CORR: 0.98327
-  response: 7E8056211363EEE
+    JETTA_HEIGHT_CORR: 0.94885
+  response: 7E8056211363CBA
 - expected_values:
-    JETTA_HEIGHT_CORR: 0.98651
-  response: 7E8056211363F23
+    JETTA_HEIGHT_CORR: 0.96514
+  response: 7E8056211363DC5
 - expected_values:
-    JETTA_HEIGHT_CORR: 0.98962
-  response: 7E8056211363F56
+    JETTA_HEIGHT_CORR: 0.96868
+  response: 7E8056211363DFF
+- expected_values:
+    JETTA_HEIGHT_CORR: 0.96874
+  response: 7E8056211363E00
+- expected_values:
+    JETTA_HEIGHT_CORR: 0.99999
+  response: '7E8056211364000'

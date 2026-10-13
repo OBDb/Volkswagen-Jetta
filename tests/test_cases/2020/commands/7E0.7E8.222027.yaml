@@ -4,11 +4,11 @@ test_cases:
     JETTA_FUEL_HIGH_P_ACT: 497.6
   response: '7E8056220271370'
 - expected_values:
-    JETTA_FUEL_HIGH_P_ACT: 537.8
-  response: '7E8056220271502'
+    JETTA_FUEL_HIGH_P_ACT: 716.8
+  response: 7E8056220271C00
 - expected_values:
     JETTA_FUEL_HIGH_P_ACT: 998.3
   response: 7E80562202726FF
 - expected_values:
-    JETTA_FUEL_HIGH_P_ACT: 1000.4
-  response: '7E8056220272714'
+    JETTA_FUEL_HIGH_P_ACT: 999.2
+  response: '7E8056220272708'

@@ -19,5 +19,14 @@ test_cases:
     JETTA_TORQUE_CONVERTER_TORQUE_LOSS: 8
   response: '7E90462705308'
 - expected_values:
+    JETTA_TORQUE_CONVERTER_TORQUE_LOSS: 9
+  response: '7E90462705309'
+- expected_values:
     JETTA_TORQUE_CONVERTER_TORQUE_LOSS: 10
   response: 7E9046270530A
+- expected_values:
+    JETTA_TORQUE_CONVERTER_TORQUE_LOSS: 11
+  response: 7E9046270530B
+- expected_values:
+    JETTA_TORQUE_CONVERTER_TORQUE_LOSS: 12
+  response: 7E9046270530C

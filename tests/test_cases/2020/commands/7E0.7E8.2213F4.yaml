@@ -1,8 +1,11 @@
 command_id: 7E0.7E8.2213F4
 test_cases:
 - expected_values:
-    JETTA_IGA_CYL_KNK_2: -0.75
-  response: 7E8056213F47E0A
+    JETTA_IGA_CYL_KNK_2: -1.125
+  response: 7E8056213F47DA5
 - expected_values:
-    JETTA_IGA_CYL_KNK_2: -0.75
-  response: 7E8056213F47ECA
+    JETTA_IGA_CYL_KNK_2: -0.375
+  response: 7E8056213F47FFF
+- expected_values:
+    JETTA_IGA_CYL_KNK_2: 0
+  response: 7E8056213F48004

@@ -1,14 +1,17 @@
 command_id: 7E0.7E8.2211CF
 test_cases:
 - expected_values:
-    JETTA_BRAKE_BOOSTER_P: 262.14508
-  response: 7E8056211CF1A37
+    JETTA_BRAKE_BOOSTER_P: 247.61402
+  response: 7E8056211CF18C3
+- expected_values:
+    JETTA_BRAKE_BOOSTER_P: 255.93422
+  response: 7E8056211CF1998
 - expected_values:
     JETTA_BRAKE_BOOSTER_P: 270.03561
   response: 7E8056211CF1B01
 - expected_values:
-    JETTA_BRAKE_BOOSTER_P: 339.95659
-  response: 7E8056211CF21FF
+    JETTA_BRAKE_BOOSTER_P: 279.95735
+  response: 7E8056211CF1BFF
 - expected_values:
-    JETTA_BRAKE_BOOSTER_P: 433.08039
-  response: 7E8056211CF2B4F
+    JETTA_BRAKE_BOOSTER_P: 454.40825
+  response: 7E8056211CF2D71

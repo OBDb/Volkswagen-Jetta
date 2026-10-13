@@ -4,11 +4,11 @@ test_cases:
     JETTA_CMD_CRANK_TQ: 2.9
   response: 7E8056211E0001D
 - expected_values:
-    JETTA_CMD_CRANK_TQ: 25.3
-  response: 7E8056211E000FD
+    JETTA_CMD_CRANK_TQ: 76.7
+  response: 7E8056211E002FF
 - expected_values:
-    JETTA_CMD_CRANK_TQ: 78.2
-  response: 7E8056211E0030E
+    JETTA_CMD_CRANK_TQ: 77
+  response: 7E8056211E00302
 - expected_values:
     JETTA_CMD_CRANK_TQ: -10.1
   response: 7E8056211E0FF9B

@@ -1,6 +1,9 @@
 command_id: 7E0.7E8.22F407
 test_cases:
 - expected_values:
+    JETTA_LONG_TERM_FUEL_TRIM_1: -1.5625
+  response: 7E80462F4077E
+- expected_values:
     JETTA_LONG_TERM_FUEL_TRIM_1: -0.78125
   response: 7E80462F4077F
 - expected_values:
@@ -18,3 +21,12 @@ test_cases:
 - expected_values:
     JETTA_LONG_TERM_FUEL_TRIM_1: 3.125
   response: 7E80462F40784
+- expected_values:
+    JETTA_LONG_TERM_FUEL_TRIM_1: 3.90625
+  response: 7E80462F40785
+- expected_values:
+    JETTA_LONG_TERM_FUEL_TRIM_1: 4.6875
+  response: 7E80462F40786
+- expected_values:
+    JETTA_LONG_TERM_FUEL_TRIM_1: 5.46875
+  response: 7E80462F40787

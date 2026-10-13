@@ -9,3 +9,6 @@ test_cases:
 - expected_values:
     JETTA_AUTOMATIC_ENG_STARTS: 5419
   response: 7E805622999152B
+- expected_values:
+    JETTA_AUTOMATIC_ENG_STARTS: 5420
+  response: 7E805622999152C

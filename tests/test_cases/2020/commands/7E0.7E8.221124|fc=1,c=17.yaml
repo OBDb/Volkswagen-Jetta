@@ -7,8 +7,8 @@ test_cases:
     JETTA_CAMSHAFT_VSS: 384.25
   response: '7E8056211240601'
 - expected_values:
-    JETTA_CAMSHAFT_VSS: 702.5
-  response: 7E8056211240AFA
+    JETTA_CAMSHAFT_VSS: 703
+  response: 7E8056211240AFC
 - expected_values:
-    JETTA_CAMSHAFT_VSS: 1093.25
-  response: '7E8056211241115'
+    JETTA_CAMSHAFT_VSS: 1394.25
+  response: 7E80562112415C9
