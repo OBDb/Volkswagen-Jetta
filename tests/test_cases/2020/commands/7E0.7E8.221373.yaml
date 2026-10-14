@@ -7,11 +7,11 @@ test_cases:
     JETTA_CAM_ADJ_INT_BANK_1_SPEC: 4.368
   response: '7E8056213730222'
 - expected_values:
+    JETTA_CAM_ADJ_INT_BANK_1_SPEC: 22.504
+  response: 7E8056213730AFD
+- expected_values:
     JETTA_CAM_ADJ_INT_BANK_1_SPEC: 22.528
   response: 7E8056213730B00
-- expected_values:
-    JETTA_CAM_ADJ_INT_BANK_1_SPEC: -8.224
-  response: 7E805621373FBFC
 - expected_values:
     JETTA_CAM_ADJ_INT_BANK_1_SPEC: -1.704
   response: 7E805621373FF2B

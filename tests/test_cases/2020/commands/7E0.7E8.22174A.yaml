@@ -1,11 +1,11 @@
 command_id: 7E0.7E8.22174A
 test_cases:
 - expected_values:
-    JETTA_EXH_CAM_ADPT_BIAS: 1.77981
-  response: 7E80562174A0051
+    JETTA_EXH_CAM_ADPT_BIAS: 1.71389
+  response: 7E80562174A004E
 - expected_values:
     JETTA_EXH_CAM_ADPT_BIAS: 1.84573
   response: 7E80562174A0054
 - expected_values:
-    JETTA_EXH_CAM_ADPT_BIAS: 4.94392
-  response: 7E80562174A00E1
+    JETTA_EXH_CAM_ADPT_BIAS: 5.05379
+  response: 7E80562174A00E6

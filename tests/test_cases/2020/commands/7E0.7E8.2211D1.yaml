@@ -10,8 +10,8 @@ test_cases:
     JETTA_BRAKE_BOOSTER_RAW_P: 6654
   response: 7E8056211D119FE
 - expected_values:
-    JETTA_BRAKE_BOOSTER_RAW_P: 7169
-  response: 7E8056211D11C01
+    JETTA_BRAKE_BOOSTER_RAW_P: 7680
+  response: 7E8056211D11E00
 - expected_values:
     JETTA_BRAKE_BOOSTER_RAW_P: 11551
   response: 7E8056211D12D1F

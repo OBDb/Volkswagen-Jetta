@@ -7,8 +7,8 @@ test_cases:
     JETTA_NUM_INJECTIONS: 1573
   response: 7E80562430E0625
 - expected_values:
-    JETTA_NUM_INJECTIONS: 54783
-  response: 7E80562430ED5FF
+    JETTA_NUM_INJECTIONS: 5631
+  response: 7E80562430E15FF
 - expected_values:
     JETTA_NUM_INJECTIONS: 65024
   response: 7E80562430EFE00

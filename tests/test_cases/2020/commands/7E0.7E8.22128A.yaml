@@ -4,8 +4,8 @@ test_cases:
     JETTA_FUEL_T: 24
   response: 7E80462128A60
 - expected_values:
-    JETTA_FUEL_T: 29.25
-  response: 7E80462128A67
+    JETTA_FUEL_T: 27.75
+  response: 7E80462128A65
 - expected_values:
     JETTA_FUEL_T: 73.5
   response: 7E80462128AA2

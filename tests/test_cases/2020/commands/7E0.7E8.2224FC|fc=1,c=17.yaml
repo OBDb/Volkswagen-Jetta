@@ -4,8 +4,8 @@ test_cases:
     JETTA_FUEL_TANK_FILL_LEVEL: 6.3
   response: 7E8056224FC003F
 - expected_values:
-    JETTA_FUEL_TANK_FILL_LEVEL: 33.8
-  response: 7E8056224FC0152
+    JETTA_FUEL_TANK_FILL_LEVEL: 32.9
+  response: 7E8056224FC0149
 - expected_values:
     JETTA_FUEL_TANK_FILL_LEVEL: 43.4
   response: 7E8056224FC01B2

@@ -4,8 +4,8 @@ test_cases:
     JETTA_MEAN_INJ_QUANTITY: 132.26
   response: 7E80562113933AA
 - expected_values:
-    JETTA_MEAN_INJ_QUANTITY: 163.83
-  response: 7E8056211393FFF
+    JETTA_MEAN_INJ_QUANTITY: 138.23
+  response: 7E80562113935FF
 - expected_values:
     JETTA_MEAN_INJ_QUANTITY: 163.84
   response: '7E8056211394000'
