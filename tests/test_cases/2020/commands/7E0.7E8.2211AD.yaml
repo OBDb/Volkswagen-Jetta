@@ -4,8 +4,8 @@ test_cases:
     JETTA_MAF_CMD: 5.3
   response: 7E8056211AD0035
 - expected_values:
-    JETTA_MAF_CMD: 50.9
-  response: 7E8056211AD01FD
+    JETTA_MAF_CMD: 51
+  response: 7E8056211AD01FE
 - expected_values:
     JETTA_MAF_CMD: 76.8
   response: 7E8056211AD0300

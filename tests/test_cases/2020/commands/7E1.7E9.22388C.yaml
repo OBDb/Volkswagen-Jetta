@@ -12,3 +12,9 @@ test_cases:
 - expected_values:
     JETTA_MQB_TCM_IGNITION_CYCLES: 34585
   response: 7E90562388C1987
+- expected_values:
+    JETTA_MQB_TCM_IGNITION_CYCLES: 34841
+  response: 7E90562388C1988
+- expected_values:
+    JETTA_MQB_TCM_IGNITION_CYCLES: 35097
+  response: 7E90562388C1989

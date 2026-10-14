@@ -1,11 +1,11 @@
 command_id: 7E0.7E8.221221
 test_cases:
 - expected_values:
-    JETTA_PQ35_ACCEL_PED_1: -12.6
-  response: 7E805621221FFC1
+    JETTA_PQ35_ACCEL_PED_1: -20
+  response: 7E805621221FF9C
 - expected_values:
-    JETTA_PQ35_ACCEL_PED_1: -12.4
-  response: 7E805621221FFC2
+    JETTA_PQ35_ACCEL_PED_1: -19.4
+  response: 7E805621221FF9F
 - expected_values:
     JETTA_PQ35_ACCEL_PED_1: -4.8
   response: 7E805621221FFE8

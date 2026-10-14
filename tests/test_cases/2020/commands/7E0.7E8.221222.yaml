@@ -1,5 +1,11 @@
 command_id: 7E0.7E8.221222
 test_cases:
 - expected_values:
+    JETTA_TQ_LOSS_ADPT_AC_COMP: -10
+  response: 7E805621222FF9C
+- expected_values:
+    JETTA_TQ_LOSS_ADPT_AC_COMP: -9.8
+  response: 7E805621222FF9E
+- expected_values:
     JETTA_TQ_LOSS_ADPT_AC_COMP: -7.4
   response: 7E805621222FFB6

@@ -8,4 +8,4 @@ test_cases:
   response: 7E80562127D72FE
 - expected_values:
     JETTA_VARIABLE_VLV_TIM_INT_1_ON: 100
-  response: 7E80562127DAFA8
+  response: 7E80562127DCBA3
