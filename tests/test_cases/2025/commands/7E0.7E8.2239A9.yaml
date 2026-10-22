@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.2239A9
+test_cases:
+- expected_values:
+    JETTA_OXYGEN_CTRL_ADPT: 0.24
+  response: 7E8056239A90018
+- expected_values:
+    JETTA_OXYGEN_CTRL_ADPT: -2.53
+  response: 7E8056239A9FF03
+- expected_values:
+    JETTA_OXYGEN_CTRL_ADPT: -0.34
+  response: 7E8056239A9FFDE

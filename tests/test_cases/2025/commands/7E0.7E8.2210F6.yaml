@@ -1,0 +1,20 @@
+command_id: 7E0.7E8.2210F6
+test_cases:
+- expected_values:
+    JETTA_MIS_PER_1000_2_7E0: 32768
+  response: 7E8076210F6800001A6
+- expected_values:
+    JETTA_MIS_PER_1000_2_7E0: 32768
+  response: 7E8076210F68000FA00
+- expected_values:
+    JETTA_MIS_PER_1000_2_7E0: 32768
+  response: 7E8076210F68000FF60
+- expected_values:
+    JETTA_MIS_PER_1000_2_7E0: 32770
+  response: 7E8076210F680021AFF
+- expected_values:
+    JETTA_MIS_PER_1000_2_7E0: 32771
+  response: 7E8076210F680030099
+- expected_values:
+    JETTA_MIS_PER_1000_2_7E0: 32772
+  response: 7E8076210F680040B6B

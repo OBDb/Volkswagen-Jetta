@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.22209C
+test_cases:
+- expected_values:
+    JETTA_ENG_DRAG_TQ: 9.5
+  response: 7E80562209C005F
+- expected_values:
+    JETTA_ENG_DRAG_TQ: 25.5
+  response: 7E80562209C00FF
+- expected_values:
+    JETTA_ENG_DRAG_TQ: 25.7
+  response: 7E80562209C0101

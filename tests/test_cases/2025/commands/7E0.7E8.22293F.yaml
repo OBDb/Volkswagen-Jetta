@@ -1,0 +1,26 @@
+command_id: 7E0.7E8.22293F
+test_cases:
+- expected_values:
+    JETTA_CHG_P_CTRL_ADPT_LO_MIN: 0
+  response: 7E80562293F0000
+- expected_values:
+    JETTA_CHG_P_CTRL_ADPT_LO_MIN: 4
+  response: 7E80562293F0190
+- expected_values:
+    JETTA_CHG_P_CTRL_ADPT_LO_MIN: 4.1
+  response: 7E80562293F019A
+- expected_values:
+    JETTA_CHG_P_CTRL_ADPT_LO_MIN: 4.2
+  response: 7E80562293F01A4
+- expected_values:
+    JETTA_CHG_P_CTRL_ADPT_LO_MIN: 4.39
+  response: 7E80562293F01B7
+- expected_values:
+    JETTA_CHG_P_CTRL_ADPT_LO_MIN: 4.79
+  response: 7E80562293F01DF
+- expected_values:
+    JETTA_CHG_P_CTRL_ADPT_LO_MIN: 5.18
+  response: 7E80562293F0206
+- expected_values:
+    JETTA_CHG_P_CTRL_ADPT_LO_MIN: 5.27
+  response: 7E80562293F020F

@@ -1,0 +1,20 @@
+command_id: 7E0.7E8.22148B|fc=1
+test_cases:
+- expected_values:
+    JETTA_MIS_PER_1000_RPM_ALL: 0
+  response: 7E80562148B0000
+- expected_values:
+    JETTA_MIS_PER_1000_RPM_ALL: 1
+  response: 7E80562148B0001
+- expected_values:
+    JETTA_MIS_PER_1000_RPM_ALL: 2
+  response: 7E80562148B0002
+- expected_values:
+    JETTA_MIS_PER_1000_RPM_ALL: 3
+  response: 7E80562148B0003
+- expected_values:
+    JETTA_MIS_PER_1000_RPM_ALL: 4
+  response: 7E80562148B0004
+- expected_values:
+    JETTA_MIS_PER_1000_RPM_ALL: 6
+  response: 7E80562148B0006

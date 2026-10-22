@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.2211AC
+test_cases:
+- expected_values:
+    JETTA_MAF_THROUGH_THROTTLE: 0.3
+  response: 7E8056211AC0003
+- expected_values:
+    JETTA_MAF_THROUGH_THROTTLE: 25.3
+  response: 7E8056211AC00FD
+- expected_values:
+    JETTA_MAF_THROUGH_THROTTLE: 246.1
+  response: 7E8056211AC099D

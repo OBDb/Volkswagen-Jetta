@@ -4,8 +4,8 @@ test_cases:
     JETTA_RUNTM: 0
   response: 7E80562F41F0000
 - expected_values:
-    JETTA_RUNTM: 511
-  response: 7E80562F41F01FF
+    JETTA_RUNTM: 255
+  response: 7E80562F41F00FF
 - expected_values:
-    JETTA_RUNTM: 768
-  response: 7E80562F41F0300
+    JETTA_RUNTM: 7469
+  response: 7E80562F41F1D2D

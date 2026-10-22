@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.22117D
+test_cases:
+- expected_values:
+    JETTA_N_32: 0
+  response: 7E80462117D00
+- expected_values:
+    JETTA_N_32: 4288
+  response: 7E80462117D86

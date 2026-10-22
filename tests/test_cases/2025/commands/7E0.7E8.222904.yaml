@@ -1,0 +1,29 @@
+command_id: 7E0.7E8.222904
+test_cases:
+- expected_values:
+    JETTA_MIS_TOT: 0
+  response: '7E8056229040000'
+- expected_values:
+    JETTA_MIS_TOT: 1
+  response: '7E8056229040001'
+- expected_values:
+    JETTA_MIS_TOT: 2
+  response: '7E8056229040002'
+- expected_values:
+    JETTA_MIS_TOT: 3
+  response: '7E8056229040003'
+- expected_values:
+    JETTA_MIS_TOT: 4
+  response: '7E8056229040004'
+- expected_values:
+    JETTA_MIS_TOT: 5
+  response: '7E8056229040005'
+- expected_values:
+    JETTA_MIS_TOT: 6
+  response: '7E8056229040006'
+- expected_values:
+    JETTA_MIS_TOT: 7
+  response: '7E8056229040007'
+- expected_values:
+    JETTA_MIS_TOT: 9
+  response: '7E8056229040009'

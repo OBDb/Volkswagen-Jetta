@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.22201D
+test_cases:
+- expected_values:
+    JETTA_CAM_ADJ_INT_SPEC: 0
+  response: 7E80562201D0000
+- expected_values:
+    JETTA_CAM_ADJ_INT_SPEC: 51
+  response: 7E80562201D01FE
+- expected_values:
+    JETTA_CAM_ADJ_INT_SPEC: 52
+  response: 7E80562201D0208

@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.2211CD
+test_cases:
+- expected_values:
+    JETTA_TCO_1_SYS: 9
+  response: 7E8046211CD31
+- expected_values:
+    JETTA_TCO_1_SYS: 108
+  response: 7E8046211CD94

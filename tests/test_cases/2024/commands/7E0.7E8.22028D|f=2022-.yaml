@@ -1,6 +1,9 @@
 command_id: 7E0.7E8.22028D|f=2022-
 test_cases:
 - expected_values:
+    JETTA_ENG_CTRL_MODULE_T_K: -244.1
+  response: 7E80562028D0122
+- expected_values:
     JETTA_ENG_CTRL_MODULE_T_K: 24.2
   response: 7E80562028D0B9D
 - expected_values:
