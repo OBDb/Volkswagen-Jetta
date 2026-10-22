@@ -4,5 +4,5 @@ test_cases:
     JETTA_AC_COMPRESSOR_SPEED: 0
   response: 7B00462260300
 - expected_values:
-    JETTA_AC_COMPRESSOR_SPEED: 5200
-  response: 7B00462260334
+    JETTA_AC_COMPRESSOR_SPEED: 14000
+  response: 7B0046226038C

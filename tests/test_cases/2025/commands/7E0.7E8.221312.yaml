@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.221312
+test_cases:
+- expected_values:
+    JETTA_FUEL_MASS_REQ_P_CTL: 0
+  response: '7E8056213120000'
+- expected_values:
+    JETTA_FUEL_MASS_REQ_P_CTL: -5.31969
+  response: 7E805621312FF05
+- expected_values:
+    JETTA_FUEL_MASS_REQ_P_CTL: -0.02119
+  response: 7E805621312FFFF

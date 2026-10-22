@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.222050
+test_cases:
+- expected_values:
+    JETTA_GEN_LOAD_SIG: 0.03
+  response: '7E8056220500003'
+- expected_values:
+    JETTA_GEN_LOAD_SIG: 74.2
+  response: 7E8056220501CFC
+- expected_values:
+    JETTA_GEN_LOAD_SIG: 77.43
+  response: 7E8056220501E3F

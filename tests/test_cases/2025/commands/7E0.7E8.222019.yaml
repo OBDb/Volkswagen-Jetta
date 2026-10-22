@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.222019
+test_cases:
+- expected_values:
+    JETTA_CAM_ADJ_EXH_SPEC: 0
+  response: '7E8056220190000'
+- expected_values:
+    JETTA_CAM_ADJ_EXH_SPEC: 19
+  response: 7E80562201900BE

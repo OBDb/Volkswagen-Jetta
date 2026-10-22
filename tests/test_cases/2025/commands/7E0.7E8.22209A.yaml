@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.22209A
+test_cases:
+- expected_values:
+    JETTA_FUEL_METERING_VLV: 0
+  response: 7E80562209A0000
+- expected_values:
+    JETTA_FUEL_METERING_VLV: 48.63
+  response: 7E80562209A12FF
+- expected_values:
+    JETTA_FUEL_METERING_VLV: 72.25
+  response: 7E80562209A1C39

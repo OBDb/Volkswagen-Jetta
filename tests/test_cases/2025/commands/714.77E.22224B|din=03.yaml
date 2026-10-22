@@ -1,5 +1,11 @@
 command_id: 714.77E.22224B|din=03
 test_cases:
 - expected_values:
-    JETTA_OIL_THERMAL_WEAR: 119
-  response: 77E0562224B0077
+    JETTA_OIL_THERMAL_WEAR: 25
+  response: 77E0562224B0019
+- expected_values:
+    JETTA_OIL_THERMAL_WEAR: 244
+  response: 77E0562224B00F4
+- expected_values:
+    JETTA_OIL_THERMAL_WEAR: 258
+  response: 77E0562224B0102

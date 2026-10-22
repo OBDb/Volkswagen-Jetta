@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.2220C2
+test_cases:
+- expected_values:
+    JETTA_WEAR_INDEX_0_NEW_ENG: 0
+  response: 7E8056220C20000
+- expected_values:
+    JETTA_WEAR_INDEX_0_NEW_ENG: 0.38605
+  response: 7E8056220C200FD
+- expected_values:
+    JETTA_WEAR_INDEX_0_NEW_ENG: 1.6846
+  response: 7E8056220C20450

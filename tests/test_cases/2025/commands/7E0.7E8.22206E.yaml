@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.22206E
+test_cases:
+- expected_values:
+    JETTA_CRANK_SPD_RPM: 0
+  response: 7E80562206E0000
+- expected_values:
+    JETTA_CRANK_SPD_RPM: 1278
+  response: 7E80562206E04FE
+- expected_values:
+    JETTA_CRANK_SPD_RPM: 4235
+  response: 7E80562206E108B

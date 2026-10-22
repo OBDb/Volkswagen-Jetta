@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.22204C
+test_cases:
+- expected_values:
+    JETTA_FUEL_RATE: 0
+  response: 7E80562204C0000
+- expected_values:
+    JETTA_FUEL_RATE: 2.55
+  response: 7E80562204C00FF
+- expected_values:
+    JETTA_FUEL_RATE: 13.18
+  response: 7E80562204C0526

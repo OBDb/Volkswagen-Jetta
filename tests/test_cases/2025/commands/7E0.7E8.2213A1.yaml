@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.2213A1
+test_cases:
+- expected_values:
+    JETTA_TI_MES4_PLS_1_1: 0
+  response: 7E8056213A10000
+- expected_values:
+    JETTA_TI_MES4_PLS_1_1: 1.016
+  response: 7E8056213A100FE
+- expected_values:
+    JETTA_TI_MES4_PLS_1_1: 4.452
+  response: 7E8056213A10459
