@@ -7,8 +7,8 @@ test_cases:
     JETTA_MAF_RATE: 8
   response: 7E8056213CD0100
 - expected_values:
-    JETTA_MAF_RATE: 79.96875
-  response: 7E8056213CD09FF
+    JETTA_MAF_RATE: 63.96875
+  response: 7E8056213CD07FF
 - expected_values:
     JETTA_MAF_RATE: 606.625
   response: 7E8056213CD4BD4

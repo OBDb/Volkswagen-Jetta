@@ -4,5 +4,5 @@ test_cases:
     JETTA_MANUAL_ENG_STARTS: 1553
   response: '7E8056229980611'
 - expected_values:
-    JETTA_MANUAL_ENG_STARTS: 1609
-  response: '7E8056229980649'
+    JETTA_MANUAL_ENG_STARTS: 1610
+  response: 7E805622998064A
