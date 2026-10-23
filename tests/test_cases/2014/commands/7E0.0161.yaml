@@ -9,3 +9,6 @@ test_cases:
 - expected_values:
     TQ_DD: 23
   response: '7E803416194'
+- expected_values:
+    TQ_DD: 57
+  response: 7E8034161B6
