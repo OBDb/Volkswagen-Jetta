@@ -10,5 +10,5 @@ test_cases:
     JETTA_CHG_P_SENS_V: 1.792
   response: 7E8056229C70700
 - expected_values:
-    JETTA_CHG_P_SENS_V: 3.286
-  response: 7E8056229C70CD6
+    JETTA_CHG_P_SENS_V: 3.257
+  response: 7E8056229C70CB9

@@ -4,11 +4,11 @@ test_cases:
     JETTA_CHG_P_CTRL_VLV_V_POS: 3.50102
   response: 7E805623EAB59A0
 - expected_values:
-    JETTA_CHG_P_CTRL_VLV_V_POS: 3.51079
-  response: 7E805623EAB59E0
-- expected_values:
     JETTA_CHG_P_CTRL_VLV_V_POS: 3.51567
   response: 7E805623EAB5A00
+- expected_values:
+    JETTA_CHG_P_CTRL_VLV_V_POS: 3.59258
+  response: 7E805623EAB5BF8
 - expected_values:
     JETTA_CHG_P_CTRL_VLV_V_POS: 3.63286
   response: 7E805623EAB5D00
