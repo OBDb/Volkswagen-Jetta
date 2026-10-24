@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.221224
+test_cases:
+- expected_values:
+    JETTA_TQ_LOSS_ADPT_GEAR: -2.1
+  response: 7E805621224FFEB

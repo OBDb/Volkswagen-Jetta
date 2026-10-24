@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.2215A4
+test_cases:
+- expected_values:
+    JETTA_OIL_LEVEL_STATIC: 66.76
+  response: 7E8056215A44132
+- expected_values:
+    JETTA_OIL_LEVEL_STATIC: 66.808
+  response: 7E8056215A4413E
+- expected_values:
+    JETTA_OIL_LEVEL_STATIC: 66.812
+  response: 7E8056215A4413F

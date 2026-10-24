@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.2216EE
+test_cases:
+- expected_values:
+    JETTA_BOOST_P_ACTUATOR_CMD: 20.27553
+  response: 7E8056216EE067D

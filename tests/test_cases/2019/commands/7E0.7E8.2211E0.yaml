@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.2211E0
+test_cases:
+- expected_values:
+    JETTA_CMD_CRANK_TQ: -44.3
+  response: 7E8056211E0FE45

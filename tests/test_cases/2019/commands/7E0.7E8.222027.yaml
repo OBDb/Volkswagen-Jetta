@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.222027
+test_cases:
+- expected_values:
+    JETTA_FUEL_HIGH_P_ACT: 29.7
+  response: '7E8056220270129'
+- expected_values:
+    JETTA_FUEL_HIGH_P_ACT: 30.4
+  response: '7E8056220270130'
+- expected_values:
+    JETTA_FUEL_HIGH_P_ACT: 30.6
+  response: '7E8056220270132'

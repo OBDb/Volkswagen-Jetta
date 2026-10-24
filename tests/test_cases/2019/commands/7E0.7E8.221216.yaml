@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.221216
+test_cases:
+- expected_values:
+    JETTA_REL_LOAD: 80.23617
+  response: 7E8056212160D5F
+- expected_values:
+    JETTA_REL_LOAD: 80.40026
+  response: 7E8056212160D66
+- expected_values:
+    JETTA_REL_LOAD: 80.49402
+  response: 7E8056212160D6A

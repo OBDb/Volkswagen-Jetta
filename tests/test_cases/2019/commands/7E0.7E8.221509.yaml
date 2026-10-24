@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.221509
+test_cases:
+- expected_values:
+    JETTA_AMBIENT_AIR_P: 1026.714
+  response: 7E80562150966D6
+- expected_values:
+    JETTA_AMBIENT_AIR_P: 1026.909
+  response: 7E80562150966DB
