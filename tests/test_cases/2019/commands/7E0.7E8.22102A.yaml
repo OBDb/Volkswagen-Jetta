@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.22102A
+test_cases:
+- expected_values:
+    JETTA_ACCEL_PEDAL_SENS_1_V: 744.6
+  response: 7E80562102A0E8B
+- expected_values:
+    JETTA_ACCEL_PEDAL_SENS_1_V: 746
+  response: 7E80562102A0E92

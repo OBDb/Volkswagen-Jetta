@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.221290|fc=1,c=17
+test_cases:
+- expected_values:
+    JETTA_OXYGEN_SNS_1_BANK_1_CERAMIC_T: null
+  response: '7E8056212900000'

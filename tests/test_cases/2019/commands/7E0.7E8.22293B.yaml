@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.22293B
+test_cases:
+- expected_values:
+    JETTA_FUEL_HIGH_P_SPEC: 750
+  response: 7E80562293B1D4C

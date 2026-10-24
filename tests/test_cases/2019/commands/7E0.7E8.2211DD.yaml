@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.2211DD
+test_cases:
+- expected_values:
+    JETTA_INT_MANIFOLD_P_CMD: 395.85938
+  response: 7E8056211DD13CB
+- expected_values:
+    JETTA_INT_MANIFOLD_P_CMD: 395.9375
+  response: 7E8056211DD13CC

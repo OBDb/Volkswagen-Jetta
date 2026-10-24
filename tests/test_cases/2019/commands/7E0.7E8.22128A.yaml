@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.22128A
+test_cases:
+- expected_values:
+    JETTA_FUEL_T: 20.25
+  response: 7E80462128A5B

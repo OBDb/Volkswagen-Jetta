@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.221136
+test_cases:
+- expected_values:
+    JETTA_HEIGHT_CORR: 1.01531
+  response: 7E80562113640FB
+- expected_values:
+    JETTA_HEIGHT_CORR: 1.01537
+  response: 7E80562113640FC

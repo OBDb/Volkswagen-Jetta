@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.2216ED
+test_cases:
+- expected_values:
+    JETTA_CHG_P_REGULATOR_HI: 90
+  response: 7E8056216ED01C2

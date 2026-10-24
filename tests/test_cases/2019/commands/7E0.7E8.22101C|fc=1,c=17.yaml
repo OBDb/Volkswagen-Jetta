@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.22101C|fc=1,c=17
+test_cases:
+- expected_values:
+    JETTA_GENERATOR_LOAD_SIG: 0.02
+  response: 7E80562101C0002
