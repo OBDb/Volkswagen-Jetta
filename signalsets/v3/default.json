@@ -911,7 +911,7 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1135"}, "freq": 1, "dbgfilter": { "to": 2013, "years": [2017, 2018, 2022, 2023], "from": 2027 },
   "signals": [
-    {"id": "JETTA_COOLANT_T", "path": "Engine", "fmt": { "len": 16, "max": 6280.4, "min": -273.1, "div": 10, "add": -273.1, "unit": "celsius" }, "name": "Coolant temperature at radiator outlet"}
+    {"id": "JETTA_COOLANT_T", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Coolant temperature at radiator outlet, raw value"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1136"}, "freq": 1, "dbgfilter": { "to": 2019, "from": 2021 },
   "signals": [
@@ -1323,7 +1323,7 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "pri": "17", "fcm1": true, "cmd": {"22": "1272"}, "freq": 5, "dbgfilter": { "to": 2019, "from": 2021 },
   "signals": [
-    {"id": "JETTA_REAR_CAT_CONV_T_MAIN_CAT_CONV_MODEL_VALUE", "path": "Engine", "fmt": { "len": 16, "max": 3003.6, "min": -3549.9, "div": 10, "add": -273.1, "sign": true, "unit": "celsius" }, "name": "Rear cat converter temperature, main catalytic converter model value"}
+    {"id": "JETTA_REAR_CAT_CONV_T_MAIN_CAT_CONV_MODEL_VALUE", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Rear cat converter temperature, main catalytic converter model value, raw"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "127B"}, "freq": 1, "dbgfilter": { "to": 2019, "years": [2021, 2022, 2023], "from": 2025 },
   "signals": [
@@ -1347,7 +1347,7 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "pri": "17", "fcm1": true, "cmd": {"22": "1290"}, "freq": 5, "dbgfilter": { "to": 2019, "from": 2021 },
   "signals": [
-    {"id": "JETTA_OXYGEN_SNS_1_BANK_1_CERAMIC_T", "path": "Engine", "fmt": { "len": 16, "max": 1262.793, "min": -273.15, "mul": 234.37, "div": 10000, "add": -273.15, "unit": "celsius" }, "name": "Oxygen sensor 1 bank 1 ceramic temperature"}
+    {"id": "JETTA_OXYGEN_SNS_1_BANK_1_CERAMIC_T", "path": "Engine", "fmt": { "len": 16, "max": 1262.793, "min": -273.15, "mul": 234.37, "div": 10000, "add": -273.15, "nullmin": -273.15, "unit": "celsius" }, "name": "Oxygen sensor 1 bank 1 ceramic temperature"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "pri": "17", "fcm1": true, "cmd": {"22": "1291"}, "freq": 5, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
