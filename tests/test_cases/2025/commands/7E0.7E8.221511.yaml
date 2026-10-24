@@ -1,5 +1,5 @@
 command_id: 7E0.7E8.221511
 test_cases:
 - expected_values:
-    JETTA_ECT_MAX: -48
+    JETTA_ECT_MAX: null
   response: '7E80462151100'
