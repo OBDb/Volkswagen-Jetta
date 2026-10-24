@@ -383,7 +383,7 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "028D"}, "freq": 5, "filter": { "from": 2022 }, "dbgfilter": { "years": [2023], "from": 2027 },
   "signals": [
-    {"id": "JETTA_ENG_CTRL_MODULE_T_K", "path": "Engine", "fmt": { "len": 16, "max": 6280.4, "min": -273.1, "div": 10, "add": -273.1, "unit": "celsius" }, "name": "Engine control module temperature"}
+    {"id": "JETTA_ENG_CTRL_MODULE_T_K", "path": "Engine", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "div": 10, "sign": true, "unit": "celsius" }, "name": "Engine control module temperature"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0802"}, "freq": 1, "filter": { "from": 2009, "to": 2015 },
   "signals": [
@@ -1467,11 +1467,11 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "pri": "17", "fcm1": true, "cmd": {"22": "139C"}, "freq": 5, "dbgfilter": { "to": 2023, "from": 2026 },
   "signals": [
-    {"id": "JETTA_EXHAUST_GAS_T_AT_PROBE_BEFOR_PRECAT_MODEL_VALUE", "path": "Engine", "fmt": { "len": 16, "max": 3003.6, "min": -3549.9, "div": 10, "add": -273.1, "sign": true, "unit": "celsius" }, "name": "Exhaust gas temperature before the front catalytic converter, model value"}
+    {"id": "JETTA_EXHAUST_GAS_T_AT_PROBE_BEFOR_PRECAT_MODEL_VALUE", "path": "Engine", "fmt": { "len": 16, "max": 3003.6, "min": -3549.9, "div": 10, "add": -273.1, "sign": true, "nullmin": -273.1, "unit": "celsius" }, "name": "Exhaust gas temperature before the front catalytic converter, model value"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "pri": "17", "fcm1": true, "cmd": {"22": "13A0"}, "freq": 5, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
-    {"id": "JETTA_COOLANT_T_MODELED_VALUE", "path": "Engine", "fmt": { "len": 16, "max": 3003.6, "min": -3549.9, "div": 10, "add": -273.1, "sign": true, "unit": "celsius" }, "name": "Coolant temperature modeled value"}
+    {"id": "JETTA_COOLANT_T_MODELED_VALUE", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "unknown" }, "name": "Coolant temperature modeled value, raw"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "13A1"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
@@ -1735,11 +1735,11 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1511"}, "freq": 5, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
-    {"id": "JETTA_ECT_MAX", "path": "Engine", "fmt": { "len": 8, "max": 143.25, "min": -48, "mul": 3, "div": 4, "add": -48, "unit": "celsius" }, "name": "Coolant temperature, maximum value"}
+    {"id": "JETTA_ECT_MAX", "path": "Engine", "fmt": { "len": 8, "max": 143.25, "min": -48, "mul": 3, "div": 4, "add": -48, "nullmin": -48, "unit": "celsius" }, "name": "Coolant temperature, maximum value"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1512"}, "freq": 5, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
-    {"id": "JETTA_ECT_MIN", "path": "Engine", "fmt": { "len": 8, "max": 143.25, "min": -48, "mul": 3, "div": 4, "add": -48, "unit": "celsius" }, "name": "Coolant temperature, minimum value"}
+    {"id": "JETTA_ECT_MIN", "path": "Engine", "fmt": { "len": 8, "max": 143.25, "min": -48, "mul": 3, "div": 4, "add": -48, "nullmin": -48, "unit": "celsius" }, "name": "Coolant temperature, minimum value"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1513"}, "freq": 5,
   "signals": [
@@ -2443,7 +2443,7 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "20A1"}, "freq": 5, "dbgfilter": { "to": 2020, "years": [2022, 2023, 2024], "from": 2027 },
   "signals": [
-    {"id": "JETTA_PQ35_CALCULATED_OIL_T", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Calculated oil temperature", "suggestedMetric": "engineOilTemperature"}
+    {"id": "JETTA_PQ35_CALCULATED_OIL_T", "path": "Engine", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "div": 10, "sign": true, "unit": "celsius" }, "name": "Calculated oil temperature", "suggestedMetric": "engineOilTemperature"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "20A2"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
@@ -3093,7 +3093,7 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "4381"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
-    {"id": "JETTA_LONG_TERM_FUEL_TRIM_IDLE_7E0", "path": "Fuel", "fmt": { "len": 16, "max": 327, "min": -327, "div": 100, "sign": true, "unit": "unknown" }, "name": "Long term fuel trim at idle"}
+    {"id": "JETTA_LONG_TERM_FUEL_TRIM_IDLE_7E0", "path": "Fuel", "fmt": { "len": 16, "max": 327.67, "min": -327.68, "div": 100, "sign": true, "nullmin": -327.68, "nullmax": 327.67, "unit": "unknown" }, "name": "Long term fuel trim at idle"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "4384"}, "freq": 3600, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
@@ -3417,7 +3417,7 @@
   ]},
 { "hdr": "7E1", "rax": "7E9", "cmd": {"22": "100A"}, "freq": 0.25, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [
-    {"id": "JETTA_MQB_DQ250_VEHICLE_SPD_FROM_TRANSMISSION", "path": "Movement", "fmt": { "len": 16, "blsb": true, "max": 3276.7, "div": 10, "sign": true, "unit": "kilometersPerHour" }, "name": "Vehicle speed from transmission", "suggestedMetric": "speed"}
+    {"id": "JETTA_MQB_DQ250_VEHICLE_SPD_FROM_TRANSMISSION", "path": "Movement", "fmt": { "len": 16, "blsb": true, "max": 3276.7, "div": 10, "sign": true, "nullmax": 3276.7, "unit": "kilometersPerHour" }, "name": "Vehicle speed from transmission", "suggestedMetric": "speed"}
   ]},
 { "hdr": "7E1", "rax": "7E9", "cmd": {"22": "100B"}, "freq": 0.25, "dbgfilter": { "to": 2020, "from": 2022 },
   "signals": [

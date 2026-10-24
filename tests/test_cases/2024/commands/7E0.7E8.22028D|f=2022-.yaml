@@ -1,14 +1,14 @@
 command_id: 7E0.7E8.22028D|f=2022-
 test_cases:
 - expected_values:
-    JETTA_ENG_CTRL_MODULE_T_K: -244.1
+    JETTA_ENG_CTRL_MODULE_T_K: 29
   response: 7E80562028D0122
 - expected_values:
-    JETTA_ENG_CTRL_MODULE_T_K: 24.2
+    JETTA_ENG_CTRL_MODULE_T_K: 297.3
   response: 7E80562028D0B9D
 - expected_values:
-    JETTA_ENG_CTRL_MODULE_T_K: 34
+    JETTA_ENG_CTRL_MODULE_T_K: 307.1
   response: 7E80562028D0BFF
 - expected_values:
-    JETTA_ENG_CTRL_MODULE_T_K: 59.8
+    JETTA_ENG_CTRL_MODULE_T_K: 332.9
   response: 7E80562028D0D01

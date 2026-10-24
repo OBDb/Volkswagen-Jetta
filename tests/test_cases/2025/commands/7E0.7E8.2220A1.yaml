@@ -1,11 +1,11 @@
 command_id: 7E0.7E8.2220A1
 test_cases:
 - expected_values:
-    JETTA_PQ35_CALCULATED_OIL_T: -40
+    JETTA_PQ35_CALCULATED_OIL_T: 0
   response: 7E8056220A10000
 - expected_values:
-    JETTA_PQ35_CALCULATED_OIL_T: -39
+    JETTA_PQ35_CALCULATED_OIL_T: 51
   response: 7E8056220A101FE
 - expected_values:
-    JETTA_PQ35_CALCULATED_OIL_T: 215
+    JETTA_PQ35_CALCULATED_OIL_T: -19
   response: 7E8056220A1FF42

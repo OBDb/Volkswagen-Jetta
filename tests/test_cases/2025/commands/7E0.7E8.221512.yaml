@@ -1,5 +1,5 @@
 command_id: 7E0.7E8.221512
 test_cases:
 - expected_values:
-    JETTA_ECT_MIN: -48
+    JETTA_ECT_MIN: null
   response: '7E80462151200'
