@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     JETTA_FUEL_USE_AVG: 10.5
   response: '77E 05 62 22 99 00 69 AA AA '
+- expected_values:
+    JETTA_FUEL_USE_AVG: 7.8
+  response: 77E05622299004E
