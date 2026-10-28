@@ -1,8 +1,11 @@
 command_id: 7E0.7E8.221341
 test_cases:
 - expected_values:
-    JETTA_PQ35_CAMS_END: 3858.4
-  response: 7E8056213414B5C
+    JETTA_PQ35_CAMS_END: 0
+  response: '7E8056213410000'
 - expected_values:
-    JETTA_PQ35_CAMS_END: 3860.6
-  response: 7E8056213414B67
+    JETTA_PQ35_CAMS_END: -51.4
+  response: 7E805621341FEFF
+- expected_values:
+    JETTA_PQ35_CAMS_END: -50.2
+  response: 7E805621341FF05

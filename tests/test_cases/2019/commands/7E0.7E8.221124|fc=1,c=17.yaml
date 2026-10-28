@@ -3,3 +3,9 @@ test_cases:
 - expected_values:
     JETTA_CAMSHAFT_VSS: 0
   response: '7E8056211240000'
+- expected_values:
+    JETTA_CAMSHAFT_VSS: 1087.75
+  response: 7E80562112410FF
+- expected_values:
+    JETTA_CAMSHAFT_VSS: 1423.25
+  response: 7E805621124163D

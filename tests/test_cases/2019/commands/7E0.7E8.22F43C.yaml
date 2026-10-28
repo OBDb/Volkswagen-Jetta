@@ -3,3 +3,12 @@ test_cases:
 - expected_values:
     JETTA_EXH_GAS_T: 16.4
   response: 7E80562F43C0234
+- expected_values:
+    JETTA_EXH_GAS_T: 369.6
+  response: 7E80562F43C1000
+- expected_values:
+    JETTA_EXH_GAS_T: 420.7
+  response: 7E80562F43C11FF
+- expected_values:
+    JETTA_EXH_GAS_T: 772.4
+  response: 7E80562F43C1FBC

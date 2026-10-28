@@ -1,5 +1,17 @@
 command_id: 7E0.7E8.2215B9
 test_cases:
 - expected_values:
-    JETTA_OIL_LEVEL_AVG: 10.012
-  response: 7E8056215B909C7
+    JETTA_OIL_LEVEL_AVG: 4.32
+  response: 7E8056215B90438
+- expected_values:
+    JETTA_OIL_LEVEL_AVG: 5.388
+  response: 7E8056215B90543
+- expected_values:
+    JETTA_OIL_LEVEL_AVG: 6.136
+  response: 7E8056215B905FE
+- expected_values:
+    JETTA_OIL_LEVEL_AVG: 7.176
+  response: 7E8056215B90702
+- expected_values:
+    JETTA_OIL_LEVEL_AVG: 11.188
+  response: 7E8056215B90AED

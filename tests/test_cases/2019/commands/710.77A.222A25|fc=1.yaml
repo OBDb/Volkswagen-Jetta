@@ -4,5 +4,5 @@ test_cases:
     JETTA_BAT_INTERNAL_RES_RAW: 5.6
   response: 77A04622A251C
 - expected_values:
-    JETTA_BAT_INTERNAL_RES_RAW: 5.8
-  response: 77A04622A251D
+    JETTA_BAT_INTERNAL_RES_RAW: 16
+  response: 77A04622A2550

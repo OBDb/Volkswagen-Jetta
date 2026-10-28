@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     JETTA_GENERATOR_PERFORMANCE: 0
   response: '7E8056210970000'
+- expected_values:
+    JETTA_GENERATOR_PERFORMANCE: 942.48
+  response: '7E8056210970064'

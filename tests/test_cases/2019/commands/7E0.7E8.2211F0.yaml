@@ -1,5 +1,14 @@
 command_id: 7E0.7E8.2211F0
 test_cases:
 - expected_values:
-    JETTA_BOOST_P_ACT: 1023.75
-  response: 7E8056211F03330
+    JETTA_BOOST_P_ACT: 984.375
+  response: 7E8056211F03138
+- expected_values:
+    JETTA_BOOST_P_ACT: 1059.92188
+  response: 7E8056211F034FF
+- expected_values:
+    JETTA_BOOST_P_ACT: 1160
+  response: 7E8056211F03A00
+- expected_values:
+    JETTA_BOOST_P_ACT: 2161.17188
+  response: 7E8056211F06C0F

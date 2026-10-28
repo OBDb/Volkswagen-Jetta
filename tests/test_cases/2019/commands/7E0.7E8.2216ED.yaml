@@ -3,3 +3,12 @@ test_cases:
 - expected_values:
     JETTA_CHG_P_REGULATOR_HI: 90
   response: 7E8056216ED01C2
+- expected_values:
+    JETTA_CHG_P_REGULATOR_HI: 100.2
+  response: 7E8056216ED01F5
+- expected_values:
+    JETTA_CHG_P_REGULATOR_HI: 104.4
+  response: 7E8056216ED020A
+- expected_values:
+    JETTA_CHG_P_REGULATOR_HI: 111.2
+  response: 7E8056216ED022C

@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     JETTA_REQ_TQ_AMOUNT: 0
   response: 7E8056210BE0000
+- expected_values:
+    JETTA_REQ_TQ_AMOUNT: 20.7
+  response: 7E8056210BE00CF

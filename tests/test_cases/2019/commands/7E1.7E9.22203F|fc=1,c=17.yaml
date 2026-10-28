@@ -1,0 +1,11 @@
+command_id: 7E1.7E9.22203F|fc=1,c=17
+test_cases:
+- expected_values:
+    JETTA_TORQUE_LIMITATION: 75
+  response: 7E90562203F004B
+- expected_values:
+    JETTA_TORQUE_LIMITATION: 255
+  response: 7E90562203F00FF
+- expected_values:
+    JETTA_TORQUE_LIMITATION: 1022
+  response: 7E90562203F03FE

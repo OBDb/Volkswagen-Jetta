@@ -3,3 +3,12 @@ test_cases:
 - expected_values:
     JETTA_MQB_TCM_BRAKE_P: -184.21
   response: 7E9056238030BB8
+- expected_values:
+    JETTA_MQB_TCM_BRAKE_P: 0.15
+  response: 7E9056238030F00
+- expected_values:
+    JETTA_MQB_TCM_BRAKE_P: -4.96
+  response: 7E90562380310FE
+- expected_values:
+    JETTA_MQB_TCM_BRAKE_P: -301.81
+  response: 7E9056238031B8A

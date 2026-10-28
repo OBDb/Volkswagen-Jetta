@@ -1,5 +1,17 @@
 command_id: 7E0.7E8.2216C5
 test_cases:
 - expected_values:
+    JETTA_THROTTLE_REGULATOR: 0
+  response: 7E8056216C50000
+- expected_values:
     JETTA_THROTTLE_REGULATOR: 8.70312
   response: 7E8056216C5045A
+- expected_values:
+    JETTA_THROTTLE_REGULATOR: 26
+  response: 7E8056216C50D00
+- expected_values:
+    JETTA_THROTTLE_REGULATOR: 29.99219
+  response: 7E8056216C50EFF
+- expected_values:
+    JETTA_THROTTLE_REGULATOR: 100
+  response: 7E8056216C5FF0A

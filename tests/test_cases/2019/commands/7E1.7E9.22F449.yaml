@@ -1,5 +1,8 @@
 command_id: 7E1.7E9.22F449
 test_cases:
 - expected_values:
-    JETTA_ACCEL_PEDAL_POS_7E1: 14.90196
-  response: 7E90462F44926
+    JETTA_ACCEL_PEDAL_POS_7E1: 14.11765
+  response: 7E90462F44924
+- expected_values:
+    JETTA_ACCEL_PEDAL_POS_7E1: 79.60784
+  response: 7E90462F449CB

@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     JETTA_EA888B_BOOST_P_CMD: 0
   response: 7E8046211A300
+- expected_values:
+    JETTA_EA888B_BOOST_P_CMD: 100
+  response: 7E8046211A3FF

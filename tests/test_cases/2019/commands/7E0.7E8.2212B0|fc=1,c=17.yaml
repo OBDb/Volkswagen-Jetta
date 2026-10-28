@@ -3,3 +3,9 @@ test_cases:
 - expected_values:
     JETTA_ACCELERATION_29BIT: 0
   response: 7E8056212B00000
+- expected_values:
+    JETTA_ACCELERATION_29BIT: -0.207
+  response: 7E8056212B0FF31
+- expected_values:
+    JETTA_ACCELERATION_29BIT: -0.001
+  response: 7E8056212B0FFFF

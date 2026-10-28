@@ -3,3 +3,12 @@ test_cases:
 - expected_values:
     JETTA_BASIC_CORR_FACTOR_3: 0
   response: 7E80562171B0000
+- expected_values:
+    JETTA_BASIC_CORR_FACTOR_3: 0.97023
+  response: 7E80562171B1F0D
+- expected_values:
+    JETTA_BASIC_CORR_FACTOR_3: 0.99952
+  response: 7E80562171B1FFD
+- expected_values:
+    JETTA_BASIC_CORR_FACTOR_3: 1.00587
+  response: 7E80562171B2031

@@ -1,5 +1,11 @@
 command_id: 7E0.7E8.22105A|fc=1,c=17
 test_cases:
 - expected_values:
-    JETTA_BATTERY_V: 11920
-  response: 7E80562105A0254
+    JETTA_BATTERY_V: 11760
+  response: 7E80562105A024C
+- expected_values:
+    JETTA_BATTERY_V: 12180
+  response: 7E80562105A0261
+- expected_values:
+    JETTA_BATTERY_V: 14820
+  response: 7E80562105A02E5

@@ -3,3 +3,9 @@ test_cases:
 - expected_values:
     JETTA_EXH_CAM_ADPT_BIAS: 5.73495
   response: 7E80562174A0105
+- expected_values:
+    JETTA_EXH_CAM_ADPT_BIAS: -4.52644
+  response: 7E80562174AFF32
+- expected_values:
+    JETTA_EXH_CAM_ADPT_BIAS: -0.50538
+  response: 7E80562174AFFE9

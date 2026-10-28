@@ -3,3 +3,9 @@ test_cases:
 - expected_values:
     JETTA_TQ_TRANSMITTING: 0
   response: '7E9056221050000'
+- expected_values:
+    JETTA_TQ_TRANSMITTING: 25.3
+  response: 7E90562210500FD
+- expected_values:
+    JETTA_TQ_TRANSMITTING: 30.9
+  response: '7E9056221050135'
