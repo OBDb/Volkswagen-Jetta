@@ -1,5 +1,8 @@
 command_id: 7E0.7E8.221755
 test_cases:
 - expected_values:
+    JETTA_EXH_CAM_ADPT_SENS: 0.48341
+  response: '7E8056217550016'
+- expected_values:
     JETTA_EXH_CAM_ADPT_SENS: -1.9556
   response: 7E805621755FFA7

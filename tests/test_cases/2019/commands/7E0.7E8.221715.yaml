@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     JETTA_EARLY_IGN_CNT_TOT_1: 0
   response: '7E8056217150000'
+- expected_values:
+    JETTA_EARLY_IGN_CNT_TOT_1: 2
+  response: '7E8056217150002'

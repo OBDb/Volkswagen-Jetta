@@ -1,5 +1,17 @@
 command_id: 7E0.7E8.22171A
 test_cases:
 - expected_values:
-    JETTA_BASIC_CORR_FACTOR_1: 0.98634
-  response: 7E80562171A1F91
+    JETTA_BASIC_CORR_FACTOR_1: 0.9673
+  response: 7E80562171A1EF5
+- expected_values:
+    JETTA_BASIC_CORR_FACTOR_1: 0.96962
+  response: 7E80562171A1F08
+- expected_values:
+    JETTA_BASIC_CORR_FACTOR_1: 0.99965
+  response: 7E80562171A1FFE
+- expected_values:
+    JETTA_BASIC_CORR_FACTOR_1: 1.00013
+  response: 7E80562171A2002
+- expected_values:
+    JETTA_BASIC_CORR_FACTOR_1: 1.03138
+  response: 7E80562171A2102

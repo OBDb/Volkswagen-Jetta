@@ -3,3 +3,9 @@ test_cases:
 - expected_values:
     JETTA_VSS_HR: 0
   response: '7E9056221060000'
+- expected_values:
+    JETTA_VSS_HR: 5.1
+  response: 7E90562210601FE
+- expected_values:
+    JETTA_VSS_HR: 123
+  response: 7E905622106300C

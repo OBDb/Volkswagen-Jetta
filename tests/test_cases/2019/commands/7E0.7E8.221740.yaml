@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     JETTA_INT_CAM_ADPT_SENS: 0.2417
   response: 7E805621740000B
+- expected_values:
+    JETTA_INT_CAM_ADPT_SENS: 1.66995
+  response: 7E805621740004C

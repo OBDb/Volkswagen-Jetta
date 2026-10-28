@@ -1,5 +1,8 @@
 command_id: 710.77A.222A15|fc=1
 test_cases:
 - expected_values:
-    JETTA_ENERGY_BALANCE_LAST: 12
-  response: 77A05622A1504B0
+    JETTA_ENERGY_BALANCE_LAST: 11.99
+  response: 77A05622A1504AF
+- expected_values:
+    JETTA_ENERGY_BALANCE_LAST: 12.16
+  response: 77A05622A1504C0

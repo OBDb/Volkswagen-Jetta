@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     JETTA_MAX_OIL_LEVEL: 15.424
   response: 7E8056212300F10
+- expected_values:
+    JETTA_MAX_OIL_LEVEL: 21.488
+  response: 7E80562123014FC

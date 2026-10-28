@@ -1,5 +1,11 @@
 command_id: 7E0.7E8.221225
 test_cases:
 - expected_values:
-    JETTA_TQ_LOSS_ADPT_IDLE: -0.4
-  response: 7E805621225FFFC
+    JETTA_TQ_LOSS_ADPT_IDLE: 0.1
+  response: '7E8056212250001'
+- expected_values:
+    JETTA_TQ_LOSS_ADPT_IDLE: -1.9
+  response: 7E805621225FFED
+- expected_values:
+    JETTA_TQ_LOSS_ADPT_IDLE: -0.3
+  response: 7E805621225FFFD

@@ -1,5 +1,14 @@
 command_id: 7E0.7E8.2211E0
 test_cases:
 - expected_values:
-    JETTA_CMD_CRANK_TQ: -44.3
-  response: 7E8056211E0FE45
+    JETTA_CMD_CRANK_TQ: 1.7
+  response: 7E8056211E00011
+- expected_values:
+    JETTA_CMD_CRANK_TQ: 25.5
+  response: 7E8056211E000FF
+- expected_values:
+    JETTA_CMD_CRANK_TQ: 128
+  response: 7E8056211E00500
+- expected_values:
+    JETTA_CMD_CRANK_TQ: -18.5
+  response: 7E8056211E0FF47

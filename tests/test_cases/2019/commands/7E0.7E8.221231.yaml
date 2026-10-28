@@ -1,5 +1,8 @@
 command_id: 7E0.7E8.221231
 test_cases:
 - expected_values:
+    JETTA_MIN_OIL_LEVEL: 3.228
+  response: '7E8056212310327'
+- expected_values:
     JETTA_MIN_OIL_LEVEL: 9.992
   response: 7E80562123109C2

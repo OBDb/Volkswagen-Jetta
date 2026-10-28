@@ -3,3 +3,9 @@ test_cases:
 - expected_values:
     JETTA_VARIABLE_VLV_TIM_INT_1_ON: 0
   response: 7E80562127D0000
+- expected_values:
+    JETTA_VARIABLE_VLV_TIM_INT_1_ON: 70.30938
+  response: 7E80562127D59FF
+- expected_values:
+    JETTA_VARIABLE_VLV_TIM_INT_1_ON: 100
+  response: 7E80562127DC617

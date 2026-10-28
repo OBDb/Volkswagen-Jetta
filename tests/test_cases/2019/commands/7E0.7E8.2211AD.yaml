@@ -1,5 +1,11 @@
 command_id: 7E0.7E8.2211AD
 test_cases:
 - expected_values:
-    JETTA_MAF_CMD: 6.7
-  response: 7E8056211AD0043
+    JETTA_MAF_CMD: 0.2
+  response: 7E8056211AD0002
+- expected_values:
+    JETTA_MAF_CMD: 25.5
+  response: 7E8056211AD00FF
+- expected_values:
+    JETTA_MAF_CMD: 387.5
+  response: 7E8056211AD0F23

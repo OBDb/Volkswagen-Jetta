@@ -3,3 +3,12 @@ test_cases:
 - expected_values:
     JETTA_FUEL_PMP_CMD_DUTY: 3.99932
   response: 7E8056211A40A3D
+- expected_values:
+    JETTA_FUEL_PMP_CMD_DUTY: 42.96862
+  response: 7E8056211A46E00
+- expected_values:
+    JETTA_FUEL_PMP_CMD_DUTY: 44.92021
+  response: 7E8056211A472FF
+- expected_values:
+    JETTA_FUEL_PMP_CMD_DUTY: 91.99954
+  response: 7E8056211A4EB85

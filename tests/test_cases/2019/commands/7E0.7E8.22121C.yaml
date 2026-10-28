@@ -1,5 +1,14 @@
 command_id: 7E0.7E8.22121C
 test_cases:
 - expected_values:
-    JETTA_AIR_FILLING: 20.78951
-  response: 7E80562121C0377
+    JETTA_AIR_FILLING: 13.00809
+  response: 7E80562121C022B
+- expected_values:
+    JETTA_AIR_FILLING: 29.9772
+  response: 7E80562121C04FF
+- expected_values:
+    JETTA_AIR_FILLING: 36.00077
+  response: 7E80562121C0600
+- expected_values:
+    JETTA_AIR_FILLING: 100
+  response: 7E80562121C1D6C

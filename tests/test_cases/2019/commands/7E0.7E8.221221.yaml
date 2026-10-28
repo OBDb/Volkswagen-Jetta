@@ -3,3 +3,9 @@ test_cases:
 - expected_values:
     JETTA_PQ35_ACCEL_PED_1: 0
   response: '7E8056212210000'
+- expected_values:
+    JETTA_PQ35_ACCEL_PED_1: -12.2
+  response: 7E805621221FFC3
+- expected_values:
+    JETTA_PQ35_ACCEL_PED_1: -0.2
+  response: 7E805621221FFFF

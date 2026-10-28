@@ -3,3 +3,12 @@ test_cases:
 - expected_values:
     JETTA_COOLANT_FAN_1_ACTIVATION: 10.15
   response: 7E80562113003F7
+- expected_values:
+    JETTA_COOLANT_FAN_1_ACTIVATION: 17.97
+  response: '7E8056211300705'
+- expected_values:
+    JETTA_COOLANT_FAN_1_ACTIVATION: 51.17
+  response: 7E80562113013FD
+- expected_values:
+    JETTA_COOLANT_FAN_1_ACTIVATION: 53.12
+  response: 7E80562113014C0

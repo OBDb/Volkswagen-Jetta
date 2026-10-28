@@ -3,3 +3,12 @@ test_cases:
 - expected_values:
     JETTA_MANUAL_ENG_STARTS: 9742
   response: 7E805622998260E
+- expected_values:
+    JETTA_MANUAL_ENG_STARTS: 12045
+  response: 7E8056229982F0D
+- expected_values:
+    JETTA_MANUAL_ENG_STARTS: 12059
+  response: 7E8056229982F1B
+- expected_values:
+    JETTA_MANUAL_ENG_STARTS: 12101
+  response: 7E8056229982F45

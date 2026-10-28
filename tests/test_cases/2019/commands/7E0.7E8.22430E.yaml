@@ -3,3 +3,9 @@ test_cases:
 - expected_values:
     JETTA_NUM_INJECTIONS: 0
   response: 7E80562430E0000
+- expected_values:
+    JETTA_NUM_INJECTIONS: 6655
+  response: 7E80562430E19FF
+- expected_values:
+    JETTA_NUM_INJECTIONS: 64575
+  response: 7E80562430EFC3F

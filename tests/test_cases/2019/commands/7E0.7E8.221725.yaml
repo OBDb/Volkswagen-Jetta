@@ -1,5 +1,8 @@
 command_id: 7E0.7E8.221725
 test_cases:
 - expected_values:
+    JETTA_EARLY_IGN_CNT_CYL_2: 0
+  response: '7E8056217250000'
+- expected_values:
     JETTA_EARLY_IGN_CNT_CYL_2: 1
   response: '7E8056217250001'

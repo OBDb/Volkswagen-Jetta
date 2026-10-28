@@ -1,5 +1,8 @@
 command_id: 7E0.7E8.22F42F
 test_cases:
 - expected_values:
-    JETTA_FLI_INPUT: 63.52941
-  response: 7E80462F42FA2
+    JETTA_FLI_INPUT: 0
+  response: 7E80462F42F00
+- expected_values:
+    JETTA_FLI_INPUT: 99.60784
+  response: 7E80462F42FFE

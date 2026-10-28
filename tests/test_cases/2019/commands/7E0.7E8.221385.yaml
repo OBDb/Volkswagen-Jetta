@@ -3,3 +3,9 @@ test_cases:
 - expected_values:
     JETTA_CAM_POS_DEV_BASE_POS: 0
   response: '7E8056213850000'
+- expected_values:
+    JETTA_CAM_POS_DEV_BASE_POS: -0.2417
+  response: 7E805621385FFF5
+- expected_values:
+    JETTA_CAM_POS_DEV_BASE_POS: -0.02197
+  response: 7E805621385FFFF
