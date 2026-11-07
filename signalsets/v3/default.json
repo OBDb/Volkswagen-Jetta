@@ -1177,7 +1177,7 @@
   "signals": [
     {"id": "JETTA_HIGH_FUEL_P", "path": "Fuel", "fmt": { "len": 16, "max": 16.3835, "min": -16.384, "div": 2000, "sign": true, "unit": "unknown" }, "name": "High fuel pressure, regulation error"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11D7"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11D7"}, "freq": 1, "dbgfilter": { "to": 2018, "years": [2020, 2021, 2022, 2023, 2024], "from": 2026 },
   "signals": [
     {"id": "JETTA_HIGH_FUEL_P_CMD", "path": "Fuel", "fmt": { "len": 16, "max": 32.7675, "div": 2000, "unit": "unknown" }, "name": "High fuel pressure, commanded"}
   ]},
@@ -1613,7 +1613,7 @@
   "signals": [
     {"id": "JETTA_MOTOR_I", "path": "Engine", "fmt": { "len": 16, "max": 1023.968, "min": -1024, "div": 32, "sign": true, "unit": "amps" }, "name": "Drive motor current"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "147F"}, "freq": 0.25,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "147F"}, "freq": 0.25, "dbgfilter": { "to": 2018, "from": 2020 },
   "signals": [
     {"id": "JETTA_MOTOR_TQ", "path": "Engine", "fmt": { "len": 16, "max": 10922.333, "min": -10922.666, "div": 3, "sign": true, "unit": "newtonMeters" }, "name": "Drive motor torque"}
   ]},
@@ -1765,7 +1765,7 @@
   "signals": [
     {"id": "JETTA_SPARK_EFFICIENCY_DEV_PART_MAX", "path": "Engine", "fmt": { "len": 8, "max": 100, "unit": "percent" }, "name": "Spark efficiency deviation at part load, maximum"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "159F"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "159F"}, "freq": 1, "dbgfilter": { "to": 2018, "from": 2020 },
   "signals": [
     {"id": "JETTA_HIGH_FUEL_P_ACT", "path": "Fuel", "fmt": { "len": 16, "max": 32.7675, "div": 2000, "unit": "unknown" }, "name": "High fuel pressure, actual"}
   ]},
