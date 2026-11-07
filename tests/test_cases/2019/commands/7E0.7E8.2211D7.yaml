@@ -9,3 +9,6 @@ test_cases:
 - expected_values:
     JETTA_HIGH_FUEL_P_CMD: 4.998
   response: 7E8056211D7270C
+- expected_values:
+    JETTA_HIGH_FUEL_P_CMD: 5
+  response: 7E8056211D72710
