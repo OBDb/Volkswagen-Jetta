@@ -1,26 +1,26 @@
 command_id: 7E0.7E8.2211F0
 test_cases:
 - expected_values:
-    JETTA_BOOST_P_ACT: 1004.92188
+    JETTA_BOOST_P_ACT: 100.49219
   response: 7E8056211F0323F
 - expected_values:
-    JETTA_BOOST_P_ACT: 1008.125
+    JETTA_BOOST_P_ACT: 100.8125
   response: 7E8056211F03268
 - expected_values:
-    JETTA_BOOST_P_ACT: 1012.26562
+    JETTA_BOOST_P_ACT: 101.22656
   response: 7E8056211F0329D
 - expected_values:
-    JETTA_BOOST_P_ACT: 1013.35938
+    JETTA_BOOST_P_ACT: 101.33594
   response: 7E8056211F032AB
 - expected_values:
-    JETTA_BOOST_P_ACT: 1015.46875
+    JETTA_BOOST_P_ACT: 101.54688
   response: 7E8056211F032C6
 - expected_values:
-    JETTA_BOOST_P_ACT: 1119.76562
+    JETTA_BOOST_P_ACT: 111.97656
   response: 7E8056211F037FD
 - expected_values:
-    JETTA_BOOST_P_ACT: 2314.375
+    JETTA_BOOST_P_ACT: 231.4375
   response: 7E8056211F073B8
 - expected_values:
-    JETTA_BOOST_P_ACT: 2462.89062
+    JETTA_BOOST_P_ACT: 246.28906
   response: 7E8056211F07B25
