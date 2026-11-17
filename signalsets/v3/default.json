@@ -1465,7 +1465,7 @@
   "signals": [
     {"id": "JETTA_IGA_IGC_3", "path": "Engine", "fmt": { "len": 8, "max": 59.9362, "min": -35.625, "mul": 1499, "div": 4000, "add": -35.625, "unit": "degrees" }, "name": "IGA_IGC, 3"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "pri": "17", "fcm1": true, "cmd": {"22": "139C"}, "freq": 5, "dbgfilter": { "to": 2023, "from": 2026 },
+{ "hdr": "7E0", "rax": "7E8", "pri": "17", "fcm1": true, "cmd": {"22": "139C"}, "freq": 5, "dbgfilter": { "to": 2023, "from": 2025 },
   "signals": [
     {"id": "JETTA_EXHAUST_GAS_T_AT_PROBE_BEFOR_PRECAT_MODEL_VALUE", "path": "Engine", "fmt": { "len": 16, "max": 3003.6, "min": -3549.9, "div": 10, "add": -273.1, "sign": true, "nullmin": -273.1, "unit": "celsius" }, "name": "Exhaust gas temperature before the front catalytic converter, model value"}
   ]},
@@ -1733,11 +1733,11 @@
   "signals": [
     {"id": "JETTA_AMBIENT_AIR_P", "path": "Engine", "fmt": { "len": 16, "max": 2555.8649, "mul": 39, "div": 1000, "unit": "unknown" }, "name": "Ambient air pressure"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1511"}, "freq": 5, "dbgfilter": { "to": 2024, "from": 2026 },
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1511"}, "freq": 5,
   "signals": [
     {"id": "JETTA_ECT_MAX", "path": "Engine", "fmt": { "len": 8, "max": 143.25, "min": -48, "mul": 3, "div": 4, "add": -48, "nullmin": -48, "unit": "celsius" }, "name": "Coolant temperature, maximum value"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1512"}, "freq": 5, "dbgfilter": { "to": 2024, "from": 2026 },
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1512"}, "freq": 5,
   "signals": [
     {"id": "JETTA_ECT_MIN", "path": "Engine", "fmt": { "len": 8, "max": 143.25, "min": -48, "mul": 3, "div": 4, "add": -48, "nullmin": -48, "unit": "celsius" }, "name": "Coolant temperature, minimum value"}
   ]},
