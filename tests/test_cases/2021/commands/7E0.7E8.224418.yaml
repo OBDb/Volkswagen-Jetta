@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.224418
+test_cases:
+- expected_values:
+    JETTA_THERMOSTAT_ACT: 80.05351
+  response: 7E805624418199E
+- expected_values:
+    JETTA_THERMOSTAT_ACT: 90.57594
+  response: 7E8056244181CFC
+- expected_values:
+    JETTA_THERMOSTAT_ACT: 91.17408
+  response: 7E8056244181D2D
+- expected_values:
+    JETTA_THERMOSTAT_ACT: 100
+  response: '7E8056244185040'

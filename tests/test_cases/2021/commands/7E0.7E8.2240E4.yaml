@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.2240E4
+test_cases:
+- expected_values:
+    JETTA_T_SENS_ENG_T_V: 0.859
+  response: 7E8056240E4035B
+- expected_values:
+    JETTA_T_SENS_ENG_T_V: 1.281
+  response: 7E8056240E40501
+- expected_values:
+    JETTA_T_SENS_ENG_T_V: 1.787
+  response: 7E8056240E406FB
+- expected_values:
+    JETTA_T_SENS_ENG_T_V: 1.865
+  response: 7E8056240E40749

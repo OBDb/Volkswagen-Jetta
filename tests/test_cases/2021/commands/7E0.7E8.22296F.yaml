@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.22296F
+test_cases:
+- expected_values:
+    JETTA_EXH_GAS_T_BEFORE: 386.6
+  response: 7E80562296F0F1A
+- expected_values:
+    JETTA_EXH_GAS_T_BEFORE: 563.1
+  response: 7E80562296F15FF
+- expected_values:
+    JETTA_EXH_GAS_T_BEFORE: 563.4
+  response: 7E80562296F1602
+- expected_values:
+    JETTA_EXH_GAS_T_BEFORE: 643.3
+  response: 7E80562296F1921

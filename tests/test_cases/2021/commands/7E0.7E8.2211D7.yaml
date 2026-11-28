@@ -1,0 +1,32 @@
+command_id: 7E0.7E8.2211D7
+test_cases:
+- expected_values:
+    JETTA_HIGH_FUEL_P_CMD: 0
+  response: 7E8056211D70000
+- expected_values:
+    JETTA_HIGH_FUEL_P_CMD: 0.5275
+  response: 7E8056211D7041F
+- expected_values:
+    JETTA_HIGH_FUEL_P_CMD: 0.6325
+  response: 7E8056211D704F1
+- expected_values:
+    JETTA_HIGH_FUEL_P_CMD: 0.845
+  response: 7E8056211D7069A
+- expected_values:
+    JETTA_HIGH_FUEL_P_CMD: 0.915
+  response: 7E8056211D70726
+- expected_values:
+    JETTA_HIGH_FUEL_P_CMD: 1.0025
+  response: 7E8056211D707D5
+- expected_values:
+    JETTA_HIGH_FUEL_P_CMD: 1.1
+  response: 7E8056211D70898
+- expected_values:
+    JETTA_HIGH_FUEL_P_CMD: 1.2125
+  response: 7E8056211D70979
+- expected_values:
+    JETTA_HIGH_FUEL_P_CMD: 31.043
+  response: 7E8056211D7F286
+- expected_values:
+    JETTA_HIGH_FUEL_P_CMD: 31.378
+  response: 7E8056211D7F524

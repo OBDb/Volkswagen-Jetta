@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.22202E
+test_cases:
+- expected_values:
+    JETTA_ECT_DIFF_ENG: 44.2
+  response: 7E80562202E01BA
+- expected_values:
+    JETTA_ECT_DIFF_ENG: 75
+  response: 7E80562202E02EE
+- expected_values:
+    JETTA_ECT_DIFF_ENG: 77.2
+  response: 7E80562202E0304

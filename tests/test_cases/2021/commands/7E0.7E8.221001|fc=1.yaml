@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.221001|fc=1
+test_cases:
+- expected_values:
+    JETTA_IAT_7E0: 12.75
+  response: '7E80462100151'
+- expected_values:
+    JETTA_IAT_7E0: 24.75
+  response: '7E80462100161'

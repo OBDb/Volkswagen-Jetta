@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.22138B
+test_cases:
+- expected_values:
+    JETTA_IGA_IGC_1: -12.01575
+  response: 7E80462138B3F
+- expected_values:
+    JETTA_IGA_IGC_1: 22.836
+  response: 7E80462138B9C

@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.221298|fc=1
+test_cases:
+- expected_values:
+    JETTA_CAT_T_BANK_1: 328.1
+  response: '7E8056212982594'
+- expected_values:
+    JETTA_CAT_T_BANK_1: 656.225
+  response: 7E8056212983A16
+- expected_values:
+    JETTA_CAT_T_BANK_1: 670.7875
+  response: 7E8056212983AFF
+- expected_values:
+    JETTA_CAT_T_BANK_1: 747.2875
+  response: 7E8056212983FC7

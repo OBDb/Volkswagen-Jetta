@@ -1,0 +1,14 @@
+command_id: 714.77E.2222B8|fc=1
+test_cases:
+- expected_values:
+    JETTA_ODO_MILEAGE_HR: 106720.979
+  response: 77E076222B8065C6ED3
+- expected_values:
+    JETTA_ODO_MILEAGE_HR: 106728.707
+  response: 77E076222B8065C8D03
+- expected_values:
+    JETTA_ODO_MILEAGE_HR: 106731.758
+  response: 77E076222B8065C98EE
+- expected_values:
+    JETTA_ODO_MILEAGE_HR: 106747.072
+  response: 77E076222B8065CD4C0

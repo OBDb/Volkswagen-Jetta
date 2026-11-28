@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.222032
+test_cases:
+- expected_values:
+    JETTA_MEAN_ENG_AIR_MASS: 0
+  response: '7E8056220320000'
+- expected_values:
+    JETTA_MEAN_ENG_AIR_MASS: 252
+  response: 7E80562203200FC

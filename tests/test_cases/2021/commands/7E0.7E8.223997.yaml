@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.223997
+test_cases:
+- expected_values:
+    JETTA_MIXTURE_ADPT_FACTOR_IDLE: 0
+  response: '7E8056239970000'
+- expected_values:
+    JETTA_MIXTURE_ADPT_FACTOR_IDLE: 2.15
+  response: 7E80562399700D7
+- expected_values:
+    JETTA_MIXTURE_ADPT_FACTOR_IDLE: 100
+  response: '7E8056239972710'

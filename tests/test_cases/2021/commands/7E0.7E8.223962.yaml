@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.223962
+test_cases:
+- expected_values:
+    JETTA_KNOCK_SENS_CYL_3: 0.403
+  response: '7E8056239620193'
+- expected_values:
+    JETTA_KNOCK_SENS_CYL_3: 0.509
+  response: 7E80562396201FD
+- expected_values:
+    JETTA_KNOCK_SENS_CYL_3: 0.535
+  response: '7E8056239620217'
+- expected_values:
+    JETTA_KNOCK_SENS_CYL_3: 0.891
+  response: 7E805623962037B

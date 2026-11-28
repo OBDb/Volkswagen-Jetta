@@ -1,0 +1,14 @@
+command_id: 712.77C.221806|fc=1
+test_cases:
+- expected_values:
+    JETTA_STEER_WHL_TQ_SENS_2: 0.20064
+  response: 77C06621806002000
+- expected_values:
+    JETTA_STEER_WHL_TQ_SENS_2: 1.12359
+  response: 77C0662180600F200
+- expected_values:
+    JETTA_STEER_WHL_TQ_SENS_2: -8.94096
+  response: 77C06621806F80000
+- expected_values:
+    JETTA_STEER_WHL_TQ_SENS_2: -0.33555
+  response: 77C06621806FFA600

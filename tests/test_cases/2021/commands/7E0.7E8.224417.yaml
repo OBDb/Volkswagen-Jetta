@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.224417
+test_cases:
+- expected_values:
+    JETTA_THERMOSTAT_CMD: 79.95585
+  response: '7E8056244171996'
+- expected_values:
+    JETTA_THERMOSTAT_CMD: 93.68872
+  response: 7E8056244171DFB
+- expected_values:
+    JETTA_THERMOSTAT_CMD: 100
+  response: '7E8056244173106'
+- expected_values:
+    JETTA_THERMOSTAT_CMD: 100
+  response: 7E80562441749A2

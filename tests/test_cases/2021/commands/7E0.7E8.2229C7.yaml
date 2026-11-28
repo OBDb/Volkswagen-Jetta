@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.2229C7
+test_cases:
+- expected_values:
+    JETTA_CHG_P_SENS_V: 1.602
+  response: 7E8056229C70642
+- expected_values:
+    JETTA_CHG_P_SENS_V: 1.816
+  response: 7E8056229C70718
+- expected_values:
+    JETTA_CHG_P_SENS_V: 2.021
+  response: 7E8056229C707E5
+- expected_values:
+    JETTA_CHG_P_SENS_V: 3.657
+  response: 7E8056229C70E49

@@ -1,0 +1,20 @@
+command_id: 7E0.7E8.22112F
+test_cases:
+- expected_values:
+    JETTA_SEG_AD_MMV_ER_3: 0.2408
+  response: 7E80562112F03F2
+- expected_values:
+    JETTA_SEG_AD_MMV_ER_3: 0.37432
+  response: 7E80562112F0622
+- expected_values:
+    JETTA_SEG_AD_MMV_ER_3: 0.3767
+  response: 7E80562112F062C
+- expected_values:
+    JETTA_SEG_AD_MMV_ER_3: 0.38862
+  response: 7E80562112F065E
+- expected_values:
+    JETTA_SEG_AD_MMV_ER_3: 0.39029
+  response: 7E80562112F0665
+- expected_values:
+    JETTA_SEG_AD_MMV_ER_3: 0.39101
+  response: 7E80562112F0668

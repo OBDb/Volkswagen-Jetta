@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.222949
+test_cases:
+- expected_values:
+    JETTA_AVG_IGN_TIM_ANG: 3.75
+  response: '7E8056229490177'
+- expected_values:
+    JETTA_AVG_IGN_TIM_ANG: 12.75
+  response: 7E80562294904FB
+- expected_values:
+    JETTA_AVG_IGN_TIM_ANG: 15.37
+  response: '7E8056229490601'
+- expected_values:
+    JETTA_AVG_IGN_TIM_ANG: 35.25
+  response: 7E8056229490DC5

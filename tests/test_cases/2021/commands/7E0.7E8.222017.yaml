@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.222017
+test_cases:
+- expected_values:
+    JETTA_AC_COMP_TQ: 0
+  response: '7E8056220170000'
+- expected_values:
+    JETTA_AC_COMP_TQ: 0.03
+  response: '7E8056220170003'
+- expected_values:
+    JETTA_AC_COMP_TQ: -3.66
+  response: 7E805622017FE92
+- expected_values:
+    JETTA_AC_COMP_TQ: -2.47
+  response: 7E805622017FF09
+- expected_values:
+    JETTA_AC_COMP_TQ: -0.03
+  response: 7E805622017FFFD

@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.223EA9
+test_cases:
+- expected_values:
+    JETTA_CHG_P_CTRL_VLV: 0
+  response: 7E805623EA90000
+- expected_values:
+    JETTA_CHG_P_CTRL_VLV: -23.88
+  response: 7E805623EA9F6AC
+- expected_values:
+    JETTA_CHG_P_CTRL_VLV: -21.74
+  response: 7E805623EA9F782
+- expected_values:
+    JETTA_CHG_P_CTRL_VLV: -14.8
+  response: 7E805623EA9FA38
+- expected_values:
+    JETTA_CHG_P_CTRL_VLV: -5.02
+  response: 7E805623EA9FE0A

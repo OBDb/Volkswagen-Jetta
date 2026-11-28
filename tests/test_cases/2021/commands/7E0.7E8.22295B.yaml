@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.22295B
+test_cases:
+- expected_values:
+    JETTA_ODO_ECU_INSTALLED: 106749
+  response: 7E80662295B01A0FD
+- expected_values:
+    JETTA_ODO_ECU_INSTALLED: 106751
+  response: 7E80662295B01A0FF
+- expected_values:
+    JETTA_ODO_ECU_INSTALLED: 106752
+  response: 7E80662295B01A100

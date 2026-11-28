@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.22F40C
+test_cases:
+- expected_values:
+    JETTA_RPM: 782
+  response: 7E80562F40C0C38
+- expected_values:
+    JETTA_RPM: 1212.5
+  response: 7E80562F40C12F2
+- expected_values:
+    JETTA_RPM: 1920.5
+  response: 7E80562F40C1E02
+- expected_values:
+    JETTA_RPM: 4345.25
+  response: 7E80562F40C43E5

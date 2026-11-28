@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.224336
+test_cases:
+- expected_values:
+    JETTA_HEATER_SUPPORT_PMP_SPEC: 43.8
+  response: 7E805624336111C
+- expected_values:
+    JETTA_HEATER_SUPPORT_PMP_SPEC: 54.6
+  response: '7E8056243361554'
+- expected_values:
+    JETTA_HEATER_SUPPORT_PMP_SPEC: 94.2
+  response: 7E80562433624CC
+- expected_values:
+    JETTA_HEATER_SUPPORT_PMP_SPEC: 94.79
+  response: '7E8056243362507'
+- expected_values:
+    JETTA_HEATER_SUPPORT_PMP_SPEC: 95
+  response: 7E805624336251C

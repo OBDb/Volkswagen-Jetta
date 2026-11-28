@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.222065
+test_cases:
+- expected_values:
+    JETTA_CHG_AIR_P_ACTUATOR: 2.183
+  response: '7E8056220650887'
+- expected_values:
+    JETTA_CHG_AIR_P_ACTUATOR: 3.931
+  response: 7E8056220650F5B
+- expected_values:
+    JETTA_CHG_AIR_P_ACTUATOR: 4.004
+  response: 7E8056220650FA4

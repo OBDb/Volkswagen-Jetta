@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.22203F
+test_cases:
+- expected_values:
+    JETTA_TQ_LIM_7E0: 337.9
+  response: 7E80562203F0D33
+- expected_values:
+    JETTA_TQ_LIM_7E0: 379.3
+  response: 7E80562203F0ED1
+- expected_values:
+    JETTA_TQ_LIM_7E0: 410.6
+  response: 7E80562203F100A
+- expected_values:
+    JETTA_TQ_LIM_7E0: 464.4
+  response: 7E80562203F1224

@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.2240D5
+test_cases:
+- expected_values:
+    JETTA_EOT_SENS_2: 28
+  response: 7E8056240D50118
+- expected_values:
+    JETTA_EOT_SENS_2: 76
+  response: 7E8056240D502F8
+- expected_values:
+    JETTA_EOT_SENS_2: 78
+  response: 7E8056240D5030C

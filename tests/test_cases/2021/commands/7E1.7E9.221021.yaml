@@ -1,0 +1,5 @@
+command_id: 7E1.7E9.221021
+test_cases:
+- expected_values:
+    JETTA_TCM_DRAG_TQ: 23552
+  response: 7E9056210215C00
