@@ -1,0 +1,11 @@
+command_id: 7E1.7E9.22F40D
+test_cases:
+- expected_values:
+    JETTA_VSS_7E1: 0
+  response: 7E90562F40D0000
+- expected_values:
+    JETTA_VSS_7E1: 116
+  response: 7E90562F40D7431
+- expected_values:
+    JETTA_VSS_7E1: 234
+  response: 7E90562F40DEA06

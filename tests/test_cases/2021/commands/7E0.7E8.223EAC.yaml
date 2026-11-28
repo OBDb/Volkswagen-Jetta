@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.223EAC
+test_cases:
+- expected_values:
+    JETTA_CHG_P_CTRL_VLV_V_POS_OPENED: 0.9015
+  response: 7E805623EAC1714
+- expected_values:
+    JETTA_CHG_P_CTRL_VLV_V_POS_OPENED: 0.97474
+  response: 7E805623EAC18F4
+- expected_values:
+    JETTA_CHG_P_CTRL_VLV_V_POS_OPENED: 0.97963
+  response: 7E805623EAC1914

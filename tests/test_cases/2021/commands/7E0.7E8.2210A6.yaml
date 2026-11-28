@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.2210A6
+test_cases:
+- expected_values:
+    JETTA_INJ_SPD_INJ_2: 87.5
+  response: 7E8056210A6015E
+- expected_values:
+    JETTA_INJ_SPD_INJ_2: 104.5
+  response: 7E8056210A601A2
+- expected_values:
+    JETTA_INJ_SPD_INJ_2: 139.5
+  response: 7E8056210A6022E

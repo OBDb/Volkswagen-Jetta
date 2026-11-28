@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.2240E2
+test_cases:
+- expected_values:
+    JETTA_T_SENS_ENG_T_TGT: 92.3
+  response: 7E8056240E2039B
+- expected_values:
+    JETTA_T_SENS_ENG_T_TGT: 93
+  response: 7E8056240E203A2
+- expected_values:
+    JETTA_T_SENS_ENG_T_TGT: 93.8
+  response: 7E8056240E203AA
+- expected_values:
+    JETTA_T_SENS_ENG_T_TGT: 94.5
+  response: 7E8056240E203B1
+- expected_values:
+    JETTA_T_SENS_ENG_T_TGT: 95.3
+  response: 7E8056240E203B9

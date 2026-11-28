@@ -1,0 +1,5 @@
+command_id: 7E1.7E9.220301
+test_cases:
+- expected_values:
+    JETTA_CTRL_MODULE_T: 59
+  response: 7E905620301631E

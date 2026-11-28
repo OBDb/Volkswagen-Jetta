@@ -1,0 +1,14 @@
+command_id: 7E1.7E9.221065
+test_cases:
+- expected_values:
+    JETTA_CLU_1_T_TIME_RANGE_0: 1300.74
+  response: 7E9076210650DFE601D
+- expected_values:
+    JETTA_CLU_1_T_TIME_RANGE_0: 307.72
+  response: 7E9076210651A3C611D
+- expected_values:
+    JETTA_CLU_1_T_TIME_RANGE_0: 209.28
+  response: 7E907621065E028611D
+- expected_values:
+    JETTA_CLU_1_T_TIME_RANGE_0: 399
+  response: 7E907621065EE4D611D

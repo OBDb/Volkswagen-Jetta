@@ -1,0 +1,11 @@
+command_id: 7E1.7E9.221029
+test_cases:
+- expected_values:
+    JETTA_CURRENT_N371_P_CTRL_6: 819.5
+  response: '7E9056210292003'
+- expected_values:
+    JETTA_CURRENT_N371_P_CTRL_6: 1946
+  response: 7E9056210294C04
+- expected_values:
+    JETTA_CURRENT_N371_P_CTRL_6: 6349
+  response: 7E905621029F802

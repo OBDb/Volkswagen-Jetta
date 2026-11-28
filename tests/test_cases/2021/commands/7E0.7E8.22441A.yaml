@@ -1,0 +1,23 @@
+command_id: 7E0.7E8.22441A
+test_cases:
+- expected_values:
+    JETTA_ENG_T_MANAGEMENT_ACTUATOR: 0
+  response: 7E80562441A0000
+- expected_values:
+    JETTA_ENG_T_MANAGEMENT_ACTUATOR: 9.22
+  response: 7E80562441A039A
+- expected_values:
+    JETTA_ENG_T_MANAGEMENT_ACTUATOR: 15.26
+  response: 7E80562441A05F6
+- expected_values:
+    JETTA_ENG_T_MANAGEMENT_ACTUATOR: 16.75
+  response: 7E80562441A068B
+- expected_values:
+    JETTA_ENG_T_MANAGEMENT_ACTUATOR: -37.6
+  response: 7E80562441AF150
+- expected_values:
+    JETTA_ENG_T_MANAGEMENT_ACTUATOR: -19.35
+  response: 7E80562441AF871
+- expected_values:
+    JETTA_ENG_T_MANAGEMENT_ACTUATOR: -15.47
+  response: 7E80562441AF9F5

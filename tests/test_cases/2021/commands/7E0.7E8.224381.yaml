@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.224381
+test_cases:
+- expected_values:
+    JETTA_LONG_TERM_FUEL_TRIM_IDLE_7E0: 0
+  response: '7E8056243810000'
+- expected_values:
+    JETTA_LONG_TERM_FUEL_TRIM_IDLE_7E0: 0.57
+  response: '7E8056243810039'
+- expected_values:
+    JETTA_LONG_TERM_FUEL_TRIM_IDLE_7E0: null
+  response: 7E8056243817FFF

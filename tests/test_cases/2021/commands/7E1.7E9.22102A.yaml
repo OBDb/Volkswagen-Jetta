@@ -1,0 +1,29 @@
+command_id: 7E1.7E9.22102A
+test_cases:
+- expected_values:
+    JETTA_CLU_CENTER_CENTRAL_T: 21
+  response: 7E90562102A1500
+- expected_values:
+    JETTA_CLU_CENTER_CENTRAL_T: 29
+  response: 7E90562102A1D00
+- expected_values:
+    JETTA_CLU_CENTER_CENTRAL_T: 32
+  response: 7E90562102A2000
+- expected_values:
+    JETTA_CLU_CENTER_CENTRAL_T: 34
+  response: 7E90562102A2200
+- expected_values:
+    JETTA_CLU_CENTER_CENTRAL_T: 37
+  response: 7E90562102A2500
+- expected_values:
+    JETTA_CLU_CENTER_CENTRAL_T: 40
+  response: 7E90562102A2800
+- expected_values:
+    JETTA_CLU_CENTER_CENTRAL_T: 45
+  response: 7E90562102A2D00
+- expected_values:
+    JETTA_CLU_CENTER_CENTRAL_T: 46
+  response: 7E90562102A2E00
+- expected_values:
+    JETTA_CLU_CENTER_CENTRAL_T: 51
+  response: 7E90562102A3300

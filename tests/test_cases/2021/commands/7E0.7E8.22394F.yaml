@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.22394F
+test_cases:
+- expected_values:
+    JETTA_MAF_OVER_THROTTLE: 0
+  response: 7E80562394F0000
+- expected_values:
+    JETTA_MAF_OVER_THROTTLE: 198
+  response: 7E80562394F00C6

@@ -1,0 +1,32 @@
+command_id: 7E0.7E8.223EA7
+test_cases:
+- expected_values:
+    JETTA_CHG_P_CTRL_VLV_POS_ACT: 0
+  response: 7E805623EA70000
+- expected_values:
+    JETTA_CHG_P_CTRL_VLV_POS_ACT: 0.03
+  response: 7E805623EA70003
+- expected_values:
+    JETTA_CHG_P_CTRL_VLV_POS_ACT: 0.07
+  response: 7E805623EA70007
+- expected_values:
+    JETTA_CHG_P_CTRL_VLV_POS_ACT: 0.11
+  response: 7E805623EA7000B
+- expected_values:
+    JETTA_CHG_P_CTRL_VLV_POS_ACT: 0.19
+  response: 7E805623EA70013
+- expected_values:
+    JETTA_CHG_P_CTRL_VLV_POS_ACT: 1.21
+  response: 7E805623EA70079
+- expected_values:
+    JETTA_CHG_P_CTRL_VLV_POS_ACT: 26.37
+  response: 7E805623EA70A4D
+- expected_values:
+    JETTA_CHG_P_CTRL_VLV_POS_ACT: 47.83
+  response: 7E805623EA712AF
+- expected_values:
+    JETTA_CHG_P_CTRL_VLV_POS_ACT: 62.41
+  response: 7E805623EA71861
+- expected_values:
+    JETTA_CHG_P_CTRL_VLV_POS_ACT: 100
+  response: 7E805623EA7274B

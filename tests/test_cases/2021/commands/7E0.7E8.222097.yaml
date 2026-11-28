@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.222097
+test_cases:
+- expected_values:
+    JETTA_MEAN_INJ_QTY: 7
+  response: '7E8056220970007'
+- expected_values:
+    JETTA_MEAN_INJ_QTY: 49
+  response: '7E8056220970031'

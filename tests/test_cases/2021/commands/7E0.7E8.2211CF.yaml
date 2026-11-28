@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.2211CF
+test_cases:
+- expected_values:
+    JETTA_BRAKE_BOOSTER_P: 317.45687
+  response: 7E8056211CF1FBF
+- expected_values:
+    JETTA_BRAKE_BOOSTER_P: 470.34554
+  response: 7E8056211CF2F09
+- expected_values:
+    JETTA_BRAKE_BOOSTER_P: 479.91573
+  response: 7E8056211CF2FFE
+- expected_values:
+    JETTA_BRAKE_BOOSTER_P: 488.70468
+  response: 7E8056211CF30DF

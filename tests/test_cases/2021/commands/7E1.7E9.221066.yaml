@@ -1,0 +1,5 @@
+command_id: 7E1.7E9.221066
+test_cases:
+- expected_values:
+    JETTA_ANALYSIS_CLU_1_T_1: 904.6
+  response: 7E907621066AEB0C001

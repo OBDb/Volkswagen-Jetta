@@ -1,0 +1,26 @@
+command_id: 7E0.7E8.2239A2
+test_cases:
+- expected_values:
+    JETTA_CHG_P_ACTUATOR_ACT: 0
+  response: 7E8056239A20000
+- expected_values:
+    JETTA_CHG_P_ACTUATOR_ACT: 0.03662
+  response: 7E8056239A20003
+- expected_values:
+    JETTA_CHG_P_ACTUATOR_ACT: 0.08545
+  response: 7E8056239A20007
+- expected_values:
+    JETTA_CHG_P_ACTUATOR_ACT: 0.13428
+  response: 7E8056239A2000B
+- expected_values:
+    JETTA_CHG_P_ACTUATOR_ACT: 0.23193
+  response: 7E8056239A20013
+- expected_values:
+    JETTA_CHG_P_ACTUATOR_ACT: 1.15967
+  response: 7E8056239A2005F
+- expected_values:
+    JETTA_CHG_P_ACTUATOR_ACT: 100
+  response: 7E8056239A2216B
+- expected_values:
+    JETTA_CHG_P_ACTUATOR_ACT: 100
+  response: 7E8056239A22738

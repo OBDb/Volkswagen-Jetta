@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.2239A5
+test_cases:
+- expected_values:
+    JETTA_CHG_P_ACTUATOR_ADPT: 780.2
+  response: 7E8056239A50F3D
+- expected_values:
+    JETTA_CHG_P_ACTUATOR_ADPT: 800.8
+  response: 7E8056239A50FA4

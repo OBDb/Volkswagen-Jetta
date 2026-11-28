@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.2213F7
+test_cases:
+- expected_values:
+    JETTA_NL_PRE_1: 0.28557
+  response: 7E8056213F70E9F
+- expected_values:
+    JETTA_NL_PRE_1: 0.3936
+  response: 7E8056213F71427
+- expected_values:
+    JETTA_NL_PRE_1: 0.54642
+  response: 7E8056213F71BFA
+- expected_values:
+    JETTA_NL_PRE_1: 0.67261
+  response: 7E8056213F72270

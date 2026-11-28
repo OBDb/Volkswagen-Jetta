@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.222967|fc=1,c=17
+test_cases:
+- expected_values:
+    JETTA_MISFIRES_C3_7E0: 1
+  response: '7E8056229670001'
+- expected_values:
+    JETTA_MISFIRES_C3_7E0: 2
+  response: '7E8056229670002'

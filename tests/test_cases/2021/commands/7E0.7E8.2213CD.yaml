@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.2213CD
+test_cases:
+- expected_values:
+    JETTA_MAF_RATE: 8.4375
+  response: 7E8056213CD010E
+- expected_values:
+    JETTA_MAF_RATE: 15.71875
+  response: 7E8056213CD01F7
+- expected_values:
+    JETTA_MAF_RATE: 56.125
+  response: 7E8056213CD0704
+- expected_values:
+    JETTA_MAF_RATE: 137.28125
+  response: 7E8056213CD1129

@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.222004
+test_cases:
+- expected_values:
+    JETTA_IGN_ANG_CURRENT_CYL_ACT: 1.87
+  response: 7E80562200400BB
+- expected_values:
+    JETTA_IGN_ANG_CURRENT_CYL_ACT: 20.62
+  response: 7E805622004080E
+- expected_values:
+    JETTA_IGN_ANG_CURRENT_CYL_ACT: -10.5
+  response: 7E805622004FBE6
+- expected_values:
+    JETTA_IGN_ANG_CURRENT_CYL_ACT: -2.25
+  response: 7E805622004FF1F

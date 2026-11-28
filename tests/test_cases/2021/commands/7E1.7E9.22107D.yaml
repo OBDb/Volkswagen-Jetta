@@ -1,0 +1,5 @@
+command_id: 7E1.7E9.22107D
+test_cases:
+- expected_values:
+    JETTA_ANALYSIS_CLU_2_T_3: 589.36
+  response: 7E90762107D1C730000
